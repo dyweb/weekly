@@ -12,4 +12,3 @@ seq 2015 `date +%Y` | xargs -I% mv $root/% $postdir
 
 jekyll build --source $workdir --destination $root/docs
 ls ${postdir} | xargs -I% mv $postdir/% $root
-

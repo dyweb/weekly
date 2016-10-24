@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://dongyueweb.com/weekly/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://dongyueweb.com/weekly/feed.xml" rel="self" type="application/atom+xml" /><link href="http://dongyueweb.com/weekly/" rel="alternate" type="text/html" /><updated>2016-10-24T08:25:54+08:00</updated><id>http://dongyueweb.com/weekly//</id><title type="html">dyWeekly</title><subtitle>The Dongyuew Web Weekly.
-</subtitle><entry><title type="html">Weekly</title><link href="http://dongyueweb.com/weekly/2016/10/12/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-10-12T00:00:00+08:00</published><updated>2016-10-12T00:00:00+08:00</updated><id>http://dongyueweb.com/weekly/2016/10/12/weekly</id><content type="html" xml:base="http://dongyueweb.com/weekly/2016/10/12/weekly.html">&lt;h1 id=&quot;weekly-1006---1012&quot;&gt;Weekly 10/06 - 10/12&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/weekly/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/weekly/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/weekly/" rel="alternate" type="text/html" /><updated>2016-10-24T12:45:11+08:00</updated><id>http://localhost:4000/weekly//</id><title type="html">dyWeekly</title><subtitle>The Dongyuew Web Weekly.
+</subtitle><entry><title type="html">Weekly</title><link href="http://localhost:4000/weekly/weekly/2016/10/12/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-10-12T00:00:00+08:00</published><updated>2016-10-12T00:00:00+08:00</updated><id>http://localhost:4000/weekly/weekly/2016/10/12/weekly</id><content type="html" xml:base="http://localhost:4000/weekly/weekly/2016/10/12/weekly.html">&lt;h1 id=&quot;weekly-1006---1012&quot;&gt;Weekly 10/06 - 10/12&lt;/h1&gt;
 
 &lt;p&gt;周报第五十四期&lt;/p&gt;
 
@@ -149,7 +149,7 @@
       &lt;p&gt;…whether they’ve been coding for three decades or three months.&lt;/p&gt;
     &lt;/blockquote&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><summary type="html">Weekly 10/06 - 10/12</summary></entry><entry><title type="html">Weekly</title><link href="http://dongyueweb.com/weekly/2016/09/07/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-09-07T00:00:00+08:00</published><updated>2016-09-07T00:00:00+08:00</updated><id>http://dongyueweb.com/weekly/2016/09/07/weekly</id><content type="html" xml:base="http://dongyueweb.com/weekly/2016/09/07/weekly.html">&lt;h1 id=&quot;weekly-0901---0907&quot;&gt;Weekly 09/01 - 09/07&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Weekly 10/06 - 10/12</summary></entry><entry><title type="html">Weekly</title><link href="http://localhost:4000/weekly/weekly/2016/09/07/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-09-07T00:00:00+08:00</published><updated>2016-09-07T00:00:00+08:00</updated><id>http://localhost:4000/weekly/weekly/2016/09/07/weekly</id><content type="html" xml:base="http://localhost:4000/weekly/weekly/2016/09/07/weekly.html">&lt;h1 id=&quot;weekly-0901---0907&quot;&gt;Weekly 09/01 - 09/07&lt;/h1&gt;
 
 &lt;p&gt;周报第四十九期&lt;/p&gt;
 
@@ -211,7 +211,7 @@
   &lt;li&gt;
     &lt;p&gt;&lt;a href=&quot;https://github.com/sylnsfar/qrcode&quot;&gt;QR-Code&lt;/a&gt; artistic QR Code in Python (Animated GIF qr code), Python 艺术二维码生成器 (GIF 动态二维码、图片二维码).&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><summary type="html">Weekly 09/01 - 09/07</summary></entry><entry><title type="html">Weekly</title><link href="http://dongyueweb.com/weekly/2016/08/31/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-08-31T00:00:00+08:00</published><updated>2016-08-31T00:00:00+08:00</updated><id>http://dongyueweb.com/weekly/2016/08/31/weekly</id><content type="html" xml:base="http://dongyueweb.com/weekly/2016/08/31/weekly.html">&lt;h1 id=&quot;weekly-0825---0831&quot;&gt;Weekly 08/25 - 08/31&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Weekly 09/01 - 09/07</summary></entry><entry><title type="html">Weekly</title><link href="http://localhost:4000/weekly/weekly/2016/08/31/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-08-31T00:00:00+08:00</published><updated>2016-08-31T00:00:00+08:00</updated><id>http://localhost:4000/weekly/weekly/2016/08/31/weekly</id><content type="html" xml:base="http://localhost:4000/weekly/weekly/2016/08/31/weekly.html">&lt;h1 id=&quot;weekly-0825---0831&quot;&gt;Weekly 08/25 - 08/31&lt;/h1&gt;
 
 &lt;p&gt;周报第四十八期&lt;/p&gt;
 
@@ -416,7 +416,7 @@
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://browserhacks.com/&quot;&gt;Browserhacks&lt;/a&gt; (GitHub: &lt;a href=&quot;https://github.com/4ae9b8/browserhacks&quot;&gt;4ae9b8/browserhacks&lt;/a&gt;), an extensive list of browser specific CSS and JavaScript hacks from all over the interwebs.&lt;/li&gt;
-&lt;/ul&gt;</content><summary type="html">Weekly 08/25 - 08/31</summary></entry><entry><title type="html">Weekly</title><link href="http://dongyueweb.com/weekly/2016/08/24/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-08-24T00:00:00+08:00</published><updated>2016-08-24T00:00:00+08:00</updated><id>http://dongyueweb.com/weekly/2016/08/24/weekly</id><content type="html" xml:base="http://dongyueweb.com/weekly/2016/08/24/weekly.html">&lt;h1 id=&quot;weekly-0718---0824&quot;&gt;Weekly 07/18 - 08/24&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Weekly 08/25 - 08/31</summary></entry><entry><title type="html">Weekly</title><link href="http://localhost:4000/weekly/weekly/2016/08/24/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-08-24T00:00:00+08:00</published><updated>2016-08-24T00:00:00+08:00</updated><id>http://localhost:4000/weekly/weekly/2016/08/24/weekly</id><content type="html" xml:base="http://localhost:4000/weekly/weekly/2016/08/24/weekly.html">&lt;h1 id=&quot;weekly-0718---0824&quot;&gt;Weekly 07/18 - 08/24&lt;/h1&gt;
 
 &lt;p&gt;周报第四十七期&lt;/p&gt;
 
@@ -625,7 +625,7 @@
     &lt;/blockquote&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://git.market/&quot;&gt;GitMarket&lt;/a&gt;, a marketplace for buying and selling premium code, powered by Git.&lt;/li&gt;
-&lt;/ul&gt;</content><summary type="html">Weekly 07/18 - 08/24</summary></entry><entry><title type="html">Weekly</title><link href="http://dongyueweb.com/weekly/2016/08/17/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-08-17T00:00:00+08:00</published><updated>2016-08-17T00:00:00+08:00</updated><id>http://dongyueweb.com/weekly/2016/08/17/weekly</id><content type="html" xml:base="http://dongyueweb.com/weekly/2016/08/17/weekly.html">&lt;h1 id=&quot;weekly-0811---0817&quot;&gt;Weekly 08/11 - 08/17&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Weekly 07/18 - 08/24</summary></entry><entry><title type="html">Weekly</title><link href="http://localhost:4000/weekly/weekly/2016/08/17/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-08-17T00:00:00+08:00</published><updated>2016-08-17T00:00:00+08:00</updated><id>http://localhost:4000/weekly/weekly/2016/08/17/weekly</id><content type="html" xml:base="http://localhost:4000/weekly/weekly/2016/08/17/weekly.html">&lt;h1 id=&quot;weekly-0811---0817&quot;&gt;Weekly 08/11 - 08/17&lt;/h1&gt;
 
 &lt;p&gt;周报第四十六期&lt;/p&gt;
 
@@ -734,7 +734,7 @@
 为不甘于沉闷生活的人所准备的创作型媒体。 by &lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;.&lt;/p&gt;
     &lt;/blockquote&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><summary type="html">Weekly 08/11 - 08/17</summary></entry><entry><title type="html">Weekly</title><link href="http://dongyueweb.com/weekly/2016/08/10/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-08-10T00:00:00+08:00</published><updated>2016-08-10T00:00:00+08:00</updated><id>http://dongyueweb.com/weekly/2016/08/10/weekly</id><content type="html" xml:base="http://dongyueweb.com/weekly/2016/08/10/weekly.html">&lt;h1 id=&quot;weekly-0804---0810&quot;&gt;Weekly 08/04 - 08/10&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Weekly 08/11 - 08/17</summary></entry><entry><title type="html">Weekly</title><link href="http://localhost:4000/weekly/weekly/2016/08/10/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-08-10T00:00:00+08:00</published><updated>2016-08-10T00:00:00+08:00</updated><id>http://localhost:4000/weekly/weekly/2016/08/10/weekly</id><content type="html" xml:base="http://localhost:4000/weekly/weekly/2016/08/10/weekly.html">&lt;h1 id=&quot;weekly-0804---0810&quot;&gt;Weekly 08/04 - 08/10&lt;/h1&gt;
 
 &lt;p&gt;周报第四十五期&lt;/p&gt;
 
@@ -1026,7 +1026,7 @@
       &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; 上古卷轴卡牌游戏…. 官网链接一堆 404 …. 真 BETA&lt;/p&gt;
     &lt;/blockquote&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><summary type="html">Weekly 08/04 - 08/10</summary></entry><entry><title type="html">Weekly</title><link href="http://dongyueweb.com/weekly/2016/08/03/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-08-03T00:00:00+08:00</published><updated>2016-08-03T00:00:00+08:00</updated><id>http://dongyueweb.com/weekly/2016/08/03/weekly</id><content type="html" xml:base="http://dongyueweb.com/weekly/2016/08/03/weekly.html">&lt;h1 id=&quot;weekly-0728---0803&quot;&gt;Weekly 07/28 - 08/03&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Weekly 08/04 - 08/10</summary></entry><entry><title type="html">Weekly</title><link href="http://localhost:4000/weekly/weekly/2016/08/03/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-08-03T00:00:00+08:00</published><updated>2016-08-03T00:00:00+08:00</updated><id>http://localhost:4000/weekly/weekly/2016/08/03/weekly</id><content type="html" xml:base="http://localhost:4000/weekly/weekly/2016/08/03/weekly.html">&lt;h1 id=&quot;weekly-0728---0803&quot;&gt;Weekly 07/28 - 08/03&lt;/h1&gt;
 
 &lt;p&gt;周报第四十四期&lt;/p&gt;
 
@@ -1239,7 +1239,7 @@
   &amp;gt; 
   &amp;gt; from &lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><summary type="html">Weekly 07/28 - 08/03</summary></entry><entry><title type="html">Weekly</title><link href="http://dongyueweb.com/weekly/2016/07/27/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-07-27T00:00:00+08:00</published><updated>2016-07-27T00:00:00+08:00</updated><id>http://dongyueweb.com/weekly/2016/07/27/weekly</id><content type="html" xml:base="http://dongyueweb.com/weekly/2016/07/27/weekly.html">&lt;h1 id=&quot;weekly-0721---0727&quot;&gt;Weekly 07/21 - 07/27&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Weekly 07/28 - 08/03</summary></entry><entry><title type="html">Weekly</title><link href="http://localhost:4000/weekly/weekly/2016/07/27/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-07-27T00:00:00+08:00</published><updated>2016-07-27T00:00:00+08:00</updated><id>http://localhost:4000/weekly/weekly/2016/07/27/weekly</id><content type="html" xml:base="http://localhost:4000/weekly/weekly/2016/07/27/weekly.html">&lt;h1 id=&quot;weekly-0721---0727&quot;&gt;Weekly 07/21 - 07/27&lt;/h1&gt;
 
 &lt;p&gt;周报第四十三期&lt;/p&gt;
 
@@ -1334,7 +1334,7 @@ gitfusion is mentioned in commit. Also perforce has a fork for gitlab called git
 &lt;ul&gt;
   &lt;li&gt;http://www.ro.me/&lt;/li&gt;
   &lt;li&gt;https://github.com/dataarts/3-dreams-of-black&lt;/li&gt;
-&lt;/ul&gt;</content><summary type="html">Weekly 07/21 - 07/27</summary></entry><entry><title type="html">Weekly</title><link href="http://dongyueweb.com/weekly/2016/07/20/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-07-20T00:00:00+08:00</published><updated>2016-07-20T00:00:00+08:00</updated><id>http://dongyueweb.com/weekly/2016/07/20/weekly</id><content type="html" xml:base="http://dongyueweb.com/weekly/2016/07/20/weekly.html">&lt;h1 id=&quot;weekly-0714---0720&quot;&gt;Weekly 07/14 - 07/20&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Weekly 07/21 - 07/27</summary></entry><entry><title type="html">Weekly</title><link href="http://localhost:4000/weekly/weekly/2016/07/20/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-07-20T00:00:00+08:00</published><updated>2016-07-20T00:00:00+08:00</updated><id>http://localhost:4000/weekly/weekly/2016/07/20/weekly</id><content type="html" xml:base="http://localhost:4000/weekly/weekly/2016/07/20/weekly.html">&lt;h1 id=&quot;weekly-0714---0720&quot;&gt;Weekly 07/14 - 07/20&lt;/h1&gt;
 
 &lt;p&gt;周报第四十二期&lt;/p&gt;
 
@@ -1426,7 +1426,7 @@ gitfusion is mentioned in commit. Also perforce has a fork for gitlab called git
 
 &lt;blockquote&gt;
   &lt;p&gt;All by &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;</content><summary type="html">Weekly 07/14 - 07/20</summary></entry><entry><title type="html">Weekly</title><link href="http://dongyueweb.com/weekly/2016/07/13/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-07-13T00:00:00+08:00</published><updated>2016-07-13T00:00:00+08:00</updated><id>http://dongyueweb.com/weekly/2016/07/13/weekly</id><content type="html" xml:base="http://dongyueweb.com/weekly/2016/07/13/weekly.html">&lt;h1 id=&quot;weekly-0706---0713&quot;&gt;Weekly 07/06 - 07/13&lt;/h1&gt;
+&lt;/blockquote&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Weekly 07/14 - 07/20</summary></entry><entry><title type="html">Weekly</title><link href="http://localhost:4000/weekly/weekly/2016/07/13/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-07-13T00:00:00+08:00</published><updated>2016-07-13T00:00:00+08:00</updated><id>http://localhost:4000/weekly/weekly/2016/07/13/weekly</id><content type="html" xml:base="http://localhost:4000/weekly/weekly/2016/07/13/weekly.html">&lt;h1 id=&quot;weekly-0706---0713&quot;&gt;Weekly 07/06 - 07/13&lt;/h1&gt;
 
 &lt;p&gt;周报第四十一期&lt;/p&gt;
 
@@ -1541,4 +1541,4 @@ Many of the reasons Lambda is attractive are the same reasons PHP became so popu
 &lt;ul&gt;
   &lt;li&gt;https://www.ventureharbour.com/transactional-email-service-best-mandrill-vs-sendgrid-vs-mailjet/ compare between mail services&lt;/li&gt;
   &lt;li&gt;https://github.com/vmware/harbor stared by @gaocegege , saw caicloud in partner ….&lt;/li&gt;
-&lt;/ul&gt;</content><summary type="html">Weekly 07/06 - 07/13</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Weekly 07/06 - 07/13</summary></entry></feed>
