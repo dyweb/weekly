@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://dongyueweb.com/weekly/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://dongyueweb.com/weekly/feed.xml" rel="self" type="application/atom+xml" /><link href="http://dongyueweb.com/weekly/" rel="alternate" type="text/html" /><updated>2018-05-03T17:10:50+08:00</updated><id>http://dongyueweb.com/weekly//</id><title type="html">dyWeekly</title><subtitle>The Dongyuew Web Weekly.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://dongyueweb.com/weekly/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://dongyueweb.com/weekly/feed.xml" rel="self" type="application/atom+xml" /><link href="http://dongyueweb.com/weekly/" rel="alternate" type="text/html" /><updated>2018-05-03T17:18:23+08:00</updated><id>http://dongyueweb.com/weekly//</id><title type="html">dyWeekly</title><subtitle>The Dongyuew Web Weekly.
 </subtitle><entry><title type="html">Weekly</title><link href="http://dongyueweb.com/weekly/weekly/2018/04/30/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-04-30T00:00:00+08:00</published><updated>2018-04-30T00:00:00+08:00</updated><id>http://dongyueweb.com/weekly/weekly/2018/04/30/weekly</id><content type="html" xml:base="http://dongyueweb.com/weekly/weekly/2018/04/30/weekly.html">&lt;p&gt;https://github.com/Shopify/ghostferry live mysql migration, and it has tlaplus https://github.com/Shopify/ghostferry/tree/master/tlaplus&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -228,7 +228,172 @@ Code screenshots for presentation&lt;/p&gt;
 
 &lt;p&gt;@raspberryice there was a standard for submission (will there also be review?) so the weekly generator can parse it and generate weekly without human involved https://github.com/dyweb/mos/issues/1 , though I don’t know how much @codeworm96 implemented ….&lt;/p&gt;
 
-&lt;hr /&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/360EntSecGroup-Skylar/goreporter</summary></entry><entry><title type="html">Weekly</title><link href="http://dongyueweb.com/weekly/weekly/2017/03/22/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2017-03-22T00:00:00+08:00</published><updated>2017-03-22T00:00:00+08:00</updated><id>http://dongyueweb.com/weekly/weekly/2017/03/22/weekly</id><content type="html" xml:base="http://dongyueweb.com/weekly/weekly/2017/03/22/weekly.html">&lt;ul&gt;
+&lt;hr /&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/360EntSecGroup-Skylar/goreporter</summary></entry><entry><title type="html">Weekly</title><link href="http://dongyueweb.com/weekly/weekly/2017/07/05/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2017-07-05T00:00:00+08:00</published><updated>2017-07-05T00:00:00+08:00</updated><id>http://dongyueweb.com/weekly/weekly/2017/07/05/weekly</id><content type="html" xml:base="http://dongyueweb.com/weekly/weekly/2017/07/05/weekly.html">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/akyuujs&quot;&gt;Akyuu.js&lt;/a&gt;, Yet another web framework based on express.js named Akyuu.
+ &amp;gt; 只是觉得名字有趣，具体没看…我是 koa2 用户
+&lt;a href=&quot;https://github.com/arrowrowe&quot;&gt;@arrowrowe&lt;/a&gt;
+https://www.packet.net/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The Promise of the Cloud Delivered on Bare Metal&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;https://github.com/gemini-testing/gemini&lt;/p&gt;
+
+&lt;p&gt;Utility for regression testing of web pages using screenshots&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;https://github.com/theupdateframework/tuf&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;https://github.com/oracle/railcar Rust implementation of oci-runtime cc @gaocegege @codeworm96&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;https://volutus.io/&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Volutus is an edge co-location and data center as a platform service, stitching together a network of fully-managed micro data centers deeply embedded in the urban fabric—literally at the base of cell towers&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;http://ncase.me/trust/&lt;/p&gt;
+
+&lt;p&gt;….. so quiet&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;github running on k8s https://githubengineering.com/kubernetes-at-github/ cc @gaocegege&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;https://github.com/btcsuite/btcd&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It properly downloads, validates, and serves the block chain using the exact rules (including consensus bugs) for block acceptance as Bitcoin Core&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;https://github.com/Browsersync/browser-sync never know there is such thing (for free ….)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;http://www.classicshorts.com/index.shtml&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;好久没上来过了。。。感觉上班后就没堕落了&lt;/p&gt;
+
+&lt;p&gt;http://blog.jobbole.com/112407/
+MySQL 8.0.3 新feature&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;https://github.com/xitu/front-end-handbook-2017 🐑 感觉落后时代很久了&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;https://github.com/confluentinc/ksql  a Streaming SQL Engine for Apache Kafka&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;http://sabre.io/ open source WebDav, 记得 luge @LukeXuan 实习的时候好像提到过 WebDav/CalDav etc.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;https://blog.jcoglan.com/2013/11/15/why-github-is-not-your-cv/ cc @gaocegege&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;https://www.youtube.com/watch?v=L10K3bN3Yng Finishing What You Start cc @gaocegege 共勉 /w\&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;never start a second one in the same category until you finished the first one&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;https://www.youtube.com/watch?v=vSjxg2OSyoY Tolerance for Messiness cc @swaylq 艺术家乾乾 /w&lt;/p&gt;
+
+&lt;hr /&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Akyuu.js, Yet another web framework based on express.js named Akyuu.
+ &amp;gt; 只是觉得名字有趣，具体没看…我是 koa2 用户
+@arrowrowe
+https://www.packet.net/
+
+
+
+  The Promise of the Cloud Delivered on Bare Metal</summary></entry><entry><title type="html">Weekly</title><link href="http://dongyueweb.com/weekly/weekly/2017/04/19/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2017-04-19T00:00:00+08:00</published><updated>2017-04-19T00:00:00+08:00</updated><id>http://dongyueweb.com/weekly/weekly/2017/04/19/weekly</id><content type="html" xml:base="http://dongyueweb.com/weekly/weekly/2017/04/19/weekly.html">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/open-lambda/open-lambda&quot;&gt;open-lambda&lt;/a&gt;, open source serverless implementation&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blogs.technet.microsoft.com/mmpc/2017/05/12/wannacrypt-ransomware-worm-targets-out-of-date-systems/&quot;&gt;WannaCrypt ransomware worm targets out-of-date systems&lt;/a&gt;, Simple analysis of the behavior of the worm from Microsoft.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/openwhisk/openwhisk&quot;&gt;IBM OpenWhisk&lt;/a&gt;, Another open source serverless implementation. Well, IBM everywhere&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/afterburnerdb/afterburner&quot;&gt;Afterburner&lt;/a&gt;, Interactive SQL analytics in your browser!
+https://github.com/atech/postal&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;https://www.cs.princeton.edu/courses/archive/fall16/cos418/assignments.html yet another 6.824 @gaocegege&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;https://github.com/mirage/irmin&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;http://www.ece.ucsb.edu/~yuanxie/Advice.html cc @JasonQSY @mrmiywj @ComMouse&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;WiscKey: Separating Keys from Values in SSD-Conscious Storage http://pages.cs.wisc.edu/~ll/papers/wisckey-slides.pdf cc @swaylq @mrmiywj @gaocegege&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;https://testmysite.withgoogle.com/intl/en-gb/ cc @ComMouse&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;https://blog.hmil.fr/2015/11/githubs-merge-pull-request-is-wrong/&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;https://www.youtube.com/watch?v=OjaAToVkoTw How to write a virtual machine (PL) by the author of ANTLR in a 2h video&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;https://github.com/oasisfeng/condom&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;https://github.com/datproject P2P dataset sharing&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;https://zealdocs.org/ offline documentation browser for software developers.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;https://weekly.codetengu.com/ yet another weekly btw: @gaocegege @codeworm96 generator 是不准备用了么…..&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;@at15 婶婶你怎么了…? https://github.com/dyweb/web-stuff/issues/63&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;https://www.katacoda.com/ found it when try out k8s&lt;/p&gt;
+
+&lt;hr /&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">open-lambda, open source serverless implementation
+  WannaCrypt ransomware worm targets out-of-date systems, Simple analysis of the behavior of the worm from Microsoft.
+  IBM OpenWhisk, Another open source serverless implementation. Well, IBM everywhere
+  Afterburner, Interactive SQL analytics in your browser!
+https://github.com/atech/postal</summary></entry><entry><title type="html">Weekly</title><link href="http://dongyueweb.com/weekly/weekly/2017/03/22/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2017-03-22T00:00:00+08:00</published><updated>2017-03-22T00:00:00+08:00</updated><id>http://dongyueweb.com/weekly/weekly/2017/03/22/weekly</id><content type="html" xml:base="http://dongyueweb.com/weekly/weekly/2017/03/22/weekly.html">&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/facebookexperimental/JSCaml&quot;&gt;JavaScript to OCaml&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/codeguy/php-the-right-way&quot;&gt;PHP the right way&lt;/a&gt;
 &lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;, &lt;a href=&quot;https://github.com/JasonQSY&quot;&gt;@JasonQSY&lt;/a&gt;&lt;/li&gt;
@@ -382,68 +547,4 @@ compared with GIMP, oh my
   &lt;li&gt;&lt;a href=&quot;https://www.meetup.com/&quot;&gt;https://www.meetup.com/&lt;/a&gt;
 &lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://zazuapp.org/&quot;&gt;http://zazuapp.org/&lt;/a&gt; opensource replacement for Alfred&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">xLua, xLua is a hot-fix solution plugin for Unity3D, it supports android, ios, windows, osx, etc.</summary></entry><entry><title type="html">Weekly</title><link href="http://dongyueweb.com/weekly/weekly/2016/12/28/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-12-28T00:00:00+08:00</published><updated>2016-12-28T00:00:00+08:00</updated><id>http://dongyueweb.com/weekly/weekly/2016/12/28/weekly</id><content type="html" xml:base="http://dongyueweb.com/weekly/weekly/2016/12/28/weekly.html">&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://allenkim67.github.io/bittorrent/2016/05/04/how-to-make-your-own-bittorrent-client.html&quot;&gt;https://allenkim67.github.io/bittorrent/2016/05/04/how-to-make-your-own-bittorrent-client.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/wepayui/wepayui&quot;&gt;https://github.com/wepayui/wepayui&lt;/a&gt;
-&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/GameServerManagers/LinuxGSM/wiki/Rust&quot;&gt;https://github.com/GameServerManagers/LinuxGSM/wiki/Rust&lt;/a&gt; install rust server on linux
-&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/fatedier/frp&quot;&gt;https://github.com/fatedier/frp&lt;/a&gt; A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/&quot;&gt;浏览器的工作原理：新式网络浏览器幕后揭秘&lt;/a&gt;
-&amp;gt; 网络浏览器很可能是使用最广的软件。在这篇入门文章中，我将会介绍它们的幕后工作原理。我们会了解到，从您在地址栏输入 google.com 直到您在浏览器屏幕上看到 Google 首页的整个过程中都发生了些什么。
-&lt;a href=&quot;https://github.com/bjmiao&quot;&gt;@bjmiao&lt;/a&gt;, &lt;a href=&quot;https://github.com/Pengzhenghao&quot;&gt;@Pengzhenghao&lt;/a&gt;, &lt;a href=&quot;https://github.com/orgs/dyweb/teams/web-novice&quot;&gt;@dyweb/web-novice&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/go-gitea/gitea&quot;&gt;https://github.com/go-gitea/gitea&lt;/a&gt; starred by &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;, it seems to be a fork of gogs?…&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/anmoljagetia/Flatabulous&quot;&gt;https://github.com/anmoljagetia/Flatabulous&lt;/a&gt; flat theme for ubuntu
-&lt;a href=&quot;https://github.com/arrowrowe&quot;&gt;@arrowrowe&lt;/a&gt;, &lt;a href=&quot;https://github.com/kdplus&quot;&gt;@kdplus&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/Hironsan/BossSensor&quot;&gt;https://github.com/Hironsan/BossSensor&lt;/a&gt; switch to work screen when boss shows up&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.masterclass.com&quot;&gt;https://www.masterclass.com&lt;/a&gt; learn acting from Kevin Sapcey&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/matricks/teeworlds&quot;&gt;https://github.com/matricks/teeworlds&lt;/a&gt; A retro multiplayer shooter
-&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;
-&lt;img src=&quot;https://www.teeworlds.com/images/screens/screenshot_desert.png&quot; alt=&quot;s&quot; /&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/francescou/docker-compose-ui&quot;&gt;https://github.com/francescou/docker-compose-ui&lt;/a&gt; a UI and REST API for docker-compose&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://allenkim67.github.io/bittorrent/2016/05/04/how-to-make-your-own-bittorrent-client.html
-  https://github.com/wepayui/wepayui
-@ComMouse
-  https://github.com/GameServerManagers/LinuxGSM/wiki/Rust install rust server on linux
-@gaocegege
-  https://github.com/fatedier/frp A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet
-  浏览器的工作原理：新式网络浏览器幕后揭秘
-&amp;gt; 网络浏览器很可能是使用最广的软件。在这篇入门文章中，我将会介绍它们的幕后工作原理。我们会了解到，从您在地址栏输入 google.com 直到您在浏览器屏幕上看到 Google 首页的整个过程中都发生了些什么。
-@bjmiao, @Pengzhenghao, @dyweb/web-novice
-  https://github.com/go-gitea/gitea starred by @gaocegege, it seems to be a fork of gogs?…
-  https://github.com/anmoljagetia/Flatabulous flat theme for ubuntu
-@arrowrowe, @kdplus
-  https://github.com/Hironsan/BossSensor switch to work screen when boss shows up
-  https://www.masterclass.com learn acting from Kevin Sapcey
-  https://github.com/matricks/teeworlds A retro multiplayer shooter
-@gaocegege
-
-  https://github.com/francescou/docker-compose-ui a UI and REST API for docker-compose</summary></entry><entry><title type="html">Weekly</title><link href="http://dongyueweb.com/weekly/weekly/2016/12/21/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-12-21T00:00:00+08:00</published><updated>2016-12-21T00:00:00+08:00</updated><id>http://dongyueweb.com/weekly/weekly/2016/12/21/weekly</id><content type="html" xml:base="http://dongyueweb.com/weekly/weekly/2016/12/21/weekly.html">&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/Tencent/bk-cmdb&quot;&gt;https://github.com/Tencent/bk-cmdb&lt;/a&gt; 抓到野生的CI一只
-&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.ipify.org/&quot;&gt;https://www.ipify.org/&lt;/a&gt; get your public ip programmatically&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/gchq/CyberChef&quot;&gt;https://github.com/gchq/CyberChef&lt;/a&gt;
-&lt;a href=&quot;https://github.com/arrowrowe&quot;&gt;@arrowrowe&lt;/a&gt;, &lt;a href=&quot;https://github.com/spacemeowx2&quot;&gt;@spacemeowx2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://realm.io/&quot;&gt;https://realm.io/&lt;/a&gt; a mobile database for two way data sync and real time collaboration
-&lt;a href=&quot;https://github.com/swaylq&quot;&gt;@swaylq&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/joshuaduffy/dota2api&quot;&gt;https://github.com/joshuaduffy/dota2api&lt;/a&gt;
-听说你们很多人都打Dota……大概可以自己搞Dota助手之类的了……&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/mattrajca/sudo-touchid&quot;&gt;sudo-touchid&lt;/a&gt;, Use touchid on 2016 mbp for sudo authorization!
-&lt;a href=&quot;https://github.com/LukeXuan&quot;&gt;@LukeXuan&lt;/a&gt;, &lt;a href=&quot;https://github.com/swaylq&quot;&gt;@swaylq&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/phodal/growth&quot;&gt;https://github.com/phodal/growth&lt;/a&gt;
-&amp;gt; Growth是一款专注于Web开发者成长的应用，涵盖Web开发的流程及技术栈，Web开发的学习路线、成长衡量等各方面
-&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/Tencent/bk-cmdb 抓到野生的CI一只
-@ComMouse
-  https://www.ipify.org/ get your public ip programmatically
-  https://github.com/gchq/CyberChef
-@arrowrowe, @spacemeowx2
-  https://realm.io/ a mobile database for two way data sync and real time collaboration
-@swaylq
-  https://github.com/joshuaduffy/dota2api
-听说你们很多人都打Dota……大概可以自己搞Dota助手之类的了……
-  sudo-touchid, Use touchid on 2016 mbp for sudo authorization!
-@LukeXuan, @swaylq
-  https://github.com/phodal/growth
-&amp;gt; Growth是一款专注于Web开发者成长的应用，涵盖Web开发的流程及技术栈，Web开发的学习路线、成长衡量等各方面
-@ComMouse</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">xLua, xLua is a hot-fix solution plugin for Unity3D, it supports android, ios, windows, osx, etc.</summary></entry></feed>
