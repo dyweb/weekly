@@ -1,1544 +1,359 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/weekly/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/weekly/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/weekly/" rel="alternate" type="text/html" /><updated>2016-10-24T12:45:11+08:00</updated><id>http://localhost:4000/weekly//</id><title type="html">dyWeekly</title><subtitle>The Dongyuew Web Weekly.
-</subtitle><entry><title type="html">Weekly</title><link href="http://localhost:4000/weekly/weekly/2016/10/12/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-10-12T00:00:00+08:00</published><updated>2016-10-12T00:00:00+08:00</updated><id>http://localhost:4000/weekly/weekly/2016/10/12/weekly</id><content type="html" xml:base="http://localhost:4000/weekly/weekly/2016/10/12/weekly.html">&lt;h1 id=&quot;weekly-1006---1012&quot;&gt;Weekly 10/06 - 10/12&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://dongyueweb.com/weekly/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://dongyueweb.com/weekly/feed.xml" rel="self" type="application/atom+xml" /><link href="http://dongyueweb.com/weekly/" rel="alternate" type="text/html" /><updated>2018-05-03T16:34:36+08:00</updated><id>http://dongyueweb.com/weekly//</id><title type="html">dyWeekly</title><subtitle>The Dongyuew Web Weekly.
+</subtitle><entry><title type="html">Weekly</title><link href="http://dongyueweb.com/weekly/weekly/2018/04/23/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-04-23T00:00:00+08:00</published><updated>2018-04-23T00:00:00+08:00</updated><id>http://dongyueweb.com/weekly/weekly/2018/04/23/weekly</id><content type="html" xml:base="http://dongyueweb.com/weekly/weekly/2018/04/23/weekly.html">&lt;p&gt;https://github.com/360EntSecGroup-Skylar/goreporter&lt;/p&gt;
 
-&lt;p&gt;周报第五十四期&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/360EntSecGroup-Skylar/goreporter/master/DISPLAY.gif&quot; alt=&quot;有图有咩咩&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;https://github.com/goreleaser/goreleaser looks good and we can implement similar things in ayi&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;http://shields.io/ badge collection&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;https://webassembly.studio/ support rust @codeworm96&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;from&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;催稿人:
-&lt;a href=&quot;https://github.com/arrowrowe&quot;&gt;@arrowrowe&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;交稿人:
-&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;
-&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;
-&lt;a href=&quot;https://github.com/JasonQSY&quot;&gt;@JasonQSY&lt;/a&gt;
-&lt;a href=&quot;https://github.com/tq5124&quot;&gt;@tq5124&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;https://sqlite.org/whynotgit.html 里面的 xkcd 就是我用 git 的真实写照&lt;/li&gt;
+  &lt;li&gt;https://electronjs.org/blog/in-app-purchases electron 支持內购了(我们出个东岳的桌面客户端吧&lt;/li&gt;
+  &lt;li&gt;https://github.com/vuejs/vuepress 感觉 https://github.com/nuxt/nuxt.js 要少一些客户额&lt;/li&gt;
+  &lt;li&gt;https://edgedb.com/ 基于 pg 用 python 写的 object relational db, 支持 graphql 自己也有个 query language，说要开源，还没开源。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;content&quot;&gt;Content&lt;/h2&gt;
+&lt;hr /&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#user-content-service&quot;&gt;Service&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://ryver.com/&quot;&gt;Ryver&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#user-content-lists&quot;&gt;Lists&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.instacart.com/opensource&quot;&gt;Open source at Instacart&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/karan/Projects&quot;&gt;Mega Project List&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://staticsitegenerators.net/&quot;&gt;Static Site Generators&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#user-content-great-works&quot;&gt;Great Works&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://dev.myscript.com/&quot;&gt;MyScript Developer&lt;/a&gt; with a &lt;a href=&quot;https://webdemo.myscript.com/views/math.html&quot;&gt;demo&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.contentful.com/&quot;&gt;Contentful&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/docker/swarmkit&quot;&gt;SwarmKit&lt;/a&gt; (by &lt;a href=&quot;https://github.com/docker&quot;&gt;Docker&lt;/a&gt;)&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/cockroachdb/cockroach&quot;&gt;CockroachDB&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/zo7/deconvfaces&quot;&gt;Generating Faces with Deconvolution Networks&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#user-content-great-recommendation&quot;&gt;Recommendation&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.recurse.com/&quot;&gt;The Recurse Center&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;foundationdb 在被 apple 收购之后又开源了 https://www.foundationdb.org/blog/foundationdb-is-open-source/ https://github.com/apple/foundationdb&lt;/p&gt;
 
-&lt;h2 id=&quot;service&quot;&gt;Service&lt;/h2&gt;
+&lt;hr /&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://ryver.com/&quot;&gt;Ryver&lt;/a&gt;, the free team communication tool.&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; An alternative for &lt;a href=&quot;https://slack.com/&quot;&gt;Slack&lt;/a&gt;.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;lists&quot;&gt;Lists&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.instacart.com/opensource&quot;&gt;Open source at Instacart&lt;/a&gt;&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; Might inspire u with new project ideas for new comers (if any).&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/karan/Projects&quot;&gt;Mega Project List&lt;/a&gt;, a list of practical projects that anyone can solve in any programming language.&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/arrowrowe&quot;&gt;@arrowrowe&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; Seems kind of old-fashioned and easy to get startted…&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://staticsitegenerators.net/&quot;&gt;Static Site Generators&lt;/a&gt;, the definitive listing of Static Site Generators — all 445 of them!&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; &lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt; So why this site itself is so… ancient…&lt;/p&gt;
-    &lt;/blockquote&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; &lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt; It uses &lt;a href=&quot;http://docpad.org/&quot;&gt;DocPad&lt;/a&gt;.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;great-works&quot;&gt;Great Works&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://dev.myscript.com/&quot;&gt;MyScript Developer&lt;/a&gt;, World Reference for Interactive Ink and Handwriting Recognition APIs. &lt;a href=&quot;https://webdemo.myscript.com/views/math.html&quot;&gt;Try it&lt;/a&gt;!&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; &lt;a href=&quot;https://webdemo.myscript.com/views/math.html&quot;&gt;This demo&lt;/a&gt; can recognize hand writing and give latex code!&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.contentful.com/&quot;&gt;Contentful&lt;/a&gt;, like a CMS… without the bad bits.&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;Contentful is a content management developer platform with an API at its core.&lt;/p&gt;
-
-      &lt;ul&gt;
-        &lt;li&gt;&lt;strong&gt;API-first&lt;/strong&gt;, not browser-first.&lt;/li&gt;
-        &lt;li&gt;&lt;strong&gt;Scalable cloud&lt;/strong&gt;, not on-premises setup.&lt;/li&gt;
-        &lt;li&gt;&lt;strong&gt;Content-centric&lt;/strong&gt;, not page-centric.&lt;/li&gt;
-        &lt;li&gt;&lt;strong&gt;Just the content&lt;/strong&gt;, no presets or templates.&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/docker/swarmkit&quot;&gt;SwarmKit&lt;/a&gt; (by &lt;a href=&quot;https://github.com/docker&quot;&gt;Docker&lt;/a&gt;), a toolkit for orchestrating distributed systems at any scale.&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;Includes primitives for node discovery, raft-based consensus, task scheduling and more.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/cockroachdb/cockroach&quot;&gt;CockroachDB&lt;/a&gt;, a scalable, survivable, strongly-consistent SQL database.&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;CockroachDB is a distributed SQL database built on a transactional and strongly-consistent key-value store.&lt;/p&gt;
-
-      &lt;p&gt;It
-- &lt;strong&gt;scales&lt;/strong&gt; horizontally;
-- &lt;strong&gt;survives&lt;/strong&gt; disk, machine, rack, and even datacenter failures with minimal latency disruption and no manual intervention;
-- supports &lt;strong&gt;strongly-consistent&lt;/strong&gt; ACID transactions;
-- and provides a familiar &lt;strong&gt;SQL&lt;/strong&gt; API for structuring, manipulating, and querying data.&lt;/p&gt;
-    &lt;/blockquote&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;See also &lt;a href=&quot;https://www.cockroachlabs.com/&quot;&gt;Cockroach Labs&lt;/a&gt;.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/zo7/deconvfaces&quot;&gt;Generating Faces with Deconvolution Networks&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;recommendation&quot;&gt;Recommendation&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.recurse.com/&quot;&gt;The Recurse Center&lt;/a&gt;, a free, self-directed, educational retreat for people who want to get better at programming.&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;…whether they’ve been coding for three decades or three months.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Weekly 10/06 - 10/12</summary></entry><entry><title type="html">Weekly</title><link href="http://localhost:4000/weekly/weekly/2016/09/07/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-09-07T00:00:00+08:00</published><updated>2016-09-07T00:00:00+08:00</updated><id>http://localhost:4000/weekly/weekly/2016/09/07/weekly</id><content type="html" xml:base="http://localhost:4000/weekly/weekly/2016/09/07/weekly.html">&lt;h1 id=&quot;weekly-0901---0907&quot;&gt;Weekly 09/01 - 09/07&lt;/h1&gt;
-
-&lt;p&gt;周报第四十九期&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;催稿人:
-&lt;a href=&quot;https://github.com/LukeXuan&quot;&gt;@LukeXuan&lt;/a&gt;
-(由 &lt;a href=&quot;https://github.com/arrowrowe&quot;&gt;@arrowrowe&lt;/a&gt; 代理)&lt;/li&gt;
-  &lt;li&gt;交稿人:
-&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;
-&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;section&quot;&gt;目录&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#user-content-resources&quot;&gt;资源推荐&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;http://www.scratchapixel.com/&quot;&gt;Scratchapixel&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/ericelliott/essential-javascript-links&quot;&gt;Essential JavaScript Links&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#user-content-babel&quot;&gt;巴别塔&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/bloomberg/bucklescript&quot;&gt;BuckleScript&lt;/a&gt; (OCaml, JavaScript)&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/falvaro/seshat&quot;&gt;Seshat&lt;/a&gt; (CPP)&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.opulencephp.com/&quot;&gt;Opulence&lt;/a&gt; (PHP7)&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/sylnsfar/qrcode&quot;&gt;QR-Code&lt;/a&gt; (Python)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;a-idresourcesa&quot;&gt;&lt;a id=&quot;resources&quot;&gt;资源推荐&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://www.scratchapixel.com/&quot;&gt;Scratchapixel&lt;/a&gt;, Learn Computer Graphics Programming from Scratch.&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;ComMouse&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; 不懂 CG 的渣渣质量感觉很高，但更新很慢&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/ericelliott/essential-javascript-links&quot;&gt;Essential JavaScript Links&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;a-idbabela&quot;&gt;&lt;a id=&quot;babel&quot;&gt;巴别塔&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/bloomberg/bucklescript&quot;&gt;BuckleScript&lt;/a&gt; (&lt;a href=&quot;http://bloomberg.github.io/bucklescript/js-demo/&quot;&gt;demo&lt;/a&gt;), a JavaScript backend for OCaml focused on smooth integration and clean generated code.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/falvaro/seshat&quot;&gt;Seshat&lt;/a&gt;, a handwritten math expression parser. (CPP)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.opulencephp.com/&quot;&gt;Opulence&lt;/a&gt; (GitHub: &lt;a href=&quot;https://github.com/opulencephp/Opulence&quot;&gt;opulencephp/Opulence&lt;/a&gt;), a simple, secure, and scalable PHP application framework. (PHP7)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/sylnsfar/qrcode&quot;&gt;QR-Code&lt;/a&gt; artistic QR Code in Python (Animated GIF qr code), Python 艺术二维码生成器 (GIF 动态二维码、图片二维码).&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Weekly 09/01 - 09/07</summary></entry><entry><title type="html">Weekly</title><link href="http://localhost:4000/weekly/weekly/2016/08/31/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-08-31T00:00:00+08:00</published><updated>2016-08-31T00:00:00+08:00</updated><id>http://localhost:4000/weekly/weekly/2016/08/31/weekly</id><content type="html" xml:base="http://localhost:4000/weekly/weekly/2016/08/31/weekly.html">&lt;h1 id=&quot;weekly-0825---0831&quot;&gt;Weekly 08/25 - 08/31&lt;/h1&gt;
-
-&lt;p&gt;周报第四十八期&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;催稿人:
-&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;
-(由 &lt;a href=&quot;https://github.com/arrowrowe&quot;&gt;@arrowrowe&lt;/a&gt; 代理)&lt;/li&gt;
-  &lt;li&gt;交稿人:
-&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;
-&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;
-&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;section&quot;&gt;目录&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#user-content-service&quot;&gt;服务&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.mopidy.com/&quot;&gt;Mopidy&lt;/a&gt; the hackable music server.&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/google/shipshape&quot;&gt;Shipshape&lt;/a&gt;: Google, Docker, Program Analysis, …&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.postleaf.org/&quot;&gt;Postleaf&lt;/a&gt;, simple, beautiful publishing.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#user-content-platform&quot;&gt;平台&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.koding.com/&quot;&gt;Koding&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://archive.org/&quot;&gt;Internet Archive&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://thefoundation.com/?splash_disabled=1&quot;&gt;The Foundation&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#user-content-special-distributed&quot;&gt;专题: 怎样打造一个分布式数据库&lt;/a&gt; from &lt;a href=&quot;https://github.com/zenany/weekly/commit/b0c3de35d7caa5753295cd54a1961d846a9a6a59&quot;&gt;zenany/weekly&lt;code class=&quot;highlighter-rouge&quot;&gt;@b0c3de3&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#user-content-babel&quot;&gt;巴别塔&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#user-content-clojure&quot;&gt;Clojure&lt;/a&gt;: &lt;a href=&quot;http://overtone.github.io/&quot;&gt;Collaborative Programmable Music&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#user-content-rust&quot;&gt;Rust&lt;/a&gt;: &lt;a href=&quot;https://docs.rs/trust-dns&quot;&gt;trust-dns&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#user-content-go&quot;&gt;Go&lt;/a&gt;: &lt;a href=&quot;https://github.com/ossrs/srs&quot;&gt;Simple RTMP Server&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://github.com/ossrs/go-oryx&quot;&gt;Oryx&lt;/a&gt;, &lt;a href=&quot;https://github.com/sourcegraph/thyme&quot;&gt;Thyme&lt;/a&gt; the time tracker&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#user-content-javascript&quot;&gt;JavaScript&lt;/a&gt;: &lt;a href=&quot;https://github.com/thejameskyle/itsy-bitsy-data-structures&quot;&gt;Itsy Bitsy Data Structures&lt;/a&gt;, &lt;a href=&quot;https://github.com/greensock/GreenSock-JS&quot;&gt;GreenSock Animation Platform&lt;/a&gt;, &lt;a href=&quot;http://snapsvg.io/&quot;&gt;Snap.svg&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#user-content-php&quot;&gt;PHP&lt;/a&gt;: &lt;a href=&quot;https://github.com/pmjones/php-history&quot;&gt;A History Of PHP Frameworks/Library Collections&lt;/a&gt;, &lt;a href=&quot;https://laravel-news.com/2016/08/laravel-5-3-is-now-released/&quot;&gt;Laravel 5.3 is now released&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#user-content-ad&quot;&gt;广告&lt;/a&gt;: 容器技术开源工程师招募, &lt;a href=&quot;http://blog.daocloud.io/dcosteam0824/&quot;&gt;DaoCloud 开源战队——中国容器开源生态梦之队&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#user-content-fun&quot;&gt;有趣的!&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;http://browserhacks.com/&quot;&gt;Browserhacks&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;a-idservicea&quot;&gt;&lt;a id=&quot;service&quot;&gt;服务&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.mopidy.com/&quot;&gt;Mopidy&lt;/a&gt;, an extensible music server that plays music from local disk, Spotify, SoundCloud, Google Play Music, and more.
-    &lt;ul&gt;
-      &lt;li&gt;Stream music from the cloud.&lt;/li&gt;
-      &lt;li&gt;Just a server, a Python application.&lt;/li&gt;
-      &lt;li&gt;Everybody use their favorite client.&lt;/li&gt;
-      &lt;li&gt;Mopidy on Raspberry Pi.&lt;/li&gt;
-      &lt;li&gt;Hackable. Mopidy’s extension support and Python, JSON-RPC, and JavaScript APIs… Perfect for building your own hacks.&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://www.mopidy.com/&quot;&gt;&lt;img src=&quot;https://www.mopidy.com/media/images/martijnboland-moped.png&quot; alt=&quot;Mopidy&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/google/shipshape&quot;&gt;Shipshape&lt;/a&gt;, a static program analysis platform that allows custom analyzers to plug in through a common interface.
-    &lt;ul&gt;
-      &lt;li&gt;Keywords: Google, Docker, Program Analysis, …&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.postleaf.org/&quot;&gt;Postleaf&lt;/a&gt; (GitHub: &lt;a href=&quot;https://github.com/Postleaf/postleaf&quot;&gt;Postleaf/postleaf&lt;/a&gt;), simple, beautiful publishing.&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;(https://www.postleaf.org/)&quot;&gt;&lt;img src=&quot;https://www.postleaf.org/content/uploads/2016/07/homepage-splash.png&quot; alt=&quot;Postleaf&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;a-idplatforma&quot;&gt;&lt;a id=&quot;platform&quot;&gt;平台&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.koding.com/&quot;&gt;Koding&lt;/a&gt;: Seamlessly boot, build and test your dev projects with game-changing collaboration.&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; Koding is &lt;a href=&quot;https://github.com/koding/koding&quot;&gt;open sourced&lt;/a&gt; and &lt;a href=&quot;https://about.gitlab.com/2016/07/26/koding-and-gitlab-integrated/&quot;&gt;integrated with GitLab&lt;/a&gt;, maybe we no longer to have course for setting up develop environment?&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://archive.org/&quot;&gt;Internet Archive&lt;/a&gt;&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; 一个网站页面存档服务，居然有从 12 年开始的同去 \w/&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://thefoundation.com/?splash_disabled=1&quot;&gt;The Foundation&lt;/a&gt;, start your software business.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;a-idspecial-distributed-a&quot;&gt;&lt;a id=&quot;special-distributed&quot;&gt;专题: 怎样打造一个分布式数据库&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;from &lt;a href=&quot;https://github.com/zenany/weekly/commit/b0c3de35d7caa5753295cd54a1961d846a9a6a59&quot;&gt;zenany/weekly@&lt;code class=&quot;highlighter-rouge&quot;&gt;b0c3de3&lt;/code&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;InfoQ: &lt;a href=&quot;http://www.infoq.com/cn/articles/how-to-build-a-distributed-database&quot;&gt;怎样打造一个分布式数据库&lt;/a&gt;&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/zenany&quot;&gt;@zenany&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; 对分布式数据库项技术的的介绍挺详细的，可以了解下业界这项关键技术的各种实现方式。&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/pingcap/tidb&quot;&gt;TiDB&lt;/a&gt;, a distributed NewSQL database compatible with MySQL protocol.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/pingcap/tikv&quot;&gt;TiKV&lt;/a&gt;, a distributed Key-Value database powered by Rust and Raft.&lt;/li&gt;
-  &lt;li&gt;Cloudflare: &lt;a href=&quot;https://blog.cloudflare.com/the-cuban-cdn/&quot;&gt;The Cuban CDN&lt;/a&gt;, 古巴的 CDN.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;a-idbabela&quot;&gt;&lt;a id=&quot;babel&quot;&gt;巴别塔&lt;/a&gt;&lt;/h2&gt;
-
-&lt;h3 id=&quot;clojure&quot;&gt;Clojure&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://overtone.github.io/&quot;&gt;Collaborative Programmable Music&lt;/a&gt; (GitHub: &lt;a href=&quot;https://github.com/overtone/overtone&quot;&gt;overtone/overtone&lt;/a&gt;), an open source audio environment designed to explore new musical ideas from synthesis and sampling to instrument building, live-coding and collaborative jamming.&lt;/p&gt;
-
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;;; boot the server
-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user=&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;'overtone.live&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-
-  &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;;; listen to the joys of a simple sine wave
-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user=&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;demo&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;sin-osc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-
-  &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;;; or something more interesting...
-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user=&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;demo&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;lpf&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;mix&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;saw&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;line&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1600&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;101&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;100.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-                &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;lin-lin&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;lf-tri&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;line&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;-1&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;400&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;rust&quot;&gt;Rust&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.rs/trust-dns&quot;&gt;trust-dns&lt;/a&gt; (GitHub: &lt;a href=&quot;https://github.com/bluejekyll/trust-dns&quot;&gt;bluejekyll/trust-dns&lt;/a&gt;), a Rust based DNS server.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;go&quot;&gt;Go&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/ossrs/srs&quot;&gt;Simple RTMP Server&lt;/a&gt; (SRS), industrial-strength live streaming cluster, for the best conceptual integrity and the simplest implementation.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/ossrs/go-oryx&quot;&gt;Oryx&lt;/a&gt;, &lt;a href=&quot;https://github.com/ossrs/srs&quot;&gt;SRS&lt;/a&gt;++, focus on real-time live streaming cluster.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/sourcegraph/thyme&quot;&gt;Thyme&lt;/a&gt;. Automatically track which applications you use and for how long.&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;(https://github.com/sourcegraph/thyme)&quot;&gt;&lt;img src=&quot;https://github.com/sourcegraph/thyme/blob/master/assets/images/app_coarse.png&quot; alt=&quot;Application usage timeline&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;javascript&quot;&gt;JavaScript&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/thejameskyle/itsy-bitsy-data-structures&quot;&gt;Itsy Bitsy Data Structures&lt;/a&gt;, all the things you didn’t know you wanted to know about data structures.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/greensock/GreenSock-JS&quot;&gt;GreenSock Animation Platform&lt;/a&gt;, ultra high-performance, professional-grade animation for the modern web.
-    &lt;ul&gt;
-      &lt;li&gt;Example: &lt;a href=&quot;http://www.cryptarismission.com/&quot;&gt;Cryptaris&lt;/a&gt; by the U.S. Army.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://snapsvg.io/&quot;&gt;Snap.svg&lt;/a&gt; (GitHub: &lt;a href=&quot;https://github.com/adobe-webplatform/Snap.svg&quot;&gt;adobe-webplatform/Snap.svg&lt;/a&gt;), the JavaScript library for modern SVG graphics.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;php&quot;&gt;PHP&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/pmjones/php-history&quot;&gt;A History Of PHP Frameworks/Library Collections&lt;/a&gt;, a list of the years-of-introductions of notable (to me) PHP framework and library projects.&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; 通过这个才知道了 archive.org，phalcon 都 3.0 了….&lt;/p&gt;
-    &lt;/blockquote&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; &lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt; Phalcon 3.0 就是 2.1…&lt;/p&gt;
-    &lt;/blockquote&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; &lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt; 嗯，我看到了，本来想吐槽他们为了 semver 而 semver 然后删了…..&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://laravel-news.com/2016/08/laravel-5-3-is-now-released/&quot;&gt;Laravel 5.3 is now released&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;a-idada&quot;&gt;&lt;a id=&quot;ad&quot;&gt;广告&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;容器技术开源工程师招募: &lt;a href=&quot;http://blog.daocloud.io/dcosteam0824/&quot;&gt;DaoCloud 开源战队——中国容器开源生态梦之队&lt;/a&gt;&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;DaoCloud 为你转身，加入中国最强开源战队！&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;a-idfuna&quot;&gt;&lt;a id=&quot;fun&quot;&gt;有趣的!&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://browserhacks.com/&quot;&gt;Browserhacks&lt;/a&gt; (GitHub: &lt;a href=&quot;https://github.com/4ae9b8/browserhacks&quot;&gt;4ae9b8/browserhacks&lt;/a&gt;), an extensive list of browser specific CSS and JavaScript hacks from all over the interwebs.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Weekly 08/25 - 08/31</summary></entry><entry><title type="html">Weekly</title><link href="http://localhost:4000/weekly/weekly/2016/08/24/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-08-24T00:00:00+08:00</published><updated>2016-08-24T00:00:00+08:00</updated><id>http://localhost:4000/weekly/weekly/2016/08/24/weekly</id><content type="html" xml:base="http://localhost:4000/weekly/weekly/2016/08/24/weekly.html">&lt;h1 id=&quot;weekly-0718---0824&quot;&gt;Weekly 07/18 - 08/24&lt;/h1&gt;
-
-&lt;p&gt;周报第四十七期&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;催稿人:
-&lt;a href=&quot;https://github.com/arrowrowe&quot;&gt;@arrowrowe&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;交稿人:
-&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;
-&lt;a href=&quot;https://github.com/arrowrowe&quot;&gt;@arrowrowe&lt;/a&gt;
-&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;
-&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;section&quot;&gt;目录&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#user-content-resources&quot;&gt;资源推荐&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;http://algorithm.yuanbin.me/&quot;&gt;Data Structure and Algorithm/leetcode/lintcode&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#user-content-tools&quot;&gt;工具&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/codeskyblue/webcron&quot;&gt;codeskyblue/webcron&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#user-content-Gao.DaShang&quot;&gt;高大上&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/bedatadriven/renjin&quot;&gt;bedatadriven/renjin&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#user-content-backend&quot;&gt;后端&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#user-content-laravel-5.3-coming&quot;&gt;Laravel 5.3 来了~&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#user-content-codeigniter4&quot;&gt;CodeIgniter4&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#user-content-frontend&quot;&gt;前端&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#user-content-libraries&quot;&gt;好用的库&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#user-content-material-design&quot;&gt;Material Design&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#user-content-framework-and-web-components&quot;&gt;框架什么的 / Web Components&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#user-content-data-visualization&quot;&gt;专题: 数据可视化&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#user-content-updates&quot;&gt;更新&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#user-content-github&quot;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#user-content-fun&quot;&gt;有趣的!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;a-idresourcesa&quot;&gt;&lt;a id=&quot;resources&quot;&gt;资源推荐&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://algorithm.yuanbin.me/&quot;&gt;Data Structure and Algorithm/leetcode/lintcode&lt;/a&gt;&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;https://github.com/billryan&quot;&gt;@billryan&lt;/a&gt; 喜欢收集各种明信片，来者不拒~ 邮寄的话可以邮寄至 &lt;code class=&quot;highlighter-rouge&quot;&gt;上海市闵行区上海交通大学闵行校区电院群楼5号楼307&lt;/code&gt;，收件人：&lt;code class=&quot;highlighter-rouge&quot;&gt;袁斌&lt;/code&gt;。&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;a-idtoolsa&quot;&gt;&lt;a id=&quot;tools&quot;&gt;工具&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;webcrontab (GitHub: &lt;a href=&quot;https://github.com/codeskyblue/webcron&quot;&gt;codeskyblue/webcron&lt;/a&gt;, &lt;a href=&quot;http://webcron.herokuapp.com/&quot;&gt;demo&lt;/a&gt;), a new crontab that have a web page in order to replace the original crontab.
-&lt;a href=&quot;http://webcron.herokuapp.com/&quot;&gt;&lt;img src=&quot;https://github.com/codeskyblue/webcron/raw/master/scripts/homepage.png&quot; alt=&quot;a demo of webcrontab&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;a-idgaodashanga&quot;&gt;&lt;a id=&quot;Gao.Dashang&quot;&gt;高大上&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Renjin (GitHub: &lt;a href=&quot;https://github.com/bedatadriven/renjin&quot;&gt;bedatadriven/renjin&lt;/a&gt;), JVM-based interpreter for the R language for the statistical analysis.&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; R on JVM，like jython, 要用这个开新坑了&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;a-idbackenda&quot;&gt;&lt;a id=&quot;backend&quot;&gt;后端&lt;/a&gt;&lt;/h2&gt;
-
-&lt;h3 id=&quot;a-idlaravel-53-cominglaravel-53-a&quot;&gt;&lt;a id=&quot;laravel-5.3-coming&quot;&gt;Laravel 5.3 来了~&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://laravel-news.com/2016/06/look-whats-coming-laravel-5-3/&quot;&gt;A look at what’s coming to Laravel 5.3&lt;/a&gt;
-- Laravel Notifications：整合邮件、短信、Slack
-- Laravel Passort：OAuth2 服务器端实现，基于 &lt;a href=&quot;https://github.com/thephpleague/oauth2-server&quot;&gt;League OAuth2 server&lt;/a&gt;
-- Laravel Scout：全文搜索（当前支持 &lt;a href=&quot;https://www.algolia.com/&quot;&gt;Algolia&lt;/a&gt;）
-- Laravel Echo：基于 WebSocket 的事件广播
-- Laravel Mailable：全新邮件接口
-- 路由拆分为 &lt;code class=&quot;highlighter-rouge&quot;&gt;routes&lt;/code&gt; 文件夹
-- …&lt;/p&gt;
+&lt;p&gt;go 用 ragel http://www.colm.net/open-source/ragel/ 写的 syslog parser 说比 rust 的还快 https://github.com/influxdata/go-syslog#performance @codeworm96&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; &lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt; 我已经抛弃php了……用laravel还不如用rails呢…..&lt;/p&gt;
-
-  &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/kdplus&quot;&gt;@kdplus&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; &lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt; 你总算看开了&lt;/p&gt;
-
-  &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/LukeXuan&quot;&gt;@LukeXuan&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; Symfony明明很好&lt;/p&gt;
-
-  &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/swaylq&quot;&gt;@swaylq&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; Laravel, Rails, Django 这些用起来不都差不多么&lt;/p&gt;
+  &lt;p&gt;~2µs to parse an average legal message
+Other RFC5424 implementations, like this one in Rust, spend 8µs to parse an average legal message.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;codeigniter4httpscodeignitercom&quot;&gt;&lt;a href=&quot;https://codeigniter.com/&quot;&gt;CodeIgniter4&lt;/a&gt;&lt;/h3&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;GitHub: &lt;a href=&quot;https://github.com/bcit-ci/CodeIgniter4&quot;&gt;bcit-ci/CodeIgniter4&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/soft-aesthetic/soft-era-vim&quot;&gt;~ soft era ~&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;🌸 Light pastel syntax theme for cozy, cute coding &amp;amp; typing. 🌱&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/soft-aesthetic/soft-era-vim/master/screenshot.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;@codeworm96 很早就有了各种依赖的工具，社区也一直在改进。另外有个坑是，不完整的 vendor 会出错, 比如 &lt;code class=&quot;highlighter-rouge&quot;&gt;github.com/dyweb/ayi/venodr/github.com/dyweb/gommon&lt;/code&gt; 和 &lt;code class=&quot;highlighter-rouge&quot;&gt;github.com/dyweb/gommon&lt;/code&gt; 并不是一个库，虽然代码可能是一样的，编译会报错。写 example 的时候就会比较迷 https://github.com/at15/go.ice/blob/master/example/github/Gopkg.toml#L29-L48&lt;/p&gt;
+
+&lt;p&gt;我其实很喜欢 go 这样安排 workspace, 所以 &lt;code class=&quot;highlighter-rouge&quot;&gt;ayi git clone&lt;/code&gt; 就按 go 的方式自动指定 clone destination。感觉比分好多文件夹用起来方便多了。我觉得性能要求不是特别高，code base 不是很大的项目，用 go 还是可以的。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;根本不知道 cpp 怎么写的 gopher 路过 …&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; CI4 有很多 help wanted 的Issue，不过感觉好像只有一个人在开发….. 以前 CI3 特别活跃那哥好像也没有参与，感觉CI3活跃程度远大于CI4 ….. CI4 确定不是一个人在玩?…..&lt;/p&gt;
+  &lt;p&gt;Friends don’t let friends use unions, unless they are type-safe …. Released in Abseil today: absl::variant, a C++11 compatible version of C++17’s std:variant!&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;a-idfrontenda&quot;&gt;&lt;a id=&quot;frontend&quot;&gt;前端&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;https://github.com/abseil/abseil-cpp/blob/master/absl/types/variant.h&lt;/p&gt;
 
-&lt;h3 id=&quot;a-idlibrariesa&quot;&gt;&lt;a id=&quot;libraries&quot;&gt;好用的库&lt;/a&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;https://github.com/Genymobile/scrcpy Display and control your Android device without root&lt;/p&gt;
+
+&lt;p&gt;no longer need to buy chromecast to display screen to monitor ….&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;https://github.com/dawnlabs/carbon
+Code screenshots for presentation&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Pangu.js: 為什麼你們就是不能加個空格呢？
-    &lt;ul&gt;
-      &lt;li&gt;Chrome 插件: &lt;a href=&quot;https://chrome.google.com/webstore/detail/paphcfdffjnbcgkokihcdjliihicmbpd&quot;&gt;为什么你们就是不能加个空格呢？&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;GitHub: &lt;a href=&quot;https://github.com/vinta/pangu.js&quot;&gt;vinta/pangu.js&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;如果你跟我一樣，每次看到網頁上的中文字和英文、數字、符號擠在一塊，就會坐立難安，忍不住想在它們之間加個空格。這個外掛（支援 Chrome 和 Firefox）正是你在網路世界走跳所需要的東西，它會自動替你在網頁中所有的中文字和半形的英文、數字、符號之間插入空白。&lt;/p&gt;
-
-      &lt;p&gt;漢學家稱這個空白字元為「盤古之白」，因為它劈開了全形字和半形字之間的混沌。另有研究顯示，打字的時候不喜歡在中文和英文之間加空格的人，感情路都走得很辛苦，有七成的比例會在 34 歲的時候跟自己不愛的人結婚，而其餘三成的人最後只能把遺產留給自己的貓。畢竟愛情跟書寫都需要適時地留白。&lt;/p&gt;
-
-      &lt;p&gt;與大家共勉之。&lt;/p&gt;
-
-      &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/swaylq&quot;&gt;@swaylq&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; &lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;, 我一直都喜欢加&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.mattboldt.com/demos/typed-js/&quot;&gt;Typed.js&lt;/a&gt; (GitHub: &lt;a href=&quot;https://github.com/mattboldt/typed.js&quot;&gt;mattboldt/typed.js&lt;/a&gt;), a jQuery typing animation script.&lt;/li&gt;
+  &lt;li&gt;https://github.com/esnet/iperf iperf3: A TCP, UDP, and SCTP network bandwidth measurement tool&lt;/li&gt;
+  &lt;li&gt;https://github.com/Azure/brigade event based scripting for kubernetes&lt;/li&gt;
+  &lt;li&gt;https://github.com/Azure/kashti is a dashboard for brigade written in angular&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;material-design&quot;&gt;Material Design&lt;/h3&gt;
+&lt;hr /&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.material-ui.com/&quot;&gt;Material-UI&lt;/a&gt; (GitHub: &lt;a href=&quot;https://github.com/callemall/material-ui&quot;&gt;callemall/material-ui&lt;/a&gt;, React Components that Implement Google’s Material Design.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;@raspberryice there was a standard for submission (will there also be review?) so the weekly generator can parse it and generate weekly without human involved https://github.com/dyweb/mos/issues/1 , though I don’t know how much @codeworm96 implemented ….&lt;/p&gt;
 
-&lt;h3 id=&quot;a-idframework-and-web-components--web-componentsa&quot;&gt;&lt;a id=&quot;framework-and-web-components&quot;&gt;框架什么的 / Web Components&lt;/a&gt;&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://feathersjs.com/&quot;&gt;Feathers&lt;/a&gt; (GitHub: &lt;a href=&quot;https://github.com/feathersjs/feathers&quot;&gt;feathersjs/feathers&lt;/a&gt;), a minimalist, real-time JavaScript framework built for NodeJS, React-Native and the browser.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.polymer-project.org/1.0/&quot;&gt;Polymer&lt;/a&gt; (GitHub: &lt;a href=&quot;https://github.com/Polymer/polymer&quot;&gt;Polymer/polymer&lt;/a&gt;), build modern apps using web components.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;a-iddata-visualization-a&quot;&gt;&lt;a id=&quot;data-visualization&quot;&gt;专题: 数据可视化&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;(From University of Illinois at Urbana-Champaign, recommended by &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;)&lt;/p&gt;
-
-&lt;h3 id=&quot;online-data-visualization-websites&quot;&gt;Online Data Visualization Websites&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://datahero.com/&quot;&gt;DataHero&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://plot.ly/&quot;&gt;Plotly&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://site.numberpicture.com/&quot;&gt;Number Picture&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/Polychart&quot;&gt;Polychart&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.juiceanalytics.com/&quot;&gt;Juice Analytics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.oicweave.org/&quot;&gt;Weave&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://datavisu.al/&quot;&gt;Datavisual&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.silk.co/&quot;&gt;Silk&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.zoomdata.com/&quot;&gt;Zoomdata&lt;/a&gt; (via the cloud platforms)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://app.raw.densitydesign.org/&quot;&gt;RAW&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://datawrapper.de/&quot;&gt;Datawrapper&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;software&quot;&gt;Software&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.tableau.com/&quot;&gt;Tableau&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.sapstore.com/getlumira&quot;&gt;SAP Lumira&lt;/a&gt; (including a free Personal Edition version)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://products.office.com/excel&quot;&gt;Microsoft Excel&lt;/a&gt; (or any other spreadsheet that includes charts)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.clearstorydata.com/&quot;&gt;ClearStory&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://beyondcore.com/&quot;&gt;BeyondCore&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.wolfram.com/mathematica/&quot;&gt;Mathematica&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.mathworks.com/products/matlab/&quot;&gt;MATLAB&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://matplotlib.org/&quot;&gt;MatPlotLib&lt;/a&gt; (if you are comfortable programming Python)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.r-project.org/&quot;&gt;R Programming Language&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://ggplot2.org/&quot;&gt;ggplot2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;a-idupdatesa&quot;&gt;&lt;a id=&quot;updates&quot;&gt;更新&lt;/a&gt;&lt;/h2&gt;
-
-&lt;h3 id=&quot;github&quot;&gt;GitHub&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/blog/2232-github-extension-for-visual-studio-2-0-is-now-available&quot;&gt;GitHub Extension for Visual Studio 2.0 is now available&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/blog/2228-simpler-github-pages-publishing&quot;&gt;Simpler GitHub Pages publishing&lt;/a&gt;. Pages 可以放在一个目录下而不一定要独占一个分支了.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;a-idfuna&quot;&gt;&lt;a id=&quot;fun&quot;&gt;有趣的!&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/Tlaster/ProjectAsahi&quot;&gt;Tlaster/ProjectAsahi&lt;/a&gt;, original galgame engine for Windows 10.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/Tlaster&quot;&gt;@Tlaster&lt;/a&gt;&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; 很多有趣的项目 /w\&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://git.market/&quot;&gt;GitMarket&lt;/a&gt;, a marketplace for buying and selling premium code, powered by Git.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Weekly 07/18 - 08/24</summary></entry><entry><title type="html">Weekly</title><link href="http://localhost:4000/weekly/weekly/2016/08/17/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-08-17T00:00:00+08:00</published><updated>2016-08-17T00:00:00+08:00</updated><id>http://localhost:4000/weekly/weekly/2016/08/17/weekly</id><content type="html" xml:base="http://localhost:4000/weekly/weekly/2016/08/17/weekly.html">&lt;h1 id=&quot;weekly-0811---0817&quot;&gt;Weekly 08/11 - 08/17&lt;/h1&gt;
-
-&lt;p&gt;周报第四十六期&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;催稿人:
+&lt;hr /&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/360EntSecGroup-Skylar/goreporter</summary></entry><entry><title type="html">Weekly</title><link href="http://dongyueweb.com/weekly/weekly/2017/03/22/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2017-03-22T00:00:00+08:00</published><updated>2017-03-22T00:00:00+08:00</updated><id>http://dongyueweb.com/weekly/weekly/2017/03/22/weekly</id><content type="html" xml:base="http://dongyueweb.com/weekly/weekly/2017/03/22/weekly.html">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/facebookexperimental/JSCaml&quot;&gt;JavaScript to OCaml&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/codeguy/php-the-right-way&quot;&gt;PHP the right way&lt;/a&gt;
+&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;, &lt;a href=&quot;https://github.com/JasonQSY&quot;&gt;@JasonQSY&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/donnemartin/system-design-primer&quot;&gt;System Deisgn Interview&lt;/a&gt;, Though, to be honest, this kind of learning may only apply to interview&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ibmtjbot/tjbot&quot;&gt;IBM TJBot&lt;/a&gt;
+&lt;img src=&quot;https://cloud.githubusercontent.com/assets/5621298/23923879/a800fa0a-08c5-11e7-86d8-c1b29c586697.png&quot; alt=&quot;image&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/8dc5c6aa01fc&quot;&gt;History of front end&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/hunkim/DeepLearningZeroToAll&quot;&gt;DL0-?&lt;/a&gt;
+from &lt;a href=&quot;https://github.com/sxjscience&quot;&gt;@sxjscience&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://thoughtbot.com/playbook&quot;&gt;Though bot playbook&lt;/a&gt;
 &lt;a href=&quot;https://github.com/swaylq&quot;&gt;@swaylq&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;交稿人:
-&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/msiemens/tinydb&quot;&gt;Tinaydb&lt;/a&gt;, The current source code has 1200 lines of code (with about 40% documentation) and 1000 lines tests&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">JavaScript to OCaml
+  PHP the right way
+@ComMouse, @JasonQSY
+  System Deisgn Interview, Though, to be honest, this kind of learning may only apply to interview
+  IBM TJBot
+
+  History of front end
+  DL0-?
+from @sxjscience
+  Though bot playbook
+@swaylq
+  Tinaydb, The current source code has 1200 lines of code (with about 40% documentation) and 1000 lines tests</summary></entry><entry><title type="html">Weekly</title><link href="http://dongyueweb.com/weekly/weekly/2017/03/08/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2017-03-08T00:00:00+08:00</published><updated>2017-03-08T00:00:00+08:00</updated><id>http://dongyueweb.com/weekly/weekly/2017/03/08/weekly</id><content type="html" xml:base="http://dongyueweb.com/weekly/weekly/2017/03/08/weekly.html">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/kamranahmedse/design-patterns-for-humans&quot;&gt;Design pattern for humans&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/cs01/gdbgui&quot;&gt;A Web GUI for GDB&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/luzefeng/DouBanMeinv&quot;&gt;豆瓣美女&lt;/a&gt;, 以后周报该分级了 /w\&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/pachyderm/pachyderm&quot;&gt;Containerized Data Analytics&lt;/a&gt;, Git for Data Science: Pachyderm offers complete version control for even the largest data sets
+&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Design pattern for humans
+  A Web GUI for GDB
+  豆瓣美女, 以后周报该分级了 /w\
+  Containerized Data Analytics, Git for Data Science: Pachyderm offers complete version control for even the largest data sets
+@gaocegege</summary></entry><entry><title type="html">Weekly</title><link href="http://dongyueweb.com/weekly/weekly/2017/02/22/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2017-02-22T00:00:00+08:00</published><updated>2017-02-22T00:00:00+08:00</updated><id>http://dongyueweb.com/weekly/weekly/2017/02/22/weekly</id><content type="html" xml:base="http://dongyueweb.com/weekly/weekly/2017/02/22/weekly.html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://about.gitlab.com/2017/02/06/vue-big-plan/&quot;&gt;Our Big Frontend Plan Revealed&lt;/a&gt;, Our long term plan to make GitLab as fast and performant as possible with Vue and webpack.
+&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;, &lt;a href=&quot;https://github.com/arrowrowe&quot;&gt;@arrowrowe&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://traefik.io/&quot;&gt;Træfɪk&lt;/a&gt;, a modern reverse proxy.
+&lt;img src=&quot;https://github.com/containous/traefik/raw/master/docs/img/architecture.png&quot; alt=&quot;&quot; /&gt;
+&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;, &lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://15721.courses.cs.cmu.edu/spring2017/papers/07-oltpindexes1/skiplists-done-right2016.pdf&quot;&gt;Skip List Done Right&lt;/a&gt;, Skip list is an important and widely used data structure but I did not hear about it when I learned data structure in undergraduate school. It can do insert / delete / search in O(logN) on average.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://gopherize.me&quot;&gt;gopherize&lt;/a&gt;
+&lt;img src=&quot;https://cloud.githubusercontent.com/assets/5621298/22867528/d016d21a-f13e-11e6-9357-ca69cee92503.png&quot; alt=&quot;image&quot; /&gt;
+&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.qingjingjie.com/blogs/42&quot;&gt;Kotlin框架巡礼&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/uber/go-torch&quot;&gt;go-tour&lt;/a&gt;, Stochastic flame graph profiler for Go programs
+&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.golang.org/concurrency-is-not-parallelism&quot;&gt;concurrency is not parallelism&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/github/open-source-guide&quot;&gt;open source guide&lt;/a&gt;
+&lt;a href=&quot;https://github.com/orgs/dyweb/teams/mos&quot;&gt;@dyweb/mos&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://metacademy.org/&quot;&gt;Metacadamy&lt;/a&gt;, Searching for hierarchy of knowledge and roadmaps for learning, specialized in Machining Learning&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/01org/ciao&quot;&gt;ciao&lt;/a&gt;, Ciao - Cloud Integrated Advanced Orchestrator from Intel open source
+&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/hmlb/phpunit-vw&quot;&gt;phpunit-vw&lt;/a&gt;, It automatically detects CI environments and makes your test suites succeed even with failing assertions or unwanted exceptions \o/
+&amp;gt; btw: for js users, pls see &lt;a href=&quot;https://github.com/auchenberg/volkswagen&quot;&gt;https://github.com/auchenberg/volkswagen&lt;/a&gt;
+&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;, &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://tuna.moe/&quot;&gt;TUNA from tsinghua&lt;/a&gt;
+&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;, &lt;a href=&quot;https://github.com/arrowrowe&quot;&gt;@arrowrowe&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/meshbird/meshbird&quot;&gt;meshbird&lt;/a&gt;, Distributed private networking
+&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Our Big Frontend Plan Revealed, Our long term plan to make GitLab as fast and performant as possible with Vue and webpack.
+@at15, @arrowrowe</summary></entry><entry><title type="html">Weekly</title><link href="http://dongyueweb.com/weekly/weekly/2017/02/08/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2017-02-08T00:00:00+08:00</published><updated>2017-02-08T00:00:00+08:00</updated><id>http://dongyueweb.com/weekly/weekly/2017/02/08/weekly</id><content type="html" xml:base="http://dongyueweb.com/weekly/weekly/2017/02/08/weekly.html">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://airbnb.design/lottie/&quot;&gt;Lottie&lt;/a&gt;, A mobile library for Android and iOS that parses Adobe After Effects animations exported as json with Bodymovin and renders them natively on mobile.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;, &lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;
+- &lt;a href=&quot;http://sigmod17contest.athenarc.gr/task.shtml&quot;&gt;SIGMOD N-grams student contest&lt;/a&gt;, 不限制国家不限制学校组队 .w.
+&lt;a href=&quot;https://github.com/mrmiywj&quot;&gt;@mrmiywj&lt;/a&gt;, &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;, &lt;a href=&quot;https://github.com/arrowrowe&quot;&gt;@arrowrowe&lt;/a&gt;, &lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;
+- &lt;a href=&quot;http://www.slideshare.net/ssuser7e134a/log-structured-merge-tree&quot;&gt;Log Structured Merge Tree and Cassandra&lt;/a&gt;, Course presentation by &lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;
+- &lt;a href=&quot;https://github.com/teamtnt/tntsearch&quot;&gt;TNTSearch&lt;/a&gt;, A fully featured full text search engine written in PHP
+&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;
+- &lt;a href=&quot;http://15721.courses.cs.cmu.edu/spring2017/papers/06-latching/a16-graefe.pdf&quot;&gt;A survey of B-Tree Locking Techniques&lt;/a&gt;, When implementing B-Tree locking, there are two concepts, locking and latching. Latching protects in-memory data structures between concurrency threads, and should be held only for very short periods. Locking protects database contents (or data in logical) among transactions, and keep in lock manager`s hash table.
+- &lt;a href=&quot;http://huangxuan.me/css-sucks-2015&quot;&gt;CSS Still Sucks 2015&lt;/a&gt;, An overview of CSS history and future
+- &lt;a href=&quot;https://github.com/pixijs/pixi.js&quot;&gt;pixi.js&lt;/a&gt;, 2D rendering engine that uses webGL with canvas fallback
+- &lt;a href=&quot;https://github.com/bodymovin/bodymovin&quot;&gt;bodymovin&lt;/a&gt;, after effect animation to html
+&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;
+- &lt;a href=&quot;https://www.google.com/webdesigner/&quot;&gt;Google Web Designer&lt;/a&gt;, you can use code as well
+&lt;a href=&quot;https://github.com/scottsun94&quot;&gt;@scottsun94&lt;/a&gt;
+- &lt;a href=&quot;https://www.bigmarker.com/gopheracademy/Distributed-Computing-in-Go-Building-Consensus-with-Raft-Protocol&quot;&gt;https://www.bigmarker.com/gopheracademy/Distributed-Computing-in-Go-Building-Consensus-with-Raft-Protocol&lt;/a&gt;
 &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;
-&lt;a href=&quot;https://github.com/kdplus&quot;&gt;@kdplus &lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;time-series-databases&quot;&gt;Time series databases&lt;/h2&gt;
-
-&lt;h3 id=&quot;influxdb&quot;&gt;Influxdb&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/influxdata/influxdb&quot;&gt;Influxdb&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/influxdata/telegraf&quot;&gt;Telegraf&lt;/a&gt;, The plugin-driven server agent for collecting &amp;amp; reporting metrics.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/influxdata/kapacitor&quot;&gt;Kapacitor&lt;/a&gt;, Open source framework for processing, monitoring, and alerting on time series data.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;blog&quot;&gt;Blog&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.vividcortex.com/blog/2015/11/05/nobody-loves-graphite-anymore&quot;&gt;Nobody-loves-graphite-anymore&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://obfuscurity.com/2015/11/Everybody-Loves-Graphite&quot;&gt;Everybody-Loves-Graphite&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://obfuscurity.com/2013/11/My-Impressions-of-InfluxDB&quot;&gt;My-Impressions-of-InfluxDB&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;others&quot;&gt;Others&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://redislabs.com/solutions/redis-for-timeseries-data&quot;&gt;Redis-for-timeseries-data&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;php&quot;&gt;PHP&lt;/h2&gt;
-
-&lt;h3 id=&quot;framework&quot;&gt;Framework&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/chongyi/swoole-laravel-framework&quot;&gt;Swoole-laravel-framework&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/qieangel2013/zys&quot;&gt;Zys&lt;/a&gt;, Base on yaf and swoole.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/qieangel2013/zqf&quot;&gt;Zqf&lt;/a&gt;, PHP extension for high concurrency in purchase, red envelope, and so on.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;wordpress&quot;&gt;Wordpress&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/wordplate/wordplate&quot;&gt;Wordplate&lt;/a&gt;, A modern WordPress stack. Don’t repeat yourself.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/johnpbloch/wordpress&quot;&gt;Wordpress&lt;/a&gt;, A fork of WordPress with Composer support added. Branches, tags, and trunk synced from upstream every 15 minutes.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;front-end&quot;&gt;Front end&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.strapui.com/themes/ani-angular-2-bootstrap-4-theme/&quot;&gt;Angular2 + Bootstrap4&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;tools&quot;&gt;Tools&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://console.hyper.sh/register/invite/Azk1mG3Q4lSbdK1zyDN4h0AAJMykK8cq&quot;&gt;hyper.sh&lt;/a&gt;&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;背靠 https://github.com/hyperhq 的云产品，现在注册免费30刀，感觉可以用蛮久. by &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-
-    &lt;p&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/5100735/17649132/13b2ef5a-625f-11e6-85ac-6549affecf5a.png&quot; alt=&quot;2016-08-14 8 38 18&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.intercom.io/&quot;&gt;Intercom&lt;/a&gt;&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;快速搭建与消费者的沟通平台，这个似乎是第一家，国内的话，有抄袭的，不对，有借鉴的，似乎DaoVoice就有在做. by &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-
-    &lt;p&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/5100735/17649121/acbeeb00-625e-11e6-9416-e4bca1165596.png&quot; alt=&quot;2016-08-14 8 35 05&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/leev/ngx_http_geoip2_module&quot;&gt;Nginx GeoIP2 module&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.gitkraken.com/&quot;&gt;Git kraken&lt;/a&gt;, Yet another Git GUI Client.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/tuna/fishroom&quot;&gt;fishroom&lt;/a&gt;, Message forwarding for multiple IM protocols.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/sourcegraph/thyme&quot;&gt;Thyme&lt;/a&gt;, Automatically track which applications you use and for how long.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/MaskRay/wechatircd&quot;&gt;Wechatircd&lt;/a&gt;, Use IRC client to control wechat web client.&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;https://maskray.me/blog/2016-02-21-wechatircd&quot;&gt;A Blog to introduce&lt;/a&gt;.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;highlights&quot;&gt;Highlights&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/20870307?refer=intelligentunit&quot;&gt;Zhihu zhuanlan&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://hackfdu.github.io/#/&quot;&gt;Fudan Hackathon&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.pixivision.net/zh/a/1568&quot;&gt;Drawing handsome faces&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;https://www.youtube.com/channel/UCMUpkNjkglbB-7OKsvOhn8g&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;http://www.pixivision.net/zh/a/1463&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;pixivision是向全世界送上以插画、漫画、小说和音乐为主的 “由创意产生的‘珍藏之作’”和宅文化
-为不甘于沉闷生活的人所准备的创作型媒体。 by &lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Weekly 08/11 - 08/17</summary></entry><entry><title type="html">Weekly</title><link href="http://localhost:4000/weekly/weekly/2016/08/10/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-08-10T00:00:00+08:00</published><updated>2016-08-10T00:00:00+08:00</updated><id>http://localhost:4000/weekly/weekly/2016/08/10/weekly</id><content type="html" xml:base="http://localhost:4000/weekly/weekly/2016/08/10/weekly.html">&lt;h1 id=&quot;weekly-0804---0810&quot;&gt;Weekly 08/04 - 08/10&lt;/h1&gt;
-
-&lt;p&gt;周报第四十五期&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;催稿人:
-&lt;a href=&quot;https://github.com/LukeXuan&quot;&gt;@LukeXuan&lt;/a&gt;
-(由 &lt;a href=&quot;https://github.com/arrowrowe&quot;&gt;@arrowrowe&lt;/a&gt; 代理)&lt;/li&gt;
-  &lt;li&gt;交稿人:
-&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;
-&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;
+- &lt;a href=&quot;https://about.gitlab.com/2017/02/01/gitlab-dot-com-database-incident/&quot;&gt;GitLab.com Database Incident&lt;/a&gt;, Summary of a serious ops incident which happened on Feb 1, 2017.
+&amp;gt; Yesterday we had a serious incident with one of our databases. We lost six hours of database data (issues, merge requests, users, comments, snippets, etc.) for GitLab.com.
+&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;, &lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;&lt;/p&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Lottie, A mobile library for Android and iOS that parses Adobe After Effects animations exported as json with Bodymovin and renders them natively on mobile.</summary></entry><entry><title type="html">Weekly</title><link href="http://dongyueweb.com/weekly/weekly/2017/01/25/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2017-01-25T00:00:00+08:00</published><updated>2017-01-25T00:00:00+08:00</updated><id>http://dongyueweb.com/weekly/weekly/2017/01/25/weekly</id><content type="html" xml:base="http://dongyueweb.com/weekly/weekly/2017/01/25/weekly.html">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://airflow.incubator.apache.org/index.html&quot;&gt;Airflow&lt;/a&gt;, System for automated workflows featuring DAG.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/lebab/lebab&quot;&gt;lebab&lt;/a&gt;, Hey it’s 2017 now. Why are you guys using ES5?&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/igrigorik/ga-beacon&quot;&gt;ga-beacon&lt;/a&gt;, use google analysis for your github readme
 &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;section&quot;&gt;目录&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#user-content-resources&quot;&gt;资源推荐&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/vhf/free-programming-books&quot;&gt;List of Free Learning Resources&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/jaehyunp/stanfordacm&quot;&gt;Stanford ACM-ICPC&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://ogldev.atspace.co.uk/&quot;&gt;OpenGL Step by Step&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#user-content-Gao.DaShang&quot;&gt;高大上&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/facebookresearch/fastText&quot;&gt;fastText&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#user-content-tools&quot;&gt;工具&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/sourcegraph/checkup&quot;&gt;Checkup&lt;/a&gt; (Golang)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#user-content-storage&quot;&gt;Storage&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;http://basho.com/&quot;&gt;Basho&lt;/a&gt; (Erlang)&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/basho/riak&quot;&gt;Riak&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/biokoda/actordb&quot;&gt;ActorDB&lt;/a&gt; (Erlang)&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/github/gh-ost&quot;&gt;gh-ost&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://digi.163.com/16/0809/15/BU1MLDVU00162OUT.html&quot;&gt;阿里云宣布开放开源 AliSQL 数据库 性能可提升 70%&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#user-content-TrumpScript&quot;&gt;专题: TrumpScript&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#user-content-Pixelapse&quot;&gt;专题: Pixelapse&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#user-content-babel&quot;&gt;巴别塔&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#user-content-rust&quot;&gt;Rust&lt;/a&gt;: &lt;a href=&quot;https://github.com/mrmiywj/rust_jvm&quot;&gt;mrmiywj/rust_jvm&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#user-content-golang&quot;&gt;Golang&lt;/a&gt;: &lt;a href=&quot;https://github.com/derekparker/delve&quot;&gt;Delve&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#user-content-android&quot;&gt;Android&lt;/a&gt;: &lt;a href=&quot;https://github.com/BrotherJing/LeomaLite&quot;&gt;BrotherJing/LeomaLite&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#user-content-frontend&quot;&gt;前端&lt;/a&gt;: &lt;a href=&quot;https://github.com/plotly/plotly.js&quot;&gt;plotly.js&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#user-content-php&quot;&gt;PHP&lt;/a&gt;: &lt;a href=&quot;https://github.com/php-ai/php-ml&quot;&gt;PHP-ML&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#user-content-more&quot;&gt;More&lt;/a&gt;: &lt;a href=&quot;https://github.com/Khan/KaTeX&quot;&gt;KaTeX&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#user-content-fun&quot;&gt;有趣的!&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.mindsumo.com/challenges&quot;&gt;Company Challenges&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://stackshare.io/&quot;&gt;StackShare&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/harshjv/github-repo-size&quot;&gt;harshjv/github-repo-size&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://legends.bethesda.net/?locale=en&quot;&gt;The Elder Scrolls: Legends&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;a-idresourcesa&quot;&gt;&lt;a id=&quot;resources&quot;&gt;资源推荐&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/vhf/free-programming-books&quot;&gt;List of Free Learning Resources&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://github.com/sindresorhus/awesome&quot;&gt;&lt;img src=&quot;https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg&quot; alt=&quot;Awesome&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/jaehyunp/stanfordacm&quot;&gt;Stanford ACM-ICPC&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://ogldev.atspace.co.uk/&quot;&gt;OpenGL Step by Step&lt;/a&gt; based on OpenGL 3.x and 4.x&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;a-idgaodashanga&quot;&gt;&lt;a id=&quot;Gao.Dashang&quot;&gt;高大上&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/facebookresearch/fastText&quot;&gt;fastText&lt;/a&gt;, library for fast text representation and classification.&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; Trending 第一&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;a-idtoolsa&quot;&gt;&lt;a id=&quot;tools&quot;&gt;工具&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/sourcegraph/checkup&quot;&gt;Checkup&lt;/a&gt;, distributed, lock-free, self-hosted health checks and status pages, written in Go.&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;It features an elegant, minimalistic CLI and an idiomatic Go library. They are completely interoperable and their configuration is beautifully symmetric.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;storage&quot;&gt;Storage&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://basho.com/&quot;&gt;Basho&lt;/a&gt; (&lt;a href=&quot;http://docs.basho.com/&quot;&gt;Docs&lt;/a&gt;), enterprise NoSQL database &amp;amp; scalable database solutions.&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; Users include game companies like LOL. Erlang is used as major language.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/basho/riak&quot;&gt;Riak&lt;/a&gt;, a decentralized datastore from Basho Technologies.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/biokoda/actordb&quot;&gt;ActorDB&lt;/a&gt;, a distributed SQL database with the scalability of a KV store, while keeping the query capabilities of a relational database. (Erlang)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/github/gh-ost&quot;&gt;gh-ost&lt;/a&gt;, GitHub’s online schema migration for MySQL.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://digi.163.com/16/0809/15/BU1MLDVU00162OUT.html&quot;&gt;阿里云宣布开放开源 AliSQL 数据库 性能可提升 70%&lt;/a&gt;&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;阿里准备开源自己的 MySQL fork&lt;/p&gt;
-    &lt;/blockquote&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;google alisql 没啥结果 ….&lt;/p&gt;
-    &lt;/blockquote&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;https://www.percona.com/live/data-performance-conference-2016/sessions/whats-new-alisql-alibabas-branch-mysql&quot;&gt;What’s new in AliSQL - Alibaba’s branch of MySQL&lt;/a&gt; 主讲是从百度跳槽到阿里的….&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;a-idtrumpscript-trumpscripta&quot;&gt;&lt;a id=&quot;TrumpScript&quot;&gt;专题: TrumpScript&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/samshadwell/TrumpScript&quot;&gt;TrumpScript&lt;/a&gt; is a language based upon the illustrious Donald Trump.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;h1 id=&quot;trumpscript-img-srchttpsrawgithubcomsamshadwelltrumpscriptmastertrumpscriptjpg-width50px-height50px-&quot;&gt;TrumpScript &lt;img src=&quot;https://raw.github.com/samshadwell/TrumpScript/master/TrumpScript.jpg&quot; width=&quot;50px&quot; height=&quot;50px&quot; /&gt;&lt;/h1&gt;
-  &lt;p&gt;Making Python great again&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;h3 id=&quot;features&quot;&gt;Features&lt;/h3&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Our language includes several convenient features, perfect for any aspiring Presidential candidate including:
-* No floating point numbers, only integers. America never does anything halfway.
-* All numbers must be strictly greater than 1 million. The small stuff is inconsequential to us.
-* There are no import statements allowed. All code has to be home-grown and American made.
-* Instead of &lt;code class=&quot;highlighter-rouge&quot;&gt;True&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;False&lt;/code&gt;, we have the keywords &lt;code class=&quot;highlighter-rouge&quot;&gt;fact&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;lie&lt;/code&gt;.
-* Only the most popular English words, Trump’s favorite words, and current politician names can be used as variable names.
-* Error messages are mostly quotes directly taken from Trump himself.
-* All programs must end with &lt;code class=&quot;highlighter-rouge&quot;&gt;America is great&lt;/code&gt;.
-* Our language will automatically correct Forbes’ $4.5B to $10B.
-* In its raw form, TrumpScript is not compatible with Windows, because Trump isn’t the type of guy to believe in PC.
-* TrumpScript boycotts OS X and all Apple products  until such time as Apple gives cellphone info to authorities regarding radical Islamic terrorist couple from Cal.
-* The language is completely case insensitive.
-* If the running computer is from China, TrumpScript will not compile. We don’t want them stealing our American technological secrets.
-* By constructing a wall (providing the –Wall flag), TrumpScript will refuse to run on machines with Mexican locales
-* Warns you if you have any Communists masquerading as legitimate “SSL Certificates” from China on your system.
-* Won’t run in root mode because America doesn’t need your help being great. Trump is all we need.
-* Easy to type with small hands&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;If you find you can’t get any TrumpScript to run on your computer (probably because we disallow the two most popular operating systems), you can specify the &lt;code class=&quot;highlighter-rouge&quot;&gt;--shut_up&lt;/code&gt; flag to let the interpreter know you just want your code to run, damn it.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;a-idpixelapse-pixelapsea&quot;&gt;&lt;a id=&quot;Pixelapse&quot;&gt;专题: Pixelapse&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.pixelapse.com/&quot;&gt;Pixelapse&lt;/a&gt; Visual version control and collaboration workflow for open source and private design projects. Built for individuals, trusted by agencies.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;But&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Pixelapse is no longer accepting signups and will shut down October 1st, 2016&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Related news&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;http://venturebeat.com/2015/03/11/dropboxs-acquisition-of-pixelapse-is-not-enough-to-save-competitor-layervault-from-closing/&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Related projects&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;https://github.com/layervault/psd.rb parse psd in ruby&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; 奇怪的是 pixelapse 被 dropbox 收购之后怎么16年就要关了…….&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;a-idbabela&quot;&gt;&lt;a id=&quot;babel&quot;&gt;巴别塔&lt;/a&gt;&lt;/h2&gt;
-
-&lt;h3 id=&quot;rust&quot;&gt;Rust&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/mrmiywj/rust_jvm&quot;&gt;mrmiywj/rust_jvm&lt;/a&gt;, a JVM written in Rust.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; 伊万就是这么叼&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;golang&quot;&gt;Golang&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/derekparker/delve&quot;&gt;Delve&lt;/a&gt;, a debugger for the Go programming language.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;android&quot;&gt;Android&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/BrotherJing/LeomaLite&quot;&gt;BrotherJing/LeomaLite&lt;/a&gt;, an android hybrid framework.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;a-idfrontenda&quot;&gt;&lt;a id=&quot;frontend&quot;&gt;前端&lt;/a&gt;&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/plotly/plotly.js&quot;&gt;plotly.js&lt;/a&gt;, a high-level, declarative charting library built on top of &lt;a href=&quot;http://d3js.org/&quot;&gt;d3.js&lt;/a&gt; and &lt;a href=&quot;http://stack.gl/&quot;&gt;stack.gl&lt;/a&gt;.&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; 从&lt;a href=&quot;http://minimaxir.com/2016/08/pokemon-3d/&quot;&gt;Interactive 3D Clusters of all 721 Pokémon Using Spark and Plotly&lt;/a&gt;听说的图形库&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;php&quot;&gt;PHP&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/php-ai/php-ml&quot;&gt;PHP-ML&lt;/a&gt;, Machine Learning library for PHP.&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; the best language on earth \w/ cc &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt; \w&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;more&quot;&gt;More…&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/Khan/KaTeX&quot;&gt;KaTeX&lt;/a&gt;, fast math typesetting for the web.&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; https://github.com/GitbookIO/plugin-katex also have a plugin for gitbook&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;a-idfuna&quot;&gt;&lt;a id=&quot;fun&quot;&gt;有趣的!&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.mindsumo.com/challenges&quot;&gt;Company Challenges&lt;/a&gt;. Gain experience and prove your skills by solving challenges from Google, McKinsey, Facebook, and hundreds more.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://stackshare.io/&quot;&gt;StackShare&lt;/a&gt;, discover and discuss the best software tools and services.&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; 很有意思&lt;/p&gt;
-    &lt;/blockquote&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt; 注册过…. 感觉没啥意思… 偶尔收到邮件才想起来它…….&lt;/p&gt;
-    &lt;/blockquote&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; 看看别人的 stack 还挺有收获的&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Chrome extension to display repository size on GitHub
-    &lt;ul&gt;
-      &lt;li&gt;GitHub: &lt;a href=&quot;https://github.com/harshjv/github-repo-size&quot;&gt;harshjv/github-repo-size&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;Chrome Web Store: &lt;a href=&quot;https://chrome.google.com/webstore/detail/github-repository-size/apnjnioapinblneaedefcnopcjepgkci&quot;&gt;GitHub Repository Size&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://legends.bethesda.net/?locale=en&quot;&gt;The Elder Scrolls: Legends&lt;/a&gt;&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;:&lt;/em&gt;&lt;/strong&gt; 上古卷轴卡牌游戏…. 官网链接一堆 404 …. 真 BETA&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Weekly 08/04 - 08/10</summary></entry><entry><title type="html">Weekly</title><link href="http://localhost:4000/weekly/weekly/2016/08/03/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-08-03T00:00:00+08:00</published><updated>2016-08-03T00:00:00+08:00</updated><id>http://localhost:4000/weekly/weekly/2016/08/03/weekly</id><content type="html" xml:base="http://localhost:4000/weekly/weekly/2016/08/03/weekly.html">&lt;h1 id=&quot;weekly-0728---0803&quot;&gt;Weekly 07/28 - 08/03&lt;/h1&gt;
-
-&lt;p&gt;周报第四十四期&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;催稿人:
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Microsoft/tolerant-php-parser&quot;&gt;tolerant-php-parser&lt;/a&gt;, Microsoft love PHP (I made it up)
 &lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;交稿人:
-&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.catb.org/esr/writings/homesteading/cathedral-bazaar/index.html&quot;&gt;The Cathedral and the Bazaar&lt;/a&gt;, Why Linux development style success and what should we learn from it when we deal with software engineering
+&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;, &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;, &lt;a href=&quot;https://github.com/arrowrowe&quot;&gt;@arrowrowe&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/czheo/syntax_sugar_python&quot;&gt;syntax_sugar_python&lt;/a&gt;, 学校小伙伴写的 pipe style py
+&lt;a href=&quot;https://github.com/arrowrowe&quot;&gt;@arrowrowe&lt;/a&gt;, &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/anilogia/animedb&quot;&gt;anime database&lt;/a&gt;, 看不懂日语
+&lt;a href=&quot;https://github.com/arrowrowe&quot;&gt;@arrowrowe&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Airflow, System for automated workflows featuring DAG.
+  lebab, Hey it’s 2017 now. Why are you guys using ES5?
+  ga-beacon, use google analysis for your github readme
+@gaocegege
+  tolerant-php-parser, Microsoft love PHP (I made it up)
+@ComMouse
+  The Cathedral and the Bazaar, Why Linux development style success and what should we learn from it when we deal with software engineering
+@ComMouse, @gaocegege, @arrowrowe
+  syntax_sugar_python, 学校小伙伴写的 pipe style py
+@arrowrowe, @gaocegege
+  anime database, 看不懂日语
+@arrowrowe</summary></entry><entry><title type="html">Weekly</title><link href="http://dongyueweb.com/weekly/weekly/2017/01/11/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2017-01-11T00:00:00+08:00</published><updated>2017-01-11T00:00:00+08:00</updated><id>http://dongyueweb.com/weekly/weekly/2017/01/11/weekly</id><content type="html" xml:base="http://dongyueweb.com/weekly/weekly/2017/01/11/weekly.html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/Tencent/xLua&quot;&gt;xLua&lt;/a&gt;, xLua is a hot-fix solution plugin for Unity3D, it supports android, ios, windows, osx, etc.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/Aaronepower/tokei&quot;&gt;Tokei (時計)&lt;/a&gt;, Tokei is a program that displays statistics about your code. Tokei will show number of files, total lines within those files and code, comments, and blanks grouped by language.
+(Provides badges!)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Knetic/govaluate&quot;&gt;https://github.com/Knetic/govaluate&lt;/a&gt; Arbitrary expression evaluation for golang&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://iknowwhatyoudownload.com/&quot;&gt;http://iknowwhatyoudownload.com/&lt;/a&gt; torrent download history by IP&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://krita.org/&quot;&gt;Krita&lt;/a&gt; a PS alternative on *nix, and also works on windows
+&lt;a href=&quot;https://github.com/daniyuu&quot;&gt;@daniyuu&lt;/a&gt;
+compared with GIMP, oh my
+&lt;img src=&quot;https://krita.org/wp-content/uploads/2016/06/user-interface30.png&quot; alt=&quot;screem&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://monodraw.helftone.com/&quot;&gt;Monodraw&lt;/a&gt;, Powerful ASCII art editor designed for the Mac.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/fuchsia-mirror&quot;&gt;https://github.com/fuchsia-mirror&lt;/a&gt; google’s new operating system&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/yahoo/gryffin&quot;&gt;Gryffin&lt;/a&gt; is a large scale web security scanning platform
+&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/chrislusf/seaweedfs&quot;&gt;https://github.com/chrislusf/seaweedfs&lt;/a&gt; a simple and highly scalable distributed file system&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.oreilly.com/programming/free/&quot;&gt;http://www.oreilly.com/programming/free/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://canonical.org/~kragen/memory-models/&quot;&gt;http://canonical.org/~kragen/memory-models/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/zTrix/sata-license&quot;&gt;https://github.com/zTrix/sata-license&lt;/a&gt; the star and thanks author license
 &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;section&quot;&gt;目录&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#study&quot;&gt;学习&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#article&quot;&gt;文章&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#column&quot;&gt;专题&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#column-cd&quot;&gt;Continuous Delivery&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#project&quot;&gt;组织与项目&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#utility&quot;&gt;工具&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#service&quot;&gt;服务&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;a-namestudya&quot;&gt;学习 &lt;a name=&quot;study&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/hemanth/functional-programming-jargo&quot;&gt;Functional Programming Jargon&lt;/a&gt;
-  &amp;gt; Functional programming (FP) provides many advantages, and its popularity has been increasing as a result. However, each programming paradigm comes with its own unique jargon and FP is no exception. By providing a glossary, we hope to make learning FP easier.
-  &amp;gt; 
-  &amp;gt; cc &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt; &lt;a href=&quot;https://github.com/mrmiywj&quot;&gt;@mrmiywj&lt;/a&gt;
-  &amp;gt; 
-  &amp;gt; from &lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/amitkaps/hackermath&quot;&gt;Introduction to Statistics and Basics of Mathematics for Data Science - The Hacker’s Way&lt;/a&gt;
-  &amp;gt; This is the repository for the full day workshop conducted at Fifth Elephant 2016 (https://fifthelephant.in/2016/)
-  &amp;gt; 
-  &amp;gt; The following topics are covered at the workshop:
-  &amp;gt;
-  &amp;gt; &lt;strong&gt;Module 1:&lt;/strong&gt; Basics of Statistics (&lt;em&gt;Application: A/B Testing&lt;/em&gt;)&lt;br /&gt;
-  &amp;gt; &lt;strong&gt;Module 2:&lt;/strong&gt; Basics of Linear Algebra (&lt;em&gt;Application: Supervised Machine Learning: Linear Regression&lt;/em&gt;)&lt;br /&gt;
-  &amp;gt; &lt;strong&gt;Module 3:&lt;/strong&gt; Basics of Linear Algebra -continued (&lt;em&gt;Application: Unsupervised Machine Learning: Dimensionality Reduction&lt;/em&gt;)&lt;br /&gt;
-  &amp;gt; 
-  &amp;gt; from &lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/Droogans/unmaintainable-code&quot;&gt;How to Write Unmaintainable Code&lt;/a&gt;
-  &amp;gt; cc &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt; &lt;a href=&quot;https://github.com/kdplus&quot;&gt;@kdplus&lt;/a&gt; 
-  &amp;gt;
-  &amp;gt; Ensure a job for life ;-)
-  &amp;gt; 
-  &amp;gt; from &lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;a-namearticlea&quot;&gt;文章 &lt;a name=&quot;article&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/bigbully/Dapper-translation&quot;&gt;Dapper 分布式跟踪系统 —–翻译&lt;/a&gt;&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;stared by &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/p&gt;
-
-      &lt;p&gt;the original paper can  also be found &lt;a href=&quot;http://research.google.com/pubs/pub36356.html&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
-
-      &lt;p&gt;btw: why are you looking at this paper? &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/p&gt;
-
-      &lt;p&gt;from &lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;因为同学在做这个方面的事情&lt;/p&gt;
-
-      &lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;a-namecolumna&quot;&gt;专题 &lt;a name=&quot;column&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-
-&lt;h3 id=&quot;continuous-delivery-a-namecolumn-cda&quot;&gt;Continuous Delivery &lt;a name=&quot;column-cd&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Continuous Delivery projects stared by &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/gocd/gocd&quot;&gt;GoCD&lt;/a&gt;
-  &amp;gt; GoCD helps you automate and streamline the build-test-release cycle for worry-free, continuous delivery of your product. Use java and spring framework cc &lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt; 
-  &amp;gt; 
-  &amp;gt; from &lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/spinnaker/spinnaker&quot;&gt;Spninnaker&lt;/a&gt;
-  &amp;gt; Spinnaker is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence
-  &amp;gt; 
-  &amp;gt; from &lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/arnoo/git-deliver&quot;&gt;git-deliver&lt;/a&gt;
-  &amp;gt; Delivery system based on git push and ssh
-  &amp;gt; 
-  &amp;gt; from &lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;a-nameprojecta&quot;&gt;组织与项目 &lt;a name=&quot;project&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/scottsun94/portfolio&quot;&gt;Portfolio for @scottsun94&lt;/a&gt;
-  &amp;gt; \w/
-  &amp;gt; 
-  &amp;gt; pronunciation: port-fo-lio from &lt;a href=&quot;https://github.com/mingo-x&quot;&gt;@mingo-x&lt;/a&gt;
-  &amp;gt; 
-  &amp;gt; from &lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/yssy&quot;&gt;yssy&lt;/a&gt;
-  &amp;gt; 饮水思源的 org …. 虽然貌似并没有什么 active 的 repo 了 
-  &amp;gt; 
-  &amp;gt; from &lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/gabrielbull/react-desktop&quot;&gt;React Desktop&lt;/a&gt;
-  &amp;gt; React UI Components for macOS Sierra and Windows 10.
-  &amp;gt;
-  &amp;gt; 我也不知道我为什么在看这种库=-=
-  &amp;gt; 
-  &amp;gt; from &lt;em&gt;&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;JS 全平台制霸系列。。总感觉跟当年的 Flash 莫名相似。。&lt;/p&gt;
-
-      &lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/yoshuawuyts/choo&quot;&gt;choo&lt;/a&gt;
-  &amp;gt; sturdy frontend framework (sturdy 强健的；坚固的；坚决的)
-  &amp;gt; 
-  &amp;gt; &lt;a href=&quot;https://github.com/yoshuawuyts/choo#how-does-choo-compare-to-x&quot;&gt;Compare choo with other frameworks&lt;/a&gt; 
-  &amp;gt; 
-  &amp;gt; The author ignored the fact that the size of the community is more important than both his personal flavor and the design of the framework itself
-  &amp;gt; 
-  &amp;gt; from &lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/attic-labs/noms&quot;&gt;noms&lt;/a&gt;
-  &amp;gt; The versioned, forkable, syncable database
-  &amp;gt; 
-  &amp;gt; kind of use git as database …..  it has two implementation, one is js &lt;a href=&quot;https://github.com/arrowrowe&quot;&gt;@arrowrowe&lt;/a&gt; 
-  &amp;gt; 
-  &amp;gt; from &lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;a-nameutilitya&quot;&gt;工具 &lt;a name=&quot;utility&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/Microsoft/BashOnWindows&quot;&gt;Bash on Ubuntu on Windows&lt;/a&gt;&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;Microsoft ❤️ Linux&lt;/p&gt;
-
-      &lt;p&gt;Microsoft ❤️ Docker&lt;/p&gt;
-
-      &lt;p&gt;Microsoft ❤️ Open Source&lt;/p&gt;
-
-      &lt;p&gt;Microsoft ❤️ …&lt;/p&gt;
-
-      &lt;p&gt;好好好，你什么都爱&lt;/p&gt;
-
-      &lt;p&gt;from &lt;em&gt;&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;a-nameservicea&quot;&gt;服务 &lt;a name=&quot;service&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://asciinema.org/&quot;&gt;asciinema&lt;/a&gt;
-  &amp;gt; Record and share your terminal sessions, the right way.
-  &amp;gt;
-  &amp;gt; &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;’s demo: https://asciinema.org/a/81546
-  &amp;gt; 
-  &amp;gt; 好酷炫
-  &amp;gt; 
-  &amp;gt; from &lt;em&gt;&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://libraries.io/github/gaocegege&quot;&gt;Libraries.io - @gaocegege’s page&lt;/a&gt;
-  &amp;gt; Libraries helps you find new open source libraries, modules and frameworks and keep track of ones you depend upon.
-  &amp;gt; 
-  &amp;gt; from &lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://sketchfab.com/&quot;&gt;Sketchfab&lt;/a&gt;
-  &amp;gt; Sketchfab is the leading platform to publish and find 3D and VR content, anywhere online. We are building for 3D content what YouTube did for video: we provide the best 3D player and are the fastest growing 3D and VR repository. Sketchfab integrates with all major 3D creation tools and publishing platforms, and is the 3D publishing partner of Adobe Photoshop, Facebook, Microsoft HoloLens and Intel RealSense
-  &amp;gt; 
-  &amp;gt; cc &lt;a href=&quot;https://github.com/laohyx&quot;&gt;@laohyx&lt;/a&gt;
-  &amp;gt; 
-  &amp;gt; from &lt;em&gt;&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Weekly 07/28 - 08/03</summary></entry><entry><title type="html">Weekly</title><link href="http://localhost:4000/weekly/weekly/2016/07/27/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-07-27T00:00:00+08:00</published><updated>2016-07-27T00:00:00+08:00</updated><id>http://localhost:4000/weekly/weekly/2016/07/27/weekly</id><content type="html" xml:base="http://localhost:4000/weekly/weekly/2016/07/27/weekly.html">&lt;h1 id=&quot;weekly-0721---0727&quot;&gt;Weekly 07/21 - 07/27&lt;/h1&gt;
-
-&lt;p&gt;周报第四十三期&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;催稿人:
-&lt;a href=&quot;https://github.com/arrowrowe&quot;&gt;@arrowrowe&lt;/a&gt; 的proxy &lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;交稿人:
-&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;
-&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;
-&lt;a href=&quot;https://github.com/JasonQSY&quot;&gt;@JasonQSY&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;news&quot;&gt;News&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://wiki.geant.org/display/OCM/Open+Cloud+Mesh&quot;&gt;OpenCloudMeshOpenCloudMesh (share between private clouds)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://blog.jetbrains.com/clion/2016/07/clion-2016-2-released/&quot;&gt;Clion 2016.2 has added support for remote gdb debug.&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;projects&quot;&gt;Projects&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://pydio.com/&quot;&gt;Pydio&lt;/a&gt;, another ownCloud https://github.com/pydio/pydio-core&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/CRYTEK-CRYENGINE/CRYENGINE&quot;&gt;CRYENGINE source code&lt;/a&gt;
-&amp;gt; CRYENGINE 的代码仓库，不过提交方式有点怪？by &lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;@ComMouse they use perforce https://www.perforce.com/perforce/doc.current/manuals/git-fusion/
-gitfusion is mentioned in commit. Also perforce has a fork for gitlab called gitswarm by &lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://druid.io&quot;&gt;Druid: Column oriented distributed data store ideal for powering interactive applications&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;https://github.com/druid-io/druid&lt;/li&gt;
-      &lt;li&gt;Paper: http://static.druid.io/docs/druid.pdf&lt;/li&gt;
-      &lt;li&gt;Ref-1, Column vs Row Speed http://db.csail.mit.edu/projects/cstore/abadi-sigmod08.pdf&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/kennethreitz/em&quot;&gt;the cli emoji keyboard™&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/2c048baf2dfde25643451fe33877706b7188ccea/687474703a2f2f662e636c2e6c792f6974656d732f30503365313132303157316f3432304f314e31532f53637265656e25323053686f74253230323031362d30372d32352532306174253230322e30302e3332253230414d2e706e67&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;book--notes&quot;&gt;Book &amp;amp; Notes&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://wiki.jikexueyuan.com/project/intellij-idea-tutorial/&quot;&gt;IntelliJ IDEA 简体中文专题教程&lt;/a&gt;
-&amp;gt; 感觉不错的样子 by &lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;https://about.gitlab.com/handbook/ cc @arrowrowe @ComMouse&lt;/li&gt;
-  &lt;li&gt;http://blog.mrriddler.com/2016/07/20/%E5%9B%BE%E7%89%87%E4%B9%8B%E6%97%85/  介绍了各种图片格式 cc @组花&lt;/li&gt;
-  &lt;li&gt;http://martinfowler.com/articles/serverless.html  关于 serverless 架构的早期文章&lt;/li&gt;
-  &lt;li&gt;https://github.com/shekhargulati/99-problems cc @arrowrowe&lt;/li&gt;
-  &lt;li&gt;https://github.com/FallibleInc/security-guide-for-developers cc @ComMouse&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://weblog.jamisbuck.org/2011/2/7/maze-generation-algorithm-recap&quot;&gt;Maze Generation: Algorithm Recap&lt;/a&gt;
-&amp;gt; 介绍了一些迷宫生成算法 by &lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;
-&amp;gt; @ComMouse 你最近是在做游戏么? by &lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;
-&amp;gt; @at15 并没有。。只是到处乱逛 by &lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://medium.com/@ArmandGrillet/comparison-of-container-schedulers-c427f4f7421?from=timeline&amp;amp;isappinstalled=0#.p4wyajgqw&quot;&gt;Comparison of Container Schedulers&lt;/a&gt;
- &amp;gt; 比较调度器的文章，不止限于容器 by &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;animation&quot;&gt;Animation&lt;/h2&gt;
-
-&lt;p&gt;Manga&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;https://github.com/mzp/EagleJumpSystem yonkoma manga management system&lt;/li&gt;
-  &lt;li&gt;https://github.com/mzp/zoi-grep grep for EagleJumpSystem&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;author https://github.com/mzp&lt;/p&gt;
-
-&lt;p&gt;cc @arrowrowe @daniyuu&lt;/p&gt;
-
-&lt;h2 id=&quot;game&quot;&gt;Game&lt;/h2&gt;
-
-&lt;p&gt;Pokemon Go&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;https://github.com/AeonLucid/POGOProtos&lt;/li&gt;
-  &lt;li&gt;https://github.com/jaspervdm/pogoprotos-php&lt;/li&gt;
-  &lt;li&gt;https://github.com/jaspervdm/pogoapi-php&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;WebGL interactive film&lt;/strong&gt; (Recommended!) cc @ComMouse&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;http://www.ro.me/&lt;/li&gt;
-  &lt;li&gt;https://github.com/dataarts/3-dreams-of-black&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Weekly 07/21 - 07/27</summary></entry><entry><title type="html">Weekly</title><link href="http://localhost:4000/weekly/weekly/2016/07/20/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-07-20T00:00:00+08:00</published><updated>2016-07-20T00:00:00+08:00</updated><id>http://localhost:4000/weekly/weekly/2016/07/20/weekly</id><content type="html" xml:base="http://localhost:4000/weekly/weekly/2016/07/20/weekly.html">&lt;h1 id=&quot;weekly-0714---0720&quot;&gt;Weekly 07/14 - 07/20&lt;/h1&gt;
-
-&lt;p&gt;周报第四十二期&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;催稿人:
-&lt;a href=&quot;https://github.com/swaylq&quot;&gt;@swaylq&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;交稿人:
-&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;
-&lt;a href=&quot;https://github.com/arrowrowe&quot;&gt;@arrowrowe&lt;/a&gt;
-&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=nXaxk27zwlk&quot;&gt;CppCon 2015: Chandler Carruth “Tuning C++: Benchmarks, and CPUs, and Compilers! Oh My!”&lt;/a&gt; also applies to other languages
+&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.freeorion.org/index.php/Main_Page&quot;&gt;FreeOrion&lt;/a&gt; is a free, open source, turn-based space empire and galactic conquest (4X) computer game&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/exercism/exercism.io&quot;&gt;https://github.com/exercism/exercism.io&lt;/a&gt; Quickly ramp up in new programming languages&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.themoviedb.org/documentation/api&quot;&gt;https://www.themoviedb.org/documentation/api&lt;/a&gt;
+&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt; (though we may never see movie on tq … ;w;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.filestack.com/&quot;&gt;https://www.filestack.com/&lt;/a&gt; might help design file upload and management UI and API
+&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ajalt/fuckitpy&quot;&gt;https://github.com/ajalt/fuckitpy&lt;/a&gt;
+&lt;a href=&quot;https://github.com/arrowrowe&quot;&gt;@arrowrowe&lt;/a&gt;, &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;(只知 Py 不识 Golang 的策策)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mattdiamond/fuckitjs&quot;&gt;https://github.com/mattdiamond/fuckitjs&lt;/a&gt;
+&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt; write a fuckitphp?&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.meetup.com/&quot;&gt;https://www.meetup.com/&lt;/a&gt;
+&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://zazuapp.org/&quot;&gt;http://zazuapp.org/&lt;/a&gt; opensource replacement for Alfred&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">xLua, xLua is a hot-fix solution plugin for Unity3D, it supports android, ios, windows, osx, etc.</summary></entry><entry><title type="html">Weekly</title><link href="http://dongyueweb.com/weekly/weekly/2016/12/28/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-12-28T00:00:00+08:00</published><updated>2016-12-28T00:00:00+08:00</updated><id>http://dongyueweb.com/weekly/weekly/2016/12/28/weekly</id><content type="html" xml:base="http://dongyueweb.com/weekly/weekly/2016/12/28/weekly.html">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://allenkim67.github.io/bittorrent/2016/05/04/how-to-make-your-own-bittorrent-client.html&quot;&gt;https://allenkim67.github.io/bittorrent/2016/05/04/how-to-make-your-own-bittorrent-client.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/wepayui/wepayui&quot;&gt;https://github.com/wepayui/wepayui&lt;/a&gt;
+&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/GameServerManagers/LinuxGSM/wiki/Rust&quot;&gt;https://github.com/GameServerManagers/LinuxGSM/wiki/Rust&lt;/a&gt; install rust server on linux
 &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/fatedier/frp&quot;&gt;https://github.com/fatedier/frp&lt;/a&gt; A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/&quot;&gt;浏览器的工作原理：新式网络浏览器幕后揭秘&lt;/a&gt;
+&amp;gt; 网络浏览器很可能是使用最广的软件。在这篇入门文章中，我将会介绍它们的幕后工作原理。我们会了解到，从您在地址栏输入 google.com 直到您在浏览器屏幕上看到 Google 首页的整个过程中都发生了些什么。
+&lt;a href=&quot;https://github.com/bjmiao&quot;&gt;@bjmiao&lt;/a&gt;, &lt;a href=&quot;https://github.com/Pengzhenghao&quot;&gt;@Pengzhenghao&lt;/a&gt;, &lt;a href=&quot;https://github.com/orgs/dyweb/teams/web-novice&quot;&gt;@dyweb/web-novice&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/go-gitea/gitea&quot;&gt;https://github.com/go-gitea/gitea&lt;/a&gt; starred by &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;, it seems to be a fork of gogs?…&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/anmoljagetia/Flatabulous&quot;&gt;https://github.com/anmoljagetia/Flatabulous&lt;/a&gt; flat theme for ubuntu
+&lt;a href=&quot;https://github.com/arrowrowe&quot;&gt;@arrowrowe&lt;/a&gt;, &lt;a href=&quot;https://github.com/kdplus&quot;&gt;@kdplus&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Hironsan/BossSensor&quot;&gt;https://github.com/Hironsan/BossSensor&lt;/a&gt; switch to work screen when boss shows up&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.masterclass.com&quot;&gt;https://www.masterclass.com&lt;/a&gt; learn acting from Kevin Sapcey&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/matricks/teeworlds&quot;&gt;https://github.com/matricks/teeworlds&lt;/a&gt; A retro multiplayer shooter
+&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;
+&lt;img src=&quot;https://www.teeworlds.com/images/screens/screenshot_desert.png&quot; alt=&quot;s&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/francescou/docker-compose-ui&quot;&gt;https://github.com/francescou/docker-compose-ui&lt;/a&gt; a UI and REST API for docker-compose&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://allenkim67.github.io/bittorrent/2016/05/04/how-to-make-your-own-bittorrent-client.html
+  https://github.com/wepayui/wepayui
+@ComMouse
+  https://github.com/GameServerManagers/LinuxGSM/wiki/Rust install rust server on linux
+@gaocegege
+  https://github.com/fatedier/frp A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet
+  浏览器的工作原理：新式网络浏览器幕后揭秘
+&amp;gt; 网络浏览器很可能是使用最广的软件。在这篇入门文章中，我将会介绍它们的幕后工作原理。我们会了解到，从您在地址栏输入 google.com 直到您在浏览器屏幕上看到 Google 首页的整个过程中都发生了些什么。
+@bjmiao, @Pengzhenghao, @dyweb/web-novice
+  https://github.com/go-gitea/gitea starred by @gaocegege, it seems to be a fork of gogs?…
+  https://github.com/anmoljagetia/Flatabulous flat theme for ubuntu
+@arrowrowe, @kdplus
+  https://github.com/Hironsan/BossSensor switch to work screen when boss shows up
+  https://www.masterclass.com learn acting from Kevin Sapcey
+  https://github.com/matricks/teeworlds A retro multiplayer shooter
+@gaocegege
 
-&lt;h2 id=&quot;a-nameliba&quot;&gt;一些库 &lt;a name=&quot;lib&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/ianstormtaylor/slate&quot;&gt;slate&lt;/a&gt;, A completely customizable framework for building rich text editors in the browser.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/fzaninotto/Faker&quot;&gt;Faker&lt;/a&gt;, Faker is a PHP library that generates fake data for you.&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;很管用啊感觉, by &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/go-gomail/gomail&quot;&gt;gomail&lt;/a&gt;, 用golang连接smtp服务器发邮件的lib.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;a-nametoola&quot;&gt;一些工具 &lt;a name=&quot;tool&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/yhatt/marp&quot;&gt;marp&lt;/a&gt;, Electron based markdown editor (pre maker?)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://unsplash.com/&quot;&gt;unsplash&lt;/a&gt;, Free (do whatever you want) high-resolution photos. For 10 new photos every 10 days.&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;it has API: https://unsplash.com/developers&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://gitamin.com/&quot;&gt;Gitamin&lt;/a&gt;, An open-source, self-hosted git repository management software based on the Laravel PHP Framework.&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;http://www.gitamin.com/screenshot1.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://wercker.com/&quot;&gt;wercker&lt;/a&gt;, Automate your development. Move faster with pipelines and steps. cc &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;.&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;re @at15 http://wercker.com/ 不好用, by &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;a-namestrangea&quot;&gt;奇怪的东西 &lt;a name=&quot;strange&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.dabeaz.com/ply/&quot;&gt;PLY (Python Lex-Yacc)&lt;/a&gt;, PLY is an implementation of lex and yacc parsing tools for Python.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;a-namesearcha&quot;&gt;关于搜索 &lt;a name=&quot;search&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;All about search&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/sampson-chen/sack&quot;&gt;sack&lt;/a&gt;, s(hortcut)-ack: a faster way to use ag, ack (or grep)!&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/ggreer/the_silver_searcher&quot;&gt;the_silver_searcher&lt;/a&gt;, A code-searching tool similar to ack, but faster.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/monochromegane/the_platinum_searcher&quot;&gt;the_platinum_searcher&lt;/a&gt;, A code search tool similar to ack and the_silver_searcher(ag).&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://beyondgrep.com/more-tools/&quot;&gt;more-tools&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;p2p--a-namep2pa&quot;&gt;P2P 文件分享 &lt;a name=&quot;p2p&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/mafintosh/hyperdrive&quot;&gt;Hyperdrive&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/mafintosh/hypercore&quot;&gt;Hypercore&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/datproject/docs/blob/master/hyperdrive.md&quot;&gt;Hyperdrive + Hypercore Specification&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;pokemon-go-a-namepokemona&quot;&gt;Pokemon-Go专题 &lt;a name=&quot;pokemon&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/huacnlee/PokemonGoMove&quot;&gt;PokemonGoMove&lt;/a&gt;, Pokemon GO iOS GPS Emulator - NO Jailbreak needed, lets you play the game on your Mac :)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/jxmorris12/PokemonGo-Finder&quot;&gt;PokemonGo-Finder&lt;/a&gt;, 发现周围的Pokemon并通知.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/mchristopher/PokemonGo-DesktopMap&quot;&gt;PokemonGo-DesktopMap&lt;/a&gt;, Electron App around PokemonGo-Map.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/iam4x/pokemongo-webspoof&quot;&gt;pokemongo-webspoof&lt;/a&gt;, 亲测可用，功能同第一个.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/rpplusplus/PokemonHook&quot;&gt;PokemonHook&lt;/a&gt;, 在Github上发现的第一个Pokemon相关的项目，是Fake Location的，就是把基准位置定为其他地方，来解决国内地图没有Pokemon的问题.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;All by &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Weekly 07/14 - 07/20</summary></entry><entry><title type="html">Weekly</title><link href="http://localhost:4000/weekly/weekly/2016/07/13/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-07-13T00:00:00+08:00</published><updated>2016-07-13T00:00:00+08:00</updated><id>http://localhost:4000/weekly/weekly/2016/07/13/weekly</id><content type="html" xml:base="http://localhost:4000/weekly/weekly/2016/07/13/weekly.html">&lt;h1 id=&quot;weekly-0706---0713&quot;&gt;Weekly 07/06 - 07/13&lt;/h1&gt;
-
-&lt;p&gt;周报第四十一期&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;催稿人:
-&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;交稿人:
-&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;
-&lt;a href=&quot;https://github.com/arrowrowe&quot;&gt;@arrowrowe&lt;/a&gt;
+  https://github.com/francescou/docker-compose-ui a UI and REST API for docker-compose</summary></entry><entry><title type="html">Weekly</title><link href="http://dongyueweb.com/weekly/weekly/2016/12/21/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-12-21T00:00:00+08:00</published><updated>2016-12-21T00:00:00+08:00</updated><id>http://dongyueweb.com/weekly/weekly/2016/12/21/weekly</id><content type="html" xml:base="http://dongyueweb.com/weekly/weekly/2016/12/21/weekly.html">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Tencent/bk-cmdb&quot;&gt;https://github.com/Tencent/bk-cmdb&lt;/a&gt; 抓到野生的CI一只
+&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ipify.org/&quot;&gt;https://www.ipify.org/&lt;/a&gt; get your public ip programmatically&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/gchq/CyberChef&quot;&gt;https://github.com/gchq/CyberChef&lt;/a&gt;
+&lt;a href=&quot;https://github.com/arrowrowe&quot;&gt;@arrowrowe&lt;/a&gt;, &lt;a href=&quot;https://github.com/spacemeowx2&quot;&gt;@spacemeowx2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://realm.io/&quot;&gt;https://realm.io/&lt;/a&gt; a mobile database for two way data sync and real time collaboration
 &lt;a href=&quot;https://github.com/swaylq&quot;&gt;@swaylq&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;golang&quot;&gt;Golang&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Run other language in golang&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/robertkrimen/otto&quot;&gt;JavaScript&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/deuill/go-php&quot;&gt;PHP&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/emirpasic/gods&quot;&gt;GoDS (Go Data Structures)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://parellagram.com/posts/carving&quot;&gt;Dynamic Image Resizing with Go&lt;/a&gt; (GitHub: &lt;a href=&quot;https://github.com/aaparella/carve&quot;&gt;aaparella/carve&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/go-playground/validator&quot;&gt;Go Struct and Field validation&lt;/a&gt; Including Cross Field, Cross Struct, Map, Slice and Array diving&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/adnanh/webhook&quot;&gt;adnanh/webhook&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;javascript&quot;&gt;JavaScript&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/NamPNQ/You-Dont-Need-Javascript&quot;&gt;You Don’t Need JavaScript&lt;/a&gt;
-&amp;gt; Css is powerful, you can do a lot of things without js.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://davidwalsh.name/trackjs&quot;&gt;trackjs&lt;/a&gt; JavaScript Error Monitoring.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;server-less&quot;&gt;Server less&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;https://github.com/awslabs/chalice Python Serverless Microframework for AWS using AWS Lambda&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;opensource implementation for aws lambda&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;https://github.com/siscia/effe A simple open source implementation of AWS Lambda&lt;/li&gt;
-  &lt;li&gt;https://news.ycombinator.com/item?id=10477943&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;skrebbel 256 days ago [-]&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In a way, Amazon Lambda is just “upload a PHP script to my $3 shared webhost”, except:
-  - JavaScript/Java/Python instead of PHP
-  - Can handle gigantic bucketloads of requests per second, transparently
-If you don’t expect to scale super high, and if the actual language isn’t sacred to you, then you can get the exact same ease of deployment and a comparably large ecosystem of open source on your favorite el cheapo webhost.
-Many of the reasons Lambda is attractive are the same reasons PHP became so popular (despite the not-so-awesome language).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;new&quot;&gt;New!&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://myactivity.google.com/myactivity&quot;&gt;Your Google Activity&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://rungoterminal.com/&quot;&gt;Go Terminal&lt;/a&gt;, Elegant and efficient Linux terminal.&lt;br /&gt;
-&amp;gt; Not free :( by &lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.ruma.io/&quot;&gt;Ruma&lt;/a&gt; (GitHub: &lt;a href=&quot;https://github.com/ruma&quot;&gt;ruma&lt;/a&gt;), a Matrix homeserver written in Rust.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;What is &lt;strong&gt;Matrix&lt;/strong&gt;? An open specification for an online communication protocol.&lt;/li&gt;
-    &lt;li&gt;What is &lt;strong&gt;Rust&lt;/strong&gt;? A systems programming language from Mozilla built with safety, concurrency, and performance in mind.&lt;/li&gt;
-    &lt;li&gt;What is &lt;strong&gt;Ruma&lt;/strong&gt;? A Matrix homeserver written in Rust.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;http://kanban.leanlabs.io/ a much better (look) kanboard for gitlab&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://var.ci/&quot;&gt;VarCI&lt;/a&gt;, The Missing Assistant For GitHub Issues.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://gitamin.com&quot;&gt;Gitamin&lt;/a&gt; (GitHub: &lt;a href=&quot;https://github.com/GitaminHQ/Gitamin&quot;&gt;GitaminHQ/Gitamin&lt;/a&gt;), an open-source, self-hosted git repository management software based on the Laravel PHP Framework.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/lgtmco/lgtm&quot;&gt;LGTM&lt;/a&gt; LGTM is a simple pull request approval system https://lgtm.co&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/Microsoft/malmo&quot;&gt;Malmo&lt;/a&gt;  Project Malmo is a platform for Artificial Intelligence experimentation and research built on top of Minecraft. We aim to inspire a new generation of research into challenging new problems presented by this unique environment&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;updates&quot;&gt;Updates&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://hintjens.com/blog:121&quot;&gt;Living, in Limbo&lt;/a&gt;
-&amp;gt; 往期回顾: Weekly/31 &lt;a href=&quot;https://github.com/dyweb/web-stuff/blob/master/weekly/2016/0504.md#special-topic-a-protocol-for-dying&quot;&gt;Special Topic: A Protocol for Dying&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://eslint.org/blog/2016/07/eslint-v3.0.0-released&quot;&gt;eslint-v3.0.0-released&lt;/a&gt;
-&amp;gt; 往期回顾: &lt;a href=&quot;https://github.com/dyweb/web-stuff/blob/33e4a8cb61705210d4a127678a323725ca24f0cd/weekly/2016/0217.md&quot;&gt;Weekly/20&lt;/a&gt;
-&amp;gt; &lt;a href=&quot;http://eslint.org/blog/2016/02/eslint-v2.0.0-released&quot;&gt;eslint-v2.0.0-released&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;stuff&quot;&gt;Stuff&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;https://www.ventureharbour.com/transactional-email-service-best-mandrill-vs-sendgrid-vs-mailjet/ compare between mail services&lt;/li&gt;
-  &lt;li&gt;https://github.com/vmware/harbor stared by @gaocegege , saw caicloud in partner ….&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Weekly 07/06 - 07/13</summary></entry></feed>
+  &lt;li&gt;&lt;a href=&quot;https://github.com/joshuaduffy/dota2api&quot;&gt;https://github.com/joshuaduffy/dota2api&lt;/a&gt;
+听说你们很多人都打Dota……大概可以自己搞Dota助手之类的了……&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mattrajca/sudo-touchid&quot;&gt;sudo-touchid&lt;/a&gt;, Use touchid on 2016 mbp for sudo authorization!
+&lt;a href=&quot;https://github.com/LukeXuan&quot;&gt;@LukeXuan&lt;/a&gt;, &lt;a href=&quot;https://github.com/swaylq&quot;&gt;@swaylq&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/phodal/growth&quot;&gt;https://github.com/phodal/growth&lt;/a&gt;
+&amp;gt; Growth是一款专注于Web开发者成长的应用，涵盖Web开发的流程及技术栈，Web开发的学习路线、成长衡量等各方面
+&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/Tencent/bk-cmdb 抓到野生的CI一只
+@ComMouse
+  https://www.ipify.org/ get your public ip programmatically
+  https://github.com/gchq/CyberChef
+@arrowrowe, @spacemeowx2
+  https://realm.io/ a mobile database for two way data sync and real time collaboration
+@swaylq
+  https://github.com/joshuaduffy/dota2api
+听说你们很多人都打Dota……大概可以自己搞Dota助手之类的了……
+  sudo-touchid, Use touchid on 2016 mbp for sudo authorization!
+@LukeXuan, @swaylq
+  https://github.com/phodal/growth
+&amp;gt; Growth是一款专注于Web开发者成长的应用，涵盖Web开发的流程及技术栈，Web开发的学习路线、成长衡量等各方面
+@ComMouse</summary></entry><entry><title type="html">Weekly</title><link href="http://dongyueweb.com/weekly/weekly/2016/11/30/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2016-11-30T00:00:00+08:00</published><updated>2016-11-30T00:00:00+08:00</updated><id>http://dongyueweb.com/weekly/weekly/2016/11/30/weekly</id><content type="html" xml:base="http://dongyueweb.com/weekly/weekly/2016/11/30/weekly.html">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://cssreference.io/&quot;&gt;CSSReference&lt;/a&gt;, a free visual guide to CSS.
+&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;, &lt;a href=&quot;https://github.com/JasonQSY&quot;&gt;@JasonQSY&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/benrady/shinatra&quot;&gt;Shinatra&lt;/a&gt;, a simple web server in 5 lines of bash.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/major/MySQLTuner-perl&quot;&gt;MySQLTuner-perl&lt;/a&gt;
+&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/erttyy8821/MyDiary&quot;&gt;MyDiary&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Tencent/MSEC&quot;&gt;MSEC&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/CorfuDB/CorfuDB&quot;&gt;CorfuDB&lt;/a&gt;
+&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;, &lt;a href=&quot;https://github.com/mrmiywj&quot;&gt;@mrmiywj&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/miloyip/game-programmer&quot;&gt;game-programmer&lt;/a&gt;, a full reading guide
+&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/owntracks/android&quot;&gt;https://github.com/owntracks/android&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ampproject.org/&quot;&gt;https://www.ampproject.org/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Randommood/YOW2016&quot;&gt;https://github.com/Randommood/YOW2016&lt;/a&gt;
+&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/trueadm/inferno&quot;&gt;https://github.com/trueadm/inferno&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/platform9/fission&quot;&gt;https://github.com/platform9/fission&lt;/a&gt;, serverless framework running on k8s
+&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://s905060.gitbooks.io/site-reliability-engineer-handbook&quot;&gt;https://s905060.gitbooks.io/site-reliability-engineer-handbook&lt;/a&gt;
+&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/hypothesis/h&quot;&gt;https://github.com/hypothesis/h&lt;/a&gt;, &lt;a href=&quot;https://github.com/hypothesis/pdf.js-hypothes.is&quot;&gt;https://github.com/hypothesis/pdf.js-hypothes.is&lt;/a&gt;, Annotate PDF can be used for communication on paper reviews
+&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;, &lt;a href=&quot;https://github.com/mrmiywj&quot;&gt;@mrmiywj&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/kripken/emscripten&quot;&gt;https://github.com/kripken/emscripten&lt;/a&gt; llvm -&amp;gt; js 向js低头
+&lt;a href=&quot;https://github.com/mrmiywj&quot;&gt;@mrmiywj&lt;/a&gt;, &lt;a href=&quot;https://github.com/xplorld&quot;&gt;@xplorld&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.aosabook.org/en/index.html&quot;&gt;http://www.aosabook.org/en/index.html&lt;/a&gt; The Architecture of Open Source Applications
+&lt;a href=&quot;https://github.com/orgs/dyweb/teams/mos&quot;&gt;@dyweb/mos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">CSSReference, a free visual guide to CSS.
+@ComMouse, @JasonQSY
+  Shinatra, a simple web server in 5 lines of bash.
+  MySQLTuner-perl
+@ComMouse
+  MyDiary
+  MSEC
+  CorfuDB
+@gaocegege, @mrmiywj
+  game-programmer, a full reading guide
+@ComMouse
+  https://github.com/owntracks/android
+  https://www.ampproject.org/
+  https://github.com/Randommood/YOW2016
+@gaocegege
+  https://github.com/trueadm/inferno
+  https://github.com/platform9/fission, serverless framework running on k8s
+@gaocegege
+  https://s905060.gitbooks.io/site-reliability-engineer-handbook
+@ComMouse
+  https://github.com/hypothesis/h, https://github.com/hypothesis/pdf.js-hypothes.is, Annotate PDF can be used for communication on paper reviews
+@gaocegege, @mrmiywj
+  https://github.com/kripken/emscripten llvm -&amp;gt; js 向js低头
+@mrmiywj, @xplorld
+  http://www.aosabook.org/en/index.html The Architecture of Open Source Applications
+@dyweb/mos</summary></entry></feed>
