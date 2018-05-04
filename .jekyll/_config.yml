@@ -17,7 +17,7 @@ title: 东岳周报
 email: weekly@dongyue.io
 description: > # this means to ignore newlines until "baseurl:"
   The Dongyuew Web Weekly.
-baseurl: "/weekly" # the subpath of your site, e.g. /blog
+# baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://dongyueweb.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  dyweb
 
@@ -29,4 +29,3 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
-
