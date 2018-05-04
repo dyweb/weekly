@@ -18,7 +18,7 @@ email: weekly@dongyue.io
 description: > # this means to ignore newlines until "baseurl:"
   The Dongyuew Web Weekly.
 # baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://dongyueweb.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://dongyueweb.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  dyweb
 
 # Build settings
