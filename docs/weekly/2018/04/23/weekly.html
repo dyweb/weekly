@@ -66,43 +66,47 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>https://github.com/360EntSecGroup-Skylar/goreporter</p>
+    <p><a href="https://github.com/360EntSecGroup-Skylar/goreporter">https://github.com/360EntSecGroup-Skylar/goreporter</a></p>
 
 <p><img src="https://raw.githubusercontent.com/360EntSecGroup-Skylar/goreporter/master/DISPLAY.gif" alt="有图有咩咩"></p>
 
 <hr>
 
-<p>https://github.com/goreleaser/goreleaser looks good and we can implement similar things in ayi</p>
+<p><a href="https://github.com/goreleaser/goreleaser">https://github.com/goreleaser/goreleaser</a> looks good and we can implement similar things in ayi</p>
 
 <hr>
 
-<p>http://shields.io/ badge collection</p>
+<p><a href="http://shields.io/">http://shields.io/</a> badge collection</p>
 
 <hr>
 
-<p>https://webassembly.studio/ support rust <a href="https://github.com/codeworm96" class="user-mention">@codeworm96</a></p>
+<p><a href="https://webassembly.studio/">https://webassembly.studio/</a> support rust <a href="https://github.com/codeworm96" class="user-mention">@codeworm96</a> </p>
 
 <hr>
 
-<p>from</p>
+<p>from </p>
 
 <ul>
-  <li>https://sqlite.org/whynotgit.html 里面的 xkcd 就是我用 git 的真实写照</li>
-  <li>https://electronjs.org/blog/in-app-purchases electron 支持內购了(我们出个东岳的桌面客户端吧</li>
-  <li>https://github.com/vuejs/vuepress 感觉 https://github.com/nuxt/nuxt.js 要少一些客户额</li>
-  <li>https://edgedb.com/ 基于 pg 用 python 写的 object relational db, 支持 graphql 自己也有个 query language，说要开源，还没开源。</li>
+<li>
+<a href="https://sqlite.org/whynotgit.html">https://sqlite.org/whynotgit.html</a> 里面的 xkcd 就是我用 git 的真实写照</li>
+<li>
+<a href="https://electronjs.org/blog/in-app-purchases">https://electronjs.org/blog/in-app-purchases</a> electron 支持內购了(我们出个东岳的桌面客户端吧</li>
+<li>
+<a href="https://github.com/vuejs/vuepress">https://github.com/vuejs/vuepress</a> 感觉 <a href="https://github.com/nuxt/nuxt.js">https://github.com/nuxt/nuxt.js</a> 要少一些客户额</li>
+<li>
+<a href="https://edgedb.com/">https://edgedb.com/</a> 基于 pg 用 python 写的 object relational db, 支持 graphql 自己也有个 query language，说要开源，还没开源。</li>
 </ul>
 
 <hr>
 
-<p>foundationdb 在被 apple 收购之后又开源了 https://www.foundationdb.org/blog/foundationdb-is-open-source/ https://github.com/apple/foundationdb</p>
+<p>foundationdb 在被 apple 收购之后又开源了 <a href="https://www.foundationdb.org/blog/foundationdb-is-open-source/">https://www.foundationdb.org/blog/foundationdb-is-open-source/</a> <a href="https://github.com/apple/foundationdb">https://github.com/apple/foundationdb</a></p>
 
 <hr>
 
-<p>go 用 ragel http://www.colm.net/open-source/ragel/ 写的 syslog parser 说比 rust 的还快 https://github.com/influxdata/go-syslog#performance <a href="https://github.com/codeworm96" class="user-mention">@codeworm96</a></p>
+<p>go 用 ragel <a href="http://www.colm.net/open-source/ragel/">http://www.colm.net/open-source/ragel/</a> 写的 syslog parser 说比 rust 的还快 <a href="https://github.com/influxdata/go-syslog#performance">https://github.com/influxdata/go-syslog#performance</a> <a href="https://github.com/codeworm96" class="user-mention">@codeworm96</a> </p>
 
 <blockquote>
-  <p>~2µs to parse an average legal message
+<p>~2µs to parse an average legal message
 Other RFC5424 implementations, like this one in Rust, spend 8µs to parse an average legal message.</p>
 </blockquote>
 
@@ -116,45 +120,47 @@ Other RFC5424 implementations, like this one in Rust, spend 8µs to parse an ave
 
 <hr>
 
-<p><a href="https://github.com/codeworm96" class="user-mention">@codeworm96</a> 很早就有了各种依赖的工具，社区也一直在改进。另外有个坑是，不完整的 vendor 会出错, 比如 <code class="highlighter-rouge">github.com/dyweb/ayi/venodr/github.com/dyweb/gommon</code> 和 <code class="highlighter-rouge">github.com/dyweb/gommon</code> 并不是一个库，虽然代码可能是一样的，编译会报错。写 example 的时候就会比较迷 https://github.com/at15/go.ice/blob/master/example/github/Gopkg.toml#L29-L48</p>
+<p><a href="https://github.com/codeworm96" class="user-mention">@codeworm96</a> 很早就有了各种依赖的工具，社区也一直在改进。另外有个坑是，不完整的 vendor 会出错, 比如 <code>github.com/dyweb/ayi/venodr/github.com/dyweb/gommon</code> 和 <code>github.com/dyweb/gommon</code> 并不是一个库，虽然代码可能是一样的，编译会报错。写 example 的时候就会比较迷 <a href="https://github.com/at15/go.ice/blob/master/example/github/Gopkg.toml#L29-L48">https://github.com/at15/go.ice/blob/master/example/github/Gopkg.toml#L29-L48</a></p>
 
-<p>我其实很喜欢 go 这样安排 workspace, 所以 <code class="highlighter-rouge">ayi git clone</code> 就按 go 的方式自动指定 clone destination。感觉比分好多文件夹用起来方便多了。我觉得性能要求不是特别高，code base 不是很大的项目，用 go 还是可以的。</p>
+<p>我其实很喜欢 go 这样安排 workspace, 所以 <code>ayi git clone</code> 就按 go 的方式自动指定 clone destination。感觉比分好多文件夹用起来方便多了。我觉得性能要求不是特别高，code base 不是很大的项目，用 go 还是可以的。</p>
 
 <hr>
 
-<p>根本不知道 cpp 怎么写的 gopher 路过 …</p>
+<p>根本不知道 cpp 怎么写的 gopher 路过 ...</p>
 
 <blockquote>
-  <p>Friends don’t let friends use unions, unless they are type-safe …. Released in Abseil today: absl::variant, a C++11 compatible version of C++17’s std:variant!</p>
+<p>Friends don't let friends use unions, unless they are type-safe .... Released in Abseil today: absl::variant, a C++11 compatible version of C++17's std:variant!</p>
 </blockquote>
 
-<p>https://github.com/abseil/abseil-cpp/blob/master/absl/types/variant.h</p>
+<p><a href="https://github.com/abseil/abseil-cpp/blob/master/absl/types/variant.h">https://github.com/abseil/abseil-cpp/blob/master/absl/types/variant.h</a></p>
 
 <hr>
 
-<p>https://github.com/Genymobile/scrcpy Display and control your Android device without root</p>
+<p><a href="https://github.com/Genymobile/scrcpy">https://github.com/Genymobile/scrcpy</a> Display and control your Android device without root</p>
 
-<p>no longer need to buy chromecast to display screen to monitor ….</p>
+<p>no longer need to buy chromecast to display screen to monitor ....</p>
 
 <hr>
 
-<p>https://github.com/dawnlabs/carbon
+<p><a href="https://github.com/dawnlabs/carbon">https://github.com/dawnlabs/carbon</a>
 Code screenshots for presentation</p>
 
 <hr>
 
 <ul>
-  <li>https://github.com/esnet/iperf iperf3: A TCP, UDP, and SCTP network bandwidth measurement tool</li>
-  <li>https://github.com/Azure/brigade event based scripting for kubernetes</li>
-  <li>https://github.com/Azure/kashti is a dashboard for brigade written in angular</li>
+<li>
+<a href="https://github.com/esnet/iperf">https://github.com/esnet/iperf</a> iperf3: A TCP, UDP, and SCTP network bandwidth measurement tool</li>
+<li>
+<a href="https://github.com/Azure/brigade">https://github.com/Azure/brigade</a> event based scripting for kubernetes</li>
+<li>
+<a href="https://github.com/Azure/kashti">https://github.com/Azure/kashti</a> is a dashboard for brigade written in angular</li>
 </ul>
 
 <hr>
 
-<p><a href="https://github.com/raspberryice" class="user-mention">@raspberryice</a> there was a standard for submission (will there also be review?) so the weekly generator can parse it and generate weekly without human involved https://github.com/dyweb/mos/issues/1 , though I don’t know how much <a href="https://github.com/codeworm96" class="user-mention">@codeworm96</a> implemented ….</p>
+<p><a href="https://github.com/raspberryice" class="user-mention">@raspberryice</a> there was a standard for submission (will there also be review?) so the weekly generator can parse it and generate weekly without human involved <a href="https://github.com/dyweb/mos/issues/1">https://github.com/dyweb/mos/issues/1</a> , though I don't know how much <a href="https://github.com/codeworm96" class="user-mention">@codeworm96</a> implemented ....</p>
 
 <hr>
-
 
   </div>
 

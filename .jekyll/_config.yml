@@ -22,13 +22,16 @@ url: "https://dongyueweb.com" # the base hostname & protocol for your site, e.g.
 github_username:  dyweb
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 theme: minima
 gems:
   - jekyll-feed
   - jekyll-mentions
+  - redcarpet
 exclude:
   - Gemfile
   - Gemfile.lock
 plugins_dir:
   - jekyll-mentions
+redcarpet:
+  extensions: ["autolink", "no_intra_emphasis", "tables"]

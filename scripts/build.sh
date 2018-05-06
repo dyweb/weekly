@@ -10,6 +10,7 @@ echo 'root = '${ROOT}
 echo 'workdir ='${WORKDIR}
 
 cd ${WORKDIR}
+bundle install
 mkdir -p ${POSTDIR}
 seq 2015 `date +%Y` | xargs -I% mv ${ROOT}/% ${POSTDIR}
 
