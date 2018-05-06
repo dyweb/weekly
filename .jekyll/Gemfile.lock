@@ -52,6 +52,7 @@ GEM
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
+    redcarpet (3.4.0)
     rouge (1.10.1)
     safe_yaml (1.0.4)
     sass (3.4.21)
@@ -67,6 +68,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   jekyll-mentions (~> 1.4)
   minima (~> 2.0)
+  redcarpet (~> 3.4)
 
 RUBY VERSION
    ruby 2.4.3p205

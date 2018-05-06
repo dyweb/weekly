@@ -24,3 +24,4 @@ group :jekyll_plugins do
 end
 
 gem "jekyll-mentions", "~> 1.4"
+gem "redcarpet", "~> 3.4"
