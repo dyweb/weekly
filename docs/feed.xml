@@ -1,5 +1,202 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-05-06T17:47:26+08:00</updated><id>https://dongyueweb.com//</id><title type="html">东岳周报</title><subtitle>The Dongyuew Web Weekly.
-</subtitle><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/04/30/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-04-30T00:00:00+08:00</published><updated>2018-04-30T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/04/30/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/04/30/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/Shopify/ghostferry&quot;&gt;https://github.com/Shopify/ghostferry&lt;/a&gt; live mysql migration, and it has tlaplus &lt;a href=&quot;https://github.com/Shopify/ghostferry/tree/master/tlaplus&quot;&gt;https://github.com/Shopify/ghostferry/tree/master/tlaplus&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-05-08T10:41:33+08:00</updated><id>https://dongyueweb.com//</id><title type="html">东岳周报</title><subtitle>The Dongyuew Web Weekly.
+</subtitle><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/05/07/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-05-07T00:00:00+08:00</published><updated>2018-05-07T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/05/07/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/05/07/weekly.html">&lt;p&gt;&lt;a href=&quot;https://coreos.com/blog/introducing-operator-framework&quot;&gt;https://coreos.com/blog/introducing-operator-framework&lt;/a&gt; #k8s cc @gaocegege @xplorld  the code is at &lt;a href=&quot;https://github.com/operator-framework&quot;&gt;https://github.com/operator-framework&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/apex/gh-polls&quot;&gt;https://github.com/apex/gh-polls&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;在 GitHub 上进行投票的工具&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://api.gh-polls.com/poll/01CCG1WQ34GSP9WY4XRSGN44JM/at15%20%E6%98%AF%E4%B8%80%E4%B8%AA%E5%A5%BD%E4%BA%BA/vote&quot;&gt;&lt;img src=&quot;https://api.gh-polls.com/poll/01CCG1WQ34GSP9WY4XRSGN44JM/at15%20%E6%98%AF%E4%B8%80%E4%B8%AA%E5%A5%BD%E4%BA%BA&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+&lt;a href=&quot;https://api.gh-polls.com/poll/01CCG1WQ34GSP9WY4XRSGN44JM/at15%20%E6%98%AF%E4%B8%80%E4%B8%AA%E5%AD%A6%E6%9D%90%E6%96%99%E7%9A%84%E5%A5%BD%E4%BA%BA/vote&quot;&gt;&lt;img src=&quot;https://api.gh-polls.com/poll/01CCG1WQ34GSP9WY4XRSGN44JM/at15%20%E6%98%AF%E4%B8%80%E4%B8%AA%E5%AD%A6%E6%9D%90%E6%96%99%E7%9A%84%E5%A5%BD%E4%BA%BA&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+&lt;a href=&quot;https://api.gh-polls.com/poll/01CCG1WQ34GSP9WY4XRSGN44JM/at15%20%E6%98%AF%E4%B8%80%E4%B8%AA%E5%96%9C%E6%AC%A2%E5%BC%83%E5%9D%91%E7%9A%84%E5%A5%BD%E4%BA%BA/vote&quot;&gt;&lt;img src=&quot;https://api.gh-polls.com/poll/01CCG1WQ34GSP9WY4XRSGN44JM/at15%20%E6%98%AF%E4%B8%80%E4%B8%AA%E5%96%9C%E6%AC%A2%E5%BC%83%E5%9D%91%E7%9A%84%E5%A5%BD%E4%BA%BA&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/google/gvisor&quot;&gt;https://github.com/google/gvisor&lt;/a&gt; mentioned by @gaocegege from kubecon&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://db.cs.cmu.edu/seminar2018/&quot;&gt;https://db.cs.cmu.edu/seminar2018/&lt;/a&gt; hardware accelerated database lectures fall 2018&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blog.github.com/2018-05-01-github-pages-custom-domains-https/&quot;&gt;https://blog.github.com/2018-05-01-github-pages-custom-domains-https/&lt;/a&gt; github pages supports https for custom domain (but I have already switched to netlify ...)&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;.app, the newest top-level domain from Google Registry
+&lt;a href=&quot;https://www.blog.google/topics/developers/introducing-app-more-secure-home-apps-web/&quot;&gt;https://www.blog.google/topics/developers/introducing-app-more-secure-home-apps-web/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/linkedin/pinot&quot;&gt;https://github.com/linkedin/pinot&lt;/a&gt; A realtime distributed OLAP datastore  and uses &lt;a href=&quot;http://helix.apache.org/&quot;&gt;http://helix.apache.org/&lt;/a&gt; for cluster management&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;VLDB Ease.ml: Towards Multi-tenant Resource Sharing for Machine Learning Workloads  #conference #ml &lt;a href=&quot;http://www.vldb.org/pvldb/vol11/p607-li.pdf&quot;&gt;http://www.vldb.org/pvldb/vol11/p607-li.pdf&lt;/a&gt; cc @gaocegege &lt;/p&gt;
+
+&lt;p&gt;the research group is in ETH @mingo-x&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blog.github.com/2018-05-02-issue-template-improvements/&quot;&gt;https://blog.github.com/2018-05-02-issue-template-improvements/&lt;/a&gt; github support multiple issue templates&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Simple bookmarklet to send current webpage to dyweb/weekly&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;C Is Not a Low-level Language&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://queue.acm.org/detail.cfm?id=3212479&quot;&gt;https://queue.acm.org/detail.cfm?id=3212479&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;*Submitted via bookmarklet :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Delta Pointers: Buffer Overflow Checks Without the Checks&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.cs.vu.nl/%7Eherbertb/download/papers/delta-pointers_eurosys18.pdf&quot;&gt;https://www.cs.vu.nl/~herbertb/download/papers/delta-pointers_eurosys18.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;*Submitted via bookmarklet :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Apple&amp;#39;s Flow language, providing actor-based concurrency and compiled to C++11&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://apple.github.io/foundationdb/flow.html&quot;&gt;https://apple.github.io/foundationdb/flow.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;*Submitted via bookmarklet :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Journey to the Center of the Linux Kernel: Traffic Control, Shaping and QoS&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://wiki.linuxwall.info/doku.php/en:ressources:dossiers:networking:traffic_control&quot;&gt;http://wiki.linuxwall.info/doku.php/en:ressources:dossiers:networking:traffic_control&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;MIT course: Game Theory with Engineering Applications&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-254-game-theory-with-engineering-applications-spring-2010/lecture-notes/&quot;&gt;https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-254-game-theory-with-engineering-applications-spring-2010/lecture-notes/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Grand Pwning Unit: Accelerating Microarchitectural Attacks with the GPU&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.vusec.net/wp-content/uploads/2018/05/glitch.pdf&quot;&gt;https://www.vusec.net/wp-content/uploads/2018/05/glitch.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;The Power of Two Random Choices: A Survey of Techniques and Results&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.eecs.harvard.edu/%7Emichaelm/postscripts/handbook2001.pdf&quot;&gt;http://www.eecs.harvard.edu/~michaelm/postscripts/handbook2001.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;LWN: PostgreSQL&amp;#39;s fsync() surprise&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lwn.net/Articles/752063/&quot;&gt;https://lwn.net/Articles/752063/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Tuna&amp;#39;s modified version of rsync. Caches file tree in memory to avoid whole directory rescan in an update&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/tuna/rsync&quot;&gt;https://github.com/tuna/rsync&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;c2Wiki: Informal History Of Programming Ideas&lt;/p&gt;
+
+&lt;p&gt;It&amp;#39;s fun to discover that many of today&amp;#39;s techie buzzwords actually come from some pretty old ideas&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://wiki.c2.com/?InformalHistoryOfProgrammingIdeas&quot;&gt;http://wiki.c2.com/?InformalHistoryOfProgrammingIdeas&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/gokcehan/lf&quot;&gt;https://github.com/gokcehan/lf&lt;/a&gt;  Terminal file manager in go, supports bookmark&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;workplace.stackexchange: stackoverflow FOR MATURES&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://workplace.stackexchange.com/questions?sort=votes&quot;&gt;https://workplace.stackexchange.com/questions?sort=votes&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Understanding TCP/IP Network Stack &amp;amp; Writing Network Apps&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.cubrid.org/blog/understanding-tcp-ip-network-stack&quot;&gt;https://www.cubrid.org/blog/understanding-tcp-ip-network-stack&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;林仕鼎： 系统架构领域的一些学习材料&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.52cs.org/?p=114&quot;&gt;http://www.52cs.org/?p=114&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/36327700&quot;&gt;MIT Media Lab 新开的坑：可编程水珠&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;MIT 媒体实验室就喜欢做这些稀奇古怪的东西，虽然很酷但是不知道有什么用&lt;/p&gt;
+
+&lt;p&gt;Related Link:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.media.mit.edu/projects/programmable-droplets/overview/&quot;&gt;Programmable Droplets&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Jekyll for GitHub pages cheatsheet&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://devhints.io/jekyll-github&quot;&gt;https://devhints.io/jekyll-github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;QQ 到 telegram 的转发工具&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jqqqqqqqqqq/coolq-telegram-bot&quot;&gt;https://github.com/jqqqqqqqqqq/coolq-telegram-bot&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;SCIgen - An Automatic CS Paper Generator&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://pdos.csail.mit.edu/archive/scigen/&quot;&gt;https://pdos.csail.mit.edu/archive/scigen/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://coreos.com/blog/introducing-operator-framework #k8s cc @gaocegege @xplorld  the code is at https://github.com/operator-framework</summary></entry><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/04/30/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-04-30T00:00:00+08:00</published><updated>2018-04-30T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/04/30/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/04/30/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/Shopify/ghostferry&quot;&gt;https://github.com/Shopify/ghostferry&lt;/a&gt; live mysql migration, and it has tlaplus &lt;a href=&quot;https://github.com/Shopify/ghostferry/tree/master/tlaplus&quot;&gt;https://github.com/Shopify/ghostferry/tree/master/tlaplus&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -507,38 +704,4 @@ The Cathedral and the Bazaar, Why Linux development style success and what shoul
 syntax_sugar_python, 学校小伙伴写的 pipe style py
 @arrowrowe, @gaocegege
 anime database, 看不懂日语
-@arrowrowe</summary></entry><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2017/01/11/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2017-01-11T00:00:00+08:00</published><updated>2017-01-11T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2017/01/11/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2017/01/11/weekly.html">&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/Tencent/xLua&quot;&gt;xLua&lt;/a&gt;, xLua is a hot-fix solution plugin for Unity3D, it supports android, ios, windows, osx, etc.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/Aaronepower/tokei&quot;&gt;Tokei (時計)&lt;/a&gt;, Tokei is a program that displays statistics about your code. Tokei will show number of files, total lines within those files and code, comments, and blanks grouped by language.
-(Provides badges!)&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/Knetic/govaluate&quot;&gt;https://github.com/Knetic/govaluate&lt;/a&gt; Arbitrary expression evaluation for golang&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://iknowwhatyoudownload.com/&quot;&gt;http://iknowwhatyoudownload.com/&lt;/a&gt; torrent download history by IP&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://krita.org/&quot;&gt;Krita&lt;/a&gt; a PS alternative on *nix, and also works on windows
-&lt;a href=&quot;https://github.com/daniyuu&quot;&gt;@daniyuu&lt;/a&gt;
-compared with GIMP, oh my
-&lt;img src=&quot;https://krita.org/wp-content/uploads/2016/06/user-interface30.png&quot; alt=&quot;screem&quot;&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://monodraw.helftone.com/&quot;&gt;Monodraw&lt;/a&gt;, Powerful ASCII art editor designed for the Mac.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/fuchsia-mirror&quot;&gt;https://github.com/fuchsia-mirror&lt;/a&gt; google&amp;#39;s new operating system&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/yahoo/gryffin&quot;&gt;Gryffin&lt;/a&gt; is a large scale web security scanning platform
-&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/chrislusf/seaweedfs&quot;&gt;https://github.com/chrislusf/seaweedfs&lt;/a&gt; a simple and highly scalable distributed file system&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.oreilly.com/programming/free/&quot;&gt;http://www.oreilly.com/programming/free/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://canonical.org/%7Ekragen/memory-models/&quot;&gt;http://canonical.org/~kragen/memory-models/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/zTrix/sata-license&quot;&gt;https://github.com/zTrix/sata-license&lt;/a&gt; the star and thanks author license
-&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=nXaxk27zwlk&quot;&gt;CppCon 2015: Chandler Carruth &amp;quot;Tuning C++: Benchmarks, and CPUs, and Compilers! Oh My!&amp;quot;&lt;/a&gt; also applies to other languages
-&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.freeorion.org/index.php/Main_Page&quot;&gt;FreeOrion&lt;/a&gt; is a free, open source, turn-based space empire and galactic conquest (4X) computer game&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/exercism/exercism.io&quot;&gt;https://github.com/exercism/exercism.io&lt;/a&gt; Quickly ramp up in new programming languages&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.themoviedb.org/documentation/api&quot;&gt;https://www.themoviedb.org/documentation/api&lt;/a&gt;
-&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt; (though we may never see movie on tq ... ;w;)&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.filestack.com/&quot;&gt;https://www.filestack.com/&lt;/a&gt; might help design file upload and management UI and API
-&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ajalt/fuckitpy&quot;&gt;https://github.com/ajalt/fuckitpy&lt;/a&gt;
-&lt;a href=&quot;https://github.com/arrowrowe&quot;&gt;@arrowrowe&lt;/a&gt;, &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;(只知 Py 不识 Golang 的策策)&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/mattdiamond/fuckitjs&quot;&gt;https://github.com/mattdiamond/fuckitjs&lt;/a&gt;
-&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt; write a fuckitphp?&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/&quot;&gt;https://www.meetup.com/&lt;/a&gt;
-&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://zazuapp.org/&quot;&gt;http://zazuapp.org/&lt;/a&gt; opensource replacement for Alfred&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">xLua, xLua is a hot-fix solution plugin for Unity3D, it supports android, ios, windows, osx, etc.</summary></entry></feed>
+@arrowrowe</summary></entry></feed>
