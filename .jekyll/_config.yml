@@ -28,10 +28,12 @@ gems:
   - jekyll-feed
   - jekyll-mentions
   - redcarpet
+  - jemoji
 exclude:
   - Gemfile
   - Gemfile.lock
 plugins_dir:
   - jekyll-mentions
+  - jemoji
 redcarpet:
   extensions: ["autolink", "no_intra_emphasis", "tables"]
