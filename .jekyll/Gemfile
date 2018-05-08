@@ -25,3 +25,4 @@ end
 
 gem "jekyll-mentions", "~> 1.4"
 gem "redcarpet", "~> 3.4"
+gem "jemoji", "~> 0.10.0"
