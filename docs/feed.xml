@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-05-08T13:46:19+08:00</updated><id>https://dongyueweb.com//</id><title type="html">东岳周报</title><subtitle>The Dongyuew Web Weekly.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-05-09T13:29:33+08:00</updated><id>https://dongyueweb.com//</id><title type="html">东岳周报</title><subtitle>The Dongyuew Web Weekly.
 </subtitle><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/05/07/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-05-07T00:00:00+08:00</published><updated>2018-05-07T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/05/07/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/05/07/weekly.html">&lt;p&gt;&lt;a href=&quot;https://coreos.com/blog/introducing-operator-framework&quot;&gt;https://coreos.com/blog/introducing-operator-framework&lt;/a&gt; #k8s cc @gaocegege @xplorld  the code is at &lt;a href=&quot;https://github.com/operator-framework&quot;&gt;https://github.com/operator-framework&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr&gt;
@@ -195,6 +195,58 @@
 &lt;p&gt;&lt;a href=&quot;https://pdos.csail.mit.edu/archive/scigen/&quot;&gt;https://pdos.csail.mit.edu/archive/scigen/&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Service Mesh 的可视化，虽然 star 很少。。。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://kiali.github.io/&quot;&gt;https://kiali.github.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/5100735/39681976-cdedd526-51df-11e8-8e28-629df7a1dca9.png&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Standalone, daemon-less, unprivileged Dockerfile and OCI compatible container image builder.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/genuinetools/img&quot;&gt;https://github.com/genuinetools/img&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;东岳新文-Katib: Kubernetes Native 的超参数训练系统&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/36495583&quot;&gt;https://zhuanlan.zhihu.com/p/36495583&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/satwikkansal/wtfpython&quot;&gt;https://github.com/satwikkansal/wtfpython&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;An interesting collection of surprising snippets and lesser-known Python features.
+有趣、令人惊讶（坑爹）、鲜为人知的 Python 代码片段集合&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/NVIDIA/apex&quot;&gt;https://github.com/NVIDIA/apex&lt;/a&gt;
+英伟达为Pytorch实现的几个module，包含用NCCL加速的dataparallel&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/chenyuntc/pytorch-book&quot;&gt;https://github.com/chenyuntc/pytorch-book&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;《深度学习框架 PyTorch：入门与实践》的示例代码，可以作为一个独立的 PyTorch 入门指南和教程&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mirrors.sjtug.sjtu.edu.cn/&quot;&gt;https://mirrors.sjtug.sjtu.edu.cn/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;SJTUG 软件源镜像服务上线&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/5100735/39691460-3504be5c-5210-11e8-896d-72e1b418879d.jpg&quot; alt=&quot;189151206&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;:tada: :tada: :tada: &lt;/p&gt;
 
 &lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://coreos.com/blog/introducing-operator-framework #k8s cc @gaocegege @xplorld  the code is at https://github.com/operator-framework</summary></entry><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/04/30/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-04-30T00:00:00+08:00</published><updated>2018-04-30T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/04/30/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/04/30/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/Shopify/ghostferry&quot;&gt;https://github.com/Shopify/ghostferry&lt;/a&gt; live mysql migration, and it has tlaplus &lt;a href=&quot;https://github.com/Shopify/ghostferry/tree/master/tlaplus&quot;&gt;https://github.com/Shopify/ghostferry/tree/master/tlaplus&lt;/a&gt;&lt;/p&gt;
 
