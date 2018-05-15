@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+这是由[上海交通大学东岳网络工作室](https://dongyueweb.com/)，[SJTU *NIX User Group](http://sjtug.org/) 和[上海大学开源社区](https://osc.shu.edu.cn/)联合维护的周报，投稿来自上海地区各个高校的开源社区与技术组织。如果你想一同参与投稿，请[前往这里](https://github.com/dyweb/weekly/labels/working)。
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
+周报基于 {% include icon-github.html username="jekyll" %} /
 [jekyll](https://github.com/jekyll/jekyll)
+构建，模板采用
+{% include icon-github.html username="jekyll" %} /
+[minima](https://github.com/jekyll/minima)。
