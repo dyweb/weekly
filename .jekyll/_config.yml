@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Dev Comm 联合周报
+title: Dev Comm Shanghai 联合周报
 email: weekly@dongyue.io
 description: > # this means to ignore newlines until "baseurl:"
-  The Dongyuew Web Weekly.
+  由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
 # baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://dongyueweb.com" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  dyweb
+github_username:  devcomm-shanghai
 
 # Build settings
 markdown: redcarpet
