@@ -1,5 +1,157 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-05-17T14:49:27+08:00</updated><id>https://dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/05/14/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-05-14T00:00:00+08:00</published><updated>2018-05-14T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/05/14/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/05/14/weekly.html">&lt;p&gt;Who controls glibc? 开源世界真有趣&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-05-22T10:57:26+08:00</updated><id>https://dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/05/21/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-05-21T00:00:00+08:00</published><updated>2018-05-21T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/05/21/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/05/21/weekly.html">&lt;p&gt;&lt;a href=&quot;https://www.arxiv-vanity.com/papers/1805.04272/&quot;&gt;https://www.arxiv-vanity.com/papers/1805.04272/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;An O(n) Sorting Algorithm: Machine Learning Sorting&lt;/p&gt;
+
+&lt;p&gt;懵逼&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;the manga guide to databases &lt;a href=&quot;https://nostarch.com/mg_databases.htm&quot;&gt;https://nostarch.com/mg_databases.htm&lt;/a&gt; saw it in andy&amp;#39;s twitter&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;For parsing, creating and editing unknown or dynamic JSON in golang &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Jeffail/gabs&quot;&gt;https://github.com/Jeffail/gabs&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/GIFEE/GIFEE&quot;&gt;https://github.com/GIFEE/GIFEE&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;不知道以前发过没&lt;/p&gt;
+
+&lt;p&gt;Google&amp;#39;s Infrastructure for Everyone Else，谷歌内部系统对应的外部开源轮子实现&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jhuangtw-dev/xg2xg&quot;&gt;https://github.com/jhuangtw-dev/xg2xg&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;感觉这个说得全一点。感觉现在Google也不仅只是发paper，（cloud方面）很多infra都会开源。应该是吸取了mapreduce的教训，自己不开源总有社区开源替代品会出现，不如自己来开源然后lead社区&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;gcp now has 160 cores and 3.4 TB RAM &lt;a href=&quot;https://cloudplatform.googleblog.com/2018/05/Introducing-ultramem-Google-Compute-Engine-machine-types.html&quot;&gt;https://cloudplatform.googleblog.com/2018/05/Introducing-ultramem-Google-Compute-Engine-machine-types.html&lt;/a&gt; &lt;a href=&quot;https://cloud.google.com/compute/docs/machine-types#megamem&quot;&gt;https://cloud.google.com/compute/docs/machine-types#megamem&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Algorithms Behind Modern Storage Systems&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://queue.acm.org/detail.cfm?id=3220266&quot;&gt;https://queue.acm.org/detail.cfm?id=3220266&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/AuroraMySQL.Managing.FaultInjectionQueries.html&quot;&gt;https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/AuroraMySQL.Managing.FaultInjectionQueries.html&lt;/a&gt; AWS Aurora allow fault injection using command&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/ahmed-taj/dep&quot;&gt;https://github.com/ahmed-taj/dep&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A Github App that helps managing PR dependencies package&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/huangyz0918/Hackintosh-Installer-University&quot;&gt;https://github.com/huangyz0918/Hackintosh-Installer-University&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;黑苹果安装教程&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/gsuitedevs/md2googleslides&quot;&gt;https://github.com/gsuitedevs/md2googleslides&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;用 Markdown 来做 Google Slides&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/probot/probot&quot;&gt;https://github.com/probot/probot&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A framework for building GitHub Apps to automate and improve your workflow &lt;/p&gt;
+
+&lt;p&gt;这才是真正适合拿来做周报自动化的工具。。。。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;JavaScript implementation of Git. Anything can be done by js =w=&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/isomorphic-git/isomorphic-git&quot;&gt;https://github.com/isomorphic-git/isomorphic-git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;SJTU ecard APIs
+&lt;a href=&quot;https://git.tongqu.me/hebingchang/sjtu-ecard-api&quot;&gt;https://git.tongqu.me/hebingchang/sjtu-ecard-api&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Done some reverse work on 掌上校园 App
+闷声发大财&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;A toy JavaScript meta interpreter. Execute js in js =w=&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/bramblex/jsjs&quot;&gt;https://github.com/bramblex/jsjs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;WineHQ Bug: League Of Legends: Unable to log in if behind OpenWRT based router&lt;/p&gt;
+
+&lt;p&gt;That&amp;#39;s why I don&amp;#39;t trust either wine or WSL.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://bugs.winehq.org/show_bug.cgi?id=44895#c11&quot;&gt;https://bugs.winehq.org/show_bug.cgi?id=44895#c11&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Sweden 不买 Elsevier 的论文了 :thinking: &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.snip.today/post/sweden-ends-contract-with-science-publisher-elsevier-moving-for-open-access-for-scientific-articles/&quot;&gt;https://www.snip.today/post/sweden-ends-contract-with-science-publisher-elsevier-moving-for-open-access-for-scientific-articles/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/joncatanio/cannoli&quot;&gt;https://github.com/joncatanio/cannoli&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Rust 写的 Python 3.6.5 的一个子集的编译器&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;RL+进化算法
+&lt;a href=&quot;https://blog.openai.com/evolution-strategies/&quot;&gt;https://blog.openai.com/evolution-strategies/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;IndRNN:可对超长序列建模
+&lt;a href=&quot;https://github.com/batzner/indrnn&quot;&gt;https://github.com/batzner/indrnn&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;n-gate: webshit weekly on Hacker News&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://n-gate.com/hackernews/&quot;&gt;http://n-gate.com/hackernews/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Advances in Semantic Textual Similarity&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ai.googleblog.com/2018/05/advances-in-semantic-textual-similarity.html&quot;&gt;https://ai.googleblog.com/2018/05/advances-in-semantic-textual-similarity.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;facebook archived their open source time series database, beringei &lt;a href=&quot;https://github.com/facebookarchive/beringei&quot;&gt;https://github.com/facebookarchive/beringei&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://www.arxiv-vanity.com/papers/1805.04272/
+
+An O(n) Sorting Algorithm: Machine Learning Sorting
+
+懵逼</summary></entry><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/05/14/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-05-14T00:00:00+08:00</published><updated>2018-05-14T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/05/14/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/05/14/weekly.html">&lt;p&gt;Who controls glibc? 开源世界真有趣&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://lwn.net/SubscriberLink/753646/a6ebb50040c5862c/&quot;&gt;https://lwn.net/SubscriberLink/753646/a6ebb50040c5862c/&lt;/a&gt;&lt;/p&gt;
 
@@ -1026,28 +1178,4 @@ Containerized Data Analytics, Git for Data Science: Pachyderm offers complete ve
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/meshbird/meshbird&quot;&gt;meshbird&lt;/a&gt;, Distributed private networking
 &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Our Big Frontend Plan Revealed, Our long term plan to make GitLab as fast and performant as possible with Vue and webpack.
-@at15, @arrowrowe</summary></entry><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2017/02/08/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2017-02-08T00:00:00+08:00</published><updated>2017-02-08T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2017/02/08/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2017/02/08/weekly.html">&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://airbnb.design/lottie/&quot;&gt;Lottie&lt;/a&gt;, A mobile library for Android and iOS that parses Adobe After Effects animations exported as json with Bodymovin and renders them natively on mobile.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;, &lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;
-- &lt;a href=&quot;http://sigmod17contest.athenarc.gr/task.shtml&quot;&gt;SIGMOD N-grams student contest&lt;/a&gt;, 不限制国家不限制学校组队 .w.
-&lt;a href=&quot;https://github.com/mrmiywj&quot;&gt;@mrmiywj&lt;/a&gt;, &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;, &lt;a href=&quot;https://github.com/arrowrowe&quot;&gt;@arrowrowe&lt;/a&gt;, &lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;
-- &lt;a href=&quot;http://www.slideshare.net/ssuser7e134a/log-structured-merge-tree&quot;&gt;Log Structured Merge Tree and Cassandra&lt;/a&gt;, Course presentation by &lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;
-- &lt;a href=&quot;https://github.com/teamtnt/tntsearch&quot;&gt;TNTSearch&lt;/a&gt;, A fully featured full text search engine written in PHP
-&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;
-- &lt;a href=&quot;http://15721.courses.cs.cmu.edu/spring2017/papers/06-latching/a16-graefe.pdf&quot;&gt;A survey of B-Tree Locking Techniques&lt;/a&gt;, When implementing B-Tree locking, there are two concepts, locking and latching. Latching protects in-memory data structures between concurrency threads, and should be held only for very short periods. Locking protects database contents (or data in logical) among transactions, and keep in lock manager`s hash table.
-- &lt;a href=&quot;http://huangxuan.me/css-sucks-2015&quot;&gt;CSS Still Sucks 2015&lt;/a&gt;, An overview of CSS history and future
-- &lt;a href=&quot;https://github.com/pixijs/pixi.js&quot;&gt;pixi.js&lt;/a&gt;, 2D rendering engine that uses webGL with canvas fallback
-- &lt;a href=&quot;https://github.com/bodymovin/bodymovin&quot;&gt;bodymovin&lt;/a&gt;, after effect animation to html
-&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;
-- &lt;a href=&quot;https://www.google.com/webdesigner/&quot;&gt;Google Web Designer&lt;/a&gt;, you can use code as well
-&lt;a href=&quot;https://github.com/scottsun94&quot;&gt;@scottsun94&lt;/a&gt;
-- &lt;a href=&quot;https://www.bigmarker.com/gopheracademy/Distributed-Computing-in-Go-Building-Consensus-with-Raft-Protocol&quot;&gt;https://www.bigmarker.com/gopheracademy/Distributed-Computing-in-Go-Building-Consensus-with-Raft-Protocol&lt;/a&gt;
-&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;
-- &lt;a href=&quot;https://about.gitlab.com/2017/02/01/gitlab-dot-com-database-incident/&quot;&gt;GitLab.com Database Incident&lt;/a&gt;, Summary of a serious ops incident which happened on Feb 1, 2017.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Yesterday we had a serious incident with one of our databases. We lost six hours of database data (issues, merge requests, users, comments, snippets, etc.) for GitLab.com.
-&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;, &lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Lottie, A mobile library for Android and iOS that parses Adobe After Effects animations exported as json with Bodymovin and renders them natively on mobile.</summary></entry></feed>
+@at15, @arrowrowe</summary></entry></feed>
