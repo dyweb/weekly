@@ -1,5 +1,153 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-05-22T10:57:26+08:00</updated><id>https://dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/05/21/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-05-21T00:00:00+08:00</published><updated>2018-05-21T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/05/21/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/05/21/weekly.html">&lt;p&gt;&lt;a href=&quot;https://www.arxiv-vanity.com/papers/1805.04272/&quot;&gt;https://www.arxiv-vanity.com/papers/1805.04272/&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-05-29T17:01:05+08:00</updated><id>https://dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/05/28/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-05-28T00:00:00+08:00</published><updated>2018-05-28T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/05/28/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/05/28/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/GitHub-Laziji/VBlog&quot;&gt;https://github.com/GitHub-Laziji/VBlog&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;使用 github gist api 无需任何服务器 搭建一个可动态发布文章的个人博客&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/chrislusf/seaweedfs&quot;&gt;https://github.com/chrislusf/seaweedfs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;SeaweedFS is a simple and highly scalable distributed file system. There are two objectives: to store billions of files! to serve the files fast! Instead of supporting full POSIX file system semantics, SeaweedFS choose to implement only a key~file mapping. Similar to the word &amp;quot;NoSQL&amp;quot;, you can call it as &amp;quot;NoFS&amp;quot;.&lt;/p&gt;
+
+&lt;p&gt;很有趣啊&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;A crash course to convex optimization&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://web.stanford.edu/%7Eboyd/cvxbook/bv_cvxslides.pdf&quot;&gt;https://web.stanford.edu/~boyd/cvxbook/bv_cvxslides.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/klauscfhq/signale&quot;&gt;https://github.com/klauscfhq/signale&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Hackable console logger&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/dd0ad939bce8e21b2f9afbf0db794a0de7422c5f/68747470733a2f2f63646e2e7261776769742e636f6d2f6b6c617573636668712f7369676e616c652f32643862636666382f6d656469612f6865616465722e706e67&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;还是前端有意思&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Azure/RSL&quot;&gt;https://github.com/Azure/RSL&lt;/a&gt; Azure Paxos implementation which is used by multiple products in Azure and Bing&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Facebook&amp;#39;s infer static analyzer adds support for ownership check (and more) for C++&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/facebook/infer/releases/tag/v0.14.0&quot;&gt;https://github.com/facebook/infer/releases/tag/v0.14.0&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/maekawatoshiki/naglfar&quot;&gt;https://github.com/maekawatoshiki/naglfar&lt;/a&gt; Naglfar is a toy web browser implemented in Rust from scratch&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/mapd/mapd-core&quot;&gt;https://github.com/mapd/mapd-core&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;MapD is an in-memory, column store, SQL relational database that was designed from the ground up to run on GPUs.&lt;/p&gt;
+
+&lt;p&gt;GPU 数据库了解一下&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.defmacro.org/2006/06/19/fp.html&quot;&gt;http://www.defmacro.org/2006/06/19/fp.html&lt;/a&gt; Functional Programming For The Rest of Us&lt;/p&gt;
+
+&lt;p&gt;比较入门&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/trekawek/coffee-gb&quot;&gt;https://github.com/trekawek/coffee-gb&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Gameboy 模拟器（Java）&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/remoteintech/remote-jobs&quot;&gt;https://github.com/remoteintech/remote-jobs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Remote 工作一览，是不是可以在中国赚美刀了&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://arxiv.org/abs/1802.09941&quot;&gt;https://arxiv.org/abs/1802.09941&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;分布式机器学习不同的并行方式的分析，60 页，后面对并行方式的介绍非常详细而具体。&lt;/p&gt;
+
+&lt;p&gt;好评&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;ML for suggestive drawing (or doodling..)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://nono.ma/suggestive-drawing&quot;&gt;http://nono.ma/suggestive-drawing&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/alibaba/alikernel&quot;&gt;https://github.com/alibaba/alikernel&lt;/a&gt; 阿里版 linux kernel 不知道有什么特点 .... &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;implement plugins for command line app in go like &lt;code&gt;cargo&lt;/code&gt; and &lt;code&gt;cargo-xxx&lt;/code&gt; &lt;a href=&quot;https://github.com/gobuffalo/buffalo/blob/master/plugins/plugins.go&quot;&gt;https://github.com/gobuffalo/buffalo/blob/master/plugins/plugins.go&lt;/a&gt;, the idea is &lt;code&gt;cargo-xxx&lt;/code&gt; should return json for command like &lt;code&gt;available&lt;/code&gt; cc @codeworm96 &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;gops: A tool to list and diagnose Go processes currently running on your system&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/google/gops&quot;&gt;https://github.com/google/gops&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;rsync considered inefficient and harmful    &lt;/p&gt;
+
+&lt;p&gt;rsync的设计在今天真的无力吐槽……软件源的一大堆问题都是rsync造成的&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://datatracker.ietf.org/meeting/89/materials/slides-89-sidr-6&quot;&gt;https://datatracker.ietf.org/meeting/89/materials/slides-89-sidr-6&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Effective Modern CMake&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gist.github.com/mbinna/c61dbb39bca0e4fb7d1f73b0d66a4fd1&quot;&gt;https://gist.github.com/mbinna/c61dbb39bca0e4fb7d1f73b0d66a4fd1&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;我是看着楼上大佬 @htfy96 &lt;a href=&quot;https://github.com/htfy96/cpp-boilerplate&quot;&gt;https://github.com/htfy96/cpp-boilerplate&lt;/a&gt; 学会了下载和添加 dependency /w&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lefticus/cppbestpractices&quot;&gt;https://github.com/lefticus/cppbestpractices&lt;/a&gt; Collaborative Collection of C++ Best Practices, the author is mentioned in gist above&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/nebulet/nebulet&quot;&gt;https://github.com/nebulet/nebulet&lt;/a&gt; (Going to be) A microkernel that implements a WebAssembly &amp;quot;usermode&amp;quot; that runs in Ring 0. 我很喜欢这种想法（&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Where the Silicon Valley Tech Internships Are （收藏了，找实习用（&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://spectrum.ieee.org/view-from-the-valley/at-work/tech-careers/where-the-silicon-valley-tech-internships-are&quot;&gt;https://spectrum.ieee.org/view-from-the-valley/at-work/tech-careers/where-the-silicon-valley-tech-internships-are&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/ValveSoftware/steam-runtime&quot;&gt;https://github.com/ValveSoftware/steam-runtime&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Steam 在 Linux 上的 runtime&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/GitHub-Laziji/VBlog
+
+使用 github gist api 无需任何服务器 搭建一个可动态发布文章的个人博客</summary></entry><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/05/21/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-05-21T00:00:00+08:00</published><updated>2018-05-21T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/05/21/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/05/21/weekly.html">&lt;p&gt;&lt;a href=&quot;https://www.arxiv-vanity.com/papers/1805.04272/&quot;&gt;https://www.arxiv-vanity.com/papers/1805.04272/&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;An O(n) Sorting Algorithm: Machine Learning Sorting&lt;/p&gt;
 
@@ -1148,34 +1296,4 @@ Tinaydb, The current source code has 1200 lines of code (with about 40% document
 A Web GUI for GDB
 豆瓣美女, 以后周报该分级了 /w\
 Containerized Data Analytics, Git for Data Science: Pachyderm offers complete version control for even the largest data sets
-@gaocegege</summary></entry><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2017/02/22/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2017-02-22T00:00:00+08:00</published><updated>2017-02-22T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2017/02/22/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2017/02/22/weekly.html">&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://about.gitlab.com/2017/02/06/vue-big-plan/&quot;&gt;Our Big Frontend Plan Revealed&lt;/a&gt;, Our long term plan to make GitLab as fast and performant as possible with Vue and webpack.
-&lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;, &lt;a href=&quot;https://github.com/arrowrowe&quot;&gt;@arrowrowe&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://traefik.io/&quot;&gt;Træfɪk&lt;/a&gt;, a modern reverse proxy.
-&lt;img src=&quot;https://github.com/containous/traefik/raw/master/docs/img/architecture.png&quot; alt=&quot;&quot;&gt;
-&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;, &lt;a href=&quot;https://github.com/at15&quot;&gt;@at15&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://15721.courses.cs.cmu.edu/spring2017/papers/07-oltpindexes1/skiplists-done-right2016.pdf&quot;&gt;Skip List Done Right&lt;/a&gt;, Skip list is an important and widely used data structure but I did not hear about it when I learned data structure in undergraduate school. It can do insert / delete / search in O(logN) on average.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://gopherize.me&quot;&gt;gopherize&lt;/a&gt;
-&lt;img src=&quot;https://cloud.githubusercontent.com/assets/5621298/22867528/d016d21a-f13e-11e6-9357-ca69cee92503.png&quot; alt=&quot;image&quot;&gt;
-&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.qingjingjie.com/blogs/42&quot;&gt;Kotlin框架巡礼&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/uber/go-torch&quot;&gt;go-tour&lt;/a&gt;, Stochastic flame graph profiler for Go programs
-&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://blog.golang.org/concurrency-is-not-parallelism&quot;&gt;concurrency is not parallelism&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/github/open-source-guide&quot;&gt;open source guide&lt;/a&gt;
-&lt;a href=&quot;https://github.com/orgs/dyweb/teams/mos&quot;&gt;@dyweb/mos&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://metacademy.org/&quot;&gt;Metacadamy&lt;/a&gt;, Searching for hierarchy of knowledge and roadmaps for learning, specialized in Machining Learning&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/01org/ciao&quot;&gt;ciao&lt;/a&gt;, Ciao - Cloud Integrated Advanced Orchestrator from Intel open source
-&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/hmlb/phpunit-vw&quot;&gt;phpunit-vw&lt;/a&gt;, It automatically detects CI environments and makes your test suites succeed even with failing assertions or unwanted exceptions \o/&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;btw: for js users, pls see &lt;a href=&quot;https://github.com/auchenberg/volkswagen&quot;&gt;https://github.com/auchenberg/volkswagen&lt;/a&gt;
-&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;, &lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://tuna.moe/&quot;&gt;TUNA from tsinghua&lt;/a&gt;
-&lt;a href=&quot;https://github.com/ComMouse&quot;&gt;@ComMouse&lt;/a&gt;, &lt;a href=&quot;https://github.com/arrowrowe&quot;&gt;@arrowrowe&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/meshbird/meshbird&quot;&gt;meshbird&lt;/a&gt;, Distributed private networking
-&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Our Big Frontend Plan Revealed, Our long term plan to make GitLab as fast and performant as possible with Vue and webpack.
-@at15, @arrowrowe</summary></entry></feed>
+@gaocegege</summary></entry></feed>
