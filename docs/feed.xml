@@ -1,5 +1,71 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-05-29T17:01:05+08:00</updated><id>https://dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/05/28/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-05-28T00:00:00+08:00</published><updated>2018-05-28T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/05/28/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/05/28/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/GitHub-Laziji/VBlog&quot;&gt;https://github.com/GitHub-Laziji/VBlog&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-06-05T12:02:50+08:00</updated><id>https://dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/06/04/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-06-04T00:00:00+08:00</published><updated>2018-06-04T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/06/04/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/06/04/weekly.html">&lt;p&gt;Reproducible ML&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://determined.ai/blog/reproducibility-in-ml/?twitter=@bigdata&quot;&gt;http://determined.ai/blog/reproducibility-in-ml/?twitter=@bigdata&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/iqiyi/dpvs&quot;&gt;https://github.com/iqiyi/dpvs&lt;/a&gt; a high performance Layer-4 load balancer based on DPDK&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Do you need a blockchain?&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://eprint.iacr.org/2017/375.pdf&quot;&gt;https://eprint.iacr.org/2017/375.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;npm issue: ERR! 418 I&amp;#39;m a teapot (this is not a joke)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/npm/npm/issues/20791&quot;&gt;https://github.com/npm/npm/issues/20791&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;现代应用数学手册：离散数学卷&lt;/p&gt;
+
+&lt;p&gt;以前搞OI的时候常用的一本非常实用的书……似乎这几年见过的OJ题/用到的数学姿势基本都包含了（也许是自己太菜了？而且写的内容基本都在某个地方曾经用过……&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://book.douban.com/subject/1230291/&quot;&gt;https://book.douban.com/subject/1230291/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;从HTTP Range请求谈标准是如何被破坏的&lt;/p&gt;
+
+&lt;p&gt;软件源也碰到了这个问题，ubuntu的apt请求本质上是ill-formed，但直接访问nginx刚好可以正常工作，经过caddy反代就会报错。&lt;/p&gt;
+
+&lt;p&gt;UPDATE: 想了解详细情况见 &lt;a href=&quot;https://github.com/sjtug/mirror-requests/issues/19&quot;&gt;https://github.com/sjtug/mirror-requests/issues/19&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://pureage.info/2014/02/26/how-standard-is-broken.html&quot;&gt;https://pureage.info/2014/02/26/how-standard-is-broken.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/37651946&quot;&gt;微软同意收购GitHub GitLab 发文祝贺&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;strong&gt;Deno&lt;/strong&gt;
+A secure TypeScript runtime on V8&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/ry/deno&quot;&gt;https://github.com/ry/deno&lt;/a&gt;
+&lt;a href=&quot;https://www.zhihu.com/question/279208326/answer/405590764&quot;&gt;https://www.zhihu.com/question/279208326/answer/405590764&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;SJTU bus realtime position&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hebingchang/sjtubus-realtime-api&quot;&gt;https://github.com/hebingchang/sjtubus-realtime-api&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://discuss.kubernetes.io/&quot;&gt;https://discuss.kubernetes.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Kubernetes 社区搞的一个交流的平台&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Reproducible ML</summary></entry><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/05/28/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-05-28T00:00:00+08:00</published><updated>2018-05-28T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/05/28/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/05/28/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/GitHub-Laziji/VBlog&quot;&gt;https://github.com/GitHub-Laziji/VBlog&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;使用 github gist api 无需任何服务器 搭建一个可动态发布文章的个人博客&lt;/p&gt;
 
@@ -1286,14 +1352,4 @@ DL0-?
 from @sxjscience
 Though bot playbook
 @swaylq
-Tinaydb, The current source code has 1200 lines of code (with about 40% documentation) and 1000 lines tests</summary></entry><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2017/03/08/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2017-03-08T00:00:00+08:00</published><updated>2017-03-08T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2017/03/08/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2017/03/08/weekly.html">&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/kamranahmedse/design-patterns-for-humans&quot;&gt;Design pattern for humans&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/cs01/gdbgui&quot;&gt;A Web GUI for GDB&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/luzefeng/DouBanMeinv&quot;&gt;豆瓣美女&lt;/a&gt;, 以后周报该分级了 /w\&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/pachyderm/pachyderm&quot;&gt;Containerized Data Analytics&lt;/a&gt;, Git for Data Science: Pachyderm offers complete version control for even the largest data sets
-&lt;a href=&quot;https://github.com/gaocegege&quot;&gt;@gaocegege&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Design pattern for humans
-A Web GUI for GDB
-豆瓣美女, 以后周报该分级了 /w\
-Containerized Data Analytics, Git for Data Science: Pachyderm offers complete version control for even the largest data sets
-@gaocegege</summary></entry></feed>
+Tinaydb, The current source code has 1200 lines of code (with about 40% documentation) and 1000 lines tests</summary></entry></feed>
