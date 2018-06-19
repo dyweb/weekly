@@ -1,5 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-06-11T14:56:43+08:00</updated><id>https://dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/06/11/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-06-11T00:00:00+08:00</published><updated>2018-06-11T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/06/11/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/06/11/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/senorprogrammer/wtf&quot;&gt;https://github.com/senorprogrammer/wtf&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-06-19T10:21:01+08:00</updated><id>https://dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/06/18/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-06-18T00:00:00+08:00</published><updated>2018-06-18T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/06/18/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/06/18/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/sbueringer/kubecon-slides&quot;&gt;https://github.com/sbueringer/kubecon-slides&lt;/a&gt; Kubecon Slides &amp;amp; Download utility&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/galiboo/olympus&quot;&gt;https://github.com/galiboo/olympus&lt;/a&gt;  An instant REST API for any AI model&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Yelp/detect-secrets&quot;&gt;https://github.com/Yelp/detect-secrets&lt;/a&gt; detecting and preventing secrets in code.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/satwikkansal/wtfpython&quot;&gt;https://github.com/satwikkansal/wtfpython&lt;/a&gt; A collection of surprising Python snippets and lesser-known features.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Github 的清点对象算法。软件源的git镜像用了这个几乎是可以立即开始clone，否则每次clone要干等10+秒
+(不知道为啥不做成默认的设置……调了半天git参数，奥妙重重&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.ruanyifeng.com/blog/2015/09/git-bitmap.html&quot;&gt;http://www.ruanyifeng.com/blog/2015/09/git-bitmap.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Advanced computing with IPython&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lwn.net/Articles/756192/&quot;&gt;https://lwn.net/Articles/756192/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Killing processes that don&amp;#39;t want to die: 利用uid/gid/sid的规则制造难以被kill掉的fork bomb。interesting&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lwn.net/Articles/754980/&quot;&gt;https://lwn.net/Articles/754980/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://getmantra.com/web-app-security-testing-with-browsers/&quot;&gt;https://getmantra.com/web-app-security-testing-with-browsers/&lt;/a&gt; switch user agent, remove style etc. basic stuff. &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Autovivification...&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gist.github.com/hrldcpr/2012250&quot;&gt;https://gist.github.com/hrldcpr/2012250&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@mccode/understanding-how-uid-and-gid-work-in-docker-containers-c37a01d01cf&quot;&gt;https://medium.com/@mccode/understanding-how-uid-and-gid-work-in-docker-containers-c37a01d01cf&lt;/a&gt; &amp;#39;a root inside the container == root outside container&amp;#39;&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/sbueringer/kubecon-slides Kubecon Slides &amp;amp; Download utility</summary></entry><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/06/11/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-06-11T00:00:00+08:00</published><updated>2018-06-11T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/06/11/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/06/11/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/senorprogrammer/wtf&quot;&gt;https://github.com/senorprogrammer/wtf&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;A personal terminal-based dashboard utility, designed for displaying infrequently-needed, but very important, daily data.&lt;/p&gt;
 
@@ -1448,68 +1503,4 @@ https://www.packet.net/
 
 
 
-The Promise of the Cloud Delivered on Bare Metal</summary></entry><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2017/04/19/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2017-04-19T00:00:00+08:00</published><updated>2017-04-19T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2017/04/19/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2017/04/19/weekly.html">&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/open-lambda/open-lambda&quot;&gt;open-lambda&lt;/a&gt;, open source serverless implementation&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://blogs.technet.microsoft.com/mmpc/2017/05/12/wannacrypt-ransomware-worm-targets-out-of-date-systems/&quot;&gt;WannaCrypt ransomware worm targets out-of-date systems&lt;/a&gt;, Simple analysis of the behavior of the worm from Microsoft.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/openwhisk/openwhisk&quot;&gt;IBM OpenWhisk&lt;/a&gt;, Another open source serverless implementation. Well, IBM everywhere&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/afterburnerdb/afterburner&quot;&gt;Afterburner&lt;/a&gt;, Interactive SQL analytics in your browser!
-&lt;a href=&quot;https://github.com/atech/postal&quot;&gt;https://github.com/atech/postal&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.cs.princeton.edu/courses/archive/fall16/cos418/assignments.html&quot;&gt;https://www.cs.princeton.edu/courses/archive/fall16/cos418/assignments.html&lt;/a&gt; yet another 6.824 @gaocegege &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/mirage/irmin&quot;&gt;https://github.com/mirage/irmin&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.ece.ucsb.edu/%7Eyuanxie/Advice.html&quot;&gt;http://www.ece.ucsb.edu/~yuanxie/Advice.html&lt;/a&gt; cc @JasonQSY @mrmiywj @ComMouse &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;WiscKey: Separating Keys from Values in SSD-Conscious Storage &lt;a href=&quot;http://pages.cs.wisc.edu/%7Ell/papers/wisckey-slides.pdf&quot;&gt;http://pages.cs.wisc.edu/~ll/papers/wisckey-slides.pdf&lt;/a&gt; cc @swaylq @mrmiywj @gaocegege &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://testmysite.withgoogle.com/intl/en-gb/&quot;&gt;https://testmysite.withgoogle.com/intl/en-gb/&lt;/a&gt; cc @ComMouse &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://blog.hmil.fr/2015/11/githubs-merge-pull-request-is-wrong/&quot;&gt;https://blog.hmil.fr/2015/11/githubs-merge-pull-request-is-wrong/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=OjaAToVkoTw&quot;&gt;https://www.youtube.com/watch?v=OjaAToVkoTw&lt;/a&gt; How to write a virtual machine (PL) by the author of ANTLR in a 2h video&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/oasisfeng/condom&quot;&gt;https://github.com/oasisfeng/condom&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/datproject&quot;&gt;https://github.com/datproject&lt;/a&gt; P2P dataset sharing&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://zealdocs.org/&quot;&gt;https://zealdocs.org/&lt;/a&gt; offline documentation browser for software developers.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://weekly.codetengu.com/&quot;&gt;https://weekly.codetengu.com/&lt;/a&gt; yet another weekly btw: @gaocegege @codeworm96 generator 是不准备用了么.....&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;@at15 婶婶你怎么了...? &lt;a href=&quot;https://github.com/dyweb/web-stuff/issues/63&quot;&gt;https://github.com/dyweb/web-stuff/issues/63&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.katacoda.com/&quot;&gt;https://www.katacoda.com/&lt;/a&gt; found it when try out k8s&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">open-lambda, open source serverless implementation
-WannaCrypt ransomware worm targets out-of-date systems, Simple analysis of the behavior of the worm from Microsoft.
-IBM OpenWhisk, Another open source serverless implementation. Well, IBM everywhere
-Afterburner, Interactive SQL analytics in your browser!
-https://github.com/atech/postal</summary></entry></feed>
+The Promise of the Cloud Delivered on Bare Metal</summary></entry></feed>
