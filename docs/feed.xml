@@ -1,5 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-06-19T10:21:01+08:00</updated><id>https://dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/06/18/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-06-18T00:00:00+08:00</published><updated>2018-06-18T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/06/18/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/06/18/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/sbueringer/kubecon-slides&quot;&gt;https://github.com/sbueringer/kubecon-slides&lt;/a&gt; Kubecon Slides &amp;amp; Download utility&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-06-25T12:12:39+08:00</updated><id>https://dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/06/25/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-06-25T00:00:00+08:00</published><updated>2018-06-25T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/06/25/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/06/25/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/h2non/bimg&quot;&gt;https://github.com/h2non/bimg&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Small Go package for fast high-level image processing powered by libvips C library &lt;a href=&quot;https://godoc.org/github.com/h2non/bimg&quot;&gt;https://godoc.org/github.com/h2non/bimg&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/38254903&quot;&gt;https://zhuanlan.zhihu.com/p/38254903&lt;/a&gt; TiDB design FAQ&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/spiral/roadrunner&quot;&gt;https://github.com/spiral/roadrunner&lt;/a&gt; High-Performance PSR-7 PHP application server, load balancer and process manager (in Go) 翻译过来感觉是 跑路 额 .... cc @ComMouse &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/tstack/lnav&quot;&gt;https://github.com/tstack/lnav&lt;/a&gt; Log file navigator&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/etsy/hound&quot;&gt;https://github.com/etsy/hound&lt;/a&gt; code search based on Russ Cox&amp;#39;s blog &lt;a href=&quot;http://swtch.com/%7Ersc/regexp/regexp4.html&quot;&gt;Regular Expression Matching with a Trigram Index&lt;/a&gt; was trying to find some alternative for sourcegraph, cc @gaocegege  do you know any?&lt;/p&gt;
+
+&lt;p&gt;From &lt;a href=&quot;https://siftery.com/sourcegraph/alternatives&quot;&gt;https://siftery.com/sourcegraph/alternatives&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/oracle/opengrok&quot;&gt;https://github.com/oracle/opengrok&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/google/zoekt&quot;&gt;https://github.com/google/zoekt&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Chocobozzz/PeerTube&quot;&gt;https://github.com/Chocobozzz/PeerTube&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Federated (ActivityPub) video streaming platform using P2P (BitTorrent) directly in the web browser with WebTorrent and Angular.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/3T-s2ct2yIwbIE3qAWstUQ&quot;&gt;https://mp.weixin.qq.com/s/3T-s2ct2yIwbIE3qAWstUQ&lt;/a&gt; &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;京东构建了全球最大的Kubernetes集群，没有之一&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/tiglabs/jdos&quot;&gt;https://github.com/tiglabs/jdos&lt;/a&gt; 有点迷 ... 好像是一键安装包&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/tiglabs/containerfs&quot;&gt;https://github.com/tiglabs/containerfs&lt;/a&gt; a cluster filesystem for containers&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/tiglabs/sharkstore&quot;&gt;https://github.com/tiglabs/sharkstore&lt;/a&gt; distributed key - value persisted storage system&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/tiglabs/jupiter&quot;&gt;https://github.com/tiglabs/jupiter&lt;/a&gt; Jupiter is a high-performance 4-layer network load balance service based on DPDK&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;tracking SOTA on common nlp tasks&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/sebastianruder/NLP-progress#natural-language-inference&quot;&gt;https://github.com/sebastianruder/NLP-progress#natural-language-inference&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/alibaba/tsar&quot;&gt;https://github.com/alibaba/tsar&lt;/a&gt; Taobao System Activity Reporter&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/square/p2&quot;&gt;https://github.com/square/p2&lt;/a&gt; square&amp;#39;s k8s like deployment system&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/concourse/concourse&quot;&gt;https://github.com/concourse/concourse&lt;/a&gt; &lt;a href=&quot;https://concourse-ci.org/&quot;&gt;https://concourse-ci.org/&lt;/a&gt; a CI/CD written in Go&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;From &lt;a href=&quot;https://github.com/zenany/weekly/commit/3729813d7240bdf0a0f5f8d043b7e8b87bce0b0f&quot;&gt;https://github.com/zenany/weekly/commit/3729813d7240bdf0a0f5f8d043b7e8b87bce0b0f&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://probablydance.com/2018/06/16/fibonacci-hashing-the-optimization-that-the-world-forgot-or-a-better-alternative-to-integer-modulo/&quot;&gt;https://probablydance.com/2018/06/16/fibonacci-hashing-the-optimization-that-the-world-forgot-or-a-better-alternative-to-integer-modulo/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://highscalability.com/blog/2018/6/18/how-ably-efficiently-implemented-consistent-hashing.html&quot;&gt;How Ably Efficiently Implemented Consistent Hashing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://msropendata.com/&quot;&gt;https://msropendata.com/&lt;/a&gt; cc @mingo-x @raspberryice &lt;a href=&quot;https://www.microsoft.com/en-us/research/blog/announcing-microsoft-research-open-data-datasets-by-microsoft-research-now-available-in-the-cloud/&quot;&gt;https://www.microsoft.com/en-us/research/blog/announcing-microsoft-research-open-data-datasets-by-microsoft-research-now-available-in-the-cloud/&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/patriciogonzalezvivo/glslEditor&quot;&gt;https://github.com/patriciogonzalezvivo/glslEditor&lt;/a&gt; @ir193&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/marcobambini/gravity&quot;&gt;https://github.com/marcobambini/gravity&lt;/a&gt; cc @codeworm96 @LukeXuan &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Gravity is a powerful, dynamically typed, lightweight, embeddable programming language written in C without any external dependencies (except for stdlib). It is a class-based concurrent scripting language with modern Swift-like syntax&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://education.github.com/&quot;&gt;https://education.github.com/&lt;/a&gt; 貌似可以给 org 申请免费的 private repo 了 cc @gaocegege @htfy96 虽然感觉没什么需要 private 的 .... private 之后 travis 也得交钱 😅 &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Restrict C++ unsafe behaviors in unsafe{} block using clang-query and simple commands。自己写的一个用clang-query来限制C++某些特性使用的脚本&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gist.github.com/htfy96/24b8d6ec78236b17674b548595984315&quot;&gt;https://gist.github.com/htfy96/24b8d6ec78236b17674b548595984315&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.slideshare.net/brendangregg/container-performance-analysis&quot;&gt;https://www.slideshare.net/brendangregg/container-performance-analysis&lt;/a&gt; &lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/h2non/bimg
+
+Small Go package for fast high-level image processing powered by libvips C library https://godoc.org/github.com/h2non/bimg</summary></entry><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/06/18/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-06-18T00:00:00+08:00</published><updated>2018-06-18T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/06/18/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/06/18/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/sbueringer/kubecon-slides&quot;&gt;https://github.com/sbueringer/kubecon-slides&lt;/a&gt; Kubecon Slides &amp;amp; Download utility&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -1402,105 +1504,4 @@ Code screenshots for presentation&lt;/p&gt;
 
 &lt;p&gt;@raspberryice there was a standard for submission (will there also be review?) so the weekly generator can parse it and generate weekly without human involved &lt;a href=&quot;https://github.com/dyweb/mos/issues/1&quot;&gt;https://github.com/dyweb/mos/issues/1&lt;/a&gt; , though I don&amp;#39;t know how much @codeworm96 implemented ....&lt;/p&gt;
 
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/360EntSecGroup-Skylar/goreporter</summary></entry><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2017/07/05/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2017-07-05T00:00:00+08:00</published><updated>2017-07-05T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2017/07/05/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2017/07/05/weekly.html">&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/akyuujs&quot;&gt;Akyuu.js&lt;/a&gt;, Yet another web framework based on express.js named Akyuu.
-&amp;gt; 只是觉得名字有趣，具体没看...我是 koa2 用户
-&lt;a href=&quot;https://github.com/arrowrowe&quot;&gt;@arrowrowe&lt;/a&gt;
-&lt;a href=&quot;https://www.packet.net/&quot;&gt;https://www.packet.net/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The Promise of the Cloud Delivered on Bare Metal&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/gemini-testing/gemini&quot;&gt;https://github.com/gemini-testing/gemini&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Utility for regression testing of web pages using screenshots &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/theupdateframework/tuf&quot;&gt;https://github.com/theupdateframework/tuf&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/oracle/railcar&quot;&gt;https://github.com/oracle/railcar&lt;/a&gt; Rust implementation of oci-runtime cc @gaocegege @codeworm96 &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://volutus.io/&quot;&gt;https://volutus.io/&lt;/a&gt; &lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Volutus is an edge co-location and data center as a platform service, stitching together a network of fully-managed micro data centers deeply embedded in the urban fabric—literally at the base of cell towers&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://ncase.me/trust/&quot;&gt;http://ncase.me/trust/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;..... so quiet&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;github running on k8s &lt;a href=&quot;https://githubengineering.com/kubernetes-at-github/&quot;&gt;https://githubengineering.com/kubernetes-at-github/&lt;/a&gt; cc @gaocegege &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/btcsuite/btcd&quot;&gt;https://github.com/btcsuite/btcd&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;It properly downloads, validates, and serves the block chain using the exact rules (including consensus bugs) for block acceptance as Bitcoin Core&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/Browsersync/browser-sync&quot;&gt;https://github.com/Browsersync/browser-sync&lt;/a&gt; never know there is such thing (for free ....) &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.classicshorts.com/index.shtml&quot;&gt;http://www.classicshorts.com/index.shtml&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;好久没上来过了。。。感觉上班后就没堕落了&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://blog.jobbole.com/112407/&quot;&gt;http://blog.jobbole.com/112407/&lt;/a&gt;
-MySQL 8.0.3 新feature&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/xitu/front-end-handbook-2017&quot;&gt;https://github.com/xitu/front-end-handbook-2017&lt;/a&gt; 🐑 感觉落后时代很久了&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/confluentinc/ksql&quot;&gt;https://github.com/confluentinc/ksql&lt;/a&gt;  a Streaming SQL Engine for Apache Kafka&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://sabre.io/&quot;&gt;http://sabre.io/&lt;/a&gt; open source WebDav, 记得 luge @LukeXuan 实习的时候好像提到过 WebDav/CalDav etc.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://blog.jcoglan.com/2013/11/15/why-github-is-not-your-cv/&quot;&gt;https://blog.jcoglan.com/2013/11/15/why-github-is-not-your-cv/&lt;/a&gt; cc @gaocegege &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=L10K3bN3Yng&quot;&gt;https://www.youtube.com/watch?v=L10K3bN3Yng&lt;/a&gt; Finishing What You Start cc @gaocegege 共勉 /w\&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;never start a second one in the same category until you finished the first one&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=vSjxg2OSyoY&quot;&gt;https://www.youtube.com/watch?v=vSjxg2OSyoY&lt;/a&gt; Tolerance for Messiness cc @swaylq 艺术家乾乾 /w&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Akyuu.js, Yet another web framework based on express.js named Akyuu.
-&amp;gt; 只是觉得名字有趣，具体没看...我是 koa2 用户
-@arrowrowe
-https://www.packet.net/
-
-
-
-The Promise of the Cloud Delivered on Bare Metal</summary></entry></feed>
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/360EntSecGroup-Skylar/goreporter</summary></entry></feed>
