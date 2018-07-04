@@ -1,5 +1,93 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-06-25T12:12:39+08:00</updated><id>https://dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/06/25/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-06-25T00:00:00+08:00</published><updated>2018-06-25T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/06/25/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/06/25/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/h2non/bimg&quot;&gt;https://github.com/h2non/bimg&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-07-04T10:18:58+08:00</updated><id>https://dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/07/02/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-07-02T00:00:00+08:00</published><updated>2018-07-02T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/07/02/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/07/02/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/Tencent/tars&quot;&gt;https://github.com/Tencent/tars&lt;/a&gt; 腾讯捐给 linux 基金会了 .... 起码某个微信公众号的推送里是这么说的, 里面说了两个 repo ... 第二个是 seer 什么(服务发现)的 ... 我没找到&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://gabrielsw.blogspot.com/2012/09/phantom-types-in-java.html&quot;&gt;http://gabrielsw.blogspot.com/2012/09/phantom-types-in-java.html&lt;/a&gt; Phantom Types 的简单例子&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;A Python static typing update&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lwn.net/Articles/757218/&quot;&gt;https://lwn.net/Articles/757218/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/tidwall/pinhole&quot;&gt;https://github.com/tidwall/pinhole&lt;/a&gt; 3D Wireframe Drawing Library for Go&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/DataDog/dd-trace-go/tree/v1/contrib&quot;&gt;https://github.com/DataDog/dd-trace-go/tree/v1/contrib&lt;/a&gt; datadog&amp;#39;s tracing interface and integrated with common libraries&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://rust-lang-nursery.github.io/edition-guide/introduction.html&quot;&gt;https://rust-lang-nursery.github.io/edition-guide/introduction.html&lt;/a&gt; Rust 2018 Edition Guide&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;My feedly feeds collection。还在用RSS的同学可以参考一下&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gist.github.com/htfy96/92ee46c961b3af450f1ee1fcb296e7c6&quot;&gt;https://gist.github.com/htfy96/92ee46c961b3af450f1ee1fcb296e7c6&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;才发现GFSv2（Colossus）的那个slides去年就已经公开了……之前都只有复述版&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.pdsw.org/pdsw-discs17/slides/PDSW-DISCS-Google-Keynote.pdf&quot;&gt;http://www.pdsw.org/pdsw-discs17/slides/PDSW-DISCS-Google-Keynote.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/gaocegege/papers-notebook/issues/95&quot;&gt;https://github.com/gaocegege/papers-notebook/issues/95&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/quark0/darts&quot;&gt;https://github.com/quark0/darts&lt;/a&gt;
+&lt;a href=&quot;https://arxiv.org/pdf/1806.09055.pdf&quot;&gt;https://arxiv.org/pdf/1806.09055.pdf&lt;/a&gt;
+&lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2650744369&amp;idx=1&amp;sn=c8bdab99bce21331f4823300e0f7070f&amp;chksm=871ae24fb06d6b59871fc8295d6b4fc929ac84f431823b74f6d904d94d3db1690abde31f58d0&amp;mpshare=1&amp;scene=1&amp;srcid=0627il2MViMGVcIAwYRJYBLH&amp;pass_ticket=JuN7OPykLjC9y8DSpa4EmdRPWUhlPbs1KSNp1rOHyVPWFLtKwx1zw9bJaltHqzzf#rd&quot;&gt;微信文章&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;指数级加速架构搜索：CMU提出基于梯度下降的可微架构搜索方法 &lt;/p&gt;
+
+&lt;p&gt;如果真的通用性很好的话，这个会是一个大新闻，模型搜索不再是梦&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Portable Services with systemd v239。systemd和容器技术互相交融还行……&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://0pointer.net/blog/walkthrough-for-portable-services.html&quot;&gt;http://0pointer.net/blog/walkthrough-for-portable-services.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;GUI Testing Powered by Deep Learning。前端越来越不好做了。。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.ebayinc.com/stories/blogs/tech/gui-testing-powered-by-deep-learning/&quot;&gt;https://www.ebayinc.com/stories/blogs/tech/gui-testing-powered-by-deep-learning/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Kata Containers plans to offer official k8s support。感觉Kata Container项目很有前途……&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://superuser.openstack.org/articles/project-update-whats-next-for-kata-containers/&quot;&gt;https://superuser.openstack.org/articles/project-update-whats-next-for-kata-containers/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;another tracing system (seems no longer maintained) &lt;a href=&quot;https://github.com/monzo/typhon&quot;&gt;https://github.com/monzo/typhon&lt;/a&gt; found from &lt;a href=&quot;https://peter.bourgon.org/blog/2016/02/07/logging-v-instrumentation.html&quot;&gt;https://peter.bourgon.org/blog/2016/02/07/logging-v-instrumentation.html&lt;/a&gt; also &lt;a href=&quot;https://peter.bourgon.org/blog/2017/02/21/metrics-tracing-and-logging.html&quot;&gt;https://peter.bourgon.org/blog/2017/02/21/metrics-tracing-and-logging.html&lt;/a&gt; is interesting as well&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Dlang: the GC series tutorial (2017)  介绍了Dlang的GC与无GC混合代码的使用方法。Dlang的GC只发生在分配的时候，因此发生的时机是可控的，在@nogc代码中不会触发。感觉这种hybrid的思路比起完全无GC更容易接受与使用……&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://dlang.org/blog/the-gc-series/&quot;&gt;https://dlang.org/blog/the-gc-series/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/Tencent/tars 腾讯捐给 linux 基金会了 .... 起码某个微信公众号的推送里是这么说的, 里面说了两个 repo ... 第二个是 seer 什么(服务发现)的 ... 我没找到</summary></entry><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/06/25/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-06-25T00:00:00+08:00</published><updated>2018-06-25T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/06/25/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/06/25/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/h2non/bimg&quot;&gt;https://github.com/h2non/bimg&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Small Go package for fast high-level image processing powered by libvips C library &lt;a href=&quot;https://godoc.org/github.com/h2non/bimg&quot;&gt;https://godoc.org/github.com/h2non/bimg&lt;/a&gt;&lt;/p&gt;
 
@@ -1417,91 +1505,4 @@ Subject: Re: [dyweb/weekly] Weekly/73 for 2018/4/30 (#22)&lt;/p&gt;
 You are receiving this because you were mentioned.
 Reply to this email directly, view it on GitHub&lt;a href=&quot;https://github.com/dyweb/weekly/issues/22#issuecomment-385317945&quot;&gt;https://github.com/dyweb/weekly/issues/22#issuecomment-385317945&lt;/a&gt;, or mute the thread&lt;a href=&quot;https://github.com/notifications/unsubscribe-auth/AE8D7l6pbKLKfI_SoPIFsq-yC5bKWfelks5ttqa_gaJpZM4TfzO-&quot;&gt;https://github.com/notifications/unsubscribe-auth/AE8D7l6pbKLKfI_SoPIFsq-yC5bKWfelks5ttqa_gaJpZM4TfzO-&lt;/a&gt;.&lt;/p&gt;
 
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/Shopify/ghostferry live mysql migration, and it has tlaplus https://github.com/Shopify/ghostferry/tree/master/tlaplus</summary></entry><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/04/23/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-04-23T00:00:00+08:00</published><updated>2018-04-23T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/04/23/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/04/23/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/360EntSecGroup-Skylar/goreporter&quot;&gt;https://github.com/360EntSecGroup-Skylar/goreporter&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/360EntSecGroup-Skylar/goreporter/master/DISPLAY.gif&quot; alt=&quot;有图有咩咩&quot;&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/goreleaser/goreleaser&quot;&gt;https://github.com/goreleaser/goreleaser&lt;/a&gt; looks good and we can implement similar things in ayi&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://shields.io/&quot;&gt;http://shields.io/&lt;/a&gt; badge collection&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://webassembly.studio/&quot;&gt;https://webassembly.studio/&lt;/a&gt; support rust @codeworm96 &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;from &lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://sqlite.org/whynotgit.html&quot;&gt;https://sqlite.org/whynotgit.html&lt;/a&gt; 里面的 xkcd 就是我用 git 的真实写照&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://electronjs.org/blog/in-app-purchases&quot;&gt;https://electronjs.org/blog/in-app-purchases&lt;/a&gt; electron 支持內购了(我们出个东岳的桌面客户端吧&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/vuejs/vuepress&quot;&gt;https://github.com/vuejs/vuepress&lt;/a&gt; 感觉 &lt;a href=&quot;https://github.com/nuxt/nuxt.js&quot;&gt;https://github.com/nuxt/nuxt.js&lt;/a&gt; 要少一些客户额&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://edgedb.com/&quot;&gt;https://edgedb.com/&lt;/a&gt; 基于 pg 用 python 写的 object relational db, 支持 graphql 自己也有个 query language，说要开源，还没开源。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;foundationdb 在被 apple 收购之后又开源了 &lt;a href=&quot;https://www.foundationdb.org/blog/foundationdb-is-open-source/&quot;&gt;https://www.foundationdb.org/blog/foundationdb-is-open-source/&lt;/a&gt; &lt;a href=&quot;https://github.com/apple/foundationdb&quot;&gt;https://github.com/apple/foundationdb&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;go 用 ragel &lt;a href=&quot;http://www.colm.net/open-source/ragel/&quot;&gt;http://www.colm.net/open-source/ragel/&lt;/a&gt; 写的 syslog parser 说比 rust 的还快 &lt;a href=&quot;https://github.com/influxdata/go-syslog#performance&quot;&gt;https://github.com/influxdata/go-syslog#performance&lt;/a&gt; @codeworm96 &lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;~2µs to parse an average legal message
-Other RFC5424 implementations, like this one in Rust, spend 8µs to parse an average legal message.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/soft-aesthetic/soft-era-vim&quot;&gt;~ soft era ~&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;🌸 Light pastel syntax theme for cozy, cute coding &amp;amp; typing. 🌱&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/soft-aesthetic/soft-era-vim/master/screenshot.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;@codeworm96 很早就有了各种依赖的工具，社区也一直在改进。另外有个坑是，不完整的 vendor 会出错, 比如 &lt;code&gt;github.com/dyweb/ayi/venodr/github.com/dyweb/gommon&lt;/code&gt; 和 &lt;code&gt;github.com/dyweb/gommon&lt;/code&gt; 并不是一个库，虽然代码可能是一样的，编译会报错。写 example 的时候就会比较迷 &lt;a href=&quot;https://github.com/at15/go.ice/blob/master/example/github/Gopkg.toml#L29-L48&quot;&gt;https://github.com/at15/go.ice/blob/master/example/github/Gopkg.toml#L29-L48&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;我其实很喜欢 go 这样安排 workspace, 所以 &lt;code&gt;ayi git clone&lt;/code&gt; 就按 go 的方式自动指定 clone destination。感觉比分好多文件夹用起来方便多了。我觉得性能要求不是特别高，code base 不是很大的项目，用 go 还是可以的。&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;根本不知道 cpp 怎么写的 gopher 路过 ...&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Friends don&amp;#39;t let friends use unions, unless they are type-safe .... Released in Abseil today: absl::variant, a C++11 compatible version of C++17&amp;#39;s std:variant!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/abseil/abseil-cpp/blob/master/absl/types/variant.h&quot;&gt;https://github.com/abseil/abseil-cpp/blob/master/absl/types/variant.h&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/Genymobile/scrcpy&quot;&gt;https://github.com/Genymobile/scrcpy&lt;/a&gt; Display and control your Android device without root&lt;/p&gt;
-
-&lt;p&gt;no longer need to buy chromecast to display screen to monitor ....&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/dawnlabs/carbon&quot;&gt;https://github.com/dawnlabs/carbon&lt;/a&gt;
-Code screenshots for presentation&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/esnet/iperf&quot;&gt;https://github.com/esnet/iperf&lt;/a&gt; iperf3: A TCP, UDP, and SCTP network bandwidth measurement tool&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/Azure/brigade&quot;&gt;https://github.com/Azure/brigade&lt;/a&gt; event based scripting for kubernetes&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/Azure/kashti&quot;&gt;https://github.com/Azure/kashti&lt;/a&gt; is a dashboard for brigade written in angular&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;@raspberryice there was a standard for submission (will there also be review?) so the weekly generator can parse it and generate weekly without human involved &lt;a href=&quot;https://github.com/dyweb/mos/issues/1&quot;&gt;https://github.com/dyweb/mos/issues/1&lt;/a&gt; , though I don&amp;#39;t know how much @codeworm96 implemented ....&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/360EntSecGroup-Skylar/goreporter</summary></entry></feed>
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/Shopify/ghostferry live mysql migration, and it has tlaplus https://github.com/Shopify/ghostferry/tree/master/tlaplus</summary></entry></feed>
