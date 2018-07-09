@@ -1,5 +1,117 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-07-04T10:18:58+08:00</updated><id>https://dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/07/02/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-07-02T00:00:00+08:00</published><updated>2018-07-02T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/07/02/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/07/02/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/Tencent/tars&quot;&gt;https://github.com/Tencent/tars&lt;/a&gt; 腾讯捐给 linux 基金会了 .... 起码某个微信公众号的推送里是这么说的, 里面说了两个 repo ... 第二个是 seer 什么(服务发现)的 ... 我没找到&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-07-09T09:56:50+08:00</updated><id>https://dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/07/09/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-07-09T00:00:00+08:00</published><updated>2018-07-09T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/07/09/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/07/09/weekly.html">&lt;p&gt;&lt;a href=&quot;https://funnyjs.com/marysue/&quot;&gt;https://funnyjs.com/marysue/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;玛丽苏文本加密器 &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/FiloSottile/mkcert&quot;&gt;https://github.com/FiloSottile/mkcert&lt;/a&gt; generate cert so you can use ssl for localhost&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/FiloSottile/whosthere&quot;&gt;https://github.com/FiloSottile/whosthere&lt;/a&gt; &lt;code&gt;ssh whoami.filippo.io&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/getsentry/raven-go&quot;&gt;https://github.com/getsentry/raven-go&lt;/a&gt; &lt;a href=&quot;https://github.com/airbrake/gobrake&quot;&gt;https://github.com/airbrake/gobrake&lt;/a&gt; capture error in go code and send to a error collecting and reporting service&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/nbedos/termtosvg&quot;&gt;https://github.com/nbedos/termtosvg&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Terminal to SVG&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/busyloop/lolcat&quot;&gt;https://github.com/busyloop/lolcat&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;让你的终端五彩斑斓&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.com/busyloop/lolcat/raw/master/ass/screenshot.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;阿里巴巴学术合作提供的一些在系统软件，机器学习等等领域的研究点&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://102.alibaba.com/fund/proposalResearch.htm&quot;&gt;https://102.alibaba.com/fund/proposalResearch.htm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;一个做 os-query &lt;a href=&quot;https://github.com/facebook/osquery&quot;&gt;https://github.com/facebook/osquery&lt;/a&gt; 周边的公司 kolide&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/kolide/fleet&quot;&gt;https://github.com/kolide/fleet&lt;/a&gt; A flexible control server for osquery fleets&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/kolide/osquery-go&quot;&gt;https://github.com/kolide/osquery-go&lt;/a&gt; go binding for &lt;a href=&quot;https://osquery.readthedocs.io/en/latest/development/osquery-sdk/&quot;&gt;https://osquery.readthedocs.io/en/latest/development/osquery-sdk/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/kolide/launcher&quot;&gt;https://github.com/kolide/launcher&lt;/a&gt; Osquery launcher, autoupdater, and packager&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Advanced Topics in Operating Systems (Stanford CS240)。这几篇文章都有点老，但是比较经典，特别是annotated copy中dalao的批注很有用&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://web.stanford.edu/class/cs240/&quot;&gt;http://web.stanford.edu/class/cs240/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;TIME-LOCK ENCRYPTION：如何利用密码学让我的毕业照只能在若干年后才能访问？&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.gwern.net/Self-decrypting-files&quot;&gt;https://www.gwern.net/Self-decrypting-files&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;GEF - GDB Enhanced Features for exploit devs &amp;amp; reversers。虽然主要针对安全研究，不过试了一下在日常调试情境下也非常好用，强烈推荐&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hugsy/gef&quot;&gt;https://github.com/hugsy/gef&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.ifanr.com/1061230&quot;&gt;http://www.ifanr.com/1061230&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;竞价广告的机制设计&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/YaoZengzeng/KubernetesResearch&quot;&gt;https://github.com/YaoZengzeng/KubernetesResearch&lt;/a&gt; 看 k8smeetup  公众号看到的小哥 cc @gaocegege &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;From &lt;a href=&quot;https://github.com/square/spincycle&quot;&gt;https://github.com/square/spincycle&lt;/a&gt; 以后开坑应该都加上这句话 cc @gaocegege /w&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;This project is still under development and should not be used for anything in production yet. We are not seeking external contributors at this time&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/dominikh/go-tools&quot;&gt;https://github.com/dominikh/go-tools&lt;/a&gt; a collection of tools and libraries for working with Go code, including linters and static analysis&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Deep Learning Programming Language Detection。在搜索自己的变量命名时发现的……&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/aliostad/deep-learning-lang-detection&quot;&gt;https://github.com/aliostad/deep-learning-lang-detection&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blog.scottlowe.org/archives/&quot;&gt;https://blog.scottlowe.org/archives/&lt;/a&gt; 讲了一些 k8s 还有ops 相关的内容 有一个定时更新的 technology short take &lt;a href=&quot;https://blog.scottlowe.org/2018/06/08/technology-short-take-101/&quot;&gt;https://blog.scottlowe.org/2018/06/08/technology-short-take-101/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blog.scottlowe.org/2018/06/28/more-handy-cli-tools-json/&quot;&gt;https://blog.scottlowe.org/2018/06/28/more-handy-cli-tools-json/&lt;/a&gt; 除了 jq 还有 jp &lt;a href=&quot;https://github.com/jmespath/jp&quot;&gt;https://github.com/jmespath/jp&lt;/a&gt; &lt;a href=&quot;http://jmespath.org/&quot;&gt;http://jmespath.org/&lt;/a&gt; cc @arrowrowe &lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://funnyjs.com/marysue/
+
+玛丽苏文本加密器</summary></entry><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/07/02/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-07-02T00:00:00+08:00</published><updated>2018-07-02T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/07/02/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/07/02/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/Tencent/tars&quot;&gt;https://github.com/Tencent/tars&lt;/a&gt; 腾讯捐给 linux 基金会了 .... 起码某个微信公众号的推送里是这么说的, 里面说了两个 repo ... 第二个是 seer 什么(服务发现)的 ... 我没找到&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -1361,148 +1473,4 @@ Go AI program implementing the AlphaGo Zero paper by Tencent&lt;/p&gt;
 
 &lt;p&gt;:tada: :tada: :tada: &lt;/p&gt;
 
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://coreos.com/blog/introducing-operator-framework #k8s cc @gaocegege @xplorld  the code is at https://github.com/operator-framework</summary></entry><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/04/30/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-04-30T00:00:00+08:00</published><updated>2018-04-30T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/04/30/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/04/30/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/Shopify/ghostferry&quot;&gt;https://github.com/Shopify/ghostferry&lt;/a&gt; live mysql migration, and it has tlaplus &lt;a href=&quot;https://github.com/Shopify/ghostferry/tree/master/tlaplus&quot;&gt;https://github.com/Shopify/ghostferry/tree/master/tlaplus&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/dmlc/gluon-nlp&quot;&gt;https://github.com/dmlc/gluon-nlp&lt;/a&gt; #炼丹&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.infoq.com/cn/articles/Kubernetes-system-architecture-introduction&quot;&gt;http://www.infoq.com/cn/articles/Kubernetes-system-architecture-introduction&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;所以Kubernetes目前是完全社区化管理吗？好像群里有active contributor? &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/tensorlang/tensorlang&quot;&gt;https://github.com/tensorlang/tensorlang&lt;/a&gt; a differentiable programming language based on TensorFlow&lt;/p&gt;
-
-&lt;p&gt;貌似是加了一层  wrapper 的 DSL .... cc @sxjscience &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;elastico open sourced x-pack &lt;a href=&quot;https://github.com/elastic/elasticsearch/tree/master/x-pack&quot;&gt;https://github.com/elastic/elasticsearch/tree/master/x-pack&lt;/a&gt; including security, alerting, monitoring, graph and machine learning. It was a paid only feature. &lt;a href=&quot;https://www.elastic.co/products/x-pack/open&quot;&gt;https://www.elastic.co/products/x-pack/open&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/japaric/criterion.rs&quot;&gt;https://github.com/japaric/criterion.rs&lt;/a&gt; Statistics-driven Microbenchmarking in Rust which is inspired by &lt;a href=&quot;https://github.com/bos/criterion/&quot;&gt;https://github.com/bos/criterion/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/dmlc/gluon-cv&quot;&gt;https://github.com/dmlc/gluon-cv&lt;/a&gt; #炼丹
-&lt;a href=&quot;http://gluon-cv.mxnet.io/&quot;&gt;http://gluon-cv.mxnet.io/&lt;/a&gt; &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/pshihn/rough&quot;&gt;https://github.com/pshihn/rough&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Rough.js is a light weight (9kB) graphics library that lets you draw in a sketchy, hand-drawn-like, style.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/321c5ec903de912560670ba0fb8d6b7705a2a4e5/68747470733a2f2f726f7567686a732e636f6d2f696d616765732f6361705f64656d6f2e706e67&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://blog.github.com/2018-04-19-introducing-github-learning-lab/&quot;&gt;https://blog.github.com/2018-04-19-introducing-github-learning-lab/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;GitHub 出品的，通过 Bot 学习 GitHub 使用的教程&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/projecteru2/white-paper&quot;&gt;https://github.com/projecteru2/white-paper&lt;/a&gt; and &lt;a href=&quot;https://github.com/laincloud/white-paper&quot;&gt;https://github.com/laincloud/white-paper&lt;/a&gt; container orchestration systems ... cc @gaocegege 听说过没？今天水知乎看到了 ....&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/jindongwang/transferlearning-tutorial&quot;&gt;https://github.com/jindongwang/transferlearning-tutorial&lt;/a&gt; 迁移学习简明手册&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/tensorflow/swift&quot;&gt;https://github.com/tensorflow/swift&lt;/a&gt; 这个组合真是奥妙重重&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;除了 docs 就是图，代码在这里 &lt;a href=&quot;https://github.com/google/swift/tree/tensorflow&quot;&gt;https://github.com/google/swift/tree/tensorflow&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLrEMgOSrS_3fghr8ez63xKFNF-BA6Pz13&quot;&gt;https://www.youtube.com/playlist?list=PLrEMgOSrS_3fghr8ez63xKFNF-BA6Pz13&lt;/a&gt; writing system software by Redis author cc @codeworm96 #就是不炼丹&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;一些配色网站，在折腾 &lt;a href=&quot;https://github.com/dyweb/Ayi/pull/79&quot;&gt;https://github.com/dyweb/Ayi/pull/79&lt;/a&gt; 的时候找了一下 (知乎回答搬运 #pet老师我要做设计&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://colormind.io/&quot;&gt;http://colormind.io/&lt;/a&gt; 可以传图取配色，还有 boostrap 网站的配色生成 ...&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Colormind is a color scheme generator that uses deep learning. It can learn color styles from photographs, movies, and popular art.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://color.adobe.com/create/color-wheel&quot;&gt;https://color.adobe.com/create/color-wheel&lt;/a&gt; adoubi &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://nipponcolors.com/&quot;&gt;http://nipponcolors.com/&lt;/a&gt; 日系配色&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://paletton.com&quot;&gt;http://paletton.com&lt;/a&gt; 并不太懂盘子旁边的方块是什么意思&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://coolors.co&quot;&gt;https://coolors.co&lt;/a&gt; 挺好玩，不会用&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/voxmedia/meme&quot;&gt;https://github.com/voxmedia/meme&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;Meme is a generator that Vox Media uses to create social sharing images. See working version at &lt;a href=&quot;http://www.sbnation.com/a/meme&quot;&gt;http://www.sbnation.com/a/meme&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://github.com/voxmedia/meme/raw/master/readme.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/reproto/reproto&quot;&gt;https://github.com/reproto/reproto&lt;/a&gt; a schema manager in Rust cc @codeworm96 作者以前是在 spotify 写 tsdb 的 ... /w 我还给他开过一个策策式的 PR (typo only fix&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/codeworm96/dy-weekly-generator/pull/3&quot;&gt;https://github.com/codeworm96/dy-weekly-generator/pull/3&lt;/a&gt; weekly generator 0.2.0 is ready for reviews!&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://castbox.fm&quot;&gt;https://castbox.fm&lt;/a&gt; 居然还有 podcast 的 app &lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;An ex-Googler sold her home to fund her startup — and she just got $13 million to build the &amp;#39;Netflix of podcasting&amp;#39;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/awslabs/mxboard&quot;&gt;https://github.com/awslabs/mxboard&lt;/a&gt; MXNet 也有 board 了 (套了一层 TensorBoard)&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;MXBoard provides a set of APIs for logging &lt;a href=&quot;http://mxnet.incubator.apache.org/&quot;&gt;MXNet&lt;/a&gt; data for visualization in &lt;a href=&quot;https://www.tensorflow.org/programmers_guide/summaries_and_tensorboard&quot;&gt;TensorBoard&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;The idea of this project comes from discussions with &lt;a href=&quot;https://github.com/zihaolucky&quot;&gt;Zihao Zheng&lt;/a&gt;, the author of &lt;a href=&quot;https://github.com/dmlc/tensorboard&quot;&gt;dmlc/tensorboard&lt;/a&gt;, on delivering a visualization solution for MXNet users.&lt;/li&gt;
-&lt;li&gt;We aim at providing the logging APIs that can process MXNet data efficiently and supporting most of the data types for visualization in the TensorBoard GUI.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;@arrowrowe @sxjscience 这个跟之前的 &lt;a href=&quot;https://github.com/dmlc/tensorboard&quot;&gt;https://github.com/dmlc/tensorboard&lt;/a&gt; 主要区别是什么? (btw: tensorboard 的前端代码好像没有用什么框架，起码没用 angular .....&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;就是套了一下tensorboard&lt;/p&gt;
-
-&lt;p&gt;Get Outlook for iOS&lt;a href=&quot;https://aka.ms/o0ukef&quot;&gt;https://aka.ms/o0ukef&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;From: Pinglei Guo &lt;a href=&quot;mailto:notifications@github.com&quot;&gt;notifications@github.com&lt;/a&gt;
-Sent: Monday, April 30, 2018 1:53:03 PM
-To: dyweb/weekly
-Cc: Xingjian SHI; Mention
-Subject: Re: [dyweb/weekly] Weekly/73 for 2018/4/30 (#22)&lt;/p&gt;
-
-&lt;p&gt;@arrowrowe&lt;a href=&quot;https://github.com/arrowrowe&quot;&gt;https://github.com/arrowrowe&lt;/a&gt; @sxjscience&lt;a href=&quot;https://github.com/sxjscience&quot;&gt;https://github.com/sxjscience&lt;/a&gt; 这个跟之前的 &lt;a href=&quot;https://github.com/dmlc/tensorboard&quot;&gt;https://github.com/dmlc/tensorboard&lt;/a&gt; 主要区别是什么? (btw: tensorboard 的前端代码好像没有用什么框架，起码没用 angular .....&lt;/p&gt;
-
-&lt;p&gt;―
-You are receiving this because you were mentioned.
-Reply to this email directly, view it on GitHub&lt;a href=&quot;https://github.com/dyweb/weekly/issues/22#issuecomment-385317945&quot;&gt;https://github.com/dyweb/weekly/issues/22#issuecomment-385317945&lt;/a&gt;, or mute the thread&lt;a href=&quot;https://github.com/notifications/unsubscribe-auth/AE8D7l6pbKLKfI_SoPIFsq-yC5bKWfelks5ttqa_gaJpZM4TfzO-&quot;&gt;https://github.com/notifications/unsubscribe-auth/AE8D7l6pbKLKfI_SoPIFsq-yC5bKWfelks5ttqa_gaJpZM4TfzO-&lt;/a&gt;.&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/Shopify/ghostferry live mysql migration, and it has tlaplus https://github.com/Shopify/ghostferry/tree/master/tlaplus</summary></entry></feed>
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://coreos.com/blog/introducing-operator-framework #k8s cc @gaocegege @xplorld  the code is at https://github.com/operator-framework</summary></entry></feed>
