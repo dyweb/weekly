@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-07-17T16:27:57+08:00</updated><id>https://dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/07/16/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-07-16T00:00:00+08:00</published><updated>2018-07-16T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/07/16/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/07/16/weekly.html">&lt;p&gt;&lt;a href=&quot;https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction&quot;&gt;https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-07-17T16:42:10+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/07/16/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-07-16T00:00:00+08:00</published><updated>2018-07-16T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/07/16/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/07/16/weekly.html">&lt;p&gt;&lt;a href=&quot;https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction&quot;&gt;https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -175,7 +175,7 @@
 
 &lt;p&gt;&lt;a href=&quot;http://graphics.stanford.edu/%7Eseander/bithacks.html&quot;&gt;http://graphics.stanford.edu/~seander/bithacks.html&lt;/a&gt;&lt;/p&gt;
 
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction</summary></entry><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/07/09/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-07-09T00:00:00+08:00</published><updated>2018-07-09T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/07/09/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/07/09/weekly.html">&lt;p&gt;&lt;a href=&quot;https://funnyjs.com/marysue/&quot;&gt;https://funnyjs.com/marysue/&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/07/09/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-07-09T00:00:00+08:00</published><updated>2018-07-09T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/07/09/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/07/09/weekly.html">&lt;p&gt;&lt;a href=&quot;https://funnyjs.com/marysue/&quot;&gt;https://funnyjs.com/marysue/&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;玛丽苏文本加密器 &lt;/p&gt;
 
@@ -287,7 +287,7 @@
 
 &lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://funnyjs.com/marysue/
 
-玛丽苏文本加密器</summary></entry><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/07/02/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-07-02T00:00:00+08:00</published><updated>2018-07-02T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/07/02/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/07/02/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/Tencent/tars&quot;&gt;https://github.com/Tencent/tars&lt;/a&gt; 腾讯捐给 linux 基金会了 .... 起码某个微信公众号的推送里是这么说的, 里面说了两个 repo ... 第二个是 seer 什么(服务发现)的 ... 我没找到&lt;/p&gt;
+玛丽苏文本加密器</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/07/02/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-07-02T00:00:00+08:00</published><updated>2018-07-02T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/07/02/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/07/02/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/Tencent/tars&quot;&gt;https://github.com/Tencent/tars&lt;/a&gt; 腾讯捐给 linux 基金会了 .... 起码某个微信公众号的推送里是这么说的, 里面说了两个 repo ... 第二个是 seer 什么(服务发现)的 ... 我没找到&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -375,7 +375,7 @@
 
 &lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
 
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/Tencent/tars 腾讯捐给 linux 基金会了 .... 起码某个微信公众号的推送里是这么说的, 里面说了两个 repo ... 第二个是 seer 什么(服务发现)的 ... 我没找到</summary></entry><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/06/25/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-06-25T00:00:00+08:00</published><updated>2018-06-25T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/06/25/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/06/25/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/h2non/bimg&quot;&gt;https://github.com/h2non/bimg&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/Tencent/tars 腾讯捐给 linux 基金会了 .... 起码某个微信公众号的推送里是这么说的, 里面说了两个 repo ... 第二个是 seer 什么(服务发现)的 ... 我没找到</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/06/25/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-06-25T00:00:00+08:00</published><updated>2018-06-25T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/06/25/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/06/25/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/h2non/bimg&quot;&gt;https://github.com/h2non/bimg&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Small Go package for fast high-level image processing powered by libvips C library &lt;a href=&quot;https://godoc.org/github.com/h2non/bimg&quot;&gt;https://godoc.org/github.com/h2non/bimg&lt;/a&gt;&lt;/p&gt;
 
@@ -477,7 +477,7 @@
 
 &lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/h2non/bimg
 
-Small Go package for fast high-level image processing powered by libvips C library https://godoc.org/github.com/h2non/bimg</summary></entry><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/06/18/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-06-18T00:00:00+08:00</published><updated>2018-06-18T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/06/18/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/06/18/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/sbueringer/kubecon-slides&quot;&gt;https://github.com/sbueringer/kubecon-slides&lt;/a&gt; Kubecon Slides &amp;amp; Download utility&lt;/p&gt;
+Small Go package for fast high-level image processing powered by libvips C library https://godoc.org/github.com/h2non/bimg</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/06/18/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-06-18T00:00:00+08:00</published><updated>2018-06-18T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/06/18/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/06/18/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/sbueringer/kubecon-slides&quot;&gt;https://github.com/sbueringer/kubecon-slides&lt;/a&gt; Kubecon Slides &amp;amp; Download utility&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -532,7 +532,7 @@ Small Go package for fast high-level image processing powered by libvips C libra
 
 &lt;p&gt;&lt;a href=&quot;https://medium.com/@mccode/understanding-how-uid-and-gid-work-in-docker-containers-c37a01d01cf&quot;&gt;https://medium.com/@mccode/understanding-how-uid-and-gid-work-in-docker-containers-c37a01d01cf&lt;/a&gt; &amp;#39;a root inside the container == root outside container&amp;#39;&lt;/p&gt;
 
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/sbueringer/kubecon-slides Kubecon Slides &amp;amp; Download utility</summary></entry><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/06/11/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-06-11T00:00:00+08:00</published><updated>2018-06-11T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/06/11/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/06/11/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/senorprogrammer/wtf&quot;&gt;https://github.com/senorprogrammer/wtf&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/sbueringer/kubecon-slides Kubecon Slides &amp;amp; Download utility</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/06/11/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-06-11T00:00:00+08:00</published><updated>2018-06-11T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/06/11/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/06/11/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/senorprogrammer/wtf&quot;&gt;https://github.com/senorprogrammer/wtf&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;A personal terminal-based dashboard utility, designed for displaying infrequently-needed, but very important, daily data.&lt;/p&gt;
 
@@ -716,7 +716,7 @@ Small Go package for fast high-level image processing powered by libvips C libra
 
 &lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/senorprogrammer/wtf
 
-A personal terminal-based dashboard utility, designed for displaying infrequently-needed, but very important, daily data.</summary></entry><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/06/04/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-06-04T00:00:00+08:00</published><updated>2018-06-04T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/06/04/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/06/04/weekly.html">&lt;p&gt;Reproducible ML&lt;/p&gt;
+A personal terminal-based dashboard utility, designed for displaying infrequently-needed, but very important, daily data.</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/06/04/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-06-04T00:00:00+08:00</published><updated>2018-06-04T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/06/04/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/06/04/weekly.html">&lt;p&gt;Reproducible ML&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://determined.ai/blog/reproducibility-in-ml/?twitter=@bigdata&quot;&gt;http://determined.ai/blog/reproducibility-in-ml/?twitter=@bigdata&lt;/a&gt;&lt;/p&gt;
 
@@ -782,7 +782,7 @@ A secure TypeScript runtime on V8&lt;/p&gt;
 
 &lt;p&gt;Kubernetes 社区搞的一个交流的平台&lt;/p&gt;
 
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Reproducible ML</summary></entry><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/05/28/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-05-28T00:00:00+08:00</published><updated>2018-05-28T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/05/28/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/05/28/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/GitHub-Laziji/VBlog&quot;&gt;https://github.com/GitHub-Laziji/VBlog&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Reproducible ML</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/05/28/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-05-28T00:00:00+08:00</published><updated>2018-05-28T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/05/28/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/05/28/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/GitHub-Laziji/VBlog&quot;&gt;https://github.com/GitHub-Laziji/VBlog&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;使用 github gist api 无需任何服务器 搭建一个可动态发布文章的个人博客&lt;/p&gt;
 
@@ -930,7 +930,7 @@ A secure TypeScript runtime on V8&lt;/p&gt;
 
 &lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/GitHub-Laziji/VBlog
 
-使用 github gist api 无需任何服务器 搭建一个可动态发布文章的个人博客</summary></entry><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/05/21/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-05-21T00:00:00+08:00</published><updated>2018-05-21T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/05/21/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/05/21/weekly.html">&lt;p&gt;&lt;a href=&quot;https://www.arxiv-vanity.com/papers/1805.04272/&quot;&gt;https://www.arxiv-vanity.com/papers/1805.04272/&lt;/a&gt;&lt;/p&gt;
+使用 github gist api 无需任何服务器 搭建一个可动态发布文章的个人博客</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/05/21/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-05-21T00:00:00+08:00</published><updated>2018-05-21T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/05/21/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/05/21/weekly.html">&lt;p&gt;&lt;a href=&quot;https://www.arxiv-vanity.com/papers/1805.04272/&quot;&gt;https://www.arxiv-vanity.com/papers/1805.04272/&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;An O(n) Sorting Algorithm: Machine Learning Sorting&lt;/p&gt;
 
@@ -1082,7 +1082,7 @@ A secure TypeScript runtime on V8&lt;/p&gt;
 
 An O(n) Sorting Algorithm: Machine Learning Sorting
 
-懵逼</summary></entry><entry><title type="html">Weekly</title><link href="https://dongyueweb.com/weekly/2018/05/14/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-05-14T00:00:00+08:00</published><updated>2018-05-14T00:00:00+08:00</updated><id>https://dongyueweb.com/weekly/2018/05/14/weekly</id><content type="html" xml:base="https://dongyueweb.com/weekly/2018/05/14/weekly.html">&lt;p&gt;Who controls glibc? 开源世界真有趣&lt;/p&gt;
+懵逼</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/05/14/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-05-14T00:00:00+08:00</published><updated>2018-05-14T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/05/14/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/05/14/weekly.html">&lt;p&gt;Who controls glibc? 开源世界真有趣&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://lwn.net/SubscriberLink/753646/a6ebb50040c5862c/&quot;&gt;https://lwn.net/SubscriberLink/753646/a6ebb50040c5862c/&lt;/a&gt;&lt;/p&gt;
 
