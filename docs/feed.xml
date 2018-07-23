@@ -1,5 +1,127 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-07-17T16:42:10+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/07/16/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-07-16T00:00:00+08:00</published><updated>2018-07-16T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/07/16/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/07/16/weekly.html">&lt;p&gt;&lt;a href=&quot;https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction&quot;&gt;https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-07-23T11:34:49+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/07/23/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-07-23T00:00:00+08:00</published><updated>2018-07-23T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/07/23/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/07/23/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/chubin/cheat.sh&quot;&gt;https://github.com/chubin/cheat.sh&lt;/a&gt; the only cheat sheet you need&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.destroyallsoftware.com/screencasts&quot;&gt;https://www.destroyallsoftware.com/screencasts&lt;/a&gt; seems need subscription $29/mo&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.cacher.io/&quot;&gt;https://www.cacher.io/&lt;/a&gt; code snippet with editor and team integration&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blog.golang.org/ismmkeynote&quot;&gt;https://blog.golang.org/ismmkeynote&lt;/a&gt; evolution of go&amp;#39;s garbage collector, keynote in ISMM&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.yuanlimm.com/&quot;&gt;https://www.yuanlimm.com/&lt;/a&gt; 二次元虚拟人物交易所，新版打算用以太坊合约。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.amazon.cn/dp/B00VW63RUG/&quot;&gt;https://www.amazon.cn/dp/B00VW63RUG/&lt;/a&gt; 高频交易。华尔街程序员们斗智斗勇的故事。情节引人入胜，科学性有待考察。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.raywenderlich.com/146414/metal-tutorial-swift-3-part-1-getting-started&quot;&gt;https://www.raywenderlich.com/146414/metal-tutorial-swift-3-part-1-getting-started&lt;/a&gt; 
+Swift 版 Metal 入门教程。最近正好有用 Apple 平台的绘图 API 的需求，快速入门了一下。唯一的坑就是 macOS 上没有 &lt;code&gt;CADisplayLink&lt;/code&gt;。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;null&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.producthunt.com/posts/gitstalk&quot;&gt;https://www.producthunt.com/posts/gitstalk&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;for stalking people on github...&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gitstalk.netlify.com/?ref=producthunt&quot;&gt;https://gitstalk.netlify.com/?ref=producthunt&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;炼丹管理&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.comet.ml/?ref=producthunt&quot;&gt;https://www.comet.ml/?ref=producthunt&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/moderndive/moderndive_book&quot;&gt;https://github.com/moderndive/moderndive_book&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ModernDive: An Introduction to Statistical and Data Sciences via R&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.comet.ml&quot;&gt;https://www.comet.ml&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;推荐一个 ML on K8s 的炼丹管理 &lt;a href=&quot;https://riseml.com/&quot;&gt;https://riseml.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/golang-standards/project-layout&quot;&gt;https://github.com/golang-standards/project-layout&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Standard Go Project Layout &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/foolwood/benchmark_results&quot;&gt;https://github.com/foolwood/benchmark_results&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;visual tracker benchmark results&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/brython-dev/brython/&quot;&gt;https://github.com/brython-dev/brython/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;浏览器端 Python。简直是令人窒息的高端操作。
+这个项目被运用在国内的某个在线 Python 幼教平台。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/ajalt/fuckitpy&quot;&gt;https://github.com/ajalt/fuckitpy&lt;/a&gt; and &lt;a href=&quot;https://github.com/mattdiamond/fuckitjs&quot;&gt;https://github.com/mattdiamond/fuckitjs&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/&quot;&gt;https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/&lt;/a&gt; windows 开启 hyper-v 之后, host 也跑在 hypervisor 上 ...&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;In addition, if you have Hyper-V enabled, those latency-sensitive, high-precision applications may also have issues running in the host. This is because with virtualization enabled, the host OS also runs on top of the Hyper-V virtualization layer, just as guest operating systems do. However, unlike guests, the host OS is special in that it has direct access to all the hardware, which means that applications with special hardware requirements can still run without issues in the host OS&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://hackernoon.com/why-is-python-so-slow-e5074b6fe55b&quot;&gt;https://hackernoon.com/why-is-python-so-slow-e5074b6fe55b&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;作者对“Python 为什么这么慢”进行了详细的解答。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Broadroad/gpool&quot;&gt;https://github.com/Broadroad/gpool&lt;/a&gt; go tcp connection pool 作者头像不错 ... &lt;a href=&quot;https://github.com/Broadroad&quot;&gt;https://github.com/Broadroad&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.v2ex.com/t/472881&quot;&gt;https://www.v2ex.com/t/472881&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;我曾经多次很有兴致地教零基础或者仅 NOIP 基础的小朋友写网站写工程。我建议他们用 Codecademy 之类的 Interactive 平台学编程，但最后都没学出来。看来教写程序也是一门技术。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://engineering.linkedin.com/blog/2018/07/how-we-improved-build-time-by-400-percent&quot;&gt;https://engineering.linkedin.com/blog/2018/07/how-we-improved-build-time-by-400-percent&lt;/a&gt; linkedin 用 gradle 代替 sbt 提高了 play framework 的编译速度 ... @gaocegege 还写 scala 么.jpg&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/facebookincubator/oomd&quot;&gt;https://github.com/facebookincubator/oomd&lt;/a&gt; userspace oom killer, 需要 &lt;a href=&quot;http://git.cmpxchg.org/cgit.cgi/linux-psi.git/&quot;&gt;PSI &lt;/a&gt; (是啥 ...?&lt;/p&gt;
+
+&lt;p&gt;PSI pressure stall information for CPU, memory, and IO v2  &lt;a href=&quot;https://lwn.net/Articles/759658/&quot;&gt;https://lwn.net/Articles/759658/&lt;/a&gt; &lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/chubin/cheat.sh the only cheat sheet you need</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/07/16/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-07-16T00:00:00+08:00</published><updated>2018-07-16T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/07/16/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/07/16/weekly.html">&lt;p&gt;&lt;a href=&quot;https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction&quot;&gt;https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -1082,322 +1204,4 @@ A secure TypeScript runtime on V8&lt;/p&gt;
 
 An O(n) Sorting Algorithm: Machine Learning Sorting
 
-懵逼</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/05/14/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-05-14T00:00:00+08:00</published><updated>2018-05-14T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/05/14/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/05/14/weekly.html">&lt;p&gt;Who controls glibc? 开源世界真有趣&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://lwn.net/SubscriberLink/753646/a6ebb50040c5862c/&quot;&gt;https://lwn.net/SubscriberLink/753646/a6ebb50040c5862c/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;GitHub 在 Microsoft Build 大会上发布了新 feature: Checks API&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://blog.github.com/2018-05-07-introducing-checks-api/&quot;&gt;https://blog.github.com/2018-05-07-introducing-checks-api/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;corral: A serverless MapReduce framework written for AWS Lambda&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/bcongdon/corral&quot;&gt;https://github.com/bcongdon/corral&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://github.com/bcongdon/corral/raw/master/img/word_count.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Learn how to master the art of baking the programmer way.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/hendricius/the-bread-code&quot;&gt;https://github.com/hendricius/the-bread-code&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Learn how to master the art of baking the programmer way. If you love programming, you will also enjoy breaking some bread. A/B test, iterate and ultimately become a self-taught baker. This repository is dedicated to becoming your bread manifesto with useful tricks and hacks. Furthermore, the goal is to illustrate how easy making bread is and that you can get started today without expensive tools.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/atom/xray&quot;&gt;https://github.com/atom/xray&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/268413089&quot;&gt;如何评价GitHub准备推出下一代文本编辑器Xray？&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://github.com/atom/xray/raw/master/docs/images/architecture.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;腾讯高性能前向计算库&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/Tencent/FeatherCNN&quot;&gt;https://github.com/Tencent/FeatherCNN&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Creative Coding Framework for Rust 太硬核了&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/nannou-org/nannou&quot;&gt;https://github.com/nannou-org/nannou&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;An Introduction to Computer Networks:&lt;/p&gt;
-
-&lt;p&gt;A great and detailed resource to learn computer network. Should be your second book on computer networking,&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://intronetworks.cs.luc.edu/current/html/index.html&quot;&gt;https://intronetworks.cs.luc.edu/current/html/index.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://blog.codingnow.com/2018/05/ineffective_debugger.html#more&quot;&gt;https://blog.codingnow.com/2018/05/ineffective_debugger.html#more&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;作者观点：良性的code review -&amp;gt; 逼迫人写出容易被review的代码 -&amp;gt; 让人写出容易懂的代码 -&amp;gt; 降低写出bug的概率。这个还是挺同意的。但是个人认为如果出了可复现的bug，还是下断点方便。。。&lt;/p&gt;
-
-&lt;p&gt;以及对于一些类似没有类型注释的python project，下断点跑一遍最方便理解了&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;为什么基于成功的开源项目的商业产品会失败？&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://iaaslee.blogspot.ae/2015/07/blog-post_14.html?view=classic&quot;&gt;http://iaaslee.blogspot.ae/2015/07/blog-post_14.html?view=classic&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这篇文章的观点我举双手赞同。。。&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;我这里给出的良方，国人未必听的进去，因为这个一个崇拜成功者的文化，对失败者没有任何的宽容精神的文化，虽然我打算将此作为我创业的第一项业务，我也不会有所保留，只是给能够赏识和理解的人看的。&lt;/p&gt;
-
-&lt;p&gt;0、必须雇佣大量的开发、测试、文档人员，直接纯粹的参与到社区。
- 1、在选型之前，要明确自己的业务方向。
- 2、营造宽松的文化氛围，努力的施展各种手段让工程师脑子里想着开发更好的产品。
- 3、重视生态系统，不要孤立的想独霸天下。
- 4、分清core和外围部分，这点可以参考各个Linux的发行版，或BSD的发行版。不要轻易的去动core的东西而不和社区相互动。
- 5、注意知识的传播，优秀文档的撰写。你做的东西一定得有熟练得专业用户使用。
- 6、重视服务，换句话说，需要提升技术支持团队得能力。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;A Markdown to HTML converter written in Javascript&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/showdownjs/showdown&quot;&gt;https://github.com/showdownjs/showdown&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;比龙书容易些的编译原理教程
-&lt;a href=&quot;https://ruslanspivak.com/lsbasi-part1/&quot;&gt;https://ruslanspivak.com/lsbasi-part1/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/Netflix/Fenzo&quot;&gt;https://github.com/Netflix/Fenzo&lt;/a&gt; netflix&amp;#39;s scheduler for mesos, used in their recently open sourced titus &lt;a href=&quot;https://github.com/Netflix/titus&quot;&gt;https://github.com/Netflix/titus&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;btw: meet the titus team today at PayPal /w&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/go-crawler/lagou_jobs&quot;&gt;https://github.com/go-crawler/lagou_jobs&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;爬虫带你了解一下Golang的市场行情&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/e2d4499c8c263e593d06e67350f38374a45a4fc8/68747470733a2f2f692e6c6f6c692e6e65742f323031382f30342f32372f356165323930383536623737342e6a706567&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;上海地区 Go 招聘职位的地理分布&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Kubernetes Virtualization Operator with API and runtime in order to define and manage virtual machines. Kubernetes 管理虚拟机不是梦&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/kubevirt/kubevirt&quot;&gt;https://github.com/kubevirt/kubevirt&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;教你造轮子系列教程&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/danistefanovic/build-your-own-x&quot;&gt;https://github.com/danistefanovic/build-your-own-x&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;repository to research &amp;amp; share the machine learning articles （日语的）&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/arXivTimes/arXivTimes&quot;&gt;https://github.com/arXivTimes/arXivTimes&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Carnegie Mellon Launches Undergraduate Degree in Artificial Intelligence&lt;/p&gt;
-
-&lt;p&gt;菜醒&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.cs.cmu.edu/news/carnegie-mellon-launches-undergraduate-degree-artificial-intelligence&quot;&gt;https://www.cs.cmu.edu/news/carnegie-mellon-launches-undergraduate-degree-artificial-intelligence&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Fizz Buzz in TensorFlow&lt;/p&gt;
-
-&lt;p&gt;TensorFlow 计算图的图灵完备性了解一下&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://joelgrus.com/2016/05/23/fizz-buzz-in-tensorflow/&quot;&gt;http://joelgrus.com/2016/05/23/fizz-buzz-in-tensorflow/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition&quot;&gt;https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;FizzBuzz 的企业级实现，具备高扩展性等企业级特性 :mengbi:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.safaribooksonline.com/library/view/prometheus-up/9781492034131/&quot;&gt;https://www.safaribooksonline.com/library/view/prometheus-up/9781492034131/&lt;/a&gt; Prometheus: Up &amp;amp; Running&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;What happens when I type kubectl run?&lt;/p&gt;
-
-&lt;p&gt;了解 k8s 内部交互过程的好文&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/jamiehannaford/what-happens-when-k8s&quot;&gt;https://github.com/jamiehannaford/what-happens-when-k8s&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/Tencent/PhoenixGo&quot;&gt;https://github.com/Tencent/PhoenixGo&lt;/a&gt;
-Go AI program implementing the AlphaGo Zero paper by Tencent&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=i6V4KPh_D5g&quot;&gt;Automating GPU Infrastructure for Kubernetes - Lucas Servén Marín, CoreOS&lt;/a&gt; from KubeCon cc @gaocegege &lt;/p&gt;
-
-&lt;p&gt;Update: don&amp;#39;t watch this, it just tells how to use cuda with coreos ....&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Crack it, don&amp;#39;t break it&lt;/p&gt;
-
-&lt;p&gt;~~~As a C++ programmer, you &lt;em&gt;should&lt;/em&gt; always learn something evil~~~&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://wonderfulcoding.blogspot.com.ar/2015/10/crack-it-dont-break-it.html&quot;&gt;http://wonderfulcoding.blogspot.com.ar/2015/10/crack-it-dont-break-it.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Bufferbloat: The cause and the solution&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.bufferbloat.net/projects/&quot;&gt;https://www.bufferbloat.net/projects/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Zero-overhead deterministic exceptions: Throwing values&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Human minds are too fragile to implement an exception-safe method&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p0709r0.pdf&quot;&gt;http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p0709r0.pdf&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/xiaolin3303/wx-charts&quot;&gt;https://github.com/xiaolin3303/wx-charts&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;微信小程序图表charts组件，Charts for WeChat small app &lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/xiaolin3303/wx-charts/master/example/pie.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Life is like Python.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/satwikkansal/wtfpython&quot;&gt;https://github.com/satwikkansal/wtfpython&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://gitlab.com/gitlab-org/gitlab-ce/tree/master/app/assets/javascripts/ide&quot;&gt;https://gitlab.com/gitlab-org/gitlab-ce/tree/master/app/assets/javascripts/ide&lt;/a&gt; gitlab ce now has &lt;a href=&quot;https://docs.gitlab.com/ee/user/project/web_ide/&quot;&gt;web IDE&lt;/a&gt; written in vue with &lt;a href=&quot;https://github.com/Microsoft/monaco-editor&quot;&gt;monaco&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/raviqqe/muffet&quot;&gt;https://github.com/raviqqe/muffet&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Fast website link checker in Go&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://asciinema.org/a/178887&quot;&gt;&lt;img src=&quot;https://asciinema.org/a/178887.png&quot; alt=&quot;asciicast&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/ServicemeshCN/awesome-servicemesh&quot;&gt;https://github.com/ServicemeshCN/awesome-servicemesh&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Awesome Service Mesh资料清单&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Service Mesh是一个新兴的技术，资料相对比较少，为了便于收集整理Service Mesh相关的博客/文章/演讲/视频等资料，Service Mesh中文网决定创建并维护这份Awesome Service Mesh资料清单。&lt;/p&gt;
-
-&lt;p&gt;资料内容来自国内国内公开媒体，转载时我们会指明出处，标注原作者和原译者，如果是原创或者原创翻译也会标明作者或者译者身份。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.springboard.com/blog/machine-learning-interview-questions/&quot;&gt;41 Essential Machine Learning Interview Questions (with answers)&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/5100735/39987325-033493c0-5797-11e8-8db3-eeccfdda6313.png&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/komeiji-satori/Dress&quot;&gt;https://github.com/komeiji-satori/Dress&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;女装照片收集&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/samwize/python-email-crawler&quot;&gt;https://github.com/samwize/python-email-crawler&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Search on Google, and crawls for emails related to the result&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/gephi/gephi&quot;&gt;https://github.com/gephi/gephi&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;之前在 &lt;a href=&quot;https://github.com/dyweb/scala-renren&quot;&gt;https://github.com/dyweb/scala-renren&lt;/a&gt; 和 &lt;a href=&quot;https://github.com/gaocegege/scala-github-relationship&quot;&gt;https://github.com/gaocegege/scala-github-relationship&lt;/a&gt; 中用到的复杂网络 UI 库，可以说当初找到的唯一一个可以画复杂网络的轮子了&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/5100735/39991954-c5137f04-57a3-11e8-9588-f9aacf4e456d.png&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://hczhcz.github.io/puzzle/&quot;&gt;http://hczhcz.github.io/puzzle/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;交大一个同学写的很有趣的小 puzzle&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;PlayStation4 stereo camera package for ROS&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/longjie/ps4eye&quot;&gt;https://github.com/longjie/ps4eye&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;cloudflare and rust cc @codeworm96  &lt;a href=&quot;https://docs.google.com/presentation/d/1ERVTXZbYBMZf-9Zk3YsWw2oV14C5j0i1PsVgGywSsAI/edit#slide=id.g244c4c34_09&quot;&gt;https://docs.google.com/presentation/d/1ERVTXZbYBMZf-9Zk3YsWw2oV14C5j0i1PsVgGywSsAI/edit#slide=id.g244c4c34_09&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Who controls glibc? 开源世界真有趣</summary></entry></feed>
+懵逼</summary></entry></feed>
