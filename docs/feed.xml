@@ -1,5 +1,53 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-07-29T10:59:56+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/07/23/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-07-23T00:00:00+08:00</published><updated>2018-07-23T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/07/23/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/07/23/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/chubin/cheat.sh&quot;&gt;https://github.com/chubin/cheat.sh&lt;/a&gt; the only cheat sheet you need&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-07-30T11:06:03+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/07/30/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-07-30T00:00:00+08:00</published><updated>2018-07-30T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/07/30/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/07/30/weekly.html">&lt;p&gt;memory barriers doc in Linux Kernel。感觉写得比大多数讲mem barrier的文章好……&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.infradead.org/%7Emchehab/kernel_docs/unsorted/memory-barriers.html&quot;&gt;http://www.infradead.org/~mchehab/kernel_docs/unsorted/memory-barriers.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;cpu_opv system call。一个可以在用户态执行不被抢断一些操作的API，还没被merge，目测merge后malloc/trace/user-space scheduler都要改一波。可以搭配restartable sequence (merged in 4.18)使用 &lt;a href=&quot;https://lwn.net/Articles/650333/&quot;&gt;https://lwn.net/Articles/650333/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;顺带一提这个东西好像早就进google kernel mainline了……谷人希&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://git.kernel.org/pub/scm/linux/kernel/git/rseq/linux-rseq.git/commit/?h=v4.18-rc1-rseq-20180619.2&amp;id=293b0fb03e6dc9c70d2c5e6ce4065456aa8c4d5e&quot;&gt;https://git.kernel.org/pub/scm/linux/kernel/git/rseq/linux-rseq.git/commit/?h=v4.18-rc1-rseq-20180619.2&amp;amp;id=293b0fb03e6dc9c70d2c5e6ce4065456aa8c4d5e&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/google/go-cloud&quot;&gt;https://github.com/google/go-cloud&lt;/a&gt; a toolkit for writing server on public cloud, has logging, bucket etc. &lt;a href=&quot;https://blog.golang.org/go-cloud&quot;&gt;https://blog.golang.org/go-cloud&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://services.google.com/fh/files/misc/the-site-reliability-workbook-next18.pdf&quot;&gt;http://services.google.com/fh/files/misc/the-site-reliability-workbook-next18.pdf&lt;/a&gt; 之前 gg SRE 书的配套 workbook 500 页 (TL;DR)&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;KubeCon China 即将于 2018 年 11 月 13-15 日到上海举办惹&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.lfasiallc.com/events/kubecon-cloudnativecon-china-2018/&quot;&gt;https://www.lfasiallc.com/events/kubecon-cloudnativecon-china-2018/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;票务： &lt;a href=&quot;https://www.bagevent.com/event/kubecon-cloudnativecon-china-2018&quot;&gt;https://www.bagevent.com/event/kubecon-cloudnativecon-china-2018&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;学术或爱好者注册-早鸟票只要 375&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;互联网和各种协议的起源&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=17607095&quot;&gt;https://news.ycombinator.com/item?id=17607095&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;startups in AI&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lipiji/AIStartups&quot;&gt;https://github.com/lipiji/AIStartups&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">memory barriers doc in Linux Kernel。感觉写得比大多数讲mem barrier的文章好……</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/07/23/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-07-23T00:00:00+08:00</published><updated>2018-07-23T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/07/23/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/07/23/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/chubin/cheat.sh&quot;&gt;https://github.com/chubin/cheat.sh&lt;/a&gt; the only cheat sheet you need&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -1052,156 +1100,4 @@ A secure TypeScript runtime on V8&lt;/p&gt;
 
 &lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/GitHub-Laziji/VBlog
 
-使用 github gist api 无需任何服务器 搭建一个可动态发布文章的个人博客</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/05/21/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-05-21T00:00:00+08:00</published><updated>2018-05-21T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/05/21/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/05/21/weekly.html">&lt;p&gt;&lt;a href=&quot;https://www.arxiv-vanity.com/papers/1805.04272/&quot;&gt;https://www.arxiv-vanity.com/papers/1805.04272/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;An O(n) Sorting Algorithm: Machine Learning Sorting&lt;/p&gt;
-
-&lt;p&gt;懵逼&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;the manga guide to databases &lt;a href=&quot;https://nostarch.com/mg_databases.htm&quot;&gt;https://nostarch.com/mg_databases.htm&lt;/a&gt; saw it in andy&amp;#39;s twitter&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;For parsing, creating and editing unknown or dynamic JSON in golang &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/Jeffail/gabs&quot;&gt;https://github.com/Jeffail/gabs&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/GIFEE/GIFEE&quot;&gt;https://github.com/GIFEE/GIFEE&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;不知道以前发过没&lt;/p&gt;
-
-&lt;p&gt;Google&amp;#39;s Infrastructure for Everyone Else，谷歌内部系统对应的外部开源轮子实现&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/jhuangtw-dev/xg2xg&quot;&gt;https://github.com/jhuangtw-dev/xg2xg&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;感觉这个说得全一点。感觉现在Google也不仅只是发paper，（cloud方面）很多infra都会开源。应该是吸取了mapreduce的教训，自己不开源总有社区开源替代品会出现，不如自己来开源然后lead社区&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;gcp now has 160 cores and 3.4 TB RAM &lt;a href=&quot;https://cloudplatform.googleblog.com/2018/05/Introducing-ultramem-Google-Compute-Engine-machine-types.html&quot;&gt;https://cloudplatform.googleblog.com/2018/05/Introducing-ultramem-Google-Compute-Engine-machine-types.html&lt;/a&gt; &lt;a href=&quot;https://cloud.google.com/compute/docs/machine-types#megamem&quot;&gt;https://cloud.google.com/compute/docs/machine-types#megamem&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Algorithms Behind Modern Storage Systems&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://queue.acm.org/detail.cfm?id=3220266&quot;&gt;https://queue.acm.org/detail.cfm?id=3220266&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/AuroraMySQL.Managing.FaultInjectionQueries.html&quot;&gt;https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/AuroraMySQL.Managing.FaultInjectionQueries.html&lt;/a&gt; AWS Aurora allow fault injection using command&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/ahmed-taj/dep&quot;&gt;https://github.com/ahmed-taj/dep&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;A Github App that helps managing PR dependencies package&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/huangyz0918/Hackintosh-Installer-University&quot;&gt;https://github.com/huangyz0918/Hackintosh-Installer-University&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;黑苹果安装教程&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/gsuitedevs/md2googleslides&quot;&gt;https://github.com/gsuitedevs/md2googleslides&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;用 Markdown 来做 Google Slides&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/probot/probot&quot;&gt;https://github.com/probot/probot&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;A framework for building GitHub Apps to automate and improve your workflow &lt;/p&gt;
-
-&lt;p&gt;这才是真正适合拿来做周报自动化的工具。。。。&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;JavaScript implementation of Git. Anything can be done by js =w=&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/isomorphic-git/isomorphic-git&quot;&gt;https://github.com/isomorphic-git/isomorphic-git&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;SJTU ecard APIs
-&lt;a href=&quot;https://git.tongqu.me/hebingchang/sjtu-ecard-api&quot;&gt;https://git.tongqu.me/hebingchang/sjtu-ecard-api&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Done some reverse work on 掌上校园 App
-闷声发大财&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;A toy JavaScript meta interpreter. Execute js in js =w=&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/bramblex/jsjs&quot;&gt;https://github.com/bramblex/jsjs&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;WineHQ Bug: League Of Legends: Unable to log in if behind OpenWRT based router&lt;/p&gt;
-
-&lt;p&gt;That&amp;#39;s why I don&amp;#39;t trust either wine or WSL.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://bugs.winehq.org/show_bug.cgi?id=44895#c11&quot;&gt;https://bugs.winehq.org/show_bug.cgi?id=44895#c11&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Sweden 不买 Elsevier 的论文了 :thinking: &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.snip.today/post/sweden-ends-contract-with-science-publisher-elsevier-moving-for-open-access-for-scientific-articles/&quot;&gt;https://www.snip.today/post/sweden-ends-contract-with-science-publisher-elsevier-moving-for-open-access-for-scientific-articles/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/joncatanio/cannoli&quot;&gt;https://github.com/joncatanio/cannoli&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Rust 写的 Python 3.6.5 的一个子集的编译器&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;RL+进化算法
-&lt;a href=&quot;https://blog.openai.com/evolution-strategies/&quot;&gt;https://blog.openai.com/evolution-strategies/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;IndRNN:可对超长序列建模
-&lt;a href=&quot;https://github.com/batzner/indrnn&quot;&gt;https://github.com/batzner/indrnn&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;n-gate: webshit weekly on Hacker News&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://n-gate.com/hackernews/&quot;&gt;http://n-gate.com/hackernews/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Advances in Semantic Textual Similarity&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://ai.googleblog.com/2018/05/advances-in-semantic-textual-similarity.html&quot;&gt;https://ai.googleblog.com/2018/05/advances-in-semantic-textual-similarity.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;facebook archived their open source time series database, beringei &lt;a href=&quot;https://github.com/facebookarchive/beringei&quot;&gt;https://github.com/facebookarchive/beringei&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://www.arxiv-vanity.com/papers/1805.04272/
-
-An O(n) Sorting Algorithm: Machine Learning Sorting
-
-懵逼</summary></entry></feed>
+使用 github gist api 无需任何服务器 搭建一个可动态发布文章的个人博客</summary></entry></feed>
