@@ -1,5 +1,130 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-07-30T11:06:03+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/07/30/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-07-30T00:00:00+08:00</published><updated>2018-07-30T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/07/30/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/07/30/weekly.html">&lt;p&gt;memory barriers doc in Linux Kernel。感觉写得比大多数讲mem barrier的文章好……&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-08-05T15:57:29+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/08/05/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-08-05T00:00:00+08:00</published><updated>2018-08-05T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/08/05/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/08/05/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/alibaba/oceanbase&quot;&gt;https://github.com/alibaba/oceanbase&lt;/a&gt; oceanbase 4 年前的开源代码 ... (虽然文档是 word ...  &lt;a href=&quot;https://github.com/alibaba/oceanbase/tree/master/oceanbase_0.4/doc&quot;&gt;https://github.com/alibaba/oceanbase/tree/master/oceanbase_0.4/doc&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;另外昨天去了阿里在湾区的 meetup ... 主要在说 X-DB 不知道跟 Oceanbase 什么关系 都是 OLTP。用到了 FPGA 来 compaction (LSM 里合并 block) &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://crad.ict.ac.cn/EN/abstract/abstract3624.shtml#&quot;&gt;http://crad.ict.ac.cn/EN/abstract/abstract3624.shtml#&lt;/a&gt; 说FPGA 的&lt;/li&gt;
+&lt;li&gt;Percona 上&lt;a href=&quot;https://www.percona.com/live/18/sites/default/files/slides/What&amp;#x27;s%20New%20in%20Alibaba&amp;#x27;s%20X-DB%20SQL%20Engine%20-%20FileId%20-%20136821.pdf&quot;&gt;说 planner 的&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;最后吐槽一句 ... meetup 讲的太宽泛了 ...  &lt;a href=&quot;https://www.meetup.com/Alibaba-AIOps-Meetup/events/253052732/&quot;&gt;https://www.meetup.com/Alibaba-AIOps-Meetup/events/253052732/&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;调度跟上次一样, fuxi, sigma (还有个啥忘了 后羿?) 都说了一下，混合 workload (serving + offline) .... 上次好歹还说了 scheduler 是 queue based 的(不是 丹 based&lt;/li&gt;
+&lt;li&gt;讲 kernel 的 说做了一套 CI/CD,  6 个月 merge 一次 upstream, 没有精力 contribute back。结论好像是 ali 自己 fork kernel 不如直接用 upstream (喵喵喵? @htfy96 ug 大佬知道 kernel 的 CI/CD 怎么做的 &amp;amp; 谁在做? Intel,  RedHat?&lt;/li&gt;
+&lt;li&gt;X-DB 下面是盘古分布式文件系统 .... 不造他们延迟之类的问题怎么解决的, 可能是 partition 和 sharding 做的特别好吧 (以及双 11 到底用的是 oceanbase 还是 x-db 啊 ... 起名字不走心啊, x 开头的很容易搜出奇怪的东西啊) MVCC + 2PC ... 好像没说时钟的问题, 虽然 ppt 里冒出了 atomic + logic lock . RDMA, FPGA 有钱人.jpg&lt;/li&gt;
+&lt;li&gt;最后讲了下分析 ....  瞬间让我觉得前面几个 talk 干货很多 ....&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/5621298/43369884-a604a9b8-932a-11e8-9a11-72c96aa4eec4.png&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://dev.to/antonfrattaroli/what-happens-when-you-type-googlecom-into-a-browser-and-press-enter-39g8&quot;&gt;https://dev.to/antonfrattaroli/what-happens-when-you-type-googlecom-into-a-browser-and-press-enter-39g8&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2018 版当你输入 google.com 敲回车会发生什么。这篇文章从前端的角度回答了这个问题。&lt;/p&gt;
+
+&lt;p&gt;当然还有一个最强的版本 &lt;a href=&quot;https://github.com/alex/what-happens-when&quot;&gt;https://github.com/alex/what-happens-when&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.rust-lang.org/pdfs/Rust-Chucklefish-Whitepaper.pdf&quot;&gt;https://www.rust-lang.org/pdfs/Rust-Chucklefish-Whitepaper.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;在 Rust 官网看到了 Chucklefish 从 C++ 切到 Rust 的案例。玩他们家的游戏大概不会再碰到莫名其妙崩溃，错误日志没生成，根本没法反馈的问题了……&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/1995113/strangest-language-feature&quot;&gt;https://stackoverflow.com/questions/1995113/strangest-language-feature&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;同学在 Python 里写了一段代码，&lt;code&gt;1 &amp;lt;= x &amp;lt;= 2&lt;/code&gt;。我很疑惑这个是不是对的，然后自己试了一下发现真的可以。&lt;/p&gt;
+
+&lt;p&gt;于是在 StackOverflow 上看到了这个问答。各种语言的玄学特性都在里面了。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/1724255/why-does-2-2-in-javascript&quot;&gt;https://stackoverflow.com/questions/1724255/why-does-2-2-in-javascript&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Why does 2 == [2] in JavaScript?&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/gpujs/gpu.js&quot;&gt;https://github.com/gpujs/gpu.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;用 GPU.js 快速做了个 GPU 加速的 Conway&amp;#39;s Game of Life，Console 里看到这个 lib 把我的 JavaScript Code 编译成了 OpenGL Shader。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://metalbyexample.com/rendering-text-in-metal-with-signed-distance-fields/&quot;&gt;http://metalbyexample.com/rendering-text-in-metal-with-signed-distance-fields/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;很久以前折腾过 C# XNA 里面的中文字体渲染，如今看 Metal 资料才知道 3D 游戏的字体渲染有这么多方式。文中介绍了“Signed-Distance Field Rendering”。&lt;/p&gt;
+
+&lt;p&gt;Valve 的一个应用： &lt;a href=&quot;https://steamcdn-a.akamaihd.net/apps/valve/2007/SIGGRAPH2007_AlphaTestedMagnification.pdf&quot;&gt;https://steamcdn-a.akamaihd.net/apps/valve/2007/SIGGRAPH2007_AlphaTestedMagnification.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/hengwei_vc/article/details/78643146&quot;&gt;https://blog.csdn.net/hengwei_vc/article/details/78643146&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Disqus On Jekyll 之翻内篇&lt;/p&gt;
+
+&lt;p&gt;Disqus 在国内是被墙的，这篇文章讲了如何实现一个反向代理，代理一部分 disqus 的 API，解决这个问题&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;还有一个 Node.js 的， &lt;a href=&quot;https://github.com/ciqulover/disqus-proxy&quot;&gt;https://github.com/ciqulover/disqus-proxy&lt;/a&gt; 优势是 Hexo 只要简单配置即可使用，缺点是前端代码比较简单，功能不全。&lt;/p&gt;
+
+&lt;p&gt;这两个项目都是在 Disqus API 的基础上，自己实现一个后端去调用 Disqus API ，然后自己再实现一个前端脚本去调自己的后端……简直就是自己写了个评论系统然后把 Disqus 当数据库用……不像是反向代理那么简单。我觉得很折腾……&lt;/p&gt;
+
+&lt;p&gt;P.S. 这两个项目都要求自己有 VPS / PHP 托管。但是有 VPS / PHP 托管的前提下，是否可以干脆就用一个可以独立部署的评论系统？与折腾这些项目相比利弊如何？此问题留给读者思考。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gitlab.com/Douman/yukikaze&quot;&gt;https://gitlab.com/Douman/yukikaze&lt;/a&gt; async Rust HTTP client library based on hyper&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;用这个库的程序不怕自己沉掉么&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/golang/example/tree/master/gotypes&quot;&gt;https://github.com/golang/example/tree/master/gotypes&lt;/a&gt; examples for using go&amp;#39;s standard library to do static analysis &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://jb-blog.readthedocs.io/en/latest/posts/0032-debugging-zsh-startup-time.html&quot;&gt;http://jb-blog.readthedocs.io/en/latest/posts/0032-debugging-zsh-startup-time.html&lt;/a&gt; from &lt;a href=&quot;https://getantibody.github.io/even-faster/&quot;&gt;https://getantibody.github.io/even-faster/&lt;/a&gt; 在 mac 下用 oh-my-zsh 和 nvm 之后每次开 terminal 卡 2s .... 最后改用 brew 装了 ... 有空研究一下 (肯定不会研究的&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/neoeinstein/stats_alloc&quot;&gt;https://github.com/neoeinstein/stats_alloc&lt;/a&gt; An instrumenting middleware for global allocators in Rust, useful in testing for validating assumptions regarding allocation patterns, and potentially in production loads to monitor for memory leaks.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;可定制默认分配器的用法&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Divide Your Rent Fairly。用博弈论解决住卧室住客厅出多少钱的问题&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.nytimes.com/interactive/2014/science/rent-division-calculator.html&quot;&gt;https://www.nytimes.com/interactive/2014/science/rent-division-calculator.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/alibaba/oceanbase oceanbase 4 年前的开源代码 ... (虽然文档是 word ...  https://github.com/alibaba/oceanbase/tree/master/oceanbase_0.4/doc)
+
+另外昨天去了阿里在湾区的 meetup ... 主要在说 X-DB 不知道跟 Oceanbase 什么关系 都是 OLTP。用到了 FPGA 来 compaction (LSM 里合并 block) 
+
+
+http://crad.ict.ac.cn/EN/abstract/abstract3624.shtml# 说FPGA 的
+Percona 上说 planner 的
+
+
+最后吐槽一句 ... meetup 讲的太宽泛了 ...  https://www.meetup.com/Alibaba-AIOps-Meetup/events/253052732/
+
+
+调度跟上次一样, fuxi, sigma (还有个啥忘了 后羿?) 都说了一下，混合 workload (serving + offline) .... 上次好歹还说了 scheduler 是 queue based 的(不是 丹 based
+讲 kernel 的 说做了一套 CI/CD,  6 个月 merge 一次 upstream, 没有精力 contribute back。结论好像是 ali 自己 fork kernel 不如直接用 upstream (喵喵喵? @htfy96 ug 大佬知道 kernel 的 CI/CD 怎么做的 &amp;amp; 谁在做? Intel,  RedHat?
+X-DB 下面是盘古分布式文件系统 .... 不造他们延迟之类的问题怎么解决的, 可能是 partition 和 sharding 做的特别好吧 (以及双 11 到底用的是 oceanbase 还是 x-db 啊 ... 起名字不走心啊, x 开头的很容易搜出奇怪的东西啊) MVCC + 2PC ... 好像没说时钟的问题, 虽然 ppt 里冒出了 atomic + logic lock . RDMA, FPGA 有钱人.jpg
+最后讲了下分析 ....  瞬间让我觉得前面几个 talk 干货很多 ....</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/07/30/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-07-30T00:00:00+08:00</published><updated>2018-07-30T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/07/30/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/07/30/weekly.html">&lt;p&gt;memory barriers doc in Linux Kernel。感觉写得比大多数讲mem barrier的文章好……&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.infradead.org/%7Emchehab/kernel_docs/unsorted/memory-barriers.html&quot;&gt;http://www.infradead.org/~mchehab/kernel_docs/unsorted/memory-barriers.html&lt;/a&gt;&lt;/p&gt;
 
@@ -952,152 +1077,4 @@ A secure TypeScript runtime on V8&lt;/p&gt;
 
 &lt;p&gt;Kubernetes 社区搞的一个交流的平台&lt;/p&gt;
 
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Reproducible ML</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/05/28/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-05-28T00:00:00+08:00</published><updated>2018-05-28T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/05/28/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/05/28/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/GitHub-Laziji/VBlog&quot;&gt;https://github.com/GitHub-Laziji/VBlog&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;使用 github gist api 无需任何服务器 搭建一个可动态发布文章的个人博客&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/chrislusf/seaweedfs&quot;&gt;https://github.com/chrislusf/seaweedfs&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;SeaweedFS is a simple and highly scalable distributed file system. There are two objectives: to store billions of files! to serve the files fast! Instead of supporting full POSIX file system semantics, SeaweedFS choose to implement only a key~file mapping. Similar to the word &amp;quot;NoSQL&amp;quot;, you can call it as &amp;quot;NoFS&amp;quot;.&lt;/p&gt;
-
-&lt;p&gt;很有趣啊&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;A crash course to convex optimization&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://web.stanford.edu/%7Eboyd/cvxbook/bv_cvxslides.pdf&quot;&gt;https://web.stanford.edu/~boyd/cvxbook/bv_cvxslides.pdf&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/klauscfhq/signale&quot;&gt;https://github.com/klauscfhq/signale&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Hackable console logger&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/dd0ad939bce8e21b2f9afbf0db794a0de7422c5f/68747470733a2f2f63646e2e7261776769742e636f6d2f6b6c617573636668712f7369676e616c652f32643862636666382f6d656469612f6865616465722e706e67&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;还是前端有意思&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/Azure/RSL&quot;&gt;https://github.com/Azure/RSL&lt;/a&gt; Azure Paxos implementation which is used by multiple products in Azure and Bing&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Facebook&amp;#39;s infer static analyzer adds support for ownership check (and more) for C++&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/facebook/infer/releases/tag/v0.14.0&quot;&gt;https://github.com/facebook/infer/releases/tag/v0.14.0&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/maekawatoshiki/naglfar&quot;&gt;https://github.com/maekawatoshiki/naglfar&lt;/a&gt; Naglfar is a toy web browser implemented in Rust from scratch&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/mapd/mapd-core&quot;&gt;https://github.com/mapd/mapd-core&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;MapD is an in-memory, column store, SQL relational database that was designed from the ground up to run on GPUs.&lt;/p&gt;
-
-&lt;p&gt;GPU 数据库了解一下&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.defmacro.org/2006/06/19/fp.html&quot;&gt;http://www.defmacro.org/2006/06/19/fp.html&lt;/a&gt; Functional Programming For The Rest of Us&lt;/p&gt;
-
-&lt;p&gt;比较入门&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/trekawek/coffee-gb&quot;&gt;https://github.com/trekawek/coffee-gb&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Gameboy 模拟器（Java）&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/remoteintech/remote-jobs&quot;&gt;https://github.com/remoteintech/remote-jobs&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Remote 工作一览，是不是可以在中国赚美刀了&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://arxiv.org/abs/1802.09941&quot;&gt;https://arxiv.org/abs/1802.09941&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;分布式机器学习不同的并行方式的分析，60 页，后面对并行方式的介绍非常详细而具体。&lt;/p&gt;
-
-&lt;p&gt;好评&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;ML for suggestive drawing (or doodling..)&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://nono.ma/suggestive-drawing&quot;&gt;http://nono.ma/suggestive-drawing&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/alibaba/alikernel&quot;&gt;https://github.com/alibaba/alikernel&lt;/a&gt; 阿里版 linux kernel 不知道有什么特点 .... &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;implement plugins for command line app in go like &lt;code&gt;cargo&lt;/code&gt; and &lt;code&gt;cargo-xxx&lt;/code&gt; &lt;a href=&quot;https://github.com/gobuffalo/buffalo/blob/master/plugins/plugins.go&quot;&gt;https://github.com/gobuffalo/buffalo/blob/master/plugins/plugins.go&lt;/a&gt;, the idea is &lt;code&gt;cargo-xxx&lt;/code&gt; should return json for command like &lt;code&gt;available&lt;/code&gt; cc @codeworm96 &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;gops: A tool to list and diagnose Go processes currently running on your system&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/google/gops&quot;&gt;https://github.com/google/gops&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;rsync considered inefficient and harmful    &lt;/p&gt;
-
-&lt;p&gt;rsync的设计在今天真的无力吐槽……软件源的一大堆问题都是rsync造成的&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://datatracker.ietf.org/meeting/89/materials/slides-89-sidr-6&quot;&gt;https://datatracker.ietf.org/meeting/89/materials/slides-89-sidr-6&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Effective Modern CMake&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://gist.github.com/mbinna/c61dbb39bca0e4fb7d1f73b0d66a4fd1&quot;&gt;https://gist.github.com/mbinna/c61dbb39bca0e4fb7d1f73b0d66a4fd1&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;我是看着楼上大佬 @htfy96 &lt;a href=&quot;https://github.com/htfy96/cpp-boilerplate&quot;&gt;https://github.com/htfy96/cpp-boilerplate&lt;/a&gt; 学会了下载和添加 dependency /w&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/lefticus/cppbestpractices&quot;&gt;https://github.com/lefticus/cppbestpractices&lt;/a&gt; Collaborative Collection of C++ Best Practices, the author is mentioned in gist above&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/nebulet/nebulet&quot;&gt;https://github.com/nebulet/nebulet&lt;/a&gt; (Going to be) A microkernel that implements a WebAssembly &amp;quot;usermode&amp;quot; that runs in Ring 0. 我很喜欢这种想法（&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Where the Silicon Valley Tech Internships Are （收藏了，找实习用（&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://spectrum.ieee.org/view-from-the-valley/at-work/tech-careers/where-the-silicon-valley-tech-internships-are&quot;&gt;https://spectrum.ieee.org/view-from-the-valley/at-work/tech-careers/where-the-silicon-valley-tech-internships-are&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/ValveSoftware/steam-runtime&quot;&gt;https://github.com/ValveSoftware/steam-runtime&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Steam 在 Linux 上的 runtime&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/GitHub-Laziji/VBlog
-
-使用 github gist api 无需任何服务器 搭建一个可动态发布文章的个人博客</summary></entry></feed>
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Reproducible ML</summary></entry></feed>

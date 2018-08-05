@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Weekly</title>
+  <meta name="description" content="https://github.com/alibaba/oceanbase oceanbase 4 年前的开源代码 ... (虽然文档是 word ... https://github.com/alibaba/oceanbase/tree/master/oceanbase_0.4/doc) 另外昨天去了阿里在湾区的...">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="https://weekly.dongyueweb.com/weekly/2018/08/05/weekly.html">
+  <link rel="alternate" type="application/rss+xml" title="Dev Comm Shanghai 联合周报" href="/feed.xml">
+  
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Dev Comm Shanghai 联合周报</a>
+
+    <nav class="site-nav">
+      <span class="menu-icon">
+        <svg viewbox="0 0 18 15" width="18px" height="15px">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"></path>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"></path>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"></path>
+        </svg>
+      </span>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">关于周报</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Weekly</h1>
+    <p class="post-meta"><time datetime="2018-08-05T00:00:00+08:00" itemprop="datePublished">Aug 5, 2018</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">东岳</span></span></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p><a href="https://github.com/alibaba/oceanbase">https://github.com/alibaba/oceanbase</a> oceanbase 4 年前的开源代码 ... (虽然文档是 word ...  <a href="https://github.com/alibaba/oceanbase/tree/master/oceanbase_0.4/doc">https://github.com/alibaba/oceanbase/tree/master/oceanbase_0.4/doc</a>)</p>
+
+<p>另外昨天去了阿里在湾区的 meetup ... 主要在说 X-DB 不知道跟 Oceanbase 什么关系 都是 OLTP。用到了 FPGA 来 compaction (LSM 里合并 block) </p>
+
+<ul>
+<li>
+<a href="http://crad.ict.ac.cn/EN/abstract/abstract3624.shtml#">http://crad.ict.ac.cn/EN/abstract/abstract3624.shtml#</a> 说FPGA 的</li>
+<li>Percona 上<a href="https://www.percona.com/live/18/sites/default/files/slides/What's%20New%20in%20Alibaba's%20X-DB%20SQL%20Engine%20-%20FileId%20-%20136821.pdf">说 planner 的</a>
+</li>
+</ul>
+
+<p>最后吐槽一句 ... meetup 讲的太宽泛了 ...  <a href="https://www.meetup.com/Alibaba-AIOps-Meetup/events/253052732/">https://www.meetup.com/Alibaba-AIOps-Meetup/events/253052732/</a></p>
+
+<ul>
+<li>调度跟上次一样, fuxi, sigma (还有个啥忘了 后羿?) 都说了一下，混合 workload (serving + offline) .... 上次好歹还说了 scheduler 是 queue based 的(不是 丹 based</li>
+<li>讲 kernel 的 说做了一套 CI/CD,  6 个月 merge 一次 upstream, 没有精力 contribute back。结论好像是 ali 自己 fork kernel 不如直接用 upstream (喵喵喵? <a href="https://github.com/htfy96" class="user-mention">@htfy96</a> ug 大佬知道 kernel 的 CI/CD 怎么做的 &amp; 谁在做? Intel,  RedHat?</li>
+<li>X-DB 下面是盘古分布式文件系统 .... 不造他们延迟之类的问题怎么解决的, 可能是 partition 和 sharding 做的特别好吧 (以及双 11 到底用的是 oceanbase 还是 x-db 啊 ... 起名字不走心啊, x 开头的很容易搜出奇怪的东西啊) MVCC + 2PC ... 好像没说时钟的问题, 虽然 ppt 里冒出了 atomic + logic lock . RDMA, FPGA 有钱人.jpg</li>
+<li>最后讲了下分析 ....  瞬间让我觉得前面几个 talk 干货很多 ....</li>
+</ul>
+
+<p><img src="https://user-images.githubusercontent.com/5621298/43369884-a604a9b8-932a-11e8-9a11-72c96aa4eec4.png" alt="image"></p>
+
+<hr>
+
+<p><a href="https://dev.to/antonfrattaroli/what-happens-when-you-type-googlecom-into-a-browser-and-press-enter-39g8">https://dev.to/antonfrattaroli/what-happens-when-you-type-googlecom-into-a-browser-and-press-enter-39g8</a></p>
+
+<p>2018 版当你输入 google.com 敲回车会发生什么。这篇文章从前端的角度回答了这个问题。</p>
+
+<p>当然还有一个最强的版本 <a href="https://github.com/alex/what-happens-when">https://github.com/alex/what-happens-when</a></p>
+
+<hr>
+
+<p><a href="https://www.rust-lang.org/pdfs/Rust-Chucklefish-Whitepaper.pdf">https://www.rust-lang.org/pdfs/Rust-Chucklefish-Whitepaper.pdf</a></p>
+
+<p>在 Rust 官网看到了 Chucklefish 从 C++ 切到 Rust 的案例。玩他们家的游戏大概不会再碰到莫名其妙崩溃，错误日志没生成，根本没法反馈的问题了……</p>
+
+<hr>
+
+<p><a href="https://stackoverflow.com/questions/1995113/strangest-language-feature">https://stackoverflow.com/questions/1995113/strangest-language-feature</a></p>
+
+<p>同学在 Python 里写了一段代码，<code>1 &lt;= x &lt;= 2</code>。我很疑惑这个是不是对的，然后自己试了一下发现真的可以。</p>
+
+<p>于是在 StackOverflow 上看到了这个问答。各种语言的玄学特性都在里面了。</p>
+
+<hr>
+
+<p><a href="https://stackoverflow.com/questions/1724255/why-does-2-2-in-javascript">https://stackoverflow.com/questions/1724255/why-does-2-2-in-javascript</a></p>
+
+<p>Why does 2 == [2] in JavaScript?</p>
+
+<hr>
+
+<p><a href="https://github.com/gpujs/gpu.js">https://github.com/gpujs/gpu.js</a></p>
+
+<p>用 GPU.js 快速做了个 GPU 加速的 Conway's Game of Life，Console 里看到这个 lib 把我的 JavaScript Code 编译成了 OpenGL Shader。</p>
+
+<hr>
+
+<p><a href="http://metalbyexample.com/rendering-text-in-metal-with-signed-distance-fields/">http://metalbyexample.com/rendering-text-in-metal-with-signed-distance-fields/</a></p>
+
+<p>很久以前折腾过 C# XNA 里面的中文字体渲染，如今看 Metal 资料才知道 3D 游戏的字体渲染有这么多方式。文中介绍了“Signed-Distance Field Rendering”。</p>
+
+<p>Valve 的一个应用： <a href="https://steamcdn-a.akamaihd.net/apps/valve/2007/SIGGRAPH2007_AlphaTestedMagnification.pdf">https://steamcdn-a.akamaihd.net/apps/valve/2007/SIGGRAPH2007_AlphaTestedMagnification.pdf</a></p>
+
+<hr>
+
+<p><a href="https://blog.csdn.net/hengwei_vc/article/details/78643146">https://blog.csdn.net/hengwei_vc/article/details/78643146</a></p>
+
+<p>Disqus On Jekyll 之翻内篇</p>
+
+<p>Disqus 在国内是被墙的，这篇文章讲了如何实现一个反向代理，代理一部分 disqus 的 API，解决这个问题</p>
+
+<hr>
+
+<p>还有一个 Node.js 的， <a href="https://github.com/ciqulover/disqus-proxy">https://github.com/ciqulover/disqus-proxy</a> 优势是 Hexo 只要简单配置即可使用，缺点是前端代码比较简单，功能不全。</p>
+
+<p>这两个项目都是在 Disqus API 的基础上，自己实现一个后端去调用 Disqus API ，然后自己再实现一个前端脚本去调自己的后端……简直就是自己写了个评论系统然后把 Disqus 当数据库用……不像是反向代理那么简单。我觉得很折腾……</p>
+
+<p>P.S. 这两个项目都要求自己有 VPS / PHP 托管。但是有 VPS / PHP 托管的前提下，是否可以干脆就用一个可以独立部署的评论系统？与折腾这些项目相比利弊如何？此问题留给读者思考。</p>
+
+<hr>
+
+<p><a href="https://gitlab.com/Douman/yukikaze">https://gitlab.com/Douman/yukikaze</a> async Rust HTTP client library based on hyper</p>
+
+<blockquote>
+<p>用这个库的程序不怕自己沉掉么</p>
+</blockquote>
+
+<hr>
+
+<p><a href="https://github.com/golang/example/tree/master/gotypes">https://github.com/golang/example/tree/master/gotypes</a> examples for using go's standard library to do static analysis </p>
+
+<hr>
+
+<p><a href="http://jb-blog.readthedocs.io/en/latest/posts/0032-debugging-zsh-startup-time.html">http://jb-blog.readthedocs.io/en/latest/posts/0032-debugging-zsh-startup-time.html</a> from <a href="https://getantibody.github.io/even-faster/">https://getantibody.github.io/even-faster/</a> 在 mac 下用 oh-my-zsh 和 nvm 之后每次开 terminal 卡 2s .... 最后改用 brew 装了 ... 有空研究一下 (肯定不会研究的</p>
+
+<hr>
+
+<p><a href="https://github.com/neoeinstein/stats_alloc">https://github.com/neoeinstein/stats_alloc</a> An instrumenting middleware for global allocators in Rust, useful in testing for validating assumptions regarding allocation patterns, and potentially in production loads to monitor for memory leaks.</p>
+
+<blockquote>
+<p>可定制默认分配器的用法</p>
+</blockquote>
+
+<hr>
+
+<p>Divide Your Rent Fairly。用博弈论解决住卧室住客厅出多少钱的问题</p>
+
+<p><a href="https://www.nytimes.com/interactive/2014/science/rent-division-calculator.html">https://www.nytimes.com/interactive/2014/science/rent-division-calculator.html</a></p>
+
+<p><em>Submitted via <a href="https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588">bookmarklet</a></em> <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2728.png" height="20" width="20"></p>
+
+<hr>
+
+  </div>
+
+  
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Dev Comm Shanghai 联合周报</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            
+              Dev Comm Shanghai 联合周报
+            
+            </li>
+            
+            <li><a href="mailto:weekly@dongyue.io">weekly@dongyue.io</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/devcomm-shanghai"><span class="icon icon--github"><svg viewbox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"></path></svg>
+</span><span class="username">devcomm-shanghai</span></a>
+
+          </li>
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
