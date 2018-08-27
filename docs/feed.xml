@@ -1,5 +1,90 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-08-20T10:41:23+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/08/20/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-08-20T00:00:00+08:00</published><updated>2018-08-20T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/08/20/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/08/20/weekly.html">&lt;p&gt;&lt;a href=&quot;https://robots.thoughtbot.com/writing-vim-syntax-plugins&quot;&gt;https://robots.thoughtbot.com/writing-vim-syntax-plugins&lt;/a&gt; 想起来我以前还写过自动补全 github issue 的 plugin .....  &lt;a href=&quot;https://github.com/at15/issue-complete&quot;&gt;https://github.com/at15/issue-complete&lt;/a&gt; (实际就是 vim script 直接掉 python .... 最后弃坑好像是因为 ubuntu 和 fedora 自带的 python 不同 .... 现在好像都是 3 了&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-08-27T20:53:30+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/08/27/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-08-27T00:00:00+08:00</published><updated>2018-08-27T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/08/27/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/08/27/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/sofish/typo.css&quot;&gt;https://github.com/sofish/typo.css&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;中文网页重设与排版：一致化浏览器排版效果，构建最适合中文阅读的网页排版 &lt;a href=&quot;http://typo.sofi.sh&quot;&gt;http://typo.sofi.sh&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;@gaocegege 我以前用过这个 &lt;a href=&quot;https://github.com/ethantw/Han&quot;&gt;https://github.com/ethantw/Han&lt;/a&gt; 但是它会改写掉我网站的字体，所以就弃用了。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://15721.courses.cs.cmu.edu/spring2018/papers/08-oltpindexes1/bwtree-icde2013.pdf&quot;&gt;The Bw-Tree: A B-tree for New Hardware Platforms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.cs.cmu.edu/%7Ehuanche1/publications/open_bwtree.pdf&quot;&gt;Building a Bw-Tree Takes More Than Just Buzz Words&lt;/a&gt; 这篇在两个月前的SIGMOD 18上刚放出，是上面那篇的具体实现解读+优化&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/29314464&quot;&gt;Bw-Tree技术解读&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;应该是Physical Storage目前的state-of-the-art？不太懂DB @at15 &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;前前端即将失业……
+&lt;a href=&quot;https://blog.floydhub.com/turning-design-mockups-into-code-with-deep-learning/&quot;&gt;https://blog.floydhub.com/turning-design-mockups-into-code-with-deep-learning/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;（虽然说交互逻辑还是得写）
+附相关论文：
+&lt;a href=&quot;https://arxiv.org/pdf/1705.07962.pdf&quot;&gt;https://arxiv.org/pdf/1705.07962.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;TikZ­ducks - A little fun package for using rubber ducks in TikZ。下次写LaTeX感觉可以用上（&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ctan.org/tex-archive/graphics/pgf/contrib/tikzducks&quot;&gt;https://ctan.org/tex-archive/graphics/pgf/contrib/tikzducks&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/tagged/diamond-problem&quot;&gt;https://stackoverflow.com/questions/tagged/diamond-problem&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In object-oriented programming languages with multiple inheritance and knowledge organization, the diamond problem is an ambiguity that arises when two classes B and C inherit from A, and class D inherits from both B and C.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/31377101/answer/404546399&quot;&gt;https://www.zhihu.com/question/31377101/answer/404546399&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;看了一个知乎问答，我才意识到我写过的 OO 语言其实是在 OO 上有明显的实现差异的。&lt;/p&gt;
+
+&lt;p&gt;比如 Rust 的 trait, JavaScript 的 prototype，算是 prototype-based 的设计；
+C++ / Java / Python 的 class，是 class-based 的设计。&lt;/p&gt;
+
+&lt;p&gt;有一段时间我很纠结在 Rust / TypeScript 里怎么实现 C++ 式的继承，现在看来不同的设计方法还是没法统一的。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/myan/article/details/5928531&quot;&gt;https://blog.csdn.net/myan/article/details/5928531&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;「大约在同期，Brad Cox根据Smalltalk的思想设计了Objective-C，可是由于其语法怪异，没有流行起来。只有Steve Jobs这种具有禅宗美学鉴赏力的世外高人，把它奉为瑰宝，与1988年连锅把Objective-C的团队和产品一口气买了下来。」看着一种莫名的喜感。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/&quot;&gt;https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;有一段时间对 C++ 里的类成员函数指针作回调感到很绝望。现在看起来每种语言都有不同的解法。C++11 靠的是 std::bind 和 std::function，C# 的实现就是 delegate 了。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/felixrieseberg/windows95&quot;&gt;https://github.com/felixrieseberg/windows95&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Windows 95 on Electron&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Aaronepower/tokei&quot;&gt;https://github.com/Aaronepower/tokei&lt;/a&gt; count lines of code with &lt;code&gt;.gitignore&lt;/code&gt; support, can give detail about each file in json output, written in Rust :crab: &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/logpai/loghub&quot;&gt;https://github.com/logpai/loghub&lt;/a&gt; A collection of system log datasets for massive log analysis 
+&lt;a href=&quot;https://github.com/logpai/logparser&quot;&gt;https://github.com/logpai/logparser&lt;/a&gt; A toolkit for automated log parsing&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/davecheney/gophercon2018-performance-tuning-workshop&quot;&gt;https://github.com/davecheney/gophercon2018-performance-tuning-workshop&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/sofish/typo.css
+
+中文网页重设与排版：一致化浏览器排版效果，构建最适合中文阅读的网页排版 http://typo.sofi.sh</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/08/20/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-08-20T00:00:00+08:00</published><updated>2018-08-20T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/08/20/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/08/20/weekly.html">&lt;p&gt;&lt;a href=&quot;https://robots.thoughtbot.com/writing-vim-syntax-plugins&quot;&gt;https://robots.thoughtbot.com/writing-vim-syntax-plugins&lt;/a&gt; 想起来我以前还写过自动补全 github issue 的 plugin .....  &lt;a href=&quot;https://github.com/at15/issue-complete&quot;&gt;https://github.com/at15/issue-complete&lt;/a&gt; (实际就是 vim script 直接掉 python .... 最后弃坑好像是因为 ubuntu 和 fedora 自带的 python 不同 .... 现在好像都是 3 了&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -1079,188 +1164,4 @@ Small Go package for fast high-level image processing powered by libvips C libra
 
 &lt;p&gt;&lt;a href=&quot;https://medium.com/@mccode/understanding-how-uid-and-gid-work-in-docker-containers-c37a01d01cf&quot;&gt;https://medium.com/@mccode/understanding-how-uid-and-gid-work-in-docker-containers-c37a01d01cf&lt;/a&gt; &amp;#39;a root inside the container == root outside container&amp;#39;&lt;/p&gt;
 
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/sbueringer/kubecon-slides Kubecon Slides &amp;amp; Download utility</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/06/11/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-06-11T00:00:00+08:00</published><updated>2018-06-11T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/06/11/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/06/11/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/senorprogrammer/wtf&quot;&gt;https://github.com/senorprogrammer/wtf&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;A personal terminal-based dashboard utility, designed for displaying infrequently-needed, but very important, daily data.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://github.com/senorprogrammer/wtf/raw/master/docs/img/screenshot.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://medium.com/@karpathy/software-2-0-a64152b37c35&quot;&gt;https://medium.com/@karpathy/software-2-0-a64152b37c35&lt;/a&gt; 神经网络会成为软件 2.0 么&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/upend/IF_MS_BUYS_GITHUB_IMMA_OUT&quot;&gt;https://github.com/upend/IF_MS_BUYS_GITHUB_IMMA_OUT&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;今天 GitHub Trending 第一的 repo&lt;/p&gt;
-
-&lt;p&gt;GitHub has sold us out. This is the GitHub Evacuation Center. &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/natfriedman&quot;&gt;https://github.com/natfriedman&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;GitHub 即将迎来的新一任 CEO，之前在 &lt;a href=&quot;https://github.com/xamarin&quot;&gt;https://github.com/xamarin&lt;/a&gt; ，被微软收购后进入微软做执行 VP，现在被钦定为 GitHub CEO&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/natfriedman/hello&quot;&gt;https://github.com/natfriedman/hello&lt;/a&gt; &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/radondb/radon&quot;&gt;https://github.com/radondb/radon&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;RadonDB is an open source, cloud-native MySQL database for building global, scalable cloud services &lt;a href=&quot;http://radondb.io/&quot;&gt;http://radondb.io/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/mgechev/revive&quot;&gt;https://github.com/mgechev/revive&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Fast, configurable, extensible, flexible, and beautiful linter for Go. Drop-in replacement of golint. Revive provides a framework for development of custom rules, and lets you define a strict preset for enhancing your development &amp;amp; code review processes.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://github.com/mgechev/revive/raw/master/assets/demo.svg?sanitize=true&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/usefathom/fathom&quot;&gt;https://github.com/usefathom/fathom&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Fathom. Simple, trustworthy website analytics. Built with Golang &amp;amp; Preact. &lt;a href=&quot;https://usefathom.com/&quot;&gt;https://usefathom.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://github.com/usefathom/fathom/blob/master/assets/src/img/fathom.jpg?raw=true&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;conan: A distributed, open-source, C/C++ package manager. 1.4刚发布了，感觉基本可用了&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/conan-io/conan&quot;&gt;https://github.com/conan-io/conan&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/fatih/color&quot;&gt;https://github.com/fatih/color&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Color package for Go (golang) &lt;a href=&quot;http://godoc.org/github.com/fatih/color&quot;&gt;http://godoc.org/github.com/fatih/color&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/f6042d207ad38562e10f8e7be9d0d1e45ee24dd5/68747470733a2f2f692e696d6775722e636f6d2f63314a49306c412e706e67&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Introducing lazytime. 一个非常暴力的文件系统优化，在4.17之后提供了软件源用的xfs的支持。&lt;/p&gt;
-
-&lt;p&gt;~~目测可以大幅降低rsync时候扫描本地所有文件时候的负载~~然而colins老师早就机智地打开了noatime（&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://lwn.net/Articles/621046/&quot;&gt;https://lwn.net/Articles/621046/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;macOS 10.14 deprecates OpenGL and OpenCL. 之前Linux上好不容易抱apple大腿搞起来的一大堆opengl/opencl环境、游戏、工具这下怕是要凉。apple转到了自己的Metal上去，下一代Vulkan离成熟还需要时间&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://developer.apple.com/macos/whats-new/#deprecationofopenglandopencl&quot;&gt;https://developer.apple.com/macos/whats-new/#deprecationofopenglandopencl&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;@gaocegege 咩的 gommon 也有啊 .... &lt;a href=&quot;https://github.com/dyweb/gommon/tree/master/util/color&quot;&gt;https://github.com/dyweb/gommon/tree/master/util/color&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/telepresenceio/telepresence&quot;&gt;https://github.com/telepresenceio/telepresence&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;CNCF 新的孵化项目，可以把你的机器（笔记本）加入到 Kubernetes 集群上，简化开发的环境配置工作。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://asciinema.org/a/117761&quot;&gt;&lt;img src=&quot;https://asciinema.org/a/117761.png&quot; alt=&quot;asciicast&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;The NOVA filesystem: a filesystem designed for non-volatile main memory (NVMM), expected to be merged into mainstream kernel&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://lwn.net/Articles/729812/&quot;&gt;https://lwn.net/Articles/729812/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Navigating the Linux kernel network stack: receive path  在weekly#74中的那篇介绍了TCP/IP栈的实现，这篇介绍了更为底层的实现，包是如何从网卡到memory的&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.lmax.com/blog/staff-blogs/2016/05/06/navigating-linux-kernel-network-stack-receive-path/&quot;&gt;https://www.lmax.com/blog/staff-blogs/2016/05/06/navigating-linux-kernel-network-stack-receive-path/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;New approaches to network fast paths: af_packet v4 and XDP。最新的kernel已经可以做到在kernel space直接运行用c写的编译出的ebpf来处理、转发包。zero-copy, zero context switch, lock-free，单CPU就可以打满100Gbps，而且不需要像DPDK那样用专有的驱动。据我所知一些高频交易公司已经在用xdp了&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://lwn.net/Articles/719850/&quot;&gt;https://lwn.net/Articles/719850/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/martenbjork/github-xp&quot;&gt;https://github.com/martenbjork/github-xp&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Microsoft + Github = ❤️. Make it official by giving your Github experience some Windows XP flare.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/5100735/41022951-9dc65f64-699d-11e8-802e-20c96b2b4d39.png&quot; alt=&quot;screenshot from 2018-06-06 15-23-37&quot;&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/databricks/mlflow&quot;&gt;https://github.com/databricks/mlflow&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Spark团队开源新作：全流程机器学习平台MLflow &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&amp;mid=2247490838&amp;idx=1&amp;sn=c1856f2f45f76f3c09979e9a037517b4&quot;&gt;https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&amp;amp;mid=2247490838&amp;amp;idx=1&amp;amp;sn=c1856f2f45f76f3c09979e9a037517b4&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://dl.acm.org/citation.cfm?id=3190546&quot;&gt;https://dl.acm.org/citation.cfm?id=3190546&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Service fabric: a distributed platform for building microservices in the cloud&lt;/p&gt;
-
-&lt;p&gt;微软的 Kubernetes，发表在 Eurosys&amp;#39;18 上的，作者数量感人&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/5100735/41037123-e3e00852-69c4-11e8-9316-a8eab6f82575.png&quot; alt=&quot;screenshot from 2018-06-06 20-00-52&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://blog.acolyer.org/2018/06/05/servicefabric-a-distributed-platform-for-building-microservices-in-the-cloud/&quot;&gt;https://blog.acolyer.org/2018/06/05/servicefabric-a-distributed-platform-for-building-microservices-in-the-cloud/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;MIT Issued Blockchain Diplomas  一流大学，一流大学.jpg&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://news.slashdot.org/story/18/06/02/0116224/mit-issued-blockchain-diplomas-but-doesnt-know-if-employers-actually-use-them&quot;&gt;https://news.slashdot.org/story/18/06/02/0116224/mit-issued-blockchain-diplomas-but-doesnt-know-if-employers-actually-use-them&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Remote only：一份远程工作宣言 听起来很好……不知道可行性怎么样&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.remoteonly.org/&quot;&gt;https://www.remoteonly.org/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;What every developer should know about SQL performance：SQL优化入门（ 感觉很适合我这种没写过多少production-level SQL的应付面试用……&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://use-the-index-luke.com/sql/table-of-contents&quot;&gt;https://use-the-index-luke.com/sql/table-of-contents&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://landing.google.com/sre/&quot;&gt;http://landing.google.com/sre/&lt;/a&gt; 神秘职位（&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Introduction to Proof of Location：一种分布式GPS的初步设想，虽然在技术上还有很多难度（主要是家用设备能够定位其他设备的范围太小、怎么解决可信终端问题），但听起来很interesting（分布式ingress？定位其他设备=收集其他玩家走过时产生的XM=挖矿？或许可以结合LBS游戏做点好玩的东西出来）。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://blog.foam.space/introduction-to-proof-of-location-6b4c77928022&quot;&gt;https://blog.foam.space/introduction-to-proof-of-location-6b4c77928022&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/senorprogrammer/wtf
-
-A personal terminal-based dashboard utility, designed for displaying infrequently-needed, but very important, daily data.</summary></entry></feed>
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/sbueringer/kubecon-slides Kubecon Slides &amp;amp; Download utility</summary></entry></feed>
