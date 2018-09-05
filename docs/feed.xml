@@ -1,5 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-08-27T20:53:30+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/08/27/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-08-27T00:00:00+08:00</published><updated>2018-08-27T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/08/27/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/08/27/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/sofish/typo.css&quot;&gt;https://github.com/sofish/typo.css&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-09-05T14:55:17+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/09/03/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-09-03T00:00:00+08:00</published><updated>2018-09-03T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/09/03/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/09/03/weekly.html">&lt;p&gt;发现了一个贼厉害的 Rust 项目&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/weld-project/weld&quot;&gt;https://github.com/weld-project/weld&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;中文介绍：&lt;a href=&quot;http://storage.it168.com/a2018/0814/5007/000005007279.shtml&quot;&gt;http://storage.it168.com/a2018/0814/5007/000005007279.shtml&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;斯坦福 DAWN 实验室的研究项目，CIDR 2017 VLDB 2018 两篇论文&lt;/p&gt;
+
+&lt;p&gt;/cc @codeworm96 &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/tikv/head-first-tikv&quot;&gt;https://github.com/tikv/head-first-tikv&lt;/a&gt; (别人在写数据库我在研究组里的测试为什么不能编译还跑了2个月 ....&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;What You Need to Know Before Considering a PhD from fast.ai。劝退了.jpg&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.fast.ai/2018/08/27/grad-school/&quot;&gt;http://www.fast.ai/2018/08/27/grad-school/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://go.googlesource.com/proposal/+/master/design/go2draft.md&quot;&gt;https://go.googlesource.com/proposal/+/master/design/go2draft.md&lt;/a&gt; official go2 design proposal (组织已经决定要有 generic 了 .....&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://web.cecs.pdx.edu/%7Ewalpole/class/cs510/winter2018/home.html&quot;&gt;CS410/CS510 - Advanced Topics in Concurrency&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;又是一个学校排名低但课很好的例子……虽然有点老没有nvm/gpu相关的东西，不过有transactional memory、还把RCU前前后后讲透了已经超过大多数程序员的水平了（&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/ttroy50/cmake-examples&quot;&gt;https://github.com/ttroy50/cmake-examples&lt;/a&gt; useful cmake examples&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Crunchbase search: Recent Post-C funding rounds with company location @ US. 可以用这个东西筛选出最近的独角兽公司，然后看看工作机会（&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.crunchbase.com/search/funding_rounds/3cd2acb1ea68e2f1ce1456403474f434498d22a0&quot;&gt;https://www.crunchbase.com/search/funding_rounds/3cd2acb1ea68e2f1ce1456403474f434498d22a0&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt; &lt;a href=&quot;https://mattermark.com/app/data?country=USA&amp;or%5B0%5D=stage%09%3D%09C%7Cstage%09%3D%09Late&amp;operator%5B0%5D=last_funding_date%09%3E%0901%2F01%2F2016&amp;sortBy=cached_growth_score&amp;sortDirection=desc&amp;score_mobile_downloads=1&amp;score_twitter_mentions=1&quot;&gt;另一个不需要购买crunchbase pro的list&lt;/a&gt; 感觉这个比较准，几个熟知的都在前面（&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/1930108/unencrypted-ssl-protocol&quot;&gt;https://stackoverflow.com/questions/1930108/unencrypted-ssl-protocol&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;第一次看到有不加密的 SSL。看了下高票回答 TLS_RSA_WITH_NULL_SHA 仅可以保证数据不被篡改。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;最近在折腾 OpenWrt 上的 IPv6 打算去学校用。然而 IPv6 的一堆术语根本不知道是什么…… &lt;a href=&quot;https://forum.openwrt.org/t/clarifying-ipv6-luci-terminology-ndp-proxy-ula-prefix-server-mode-relay-mode-hybrid-mode/18743&quot;&gt;https://forum.openwrt.org/t/clarifying-ipv6-luci-terminology-ndp-proxy-ula-prefix-server-mode-relay-mode-hybrid-mode/18743&lt;/a&gt; 这篇文章稍微解释了一下 LuCI 里面看到的一些术语。感觉似乎明白了一点。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Oracle 的 IPv6 Overview &lt;a href=&quot;https://docs.oracle.com/cd/E23823_01/html/816-4554/ipv6-overview-1.html&quot;&gt;https://docs.oracle.com/cd/E23823_01/html/816-4554/ipv6-overview-1.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://motherfuckingwebsite.com&quot;&gt;http://motherfuckingwebsite.com&lt;/a&gt; IT JUST WORKS!&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">发现了一个贼厉害的 Rust 项目
+
+https://github.com/weld-project/weld
+
+中文介绍：http://storage.it168.com/a2018/0814/5007/000005007279.shtml
+
+斯坦福 DAWN 实验室的研究项目，CIDR 2017 VLDB 2018 两篇论文
+
+/cc @codeworm96</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/08/27/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-08-27T00:00:00+08:00</published><updated>2018-08-27T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/08/27/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/08/27/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/sofish/typo.css&quot;&gt;https://github.com/sofish/typo.css&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;中文网页重设与排版：一致化浏览器排版效果，构建最适合中文阅读的网页排版 &lt;a href=&quot;http://typo.sofi.sh&quot;&gt;http://typo.sofi.sh&lt;/a&gt;&lt;/p&gt;
 
@@ -1109,59 +1181,4 @@ Swift 版 Metal 入门教程。最近正好有用 Apple 平台的绘图 API 的�
 
 &lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/h2non/bimg
 
-Small Go package for fast high-level image processing powered by libvips C library https://godoc.org/github.com/h2non/bimg</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/06/18/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-06-18T00:00:00+08:00</published><updated>2018-06-18T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/06/18/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/06/18/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/sbueringer/kubecon-slides&quot;&gt;https://github.com/sbueringer/kubecon-slides&lt;/a&gt; Kubecon Slides &amp;amp; Download utility&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/galiboo/olympus&quot;&gt;https://github.com/galiboo/olympus&lt;/a&gt;  An instant REST API for any AI model&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/Yelp/detect-secrets&quot;&gt;https://github.com/Yelp/detect-secrets&lt;/a&gt; detecting and preventing secrets in code.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/satwikkansal/wtfpython&quot;&gt;https://github.com/satwikkansal/wtfpython&lt;/a&gt; A collection of surprising Python snippets and lesser-known features.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Github 的清点对象算法。软件源的git镜像用了这个几乎是可以立即开始clone，否则每次clone要干等10+秒
-(不知道为啥不做成默认的设置……调了半天git参数，奥妙重重&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.ruanyifeng.com/blog/2015/09/git-bitmap.html&quot;&gt;http://www.ruanyifeng.com/blog/2015/09/git-bitmap.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Advanced computing with IPython&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://lwn.net/Articles/756192/&quot;&gt;https://lwn.net/Articles/756192/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Killing processes that don&amp;#39;t want to die: 利用uid/gid/sid的规则制造难以被kill掉的fork bomb。interesting&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://lwn.net/Articles/754980/&quot;&gt;https://lwn.net/Articles/754980/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://getmantra.com/web-app-security-testing-with-browsers/&quot;&gt;https://getmantra.com/web-app-security-testing-with-browsers/&lt;/a&gt; switch user agent, remove style etc. basic stuff. &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Autovivification...&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://gist.github.com/hrldcpr/2012250&quot;&gt;https://gist.github.com/hrldcpr/2012250&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://medium.com/@mccode/understanding-how-uid-and-gid-work-in-docker-containers-c37a01d01cf&quot;&gt;https://medium.com/@mccode/understanding-how-uid-and-gid-work-in-docker-containers-c37a01d01cf&lt;/a&gt; &amp;#39;a root inside the container == root outside container&amp;#39;&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/sbueringer/kubecon-slides Kubecon Slides &amp;amp; Download utility</summary></entry></feed>
+Small Go package for fast high-level image processing powered by libvips C library https://godoc.org/github.com/h2non/bimg</summary></entry></feed>
