@@ -1,5 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-09-05T14:55:17+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/09/03/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-09-03T00:00:00+08:00</published><updated>2018-09-03T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/09/03/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/09/03/weekly.html">&lt;p&gt;发现了一个贼厉害的 Rust 项目&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-09-10T15:21:51+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/09/10/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-09-10T00:00:00+08:00</published><updated>2018-09-10T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/09/10/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/09/10/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/intel-go/bytebuf&quot;&gt;https://github.com/intel-go/bytebuf&lt;/a&gt; Replacement for bytes.Buffer that you can use in a performace-sensitive parts or your Go programs  changed &lt;code&gt;[64]byte&lt;/code&gt; to &lt;code&gt;*[64]byte&lt;/code&gt; so always allocate on stack instead of heap (my understanding might be incorrect ... pls point out )&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/mbinary/USTC-CS-Courses-Resource&quot;&gt;https://github.com/mbinary/USTC-CS-Courses-Resource&lt;/a&gt; 中国科学技术大学计算机学院课程资源  cc @gaocegege &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/alibaba/nacos&quot;&gt;https://github.com/alibaba/nacos&lt;/a&gt; an easy-to-use dynamic service discovery, configuration and service management platform for building cloud native applications  cc @gaocegege 听说过咩? .... 感觉就是一个带  dns 功能的 registry&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/openmessaging/specification&quot;&gt;https://github.com/openmessaging/specification&lt;/a&gt; &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;OpenMessaging is vendor-neutral and language-independent, provides industry guidelines for areas of finance, e-commerce, IoT and big-data, and aimed to develop messaging and streaming applications across heterogeneous systems and platforms.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;根据 landscape 的图看, trace, metrics, log 都 cover 了 .... 类似的 &amp;#39;open&amp;#39; 东西好多, opentracing, opencensus 感觉都是根据实现来调整 spec 最后变成独角戏 .....&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/wilsonpage/fastdom&quot;&gt;https://github.com/wilsonpage/fastdom&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Eliminates layout thrashing by batching DOM read/write operations&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://cbor.io/&quot;&gt;http://cbor.io/&lt;/a&gt; RFC 7049 Concise Binary Object Representation  Like JSON but in binary, 123456 is no longer encoded as &amp;#39;123456&amp;#39; and bytes are no longer base64 encoded&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.fast.ai/2018/07/12/auto-ml-1/&quot;&gt;http://www.fast.ai/2018/07/12/auto-ml-1/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;介绍 AutoML 的系列文章&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.9game.ca/&quot;&gt;http://www.9game.ca/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;各种古董电脑/游戏 on 浏览器&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://devtoolsecrets.com/&quot;&gt;http://devtoolsecrets.com/&lt;/a&gt; features of browser developer tools (虽然已经不写前端了.... &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;在学校 IPv6 给的是 /128，先试了 IPv6 NAT，然后觉得不妥，想到可以直接把 IPv6 的 Traffic bridge 到 WAN。
+然后发现，真有「Brouter」这么一说。&lt;a href=&quot;https://wiki.openwrt.org/ipv6_brouter&quot;&gt;https://wiki.openwrt.org/ipv6_brouter&lt;/a&gt;
+然而性能太低，遂弃用。&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/intel-go/bytebuf Replacement for bytes.Buffer that you can use in a performace-sensitive parts or your Go programs  changed [64]byte to *[64]byte so always allocate on stack instead of heap (my understanding might be incorrect ... pls point out )</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/09/03/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-09-03T00:00:00+08:00</published><updated>2018-09-03T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/09/03/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/09/03/weekly.html">&lt;p&gt;发现了一个贼厉害的 Rust 项目&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/weld-project/weld&quot;&gt;https://github.com/weld-project/weld&lt;/a&gt;&lt;/p&gt;
 
@@ -1079,106 +1131,4 @@ Swift 版 Metal 入门教程。最近正好有用 Apple 平台的绘图 API 的�
 
 &lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
 
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/Tencent/tars 腾讯捐给 linux 基金会了 .... 起码某个微信公众号的推送里是这么说的, 里面说了两个 repo ... 第二个是 seer 什么(服务发现)的 ... 我没找到</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/06/25/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-06-25T00:00:00+08:00</published><updated>2018-06-25T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/06/25/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/06/25/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/h2non/bimg&quot;&gt;https://github.com/h2non/bimg&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Small Go package for fast high-level image processing powered by libvips C library &lt;a href=&quot;https://godoc.org/github.com/h2non/bimg&quot;&gt;https://godoc.org/github.com/h2non/bimg&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/38254903&quot;&gt;https://zhuanlan.zhihu.com/p/38254903&lt;/a&gt; TiDB design FAQ&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/spiral/roadrunner&quot;&gt;https://github.com/spiral/roadrunner&lt;/a&gt; High-Performance PSR-7 PHP application server, load balancer and process manager (in Go) 翻译过来感觉是 跑路 额 .... cc @ComMouse &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/tstack/lnav&quot;&gt;https://github.com/tstack/lnav&lt;/a&gt; Log file navigator&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/etsy/hound&quot;&gt;https://github.com/etsy/hound&lt;/a&gt; code search based on Russ Cox&amp;#39;s blog &lt;a href=&quot;http://swtch.com/%7Ersc/regexp/regexp4.html&quot;&gt;Regular Expression Matching with a Trigram Index&lt;/a&gt; was trying to find some alternative for sourcegraph, cc @gaocegege  do you know any?&lt;/p&gt;
-
-&lt;p&gt;From &lt;a href=&quot;https://siftery.com/sourcegraph/alternatives&quot;&gt;https://siftery.com/sourcegraph/alternatives&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/oracle/opengrok&quot;&gt;https://github.com/oracle/opengrok&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/google/zoekt&quot;&gt;https://github.com/google/zoekt&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/Chocobozzz/PeerTube&quot;&gt;https://github.com/Chocobozzz/PeerTube&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Federated (ActivityPub) video streaming platform using P2P (BitTorrent) directly in the web browser with WebTorrent and Angular.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/3T-s2ct2yIwbIE3qAWstUQ&quot;&gt;https://mp.weixin.qq.com/s/3T-s2ct2yIwbIE3qAWstUQ&lt;/a&gt; &lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;京东构建了全球最大的Kubernetes集群，没有之一&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/tiglabs/jdos&quot;&gt;https://github.com/tiglabs/jdos&lt;/a&gt; 有点迷 ... 好像是一键安装包&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/tiglabs/containerfs&quot;&gt;https://github.com/tiglabs/containerfs&lt;/a&gt; a cluster filesystem for containers&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/tiglabs/sharkstore&quot;&gt;https://github.com/tiglabs/sharkstore&lt;/a&gt; distributed key - value persisted storage system&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/tiglabs/jupiter&quot;&gt;https://github.com/tiglabs/jupiter&lt;/a&gt; Jupiter is a high-performance 4-layer network load balance service based on DPDK&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;tracking SOTA on common nlp tasks&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/sebastianruder/NLP-progress#natural-language-inference&quot;&gt;https://github.com/sebastianruder/NLP-progress#natural-language-inference&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/alibaba/tsar&quot;&gt;https://github.com/alibaba/tsar&lt;/a&gt; Taobao System Activity Reporter&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/square/p2&quot;&gt;https://github.com/square/p2&lt;/a&gt; square&amp;#39;s k8s like deployment system&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/concourse/concourse&quot;&gt;https://github.com/concourse/concourse&lt;/a&gt; &lt;a href=&quot;https://concourse-ci.org/&quot;&gt;https://concourse-ci.org/&lt;/a&gt; a CI/CD written in Go&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;From &lt;a href=&quot;https://github.com/zenany/weekly/commit/3729813d7240bdf0a0f5f8d043b7e8b87bce0b0f&quot;&gt;https://github.com/zenany/weekly/commit/3729813d7240bdf0a0f5f8d043b7e8b87bce0b0f&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://probablydance.com/2018/06/16/fibonacci-hashing-the-optimization-that-the-world-forgot-or-a-better-alternative-to-integer-modulo/&quot;&gt;https://probablydance.com/2018/06/16/fibonacci-hashing-the-optimization-that-the-world-forgot-or-a-better-alternative-to-integer-modulo/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://highscalability.com/blog/2018/6/18/how-ably-efficiently-implemented-consistent-hashing.html&quot;&gt;How Ably Efficiently Implemented Consistent Hashing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://msropendata.com/&quot;&gt;https://msropendata.com/&lt;/a&gt; cc @mingo-x @raspberryice &lt;a href=&quot;https://www.microsoft.com/en-us/research/blog/announcing-microsoft-research-open-data-datasets-by-microsoft-research-now-available-in-the-cloud/&quot;&gt;https://www.microsoft.com/en-us/research/blog/announcing-microsoft-research-open-data-datasets-by-microsoft-research-now-available-in-the-cloud/&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/patriciogonzalezvivo/glslEditor&quot;&gt;https://github.com/patriciogonzalezvivo/glslEditor&lt;/a&gt; @ir193&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/marcobambini/gravity&quot;&gt;https://github.com/marcobambini/gravity&lt;/a&gt; cc @codeworm96 @LukeXuan &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Gravity is a powerful, dynamically typed, lightweight, embeddable programming language written in C without any external dependencies (except for stdlib). It is a class-based concurrent scripting language with modern Swift-like syntax&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://education.github.com/&quot;&gt;https://education.github.com/&lt;/a&gt; 貌似可以给 org 申请免费的 private repo 了 cc @gaocegege @htfy96 虽然感觉没什么需要 private 的 .... private 之后 travis 也得交钱 😅 &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Restrict C++ unsafe behaviors in unsafe{} block using clang-query and simple commands。自己写的一个用clang-query来限制C++某些特性使用的脚本&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://gist.github.com/htfy96/24b8d6ec78236b17674b548595984315&quot;&gt;https://gist.github.com/htfy96/24b8d6ec78236b17674b548595984315&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.slideshare.net/brendangregg/container-performance-analysis&quot;&gt;https://www.slideshare.net/brendangregg/container-performance-analysis&lt;/a&gt; &lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/h2non/bimg
-
-Small Go package for fast high-level image processing powered by libvips C library https://godoc.org/github.com/h2non/bimg</summary></entry></feed>
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/Tencent/tars 腾讯捐给 linux 基金会了 .... 起码某个微信公众号的推送里是这么说的, 里面说了两个 repo ... 第二个是 seer 什么(服务发现)的 ... 我没找到</summary></entry></feed>
