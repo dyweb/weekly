@@ -1,5 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-09-10T15:21:51+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/09/10/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-09-10T00:00:00+08:00</published><updated>2018-09-10T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/09/10/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/09/10/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/intel-go/bytebuf&quot;&gt;https://github.com/intel-go/bytebuf&lt;/a&gt; Replacement for bytes.Buffer that you can use in a performace-sensitive parts or your Go programs  changed &lt;code&gt;[64]byte&lt;/code&gt; to &lt;code&gt;*[64]byte&lt;/code&gt; so always allocate on stack instead of heap (my understanding might be incorrect ... pls point out )&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-09-18T11:16:18+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/09/17/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-09-17T00:00:00+08:00</published><updated>2018-09-17T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/09/17/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/09/17/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/caicloud/ciao&quot;&gt;https://github.com/caicloud/ciao&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;自卖自夸，一个 Jupyter Kernel，支持在 Jupyter Notebook 中发起分布式模型训练。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/kocircuit/kocircuit&quot;&gt;https://github.com/kocircuit/kocircuit&lt;/a&gt;  A generic type-safe language for concurrent, stateful, deadlock-free systems and protocol manipulations Can compile to IR and use go as interpreter &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Microsoft/nni&quot;&gt;https://github.com/Microsoft/nni&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;An open source AutoML toolkit for neural architecture search and hyper-parameter tuning.&lt;/p&gt;
+
+&lt;p&gt;微软最新开源项目，自动机器学习工具&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/go-critic/go-critic&quot;&gt;https://github.com/go-critic/go-critic&lt;/a&gt; The most opinionated Go source code linter for code audit.  &lt;a href=&quot;https://go-critic.github.io/overview&quot;&gt;https://go-critic.github.io/overview&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/facebookincubator/LogDevice&quot;&gt;https://github.com/facebookincubator/LogDevice&lt;/a&gt; Distributed storage for sequential data &lt;a href=&quot;https://logdevice.io&quot;&gt;https://logdevice.io&lt;/a&gt; ...  Replicated state machines is one of the use case&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;最近在入门 Haskell，在交大图书馆借到了 Real World Haskell 这本英文书的影印版。感觉这本书在介绍语法的基础上，用实际的例子锻炼了 FP 的思维，比之前看的 Tutorial 书好多了（
+网上免费阅读。 &lt;a href=&quot;http://book.realworldhaskell.org/&quot;&gt;http://book.realworldhaskell.org/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lcq2.github.io/x86_iphone/&quot;&gt;https://lcq2.github.io/x86_iphone/&lt;/a&gt; x86 进 iPhone 基带。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://lcq2.github.io/x86_iphone/&quot;&gt;https://lcq2.github.io/x86_iphone/&lt;/a&gt; x86 进 iPhone 基带。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;为啥 x86 在基带不合适？这个作者这么震惊&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Life of a pixel from Chromium:  &lt;a href=&quot;http://bit.ly/lifeofapixel&quot;&gt;http://bit.ly/lifeofapixel&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;介绍了Chromium的渲染过程，Chromium团队的入门资料&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Scaling Uber&amp;#39;s Apache Hadoop Distributed File System for Growth &lt;a href=&quot;https://eng.uber.com/scaling-hdfs/&quot;&gt;https://eng.uber.com/scaling-hdfs/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 6不错，下次system design可以抄一下（&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/caicloud/ciao
+
+自卖自夸，一个 Jupyter Kernel，支持在 Jupyter Notebook 中发起分布式模型训练。</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/09/10/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-09-10T00:00:00+08:00</published><updated>2018-09-10T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/09/10/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/09/10/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/intel-go/bytebuf&quot;&gt;https://github.com/intel-go/bytebuf&lt;/a&gt; Replacement for bytes.Buffer that you can use in a performace-sensitive parts or your Go programs  changed &lt;code&gt;[64]byte&lt;/code&gt; to &lt;code&gt;*[64]byte&lt;/code&gt; so always allocate on stack instead of heap (my understanding might be incorrect ... pls point out )&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -1043,92 +1098,4 @@ Swift 版 Metal 入门教程。最近正好有用 Apple 平台的绘图 API 的�
 
 &lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://funnyjs.com/marysue/
 
-玛丽苏文本加密器</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/07/02/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-07-02T00:00:00+08:00</published><updated>2018-07-02T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/07/02/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/07/02/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/Tencent/tars&quot;&gt;https://github.com/Tencent/tars&lt;/a&gt; 腾讯捐给 linux 基金会了 .... 起码某个微信公众号的推送里是这么说的, 里面说了两个 repo ... 第二个是 seer 什么(服务发现)的 ... 我没找到&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://gabrielsw.blogspot.com/2012/09/phantom-types-in-java.html&quot;&gt;http://gabrielsw.blogspot.com/2012/09/phantom-types-in-java.html&lt;/a&gt; Phantom Types 的简单例子&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;A Python static typing update&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://lwn.net/Articles/757218/&quot;&gt;https://lwn.net/Articles/757218/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/tidwall/pinhole&quot;&gt;https://github.com/tidwall/pinhole&lt;/a&gt; 3D Wireframe Drawing Library for Go&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/DataDog/dd-trace-go/tree/v1/contrib&quot;&gt;https://github.com/DataDog/dd-trace-go/tree/v1/contrib&lt;/a&gt; datadog&amp;#39;s tracing interface and integrated with common libraries&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://rust-lang-nursery.github.io/edition-guide/introduction.html&quot;&gt;https://rust-lang-nursery.github.io/edition-guide/introduction.html&lt;/a&gt; Rust 2018 Edition Guide&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;My feedly feeds collection。还在用RSS的同学可以参考一下&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://gist.github.com/htfy96/92ee46c961b3af450f1ee1fcb296e7c6&quot;&gt;https://gist.github.com/htfy96/92ee46c961b3af450f1ee1fcb296e7c6&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;才发现GFSv2（Colossus）的那个slides去年就已经公开了……之前都只有复述版&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.pdsw.org/pdsw-discs17/slides/PDSW-DISCS-Google-Keynote.pdf&quot;&gt;http://www.pdsw.org/pdsw-discs17/slides/PDSW-DISCS-Google-Keynote.pdf&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/gaocegege/papers-notebook/issues/95&quot;&gt;https://github.com/gaocegege/papers-notebook/issues/95&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/quark0/darts&quot;&gt;https://github.com/quark0/darts&lt;/a&gt;
-&lt;a href=&quot;https://arxiv.org/pdf/1806.09055.pdf&quot;&gt;https://arxiv.org/pdf/1806.09055.pdf&lt;/a&gt;
-&lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2650744369&amp;idx=1&amp;sn=c8bdab99bce21331f4823300e0f7070f&amp;chksm=871ae24fb06d6b59871fc8295d6b4fc929ac84f431823b74f6d904d94d3db1690abde31f58d0&amp;mpshare=1&amp;scene=1&amp;srcid=0627il2MViMGVcIAwYRJYBLH&amp;pass_ticket=JuN7OPykLjC9y8DSpa4EmdRPWUhlPbs1KSNp1rOHyVPWFLtKwx1zw9bJaltHqzzf#rd&quot;&gt;微信文章&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;指数级加速架构搜索：CMU提出基于梯度下降的可微架构搜索方法 &lt;/p&gt;
-
-&lt;p&gt;如果真的通用性很好的话，这个会是一个大新闻，模型搜索不再是梦&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Portable Services with systemd v239。systemd和容器技术互相交融还行……&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://0pointer.net/blog/walkthrough-for-portable-services.html&quot;&gt;http://0pointer.net/blog/walkthrough-for-portable-services.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;GUI Testing Powered by Deep Learning。前端越来越不好做了。。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.ebayinc.com/stories/blogs/tech/gui-testing-powered-by-deep-learning/&quot;&gt;https://www.ebayinc.com/stories/blogs/tech/gui-testing-powered-by-deep-learning/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Kata Containers plans to offer official k8s support。感觉Kata Container项目很有前途……&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://superuser.openstack.org/articles/project-update-whats-next-for-kata-containers/&quot;&gt;https://superuser.openstack.org/articles/project-update-whats-next-for-kata-containers/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;another tracing system (seems no longer maintained) &lt;a href=&quot;https://github.com/monzo/typhon&quot;&gt;https://github.com/monzo/typhon&lt;/a&gt; found from &lt;a href=&quot;https://peter.bourgon.org/blog/2016/02/07/logging-v-instrumentation.html&quot;&gt;https://peter.bourgon.org/blog/2016/02/07/logging-v-instrumentation.html&lt;/a&gt; also &lt;a href=&quot;https://peter.bourgon.org/blog/2017/02/21/metrics-tracing-and-logging.html&quot;&gt;https://peter.bourgon.org/blog/2017/02/21/metrics-tracing-and-logging.html&lt;/a&gt; is interesting as well&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Dlang: the GC series tutorial (2017)  介绍了Dlang的GC与无GC混合代码的使用方法。Dlang的GC只发生在分配的时候，因此发生的时机是可控的，在@nogc代码中不会触发。感觉这种hybrid的思路比起完全无GC更容易接受与使用……&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://dlang.org/blog/the-gc-series/&quot;&gt;https://dlang.org/blog/the-gc-series/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/Tencent/tars 腾讯捐给 linux 基金会了 .... 起码某个微信公众号的推送里是这么说的, 里面说了两个 repo ... 第二个是 seer 什么(服务发现)的 ... 我没找到</summary></entry></feed>
+玛丽苏文本加密器</summary></entry></feed>
