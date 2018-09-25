@@ -1,5 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-09-18T11:16:18+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/09/17/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-09-17T00:00:00+08:00</published><updated>2018-09-17T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/09/17/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/09/17/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/caicloud/ciao&quot;&gt;https://github.com/caicloud/ciao&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-09-25T15:56:32+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/09/24/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-09-24T00:00:00+08:00</published><updated>2018-09-24T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/09/24/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/09/24/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/hyperledger/fabric-sdk-py/blob/master/docs/release_note.md&quot;&gt;https://github.com/hyperledger/fabric-sdk-py/blob/master/docs/release_note.md&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;賣瓜王婆：fabric的python sdk，支持fabric 1.0.x，年底前會支持最新的fabric和fabric-ca　（也歡迎大家貢獻）&lt;/p&gt;
+
+&lt;p&gt;fabric: 一個聯盟鏈的解決方案&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.coursera.org/learn/build-a-computer/&quot;&gt;https://www.coursera.org/learn/build-a-computer/&lt;/a&gt; 最近突然想写个 Assembler，于是查到了这个课，从硬件开始，一步步教如何搭一台电脑（当然是模拟的）。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;PostgreSQL 11: something for everyone (&lt;strong&gt;PAYWALL&lt;/strong&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lwn.net/SubscriberLink/764515/a207303abb49fc37/&quot;&gt;https://lwn.net/SubscriberLink/764515/a207303abb49fc37/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;@SkyZH 那個原本是&lt;a href=&quot;https://www.nand2tetris.org/&quot;&gt;nand2tetris&lt;/a&gt; 然後有本書可以自行下載，然後網課對書上內容有補充。我也感覺是非常棒的一門課.&lt;/p&gt;
+
+&lt;p&gt;有上下兩個部分，一個是（模擬）硬件，一個是軟件&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Lifetime profile v1.0 posted    用CFG搞的lifetime checker，已经集成在msvc中，将要实现进clang。默认只针对pointers, iteartors等常见情况启用，用户自己类的所有权可以用[[gsl::owner]], [[gsl::pointer]]来标记。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://herbsutter.com/2018/09/20/lifetime-profile-v1-0-posted/&quot;&gt;https://herbsutter.com/2018/09/20/lifetime-profile-v1-0-posted/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/openrepl/openrepl&quot;&gt;https://github.com/openrepl/openrepl&lt;/a&gt; a online repl for multiple languages, run code using container on server side and stream output back to browser using websocket (the code is pretty clean), has in memory and local folder based k-v store and use etag for caching &lt;a href=&quot;https://github.com/openrepl/openrepl/blob/master/server/store/main.go&quot;&gt;https://github.com/openrepl/openrepl/blob/master/server/store/main.go&lt;/a&gt; 😄 &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/golang/perf&quot;&gt;https://github.com/golang/perf&lt;/a&gt; Go performance measurement, storage, and analysis tools  (though it seems it is not being used .... &lt;a href=&quot;https://perf.golang.org/&quot;&gt;https://perf.golang.org/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/rogpeppe/gohack&quot;&gt;https://github.com/rogpeppe/gohack&lt;/a&gt; a cli to allow you hack dependency when using go mod (vgo)&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/hyperledger/fabric-sdk-py/blob/master/docs/release_note.md
+
+賣瓜王婆：fabric的python sdk，支持fabric 1.0.x，年底前會支持最新的fabric和fabric-ca　（也歡迎大家貢獻）
+
+fabric: 一個聯盟鏈的解決方案</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/09/17/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-09-17T00:00:00+08:00</published><updated>2018-09-17T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/09/17/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/09/17/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/caicloud/ciao&quot;&gt;https://github.com/caicloud/ciao&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;自卖自夸，一个 Jupyter Kernel，支持在 Jupyter Notebook 中发起分布式模型训练。&lt;/p&gt;
 
@@ -986,116 +1032,4 @@ Swift 版 Metal 入门教程。最近正好有用 Apple 平台的绘图 API 的�
 
 &lt;p&gt;&lt;a href=&quot;http://graphics.stanford.edu/%7Eseander/bithacks.html&quot;&gt;http://graphics.stanford.edu/~seander/bithacks.html&lt;/a&gt;&lt;/p&gt;
 
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/07/09/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-07-09T00:00:00+08:00</published><updated>2018-07-09T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/07/09/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/07/09/weekly.html">&lt;p&gt;&lt;a href=&quot;https://funnyjs.com/marysue/&quot;&gt;https://funnyjs.com/marysue/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;玛丽苏文本加密器 &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/FiloSottile/mkcert&quot;&gt;https://github.com/FiloSottile/mkcert&lt;/a&gt; generate cert so you can use ssl for localhost&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/FiloSottile/whosthere&quot;&gt;https://github.com/FiloSottile/whosthere&lt;/a&gt; &lt;code&gt;ssh whoami.filippo.io&lt;/code&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/getsentry/raven-go&quot;&gt;https://github.com/getsentry/raven-go&lt;/a&gt; &lt;a href=&quot;https://github.com/airbrake/gobrake&quot;&gt;https://github.com/airbrake/gobrake&lt;/a&gt; capture error in go code and send to a error collecting and reporting service&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/nbedos/termtosvg&quot;&gt;https://github.com/nbedos/termtosvg&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Terminal to SVG&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/busyloop/lolcat&quot;&gt;https://github.com/busyloop/lolcat&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;让你的终端五彩斑斓&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://github.com/busyloop/lolcat/raw/master/ass/screenshot.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;阿里巴巴学术合作提供的一些在系统软件，机器学习等等领域的研究点&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://102.alibaba.com/fund/proposalResearch.htm&quot;&gt;https://102.alibaba.com/fund/proposalResearch.htm&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;一个做 os-query &lt;a href=&quot;https://github.com/facebook/osquery&quot;&gt;https://github.com/facebook/osquery&lt;/a&gt; 周边的公司 kolide&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/kolide/fleet&quot;&gt;https://github.com/kolide/fleet&lt;/a&gt; A flexible control server for osquery fleets&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/kolide/osquery-go&quot;&gt;https://github.com/kolide/osquery-go&lt;/a&gt; go binding for &lt;a href=&quot;https://osquery.readthedocs.io/en/latest/development/osquery-sdk/&quot;&gt;https://osquery.readthedocs.io/en/latest/development/osquery-sdk/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/kolide/launcher&quot;&gt;https://github.com/kolide/launcher&lt;/a&gt; Osquery launcher, autoupdater, and packager&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Advanced Topics in Operating Systems (Stanford CS240)。这几篇文章都有点老，但是比较经典，特别是annotated copy中dalao的批注很有用&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://web.stanford.edu/class/cs240/&quot;&gt;http://web.stanford.edu/class/cs240/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;TIME-LOCK ENCRYPTION：如何利用密码学让我的毕业照只能在若干年后才能访问？&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.gwern.net/Self-decrypting-files&quot;&gt;https://www.gwern.net/Self-decrypting-files&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;GEF - GDB Enhanced Features for exploit devs &amp;amp; reversers。虽然主要针对安全研究，不过试了一下在日常调试情境下也非常好用，强烈推荐&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/hugsy/gef&quot;&gt;https://github.com/hugsy/gef&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.ifanr.com/1061230&quot;&gt;http://www.ifanr.com/1061230&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;竞价广告的机制设计&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/YaoZengzeng/KubernetesResearch&quot;&gt;https://github.com/YaoZengzeng/KubernetesResearch&lt;/a&gt; 看 k8smeetup  公众号看到的小哥 cc @gaocegege &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;From &lt;a href=&quot;https://github.com/square/spincycle&quot;&gt;https://github.com/square/spincycle&lt;/a&gt; 以后开坑应该都加上这句话 cc @gaocegege /w&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;This project is still under development and should not be used for anything in production yet. We are not seeking external contributors at this time&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/dominikh/go-tools&quot;&gt;https://github.com/dominikh/go-tools&lt;/a&gt; a collection of tools and libraries for working with Go code, including linters and static analysis&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Deep Learning Programming Language Detection。在搜索自己的变量命名时发现的……&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/aliostad/deep-learning-lang-detection&quot;&gt;https://github.com/aliostad/deep-learning-lang-detection&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://blog.scottlowe.org/archives/&quot;&gt;https://blog.scottlowe.org/archives/&lt;/a&gt; 讲了一些 k8s 还有ops 相关的内容 有一个定时更新的 technology short take &lt;a href=&quot;https://blog.scottlowe.org/2018/06/08/technology-short-take-101/&quot;&gt;https://blog.scottlowe.org/2018/06/08/technology-short-take-101/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://blog.scottlowe.org/2018/06/28/more-handy-cli-tools-json/&quot;&gt;https://blog.scottlowe.org/2018/06/28/more-handy-cli-tools-json/&lt;/a&gt; 除了 jq 还有 jp &lt;a href=&quot;https://github.com/jmespath/jp&quot;&gt;https://github.com/jmespath/jp&lt;/a&gt; &lt;a href=&quot;http://jmespath.org/&quot;&gt;http://jmespath.org/&lt;/a&gt; cc @arrowrowe &lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://funnyjs.com/marysue/
-
-玛丽苏文本加密器</summary></entry></feed>
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction</summary></entry></feed>
