@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Weekly</title>
-  <meta name="description" content="cppcon 18开幕了！ 所有的talk：https://cppcon2018.sched.com/ 某个dalao对他想去的talk的点评：https://annygakh.github.io/longblog/2018/09/22/prereadingCppcon2018talks.html">
+  <meta name="description" content="https://github.com/hyperledger/fabric-sdk-py/blob/master/docs/release_note.md 賣瓜王婆：fabric的python sdk，支持fabric 1.0.x，年底前會支持最新的fabric和fabric-ca　（也歡迎大家貢獻） fabri...">
 
   <link rel="stylesheet" href="/assets/main.css">
   <link rel="canonical" href="https://weekly.dongyueweb.com/weekly/2018/09/24/weekly.html">
@@ -66,107 +66,47 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>cppcon 18开幕了！</p>
+    <p><a href="https://github.com/hyperledger/fabric-sdk-py/blob/master/docs/release_note.md">https://github.com/hyperledger/fabric-sdk-py/blob/master/docs/release_note.md</a></p>
 
-<p>所有的talk：<a href="https://cppcon2018.sched.com/">https://cppcon2018.sched.com/</a>
-某个dalao对他想去的talk的点评：<a href="https://annygakh.github.io/longblog/2018/09/22/prereadingCppcon2018talks.html">https://annygakh.github.io/longblog/2018/09/22/prereadingCppcon2018talks.html</a></p>
+<p>賣瓜王婆：fabric的python sdk，支持fabric 1.0.x，年底前會支持最新的fabric和fabric-ca　（也歡迎大家貢獻）</p>
 
-<hr>
-
-<p><a href="https://github.com/AkihiroSuda/buildbench">https://github.com/AkihiroSuda/buildbench</a></p>
-
-<p>关于构建容器镜像的工具的 benchmark，主要有 Docker build, buildkit, kaniko 等等。</p>
+<p>fabric: 一個聯盟鏈的解決方案</p>
 
 <hr>
 
-<p>Computer Networks: A Systems Approach, 5th ed开源了： <a href="https://book.systemsapproach.org/">https://book.systemsapproach.org/</a></p>
-
-<p>以及去年公开的 Distributed Systems 3rd edition ：<a href="https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/">https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/</a></p>
-
-<p>（今年学校的network课打算把这两个东西混讲……似乎很合理</p>
+<p><a href="https://www.coursera.org/learn/build-a-computer/">https://www.coursera.org/learn/build-a-computer/</a> 最近突然想写个 Assembler，于是查到了这个课，从硬件开始，一步步教如何搭一台电脑（当然是模拟的）。</p>
 
 <hr>
 
-<p><a href="http://xsb.seiee.sjtu.edu.cn/xsb/info/13906.htm">http://xsb.seiee.sjtu.edu.cn/xsb/info/13906.htm</a></p>
+<p>PostgreSQL 11: something for everyone (<strong>PAYWALL</strong>)</p>
 
-<p>电院 2017 年就业报告（</p>
-
-<hr>
-
-<p><a href="https://github.com/rianhunter/wasmjit">https://github.com/rianhunter/wasmjit</a></p>
-
-<p>Kernel Mode WebAssembly Runtime for Linux</p>
+<p><a href="https://lwn.net/SubscriberLink/764515/a207303abb49fc37/">https://lwn.net/SubscriberLink/764515/a207303abb49fc37/</a></p>
 
 <hr>
 
-<p><a href="https://github.com/alibaba/arthas">https://github.com/alibaba/arthas</a></p>
+<p><a href="https://github.com/SkyZH" class="user-mention">@SkyZH</a> 那個原本是<a href="https://www.nand2tetris.org/">nand2tetris</a> 然後有本書可以自行下載，然後網課對書上內容有補充。我也感覺是非常棒的一門課.</p>
 
-<p>Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas <a href="https://alibaba.github.io/arthas/">https://alibaba.github.io/arthas/</a></p>
-
-<p>这个最近好像很火，不知道为啥</p>
+<p>有上下兩個部分，一個是（模擬）硬件，一個是軟件</p>
 
 <hr>
 
-<p><a href="https://github.com/dotnet/machinelearning">https://github.com/dotnet/machinelearning</a></p>
+<p>Lifetime profile v1.0 posted    用CFG搞的lifetime checker，已经集成在msvc中，将要实现进clang。默认只针对pointers, iteartors等常见情况启用，用户自己类的所有权可以用[[gsl::owner]], [[gsl::pointer]]来标记。</p>
 
-<p>ML.NET is an open source and cross-platform machine learning framework for .NET. <a href="https://dot.net/ml">https://dot.net/ml</a></p>
-
-<hr>
-
-<p><a href="http://lwkd.info/">http://lwkd.info/</a></p>
-
-<p>维护的非常好的 Kubernetes 社区周报</p>
-
-<hr>
-
-<p><a href="https://github.com/ibuildthecloud/k3s">https://github.com/ibuildthecloud/k3s</a></p>
-
-<p>被裁剪了一些边缘 feature 后的 k8s</p>
-
-<hr>
-
-<p><a href="https://blog.cloudflare.com/cloudflare-registrar/">https://blog.cloudflare.com/cloudflare-registrar/</a>
-Introducing Cloudflare Registrar: Domain Registration You Can Love</p>
-
-<hr>
-
-<p><a href="https://stackoverflow.com/a/17628243">https://stackoverflow.com/a/17628243</a> 在 Global GitIgnore 里删掉 .DS_Store!</p>
-
-<hr>
-
-<p>CppCon 2017: Matt Kulukundis “Designing a Fast, Efficient, Cache-friendly Hash Table, Step by Step”。  性能榨汁简易入门（</p>
-
-<p><a href="https://www.youtube.com/watch?v=ncHmEUmJZf4&amp;t=3s">https://www.youtube.com/watch?v=ncHmEUmJZf4&amp;t=3s</a></p>
-
-<p>以及刚开源的<code>absl::hash_table</code>: <a href="https://abseil.io/blog/20180927-swisstables">https://abseil.io/blog/20180927-swisstables</a></p>
+<p><a href="https://herbsutter.com/2018/09/20/lifetime-profile-v1-0-posted/">https://herbsutter.com/2018/09/20/lifetime-profile-v1-0-posted/</a></p>
 
 <p><em>Submitted via <a href="https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588">bookmarklet</a></em> <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2728.png" height="20" width="20"></p>
 
 <hr>
 
-<p><a href="https://github.com/mbasso/awesome-wasm">https://github.com/mbasso/awesome-wasm</a></p>
-
-<p>Curated list of awesome things regarding WebAssembly (wasm) ecosystem.</p>
+<p><a href="https://github.com/openrepl/openrepl">https://github.com/openrepl/openrepl</a> a online repl for multiple languages, run code using container on server side and stream output back to browser using websocket (the code is pretty clean), has in memory and local folder based k-v store and use etag for caching <a href="https://github.com/openrepl/openrepl/blob/master/server/store/main.go">https://github.com/openrepl/openrepl/blob/master/server/store/main.go</a> 😄 </p>
 
 <hr>
 
-<p><a href="https://github.com/ValveSoftware/Proton">https://github.com/ValveSoftware/Proton</a></p>
-
-<p>Compatibility tool for Steam Play based on Wine and additional components</p>
-
-<p>Linux 上玩 Steam Windows 游戏不再是梦？</p>
+<p><a href="https://github.com/golang/perf">https://github.com/golang/perf</a> Go performance measurement, storage, and analysis tools  (though it seems it is not being used .... <a href="https://perf.golang.org/">https://perf.golang.org/</a></p>
 
 <hr>
 
-<p><a href="https://github.com/wzpan/BeamerStyleSlides">https://github.com/wzpan/BeamerStyleSlides</a></p>
-
-<p>rainbowBeamer风格的幻灯片模板集。包含了PowerPoint和Keynote两套格式。 <a href="http://www.hahack.com/BeamerStyleSlides/">http://www.hahack.com/BeamerStyleSlides/</a></p>
-
-<hr>
-
-<p><a href="https://github.com/iikira/BaiduPCS-Go">https://github.com/iikira/BaiduPCS-Go</a></p>
-
-<p>第三方百度网盘 cli. 据说速度很快。</p>
+<p><a href="https://github.com/rogpeppe/gohack">https://github.com/rogpeppe/gohack</a> a cli to allow you hack dependency when using go mod (vgo)</p>
 
 <hr>
 
