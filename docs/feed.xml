@@ -1,5 +1,110 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-09-25T15:56:32+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/09/24/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-09-24T00:00:00+08:00</published><updated>2018-09-24T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/09/24/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/09/24/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/hyperledger/fabric-sdk-py/blob/master/docs/release_note.md&quot;&gt;https://github.com/hyperledger/fabric-sdk-py/blob/master/docs/release_note.md&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-10-01T09:52:19+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/09/24/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-09-24T00:00:00+08:00</published><updated>2018-09-24T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/09/24/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/09/24/weekly.html">&lt;p&gt;cppcon 18开幕了！&lt;/p&gt;
+
+&lt;p&gt;所有的talk：&lt;a href=&quot;https://cppcon2018.sched.com/&quot;&gt;https://cppcon2018.sched.com/&lt;/a&gt;
+某个dalao对他想去的talk的点评：&lt;a href=&quot;https://annygakh.github.io/longblog/2018/09/22/prereadingCppcon2018talks.html&quot;&gt;https://annygakh.github.io/longblog/2018/09/22/prereadingCppcon2018talks.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/AkihiroSuda/buildbench&quot;&gt;https://github.com/AkihiroSuda/buildbench&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;关于构建容器镜像的工具的 benchmark，主要有 Docker build, buildkit, kaniko 等等。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Computer Networks: A Systems Approach, 5th ed开源了： &lt;a href=&quot;https://book.systemsapproach.org/&quot;&gt;https://book.systemsapproach.org/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;以及去年公开的 Distributed Systems 3rd edition ：&lt;a href=&quot;https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/&quot;&gt;https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;（今年学校的network课打算把这两个东西混讲……似乎很合理&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://xsb.seiee.sjtu.edu.cn/xsb/info/13906.htm&quot;&gt;http://xsb.seiee.sjtu.edu.cn/xsb/info/13906.htm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;电院 2017 年就业报告（&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/rianhunter/wasmjit&quot;&gt;https://github.com/rianhunter/wasmjit&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Kernel Mode WebAssembly Runtime for Linux&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/alibaba/arthas&quot;&gt;https://github.com/alibaba/arthas&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas &lt;a href=&quot;https://alibaba.github.io/arthas/&quot;&gt;https://alibaba.github.io/arthas/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这个最近好像很火，不知道为啥&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/dotnet/machinelearning&quot;&gt;https://github.com/dotnet/machinelearning&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ML.NET is an open source and cross-platform machine learning framework for .NET. &lt;a href=&quot;https://dot.net/ml&quot;&gt;https://dot.net/ml&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://lwkd.info/&quot;&gt;http://lwkd.info/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;维护的非常好的 Kubernetes 社区周报&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/ibuildthecloud/k3s&quot;&gt;https://github.com/ibuildthecloud/k3s&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;被裁剪了一些边缘 feature 后的 k8s&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blog.cloudflare.com/cloudflare-registrar/&quot;&gt;https://blog.cloudflare.com/cloudflare-registrar/&lt;/a&gt;
+Introducing Cloudflare Registrar: Domain Registration You Can Love&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/a/17628243&quot;&gt;https://stackoverflow.com/a/17628243&lt;/a&gt; 在 Global GitIgnore 里删掉 .DS_Store!&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;CppCon 2017: Matt Kulukundis “Designing a Fast, Efficient, Cache-friendly Hash Table, Step by Step”。  性能榨汁简易入门（&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=ncHmEUmJZf4&amp;t=3s&quot;&gt;https://www.youtube.com/watch?v=ncHmEUmJZf4&amp;amp;t=3s&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;以及刚开源的&lt;code&gt;absl::hash_table&lt;/code&gt;: &lt;a href=&quot;https://abseil.io/blog/20180927-swisstables&quot;&gt;https://abseil.io/blog/20180927-swisstables&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/mbasso/awesome-wasm&quot;&gt;https://github.com/mbasso/awesome-wasm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Curated list of awesome things regarding WebAssembly (wasm) ecosystem.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/ValveSoftware/Proton&quot;&gt;https://github.com/ValveSoftware/Proton&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Compatibility tool for Steam Play based on Wine and additional components&lt;/p&gt;
+
+&lt;p&gt;Linux 上玩 Steam Windows 游戏不再是梦？&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/wzpan/BeamerStyleSlides&quot;&gt;https://github.com/wzpan/BeamerStyleSlides&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;rainbowBeamer风格的幻灯片模板集。包含了PowerPoint和Keynote两套格式。 &lt;a href=&quot;http://www.hahack.com/BeamerStyleSlides/&quot;&gt;http://www.hahack.com/BeamerStyleSlides/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/iikira/BaiduPCS-Go&quot;&gt;https://github.com/iikira/BaiduPCS-Go&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;第三方百度网盘 cli. 据说速度很快。&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">cppcon 18开幕了！
+
+所有的talk：https://cppcon2018.sched.com/
+某个dalao对他想去的talk的点评：https://annygakh.github.io/longblog/2018/09/22/prereadingCppcon2018talks.html</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/09/24/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-09-24T00:00:00+08:00</published><updated>2018-09-24T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/09/24/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/09/24/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/hyperledger/fabric-sdk-py/blob/master/docs/release_note.md&quot;&gt;https://github.com/hyperledger/fabric-sdk-py/blob/master/docs/release_note.md&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;賣瓜王婆：fabric的python sdk，支持fabric 1.0.x，年底前會支持最新的fabric和fabric-ca　（也歡迎大家貢獻）&lt;/p&gt;
 
@@ -856,180 +961,4 @@ Swift 版 Metal 入门教程。最近正好有用 Apple 平台的绘图 API 的�
 
 &lt;p&gt;PSI pressure stall information for CPU, memory, and IO v2  &lt;a href=&quot;https://lwn.net/Articles/759658/&quot;&gt;https://lwn.net/Articles/759658/&lt;/a&gt; &lt;/p&gt;
 
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/chubin/cheat.sh the only cheat sheet you need</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/07/16/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-07-16T00:00:00+08:00</published><updated>2018-07-16T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/07/16/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/07/16/weekly.html">&lt;p&gt;&lt;a href=&quot;https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction&quot;&gt;https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://skyao.io/post/&quot;&gt;https://skyao.io/post/&lt;/a&gt; from &lt;a href=&quot;https://zhuanlan.zhihu.com/p/39061774&quot;&gt;蚂蚁金服大规模微服务架构下的Service Mesh探索之路&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;From &lt;a href=&quot;https://github.com/zenany/weekly/commit/46cef5028b5d773d46cbeb3e88b2e7d9aca04761&quot;&gt;https://github.com/zenany/weekly/commit/46cef5028b5d773d46cbeb3e88b2e7d9aca04761&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://tech.meituan.com/fe_and_golang.html&quot;&gt;前端遇上Go: 静态资源增量更新的新实践&lt;/a&gt; 里面关于 go 的依赖部分写的比较迷 ... 不过 go 的依赖管理刚接触确实会觉得比较奇怪 .... 他们最后选了 glide (... 这篇文章是很久之前写完然后现在才发出来的么 ...)&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/sergi/go-diff&quot;&gt;https://github.com/sergi/go-diff&lt;/a&gt; 里面提到了一个 diff patch 的库, 记得以前写外包还是什么时候豆用过一个 google 的 js 的 diff 库 cc @ComMouse &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;From &lt;a href=&quot;https://github.com/zenany/weekly/commit/46cef5028b5d773d46cbeb3e88b2e7d9aca04761&quot;&gt;https://github.com/zenany/weekly/commit/46cef5028b5d773d46cbeb3e88b2e7d9aca04761&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://blog.cloudflare.com/how-to-drop-10-million-packets/&quot;&gt;How to drop 10 million packets per second&lt;/a&gt; &lt;a href=&quot;https://github.com/cloudflare/cloudflare-blog/tree/master/2018-07-dropping-packets&quot;&gt;https://github.com/cloudflare/cloudflare-blog/tree/master/2018-07-dropping-packets&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.humus.name/index.php?page=News&amp;ID=383&quot;&gt;Rules of optimization&lt;/a&gt; 作者反驳一个反对优化的推说 performance is culture ... 作者是在游戏引擎公司做图像的 ... 考虑跟我们这些每天调 api 的不一样&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://hackernoon.com/timsort-the-fastest-sorting-algorithm-youve-never-heard-of-36b28417f399&quot;&gt;https://hackernoon.com/timsort-the-fastest-sorting-algorithm-youve-never-heard-of-36b28417f399&lt;/a&gt; 好像就是少的时候用 insert, 多的时候用 merge (merge 途中从小变大 ...&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;From &lt;a href=&quot;https://github.com/zenany/weekly/commit/46cef5028b5d773d46cbeb3e88b2e7d9aca04761&quot;&gt;https://github.com/zenany/weekly/commit/46cef5028b5d773d46cbeb3e88b2e7d9aca04761&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://solid.mit.edu/&quot;&gt;https://solid.mit.edu/&lt;/a&gt; 互联网之父 .... 要 decentralize web 了 ... 不过好像 ipfs 看上去更有希望&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Data tables from Xenoblade games &lt;a href=&quot;https://github.com/Xenoblade/Xenoblade.github.io&quot;&gt;https://github.com/Xenoblade/Xenoblade.github.io&lt;/a&gt; &lt;a href=&quot;https://github.com/Thealexbarney/XbTool&quot;&gt;https://github.com/Thealexbarney/XbTool&lt;/a&gt;  cc @tq5124 @mrmiywj &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/traildb/traildb&quot;&gt;https://github.com/traildb/traildb&lt;/a&gt; a sqlite like C library for storing time series events, use &lt;a href=&quot;http://judy.sourceforge.net/&quot;&gt;http://judy.sourceforge.net/&lt;/a&gt; a sparse array (seems no update after 2004? ...&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/GoogleContainerTools/jib&quot;&gt;https://github.com/GoogleContainerTools/jib&lt;/a&gt; Build container images for your Java applications&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.ai4i.org/&quot;&gt;https://www.ai4i.org/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;First IEEE International Conference on Artificial Intelligence for Industries (ai4i 2018)&lt;/p&gt;
-
-&lt;p&gt;新的 IEEE 炼丹会议&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;LocustDB, a new and extremely fast open-source analytics database  感觉会在金融领域挑战一下kdb？&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://clemenswinter.com/2018/07/09/how-to-analyze-billions-of-records-per-second-on-a-single-desktop-pc/&quot;&gt;https://clemenswinter.com/2018/07/09/how-to-analyze-billions-of-records-per-second-on-a-single-desktop-pc/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/nickng/bibtex&quot;&gt;https://github.com/nickng/bibtex&lt;/a&gt; a bib parser in go, reminds me of &lt;a href=&quot;https://github.com/dyweb/mos/issues/25&quot;&gt;https://github.com/dyweb/mos/issues/25&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/nickng/gospal&quot;&gt;https://github.com/nickng/gospal&lt;/a&gt; Go static program analyser&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.4paradigm.com/competition/nips2018&quot;&gt;https://www.4paradigm.com/competition/nips2018&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;AutoML Challenge 有没有兴趣一起试试的&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;@htfy96 kdb 的客户应该很难迁移吧 ... 不过那 APL 类的 Q 语言 .... btw: cc @codeworm96 LocustDB 是 rust 写的 &lt;a href=&quot;https://github.com/cswinter/LocustDB&quot;&gt;https://github.com/cswinter/LocustDB&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/open-falcon/falcon-plus&quot;&gt;https://github.com/open-falcon/falcon-plus&lt;/a&gt; 小米开源的监控系统 ... 但是好像数据存 mysql ? 喵喵喵&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/xiaomi/shepher&quot;&gt;https://github.com/xiaomi/shepher&lt;/a&gt; zookeeper management tool in Go w/ UI&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/xiaomi/linden&quot;&gt;https://github.com/xiaomi/linden&lt;/a&gt;  a distributed and real-time search system built on top of Lucene w/ BQL&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/XiaoMi/minos&quot;&gt;https://github.com/XiaoMi/minos&lt;/a&gt; a deploy and monitor system for Hadoop, HBase and ZK&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.bizzabo.com/&quot;&gt;https://www.bizzabo.com/&lt;/a&gt; 一个组织活动的软件 今年的 gophercon &lt;a href=&quot;https://www.gophercon.com/&quot;&gt;https://www.gophercon.com/&lt;/a&gt; 应该是用它做的&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/apache/incubator-skywalking&quot;&gt;https://github.com/apache/incubator-skywalking&lt;/a&gt; 用 elasticsearch 当 storage .... &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/fzipp/gocyclo&quot;&gt;https://github.com/fzipp/gocyclo&lt;/a&gt; Calculate cyclomatic complexities of functions in Go source code&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/koalaman/shellcheck&quot;&gt;https://github.com/koalaman/shellcheck&lt;/a&gt;  a static analysis tool for shell scripts  in haskell&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Troubling Trends in Machine Learning Scholarship&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://approximatelycorrect.com/2018/07/10/troubling-trends-in-machine-learning-scholarship/&quot;&gt;http://approximatelycorrect.com/2018/07/10/troubling-trends-in-machine-learning-scholarship/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Mystery Languages。Brown的PLT入门作业，给出多个语法相同语义不同的语言，让你写程序判别是哪个语言执行了程序&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://blog.brownplt.org/2018/07/05/mystery-languages.html&quot;&gt;http://blog.brownplt.org/2018/07/05/mystery-languages.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://cloudplatform.googleblog.com/2018/07/7-best-practices-for-building-containers.html&quot;&gt;https://cloudplatform.googleblog.com/2018/07/7-best-practices-for-building-containers.html&lt;/a&gt; 坠吼的构建容器的方法 ....&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Dlang Autumn of Code。准备速成一波……&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://dlang.org/blog/symmetry-autumn-of-code/&quot;&gt;https://dlang.org/blog/symmetry-autumn-of-code/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;The Z Garbage Collector: Low Latency GC for OpenJDK&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://cr.openjdk.java.net/%7Epliden/slides/ZGC-Jfokus-2018.pdf&quot;&gt;http://cr.openjdk.java.net/~pliden/slides/ZGC-Jfokus-2018.pdf&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml&quot;&gt;https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml&lt;/a&gt; 原来端口号还是可以注册的 .... 看 boot2docker 菜知道 &lt;a href=&quot;https://github.com/boot2docker/boot2docker&quot;&gt;https://github.com/boot2docker/boot2docker&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;From &lt;a href=&quot;https://github.com/zenany/weekly/commit/3085fe4288bbf305f052b28826d6ce38417dbaa0&quot;&gt;https://github.com/zenany/weekly/commit/3085fe4288bbf305f052b28826d6ce38417dbaa0&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/browsh-org/browsh&quot;&gt;https://github.com/browsh-org/browsh&lt;/a&gt; A fully-modern text-based browser, rendering to TTY and browsers  &lt;code&gt;docker run --rm -it browsh/browsh&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Stackexchange: How can I find an optimum set of colors for 10 players&lt;/p&gt;
-
-&lt;p&gt;interesting&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://gamedev.stackexchange.com/questions/46463/how-can-i-find-an-optimum-set-of-colors-for-10-players&quot;&gt;https://gamedev.stackexchange.com/questions/46463/how-can-i-find-an-optimum-set-of-colors-for-10-players&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Google Photos 的排版算法，好玩。来自湾区日报。&lt;a href=&quot;https://wanqu.co/a/6737/2018-07-16-building-the-google-photos-web-ui-google-design-medium.html?s=rss&quot;&gt;https://wanqu.co/a/6737/2018-07-16-building-the-google-photos-web-ui-google-design-medium.html?s=rss&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://medium.com/google-design/google-photos-45b714dfbed1&quot;&gt;https://medium.com/google-design/google-photos-45b714dfbed1&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;bithacks from Stanford graphic: 即使在深夜两点钟也值得读完的位运算性能优化trick大全…&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://graphics.stanford.edu/%7Eseander/bithacks.html&quot;&gt;http://graphics.stanford.edu/~seander/bithacks.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction</summary></entry></feed>
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/chubin/cheat.sh the only cheat sheet you need</summary></entry></feed>
