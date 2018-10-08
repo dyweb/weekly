@@ -1,5 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-10-01T10:14:06+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/10/01/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-10-01T00:00:00+08:00</published><updated>2018-10-01T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/10/01/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/10/01/weekly.html">&lt;p&gt;cppcon 18开幕了！&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-10-08T17:01:03+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/10/08/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-10-08T00:00:00+08:00</published><updated>2018-10-08T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/10/08/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/10/08/weekly.html">&lt;p&gt;最近在折腾 IPv6 的各种配置。在学校里怕影响到同学上网折腾了一个月没折腾出来，今天在家里自以为能折腾出来但是还是没有成功上网。&lt;/p&gt;
+
+&lt;p&gt;然后我发现，这世界上竟然有「网络模拟器」 &lt;a href=&quot;http://www.brianlinkletter.com/open-source-network-simulators/&quot;&gt;http://www.brianlinkletter.com/open-source-network-simulators/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/vinta/pangu.js&quot;&gt;https://github.com/vinta/pangu.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;為什麼你們就是不能加個空格呢？&lt;/p&gt;
+
+&lt;p&gt;如果你跟我一樣，每次看到網頁上的中文字和英文、數字、符號擠在一塊，就會坐立難安，忍不住想在它們之間加個空格。這個外掛（支援 Chrome 和 Firefox）正是你在網路世界走跳所需要的東西，它會自動替你在網頁中所有的中文字和半形的英文、數字、符號之間插入空白。&lt;/p&gt;
+
+&lt;p&gt;漢學家稱這個空白字元為「盤古之白」，因為它劈開了全形字和半形字之間的混沌。另有研究顯示，打字的時候不喜歡在中文和英文之間加空格的人，感情路都走得很辛苦，有七成的比例會在 34 歲的時候跟自己不愛的人結婚，而其餘三成的人最後只能把遺產留給自己的貓。畢竟愛情跟書寫都需要適時地留白。&lt;/p&gt;
+
+&lt;p&gt;與大家共勉之。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blog.cloudflare.com/exposing-go-on-the-internet/&quot;&gt;https://blog.cloudflare.com/exposing-go-on-the-internet/&lt;/a&gt; go http server  端的 timeout 设置 ... 最近生产环境 file descriptor 爆炸 ...  client 端没有正确使用 http.Transport 保持了很多 tcp 连接 (应该使用一个而不是每次创建新的), server 端没有设置就一直 hold .... 另外还学会了熟练使用 &lt;a href=&quot;https://linux.die.net/man/8/lsof&quot;&gt;lsof&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/MunGell/awesome-for-beginners&quot;&gt;https://github.com/MunGell/awesome-for-beginners&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;给小朋友准备的刷 github contributor 指南
+（要不要去 pr 一个 Kubeflow @gaocegege &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Azure/azure-service-bus-go&quot;&gt;https://github.com/Azure/azure-service-bus-go&lt;/a&gt; aka 不错 /w\&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://about.sourcegraph.com/go&quot;&gt;https://about.sourcegraph.com/go&lt;/a&gt; go conference live blogs&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/ocaml/merlin&quot;&gt;https://github.com/ocaml/merlin&lt;/a&gt;
+@htfy96 completion for OCaml in Vim and Emacs&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://instagram-engineering.com/dismissing-python-garbage-collection-at-instagram-4dca40b29172&quot;&gt;https://instagram-engineering.com/dismissing-python-garbage-collection-at-instagram-4dca40b29172&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;为了使得 forked multiprocessing python process 不 CoW,&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;关掉了 gc (这样 refcount 不会变)&lt;/li&gt;
+&lt;li&gt;在 atexit 的时候直接自杀，这样子不需要 do expensive python cleanup&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;结局是各个py process 之间 shared pages ++, 总的 mem cost -= 10%&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=bSYFwd50EcU&amp;index=3&amp;list=PLSE8ODhjZXjbjOyrcqgE6_lCV6xvzffSN&quot;&gt;https://www.youtube.com/watch?v=bSYFwd50EcU&amp;amp;index=3&amp;amp;list=PLSE8ODhjZXjbjOyrcqgE6_lCV6xvzffSN&lt;/a&gt;
+成功的 Haskell 安利，配合 &lt;a href=&quot;https://github.com/SQream/hssqlppp&quot;&gt;https://github.com/SQream/hssqlppp&lt;/a&gt; 食用。&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">最近在折腾 IPv6 的各种配置。在学校里怕影响到同学上网折腾了一个月没折腾出来，今天在家里自以为能折腾出来但是还是没有成功上网。
+
+然后我发现，这世界上竟然有「网络模拟器」 http://www.brianlinkletter.com/open-source-network-simulators/</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/10/01/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-10-01T00:00:00+08:00</published><updated>2018-10-01T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/10/01/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/10/01/weekly.html">&lt;p&gt;cppcon 18开幕了！&lt;/p&gt;
 
 &lt;p&gt;所有的talk：&lt;a href=&quot;https://cppcon2018.sched.com/&quot;&gt;https://cppcon2018.sched.com/&lt;/a&gt;
 某个dalao对他想去的talk的点评：&lt;a href=&quot;https://annygakh.github.io/longblog/2018/09/22/prereadingCppcon2018talks.html&quot;&gt;https://annygakh.github.io/longblog/2018/09/22/prereadingCppcon2018talks.html&lt;/a&gt;&lt;/p&gt;
@@ -839,126 +899,4 @@ X-DB 下面是盘古分布式文件系统 .... 不造他们延迟之类的问题
 
 &lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
 
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">memory barriers doc in Linux Kernel。感觉写得比大多数讲mem barrier的文章好……</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/07/23/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-07-23T00:00:00+08:00</published><updated>2018-07-23T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/07/23/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/07/23/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/chubin/cheat.sh&quot;&gt;https://github.com/chubin/cheat.sh&lt;/a&gt; the only cheat sheet you need&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.destroyallsoftware.com/screencasts&quot;&gt;https://www.destroyallsoftware.com/screencasts&lt;/a&gt; seems need subscription $29/mo&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.cacher.io/&quot;&gt;https://www.cacher.io/&lt;/a&gt; code snippet with editor and team integration&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://blog.golang.org/ismmkeynote&quot;&gt;https://blog.golang.org/ismmkeynote&lt;/a&gt; evolution of go&amp;#39;s garbage collector, keynote in ISMM&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.yuanlimm.com/&quot;&gt;https://www.yuanlimm.com/&lt;/a&gt; 二次元虚拟人物交易所，新版打算用以太坊合约。&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.amazon.cn/dp/B00VW63RUG/&quot;&gt;https://www.amazon.cn/dp/B00VW63RUG/&lt;/a&gt; 高频交易。华尔街程序员们斗智斗勇的故事。情节引人入胜，科学性有待考察。&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.raywenderlich.com/146414/metal-tutorial-swift-3-part-1-getting-started&quot;&gt;https://www.raywenderlich.com/146414/metal-tutorial-swift-3-part-1-getting-started&lt;/a&gt; 
-Swift 版 Metal 入门教程。最近正好有用 Apple 平台的绘图 API 的需求，快速入门了一下。唯一的坑就是 macOS 上没有 &lt;code&gt;CADisplayLink&lt;/code&gt;。&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;null&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.producthunt.com/posts/gitstalk&quot;&gt;https://www.producthunt.com/posts/gitstalk&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;for stalking people on github...&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://gitstalk.netlify.com/?ref=producthunt&quot;&gt;https://gitstalk.netlify.com/?ref=producthunt&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;炼丹管理&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.comet.ml/?ref=producthunt&quot;&gt;https://www.comet.ml/?ref=producthunt&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/moderndive/moderndive_book&quot;&gt;https://github.com/moderndive/moderndive_book&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;ModernDive: An Introduction to Statistical and Data Sciences via R&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.comet.ml&quot;&gt;https://www.comet.ml&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;推荐一个 ML on K8s 的炼丹管理 &lt;a href=&quot;https://riseml.com/&quot;&gt;https://riseml.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/golang-standards/project-layout&quot;&gt;https://github.com/golang-standards/project-layout&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Standard Go Project Layout &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/foolwood/benchmark_results&quot;&gt;https://github.com/foolwood/benchmark_results&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;visual tracker benchmark results&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/brython-dev/brython/&quot;&gt;https://github.com/brython-dev/brython/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;浏览器端 Python。简直是令人窒息的高端操作。
-这个项目被运用在国内的某个在线 Python 幼教平台。&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/ajalt/fuckitpy&quot;&gt;https://github.com/ajalt/fuckitpy&lt;/a&gt; and &lt;a href=&quot;https://github.com/mattdiamond/fuckitjs&quot;&gt;https://github.com/mattdiamond/fuckitjs&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/&quot;&gt;https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/&lt;/a&gt; windows 开启 hyper-v 之后, host 也跑在 hypervisor 上 ...&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;In addition, if you have Hyper-V enabled, those latency-sensitive, high-precision applications may also have issues running in the host. This is because with virtualization enabled, the host OS also runs on top of the Hyper-V virtualization layer, just as guest operating systems do. However, unlike guests, the host OS is special in that it has direct access to all the hardware, which means that applications with special hardware requirements can still run without issues in the host OS&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://hackernoon.com/why-is-python-so-slow-e5074b6fe55b&quot;&gt;https://hackernoon.com/why-is-python-so-slow-e5074b6fe55b&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;作者对“Python 为什么这么慢”进行了详细的解答。&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/Broadroad/gpool&quot;&gt;https://github.com/Broadroad/gpool&lt;/a&gt; go tcp connection pool 作者头像不错 ... &lt;a href=&quot;https://github.com/Broadroad&quot;&gt;https://github.com/Broadroad&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.v2ex.com/t/472881&quot;&gt;https://www.v2ex.com/t/472881&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;我曾经多次很有兴致地教零基础或者仅 NOIP 基础的小朋友写网站写工程。我建议他们用 Codecademy 之类的 Interactive 平台学编程，但最后都没学出来。看来教写程序也是一门技术。&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://engineering.linkedin.com/blog/2018/07/how-we-improved-build-time-by-400-percent&quot;&gt;https://engineering.linkedin.com/blog/2018/07/how-we-improved-build-time-by-400-percent&lt;/a&gt; linkedin 用 gradle 代替 sbt 提高了 play framework 的编译速度 ... @gaocegege 还写 scala 么.jpg&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/facebookincubator/oomd&quot;&gt;https://github.com/facebookincubator/oomd&lt;/a&gt; userspace oom killer, 需要 &lt;a href=&quot;http://git.cmpxchg.org/cgit.cgi/linux-psi.git/&quot;&gt;PSI &lt;/a&gt; (是啥 ...?&lt;/p&gt;
-
-&lt;p&gt;PSI pressure stall information for CPU, memory, and IO v2  &lt;a href=&quot;https://lwn.net/Articles/759658/&quot;&gt;https://lwn.net/Articles/759658/&lt;/a&gt; &lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/chubin/cheat.sh the only cheat sheet you need</summary></entry></feed>
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">memory barriers doc in Linux Kernel。感觉写得比大多数讲mem barrier的文章好……</summary></entry></feed>
