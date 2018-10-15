@@ -1,5 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-10-08T17:01:03+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/10/08/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-10-08T00:00:00+08:00</published><updated>2018-10-08T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/10/08/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/10/08/weekly.html">&lt;p&gt;最近在折腾 IPv6 的各种配置。在学校里怕影响到同学上网折腾了一个月没折腾出来，今天在家里自以为能折腾出来但是还是没有成功上网。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-10-15T16:17:39+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/10/15/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-10-15T00:00:00+08:00</published><updated>2018-10-15T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/10/15/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/10/15/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/hibayesian/awesome-automl-papers&quot;&gt;https://github.com/hibayesian/awesome-automl-papers&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Awesome AutoML 论文集&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/gajus/dindent/pull/17&quot;&gt;https://github.com/gajus/dindent/pull/17&lt;/a&gt; 3 年前写junzheng 外包的时候用的库的 PR 终于被 merge 了 (之前不支持中文 ...) @arrowrowe @swaylq @ComMouse   .... 我现在 php 都已经写不利索了 ...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/mit-pdos/biscuit&quot;&gt;https://github.com/mit-pdos/biscuit&lt;/a&gt; 听说在 OSDI 上被怼的很惨? ... 用 go 写的  os ...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/intel-go/nff-go&quot;&gt;https://github.com/intel-go/nff-go&lt;/a&gt; go 支持 dpdk ... 最后被室友教育你先写一个用 epoll 能用的 tsdb 吧 ....&lt;/p&gt;
+
+&lt;p&gt;以及 @gaocegege 你是被盗号了么 .... 发了 2 次强无敌 ...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/simongog/sdsl-lite&quot;&gt;https://github.com/simongog/sdsl-lite&lt;/a&gt; Succinct Data Structure Library 2.0 &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Succinct data structures can represent an object (such as a bitvector or a tree) in space close to the information-theoretic lower bound of the object while supporting operations of the original object efficiently&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;看上去感觉很强 .w. C++ 现在还只会 hello world 的我 ....&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/xtaci/kcptun&quot;&gt;https://github.com/xtaci/kcptun&lt;/a&gt; A Stable &amp;amp; Secure Tunnel Based On KCP with N:M Multiplexing 
+(里面还用到了  Reed–Solomon) &lt;a href=&quot;https://github.com/xtaci/kcp-go&quot;&gt;https://github.com/xtaci/kcp-go&lt;/a&gt; A Production-Grade Reliable-UDP Library for golang&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;最近在折腾机器人，发现 PID 这个东西实现起来还是可以很深入的……&lt;/p&gt;
+
+&lt;p&gt;先看了 Matlab 的入门 &lt;a href=&quot;https://www.youtube.com/watch?v=wkfEZmsQqiA&amp;list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y&quot;&gt;https://www.youtube.com/watch?v=wkfEZmsQqiA&amp;amp;list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;然后读了以前玩 FRC 时候的框架 wpilib 的实现 &lt;a href=&quot;https://github.com/wpilibsuite/allwpilib/blob/master/wpilibc/src/main/native/cpp/PIDBase.cpp&quot;&gt;https://github.com/wpilibsuite/allwpilib/blob/master/wpilibc/src/main/native/cpp/PIDBase.cpp&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/mit-pdos/biscuit&quot;&gt;https://github.com/mit-pdos/biscuit&lt;/a&gt; 听说在 OSDI 上被怼的很惨? ... 用 go 写的 os ...&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;带垃圾回收的 os 会不会 literally stop the world&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;终于知道 go 的 bdd 测试框架为什么叫 ginkgo &lt;a href=&quot;https://github.com/onsi/ginkgo&quot;&gt;https://github.com/onsi/ginkgo&lt;/a&gt; 了 .... 因为还有个 bdd 框架叫 cucumber &lt;a href=&quot;https://github.com/onsi/ginkgo&quot;&gt;https://github.com/onsi/ginkgo&lt;/a&gt; 待我写个框架 ... 叫 ~~spinach ~~ 擦已经有了 ... &lt;a href=&quot;https://github.com/codegram/spinach&quot;&gt;https://github.com/codegram/spinach&lt;/a&gt;  ....&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/DATA-DOG/go-sqlmock&quot;&gt;https://github.com/DATA-DOG/go-sqlmock&lt;/a&gt; a sql/database mock &lt;a href=&quot;https://github.com/DATA-DOG/go-sqlmock&quot;&gt;https://github.com/DATA-DOG/go-sqlmock&lt;/a&gt; . (this is not from data-dog, the application monitoring company)&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/hibayesian/awesome-automl-papers
+
+Awesome AutoML 论文集</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/10/08/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-10-08T00:00:00+08:00</published><updated>2018-10-08T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/10/08/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/10/08/weekly.html">&lt;p&gt;最近在折腾 IPv6 的各种配置。在学校里怕影响到同学上网折腾了一个月没折腾出来，今天在家里自以为能折腾出来但是还是没有成功上网。&lt;/p&gt;
 
 &lt;p&gt;然后我发现，这世界上竟然有「网络模拟器」 &lt;a href=&quot;http://www.brianlinkletter.com/open-source-network-simulators/&quot;&gt;http://www.brianlinkletter.com/open-source-network-simulators/&lt;/a&gt;&lt;/p&gt;
 
@@ -851,52 +910,4 @@ Percona 上说 planner 的
 调度跟上次一样, fuxi, sigma (还有个啥忘了 后羿?) 都说了一下，混合 workload (serving + offline) .... 上次好歹还说了 scheduler 是 queue based 的(不是 丹 based
 讲 kernel 的 说做了一套 CI/CD,  6 个月 merge 一次 upstream, 没有精力 contribute back。结论好像是 ali 自己 fork kernel 不如直接用 upstream (喵喵喵? @htfy96 ug 大佬知道 kernel 的 CI/CD 怎么做的 &amp;amp; 谁在做? Intel,  RedHat?
 X-DB 下面是盘古分布式文件系统 .... 不造他们延迟之类的问题怎么解决的, 可能是 partition 和 sharding 做的特别好吧 (以及双 11 到底用的是 oceanbase 还是 x-db 啊 ... 起名字不走心啊, x 开头的很容易搜出奇怪的东西啊) MVCC + 2PC ... 好像没说时钟的问题, 虽然 ppt 里冒出了 atomic + logic lock . RDMA, FPGA 有钱人.jpg
-最后讲了下分析 ....  瞬间让我觉得前面几个 talk 干货很多 ....</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/07/30/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-07-30T00:00:00+08:00</published><updated>2018-07-30T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/07/30/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/07/30/weekly.html">&lt;p&gt;memory barriers doc in Linux Kernel。感觉写得比大多数讲mem barrier的文章好……&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.infradead.org/%7Emchehab/kernel_docs/unsorted/memory-barriers.html&quot;&gt;http://www.infradead.org/~mchehab/kernel_docs/unsorted/memory-barriers.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;cpu_opv system call。一个可以在用户态执行不被抢断一些操作的API，还没被merge，目测merge后malloc/trace/user-space scheduler都要改一波。可以搭配restartable sequence (merged in 4.18)使用 &lt;a href=&quot;https://lwn.net/Articles/650333/&quot;&gt;https://lwn.net/Articles/650333/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;顺带一提这个东西好像早就进google kernel mainline了……谷人希&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://git.kernel.org/pub/scm/linux/kernel/git/rseq/linux-rseq.git/commit/?h=v4.18-rc1-rseq-20180619.2&amp;id=293b0fb03e6dc9c70d2c5e6ce4065456aa8c4d5e&quot;&gt;https://git.kernel.org/pub/scm/linux/kernel/git/rseq/linux-rseq.git/commit/?h=v4.18-rc1-rseq-20180619.2&amp;amp;id=293b0fb03e6dc9c70d2c5e6ce4065456aa8c4d5e&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/google/go-cloud&quot;&gt;https://github.com/google/go-cloud&lt;/a&gt; a toolkit for writing server on public cloud, has logging, bucket etc. &lt;a href=&quot;https://blog.golang.org/go-cloud&quot;&gt;https://blog.golang.org/go-cloud&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://services.google.com/fh/files/misc/the-site-reliability-workbook-next18.pdf&quot;&gt;http://services.google.com/fh/files/misc/the-site-reliability-workbook-next18.pdf&lt;/a&gt; 之前 gg SRE 书的配套 workbook 500 页 (TL;DR)&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;KubeCon China 即将于 2018 年 11 月 13-15 日到上海举办惹&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.lfasiallc.com/events/kubecon-cloudnativecon-china-2018/&quot;&gt;https://www.lfasiallc.com/events/kubecon-cloudnativecon-china-2018/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;票务： &lt;a href=&quot;https://www.bagevent.com/event/kubecon-cloudnativecon-china-2018&quot;&gt;https://www.bagevent.com/event/kubecon-cloudnativecon-china-2018&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;学术或爱好者注册-早鸟票只要 375&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;互联网和各种协议的起源&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=17607095&quot;&gt;https://news.ycombinator.com/item?id=17607095&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;startups in AI&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/lipiji/AIStartups&quot;&gt;https://github.com/lipiji/AIStartups&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">memory barriers doc in Linux Kernel。感觉写得比大多数讲mem barrier的文章好……</summary></entry></feed>
+最后讲了下分析 ....  瞬间让我觉得前面几个 talk 干货很多 ....</summary></entry></feed>
