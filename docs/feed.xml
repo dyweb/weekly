@@ -1,5 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-10-15T16:17:39+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/10/15/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-10-15T00:00:00+08:00</published><updated>2018-10-15T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/10/15/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/10/15/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/hibayesian/awesome-automl-papers&quot;&gt;https://github.com/hibayesian/awesome-automl-papers&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-10-23T10:32:37+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/10/22/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-10-22T00:00:00+08:00</published><updated>2018-10-22T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/10/22/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/10/22/weekly.html">&lt;p&gt;&lt;a href=&quot;http://incredible.pm/&quot;&gt;http://incredible.pm/&lt;/a&gt; The Incredible Proof Machine was created to convey the fun and joy of doing proofs, especially in a computer aided way, without first having to learn the syntax of a “real” thereom prover.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;GitHub Actions &lt;a href=&quot;https://github.com/features/actions&quot;&gt;https://github.com/features/actions&lt;/a&gt;
+感觉像 GitHub 版的 Shortcut，应该能干不少事情，现在是 beta 版&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Customized Jupyter notebook&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/dunovank/jupyter-themes&quot;&gt;https://github.com/dunovank/jupyter-themes&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.fluentcpp.com/getthemap/&quot;&gt;http://www.fluentcpp.com/getthemap/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The C++ STL Algorithm map&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/7023694/47262958-abffd880-d4aa-11e8-8004-9972468ac730.png&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Thought of making a fantasy map generator a MOS program, but found out that there are a bunch of &lt;a href=&quot;https://github.com/Azgaar/Fantasy-Map-Generator&quot;&gt;existing works&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/src-d/go-mysql-server&quot;&gt;https://github.com/src-d/go-mysql-server&lt;/a&gt; An extensible MySQL server implementation in Go. you can write your own data source, i.e. csv, git &lt;a href=&quot;https://github.com/src-d/gitbase&quot;&gt;https://github.com/src-d/gitbase&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;MySQL High Availability at GitHub&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;At 10:52 pm Sunday UTC, multiple services on GitHub.com were affected by a network partition and subsequent database failure resulting in inconsistent information being presented on our website.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;作业：阅读这篇文章 找出为什么github的SQL HA方案会被network partition影响&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://githubengineering.com/mysql-high-availability-at-github/&quot;&gt;https://githubengineering.com/mysql-high-availability-at-github/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">http://incredible.pm/ The Incredible Proof Machine was created to convey the fun and joy of doing proofs, especially in a computer aided way, without first having to learn the syntax of a “real” thereom prover.</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/10/15/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-10-15T00:00:00+08:00</published><updated>2018-10-15T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/10/15/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/10/15/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/hibayesian/awesome-automl-papers&quot;&gt;https://github.com/hibayesian/awesome-automl-papers&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Awesome AutoML 论文集&lt;/p&gt;
 
@@ -785,129 +826,4 @@ the thread
 
 &lt;p&gt;中国程序员容易发音错误的单词&lt;/p&gt;
 
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://robots.thoughtbot.com/writing-vim-syntax-plugins 想起来我以前还写过自动补全 github issue 的 plugin .....  https://github.com/at15/issue-complete (实际就是 vim script 直接掉 python .... 最后弃坑好像是因为 ubuntu 和 fedora 自带的 python 不同 .... 现在好像都是 3 了</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/08/05/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-08-05T00:00:00+08:00</published><updated>2018-08-05T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/08/05/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/08/05/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/alibaba/oceanbase&quot;&gt;https://github.com/alibaba/oceanbase&lt;/a&gt; oceanbase 4 年前的开源代码 ... (虽然文档是 word ...  &lt;a href=&quot;https://github.com/alibaba/oceanbase/tree/master/oceanbase_0.4/doc&quot;&gt;https://github.com/alibaba/oceanbase/tree/master/oceanbase_0.4/doc&lt;/a&gt;)&lt;/p&gt;
-
-&lt;p&gt;另外昨天去了阿里在湾区的 meetup ... 主要在说 X-DB 不知道跟 Oceanbase 什么关系 都是 OLTP。用到了 FPGA 来 compaction (LSM 里合并 block) &lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://crad.ict.ac.cn/EN/abstract/abstract3624.shtml#&quot;&gt;http://crad.ict.ac.cn/EN/abstract/abstract3624.shtml#&lt;/a&gt; 说FPGA 的&lt;/li&gt;
-&lt;li&gt;Percona 上&lt;a href=&quot;https://www.percona.com/live/18/sites/default/files/slides/What&amp;#x27;s%20New%20in%20Alibaba&amp;#x27;s%20X-DB%20SQL%20Engine%20-%20FileId%20-%20136821.pdf&quot;&gt;说 planner 的&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;最后吐槽一句 ... meetup 讲的太宽泛了 ...  &lt;a href=&quot;https://www.meetup.com/Alibaba-AIOps-Meetup/events/253052732/&quot;&gt;https://www.meetup.com/Alibaba-AIOps-Meetup/events/253052732/&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;调度跟上次一样, fuxi, sigma (还有个啥忘了 后羿?) 都说了一下，混合 workload (serving + offline) .... 上次好歹还说了 scheduler 是 queue based 的(不是 丹 based&lt;/li&gt;
-&lt;li&gt;讲 kernel 的 说做了一套 CI/CD,  6 个月 merge 一次 upstream, 没有精力 contribute back。结论好像是 ali 自己 fork kernel 不如直接用 upstream (喵喵喵? @htfy96 ug 大佬知道 kernel 的 CI/CD 怎么做的 &amp;amp; 谁在做? Intel,  RedHat?&lt;/li&gt;
-&lt;li&gt;X-DB 下面是盘古分布式文件系统 .... 不造他们延迟之类的问题怎么解决的, 可能是 partition 和 sharding 做的特别好吧 (以及双 11 到底用的是 oceanbase 还是 x-db 啊 ... 起名字不走心啊, x 开头的很容易搜出奇怪的东西啊) MVCC + 2PC ... 好像没说时钟的问题, 虽然 ppt 里冒出了 atomic + logic lock . RDMA, FPGA 有钱人.jpg&lt;/li&gt;
-&lt;li&gt;最后讲了下分析 ....  瞬间让我觉得前面几个 talk 干货很多 ....&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/5621298/43369884-a604a9b8-932a-11e8-9a11-72c96aa4eec4.png&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://dev.to/antonfrattaroli/what-happens-when-you-type-googlecom-into-a-browser-and-press-enter-39g8&quot;&gt;https://dev.to/antonfrattaroli/what-happens-when-you-type-googlecom-into-a-browser-and-press-enter-39g8&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;2018 版当你输入 google.com 敲回车会发生什么。这篇文章从前端的角度回答了这个问题。&lt;/p&gt;
-
-&lt;p&gt;当然还有一个最强的版本 &lt;a href=&quot;https://github.com/alex/what-happens-when&quot;&gt;https://github.com/alex/what-happens-when&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.rust-lang.org/pdfs/Rust-Chucklefish-Whitepaper.pdf&quot;&gt;https://www.rust-lang.org/pdfs/Rust-Chucklefish-Whitepaper.pdf&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;在 Rust 官网看到了 Chucklefish 从 C++ 切到 Rust 的案例。玩他们家的游戏大概不会再碰到莫名其妙崩溃，错误日志没生成，根本没法反馈的问题了……&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/1995113/strangest-language-feature&quot;&gt;https://stackoverflow.com/questions/1995113/strangest-language-feature&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;同学在 Python 里写了一段代码，&lt;code&gt;1 &amp;lt;= x &amp;lt;= 2&lt;/code&gt;。我很疑惑这个是不是对的，然后自己试了一下发现真的可以。&lt;/p&gt;
-
-&lt;p&gt;于是在 StackOverflow 上看到了这个问答。各种语言的玄学特性都在里面了。&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/1724255/why-does-2-2-in-javascript&quot;&gt;https://stackoverflow.com/questions/1724255/why-does-2-2-in-javascript&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Why does 2 == [2] in JavaScript?&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/gpujs/gpu.js&quot;&gt;https://github.com/gpujs/gpu.js&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;用 GPU.js 快速做了个 GPU 加速的 Conway&amp;#39;s Game of Life，Console 里看到这个 lib 把我的 JavaScript Code 编译成了 OpenGL Shader。&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://metalbyexample.com/rendering-text-in-metal-with-signed-distance-fields/&quot;&gt;http://metalbyexample.com/rendering-text-in-metal-with-signed-distance-fields/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;很久以前折腾过 C# XNA 里面的中文字体渲染，如今看 Metal 资料才知道 3D 游戏的字体渲染有这么多方式。文中介绍了“Signed-Distance Field Rendering”。&lt;/p&gt;
-
-&lt;p&gt;Valve 的一个应用： &lt;a href=&quot;https://steamcdn-a.akamaihd.net/apps/valve/2007/SIGGRAPH2007_AlphaTestedMagnification.pdf&quot;&gt;https://steamcdn-a.akamaihd.net/apps/valve/2007/SIGGRAPH2007_AlphaTestedMagnification.pdf&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/hengwei_vc/article/details/78643146&quot;&gt;https://blog.csdn.net/hengwei_vc/article/details/78643146&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Disqus On Jekyll 之翻内篇&lt;/p&gt;
-
-&lt;p&gt;Disqus 在国内是被墙的，这篇文章讲了如何实现一个反向代理，代理一部分 disqus 的 API，解决这个问题&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;还有一个 Node.js 的， &lt;a href=&quot;https://github.com/ciqulover/disqus-proxy&quot;&gt;https://github.com/ciqulover/disqus-proxy&lt;/a&gt; 优势是 Hexo 只要简单配置即可使用，缺点是前端代码比较简单，功能不全。&lt;/p&gt;
-
-&lt;p&gt;这两个项目都是在 Disqus API 的基础上，自己实现一个后端去调用 Disqus API ，然后自己再实现一个前端脚本去调自己的后端……简直就是自己写了个评论系统然后把 Disqus 当数据库用……不像是反向代理那么简单。我觉得很折腾……&lt;/p&gt;
-
-&lt;p&gt;P.S. 这两个项目都要求自己有 VPS / PHP 托管。但是有 VPS / PHP 托管的前提下，是否可以干脆就用一个可以独立部署的评论系统？与折腾这些项目相比利弊如何？此问题留给读者思考。&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://gitlab.com/Douman/yukikaze&quot;&gt;https://gitlab.com/Douman/yukikaze&lt;/a&gt; async Rust HTTP client library based on hyper&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;用这个库的程序不怕自己沉掉么&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/golang/example/tree/master/gotypes&quot;&gt;https://github.com/golang/example/tree/master/gotypes&lt;/a&gt; examples for using go&amp;#39;s standard library to do static analysis &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://jb-blog.readthedocs.io/en/latest/posts/0032-debugging-zsh-startup-time.html&quot;&gt;http://jb-blog.readthedocs.io/en/latest/posts/0032-debugging-zsh-startup-time.html&lt;/a&gt; from &lt;a href=&quot;https://getantibody.github.io/even-faster/&quot;&gt;https://getantibody.github.io/even-faster/&lt;/a&gt; 在 mac 下用 oh-my-zsh 和 nvm 之后每次开 terminal 卡 2s .... 最后改用 brew 装了 ... 有空研究一下 (肯定不会研究的&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/neoeinstein/stats_alloc&quot;&gt;https://github.com/neoeinstein/stats_alloc&lt;/a&gt; An instrumenting middleware for global allocators in Rust, useful in testing for validating assumptions regarding allocation patterns, and potentially in production loads to monitor for memory leaks.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;可定制默认分配器的用法&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Divide Your Rent Fairly。用博弈论解决住卧室住客厅出多少钱的问题&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.nytimes.com/interactive/2014/science/rent-division-calculator.html&quot;&gt;https://www.nytimes.com/interactive/2014/science/rent-division-calculator.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/alibaba/oceanbase oceanbase 4 年前的开源代码 ... (虽然文档是 word ...  https://github.com/alibaba/oceanbase/tree/master/oceanbase_0.4/doc)
-
-另外昨天去了阿里在湾区的 meetup ... 主要在说 X-DB 不知道跟 Oceanbase 什么关系 都是 OLTP。用到了 FPGA 来 compaction (LSM 里合并 block) 
-
-
-http://crad.ict.ac.cn/EN/abstract/abstract3624.shtml# 说FPGA 的
-Percona 上说 planner 的
-
-
-最后吐槽一句 ... meetup 讲的太宽泛了 ...  https://www.meetup.com/Alibaba-AIOps-Meetup/events/253052732/
-
-
-调度跟上次一样, fuxi, sigma (还有个啥忘了 后羿?) 都说了一下，混合 workload (serving + offline) .... 上次好歹还说了 scheduler 是 queue based 的(不是 丹 based
-讲 kernel 的 说做了一套 CI/CD,  6 个月 merge 一次 upstream, 没有精力 contribute back。结论好像是 ali 自己 fork kernel 不如直接用 upstream (喵喵喵? @htfy96 ug 大佬知道 kernel 的 CI/CD 怎么做的 &amp;amp; 谁在做? Intel,  RedHat?
-X-DB 下面是盘古分布式文件系统 .... 不造他们延迟之类的问题怎么解决的, 可能是 partition 和 sharding 做的特别好吧 (以及双 11 到底用的是 oceanbase 还是 x-db 啊 ... 起名字不走心啊, x 开头的很容易搜出奇怪的东西啊) MVCC + 2PC ... 好像没说时钟的问题, 虽然 ppt 里冒出了 atomic + logic lock . RDMA, FPGA 有钱人.jpg
-最后讲了下分析 ....  瞬间让我觉得前面几个 talk 干货很多 ....</summary></entry></feed>
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://robots.thoughtbot.com/writing-vim-syntax-plugins 想起来我以前还写过自动补全 github issue 的 plugin .....  https://github.com/at15/issue-complete (实际就是 vim script 直接掉 python .... 最后弃坑好像是因为 ubuntu 和 fedora 自带的 python 不同 .... 现在好像都是 3 了</summary></entry></feed>
