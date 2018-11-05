@@ -1,5 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-10-29T10:44:52+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/10/29/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-10-29T00:00:00+08:00</published><updated>2018-10-29T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/10/29/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/10/29/weekly.html">&lt;p&gt;&lt;a href=&quot;https://business.linkedin.com/zh-cn/talent-solutions/c/18/jun/overseas-talent-report?utm_source=SU#&quot;&gt;中国海归人才吸引力报告&lt;/a&gt; from LinkedIn&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-11-05T20:28:00+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/11/05/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-11-05T00:00:00+08:00</published><updated>2018-11-05T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/11/05/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/11/05/weekly.html">&lt;p&gt;&lt;a href=&quot;https://linux.cn/article-10138-1.html&quot;&gt;https://linux.cn/article-10138-1.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2018 中国开源年度报告：数据篇&lt;/p&gt;
+
+&lt;p&gt;就看一乐好了，统计还不是很严谨&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lctt/grank/&quot;&gt;https://github.com/lctt/grank/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Github 项目活跃度分析工具&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://cwe.mitre.org/index.html&quot;&gt;https://cwe.mitre.org/index.html&lt;/a&gt; common weakness enumeration, found it when googling for TOCTOU race (time of check, time of use risk), which I saw in &lt;a href=&quot;https://github.com/google/go-write/blob/master/tempfile.go#L155&quot;&gt;https://github.com/google/go-write/blob/master/tempfile.go#L155&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/liuchengxu/git-commit-emoji-cn&quot;&gt;https://github.com/liuchengxu/git-commit-emoji-cn&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;：grin: git commit message emoji 使用指南&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/simple-icons/simple-icons&quot;&gt;https://github.com/simple-icons/simple-icons&lt;/a&gt; Free SVG icons for popular brands. See them all on one page at &lt;a href=&quot;https://simpleicons.org/&quot;&gt;https://simpleicons.org/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;found it when looking at &lt;a href=&quot;https://thesquareplanet.com/blog/instructors-guide-to-raft/&quot;&gt;https://thesquareplanet.com/blog/instructors-guide-to-raft/&lt;/a&gt; (是的我又捡起了 2 年前没有写完的 6.824 ..... &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Microsoft/ProcDump-for-Linux&quot;&gt;https://github.com/Microsoft/ProcDump-for-Linux&lt;/a&gt;  create core dump based on trigger&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;ProcDump is a Linux reimagining of the classic ProcDump tool from the Sysinternals suite of tools for Windows. ProcDump provides a convenient way for Linux developers to create core dumps of their application based on performance triggers&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/rodrigo-brito/gocity&quot;&gt;https://github.com/rodrigo-brito/gocity&lt;/a&gt;  visualizing Go source code in 3D &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/5621298/47973117-5c4b1080-e057-11e8-98c1-61447dc6585a.png&quot; alt=&quot;gocity-gommon&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/ashleymcnamara/gophers&quot;&gt;https://github.com/ashleymcnamara/gophers&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Gopher Artwork by Ashley McNamara&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/ashleymcnamara/gophers/master/collage4.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://linux.cn/article-10138-1.html
+
+2018 中国开源年度报告：数据篇
+
+就看一乐好了，统计还不是很严谨</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/10/29/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-10-29T00:00:00+08:00</published><updated>2018-10-29T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/10/29/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/10/29/weekly.html">&lt;p&gt;&lt;a href=&quot;https://business.linkedin.com/zh-cn/talent-solutions/c/18/jun/overseas-talent-report?utm_source=SU#&quot;&gt;中国海归人才吸引力报告&lt;/a&gt; from LinkedIn&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -530,89 +584,4 @@ https://github.com/weld-project/weld
 
 斯坦福 DAWN 实验室的研究项目，CIDR 2017 VLDB 2018 两篇论文
 
-/cc @codeworm96</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/08/27/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-08-27T00:00:00+08:00</published><updated>2018-08-27T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/08/27/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/08/27/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/sofish/typo.css&quot;&gt;https://github.com/sofish/typo.css&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;中文网页重设与排版：一致化浏览器排版效果，构建最适合中文阅读的网页排版 &lt;a href=&quot;http://typo.sofi.sh&quot;&gt;http://typo.sofi.sh&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;@gaocegege 我以前用过这个 &lt;a href=&quot;https://github.com/ethantw/Han&quot;&gt;https://github.com/ethantw/Han&lt;/a&gt; 但是它会改写掉我网站的字体，所以就弃用了。&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://15721.courses.cs.cmu.edu/spring2018/papers/08-oltpindexes1/bwtree-icde2013.pdf&quot;&gt;The Bw-Tree: A B-tree for New Hardware Platforms&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.cs.cmu.edu/%7Ehuanche1/publications/open_bwtree.pdf&quot;&gt;Building a Bw-Tree Takes More Than Just Buzz Words&lt;/a&gt; 这篇在两个月前的SIGMOD 18上刚放出，是上面那篇的具体实现解读+优化&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/29314464&quot;&gt;Bw-Tree技术解读&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;应该是Physical Storage目前的state-of-the-art？不太懂DB @at15 &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;前前端即将失业……
-&lt;a href=&quot;https://blog.floydhub.com/turning-design-mockups-into-code-with-deep-learning/&quot;&gt;https://blog.floydhub.com/turning-design-mockups-into-code-with-deep-learning/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;（虽然说交互逻辑还是得写）
-附相关论文：
-&lt;a href=&quot;https://arxiv.org/pdf/1705.07962.pdf&quot;&gt;https://arxiv.org/pdf/1705.07962.pdf&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;TikZ­ducks - A little fun package for using rubber ducks in TikZ。下次写LaTeX感觉可以用上（&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://ctan.org/tex-archive/graphics/pgf/contrib/tikzducks&quot;&gt;https://ctan.org/tex-archive/graphics/pgf/contrib/tikzducks&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/tagged/diamond-problem&quot;&gt;https://stackoverflow.com/questions/tagged/diamond-problem&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;In object-oriented programming languages with multiple inheritance and knowledge organization, the diamond problem is an ambiguity that arises when two classes B and C inherit from A, and class D inherits from both B and C.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/31377101/answer/404546399&quot;&gt;https://www.zhihu.com/question/31377101/answer/404546399&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;看了一个知乎问答，我才意识到我写过的 OO 语言其实是在 OO 上有明显的实现差异的。&lt;/p&gt;
-
-&lt;p&gt;比如 Rust 的 trait, JavaScript 的 prototype，算是 prototype-based 的设计；
-C++ / Java / Python 的 class，是 class-based 的设计。&lt;/p&gt;
-
-&lt;p&gt;有一段时间我很纠结在 Rust / TypeScript 里怎么实现 C++ 式的继承，现在看来不同的设计方法还是没法统一的。&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/myan/article/details/5928531&quot;&gt;https://blog.csdn.net/myan/article/details/5928531&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;「大约在同期，Brad Cox根据Smalltalk的思想设计了Objective-C，可是由于其语法怪异，没有流行起来。只有Steve Jobs这种具有禅宗美学鉴赏力的世外高人，把它奉为瑰宝，与1988年连锅把Objective-C的团队和产品一口气买了下来。」看着一种莫名的喜感。&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/&quot;&gt;https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;有一段时间对 C++ 里的类成员函数指针作回调感到很绝望。现在看起来每种语言都有不同的解法。C++11 靠的是 std::bind 和 std::function，C# 的实现就是 delegate 了。&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/felixrieseberg/windows95&quot;&gt;https://github.com/felixrieseberg/windows95&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Windows 95 on Electron&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/Aaronepower/tokei&quot;&gt;https://github.com/Aaronepower/tokei&lt;/a&gt; count lines of code with &lt;code&gt;.gitignore&lt;/code&gt; support, can give detail about each file in json output, written in Rust :crab: &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/logpai/loghub&quot;&gt;https://github.com/logpai/loghub&lt;/a&gt; A collection of system log datasets for massive log analysis 
-&lt;a href=&quot;https://github.com/logpai/logparser&quot;&gt;https://github.com/logpai/logparser&lt;/a&gt; A toolkit for automated log parsing&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/davecheney/gophercon2018-performance-tuning-workshop&quot;&gt;https://github.com/davecheney/gophercon2018-performance-tuning-workshop&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/sofish/typo.css
-
-中文网页重设与排版：一致化浏览器排版效果，构建最适合中文阅读的网页排版 http://typo.sofi.sh</summary></entry></feed>
+/cc @codeworm96</summary></entry></feed>
