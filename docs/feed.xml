@@ -1,5 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-11-05T20:28:00+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/11/05/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-11-05T00:00:00+08:00</published><updated>2018-11-05T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/11/05/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/11/05/weekly.html">&lt;p&gt;&lt;a href=&quot;https://linux.cn/article-10138-1.html&quot;&gt;https://linux.cn/article-10138-1.html&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-11-12T10:41:10+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/11/12/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-11-12T00:00:00+08:00</published><updated>2018-11-12T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/11/12/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/11/12/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/thulab/tsfile&quot;&gt;https://github.com/thulab/tsfile&lt;/a&gt; t 大的 time series format .... 先 mark 有时间去看下 &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;TsFile is a columnar file format designed for time-series data, which supports efficient compression and query. It is easy to integrate TsFile with your IOT big data processing frameworks.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/ktr0731/evans&quot;&gt;https://github.com/ktr0731/evans&lt;/a&gt; universal grpc client with REPL&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Ref &lt;a href=&quot;https://github.com/gaocegege/papers-notebook/issues/105&quot;&gt;https://github.com/gaocegege/papers-notebook/issues/105&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;LegoOS: A Disseminated, Distributed OS for Hardware Resource Disaggregation&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.usenix.org/system/files/osdi18-shan.pdf&quot;&gt;https://www.usenix.org/system/files/osdi18-shan.pdf&lt;/a&gt;
+&lt;a href=&quot;https://www.usenix.org/sites/default/files/conference/protected-files/osdi18_slides_shan.pdf&quot;&gt;https://www.usenix.org/sites/default/files/conference/protected-files/osdi18_slides_shan.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;OSDI&amp;#39;18 Best Paper&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;赶在尾巴搬运一下别人的 weekly &lt;a href=&quot;https://github.com/zenany/weekly/commit/56c332c8a235f755dcdad8f61066b87df6a1db1f&quot;&gt;https://github.com/zenany/weekly/commit/56c332c8a235f755dcdad8f61066b87df6a1db1f&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@mattburgess/beyond-console-log-2400fdf4a9d8&quot;&gt;https://medium.com/@mattburgess/beyond-console-log-2400fdf4a9d8&lt;/a&gt; console.log 的多种用法&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;console.table &lt;/li&gt;
+&lt;li&gt;console.count(name)&lt;/li&gt;
+&lt;li&gt;console.time() and console.timeEnd() 
+
+&lt;ul&gt;
+&lt;li&gt;[ ] is there any boundary for it? i.e. must call both within same function&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;console.group ... group your console logs ....&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/5621298/48322128-d55be200-e5da-11e8-8928-3104fd3d82e2.png&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;(配图微笑中透露着忧伤)&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;还是搬运 &lt;a href=&quot;https://github.com/zenany/weekly/commit/56c332c8a235f755dcdad8f61066b87df6a1db1f&quot;&gt;https://github.com/zenany/weekly/commit/56c332c8a235f755dcdad8f61066b87df6a1db1f&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/GoogleChromeLabs/jsbi&quot;&gt;https://github.com/GoogleChromeLabs/jsbi&lt;/a&gt;  @arrowrowe 还记得你在阿里的实习么&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;搬运 &lt;a href=&quot;https://github.com/zenany/weekly/commit/56c332c8a235f755dcdad8f61066b87df6a1db1f&quot;&gt;https://github.com/zenany/weekly/commit/56c332c8a235f755dcdad8f61066b87df6a1db1f&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Programming Paradigms for Dummies: What Every Programmer Should Know&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.info.ucl.ac.be/%7Epvr/VanRoyChapter.pdf&quot;&gt;https://www.info.ucl.ac.be/~pvr/VanRoyChapter.pdf&lt;/a&gt; &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;This chapter gives an introduction to all the main programming paradigms, their underlying concepts, and the relationships between them. We give a broad view to help programmers choose the right concepts they need to solve the problems at hand. We give a taxonomy of almost 30 useful programming paradigms and how they are related. Most of them differ only in one or a few concepts, but this can make a world of difference in programming.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/thulab/tsfile t 大的 time series format .... 先 mark 有时间去看下 
+
+
+TsFile is a columnar file format designed for time-series data, which supports efficient compression and query. It is easy to integrate TsFile with your IOT big data processing frameworks.</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/11/05/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-11-05T00:00:00+08:00</published><updated>2018-11-05T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/11/05/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/11/05/weekly.html">&lt;p&gt;&lt;a href=&quot;https://linux.cn/article-10138-1.html&quot;&gt;https://linux.cn/article-10138-1.html&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;2018 中国开源年度报告：数据篇&lt;/p&gt;
 
@@ -512,76 +575,4 @@ fabric: 一個聯盟鏈的解決方案</summary></entry><entry><title type="html
 然后发现，真有「Brouter」这么一说。&lt;a href=&quot;https://wiki.openwrt.org/ipv6_brouter&quot;&gt;https://wiki.openwrt.org/ipv6_brouter&lt;/a&gt;
 然而性能太低，遂弃用。&lt;/p&gt;
 
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/intel-go/bytebuf Replacement for bytes.Buffer that you can use in a performace-sensitive parts or your Go programs  changed [64]byte to *[64]byte so always allocate on stack instead of heap (my understanding might be incorrect ... pls point out )</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/09/03/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-09-03T00:00:00+08:00</published><updated>2018-09-03T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/09/03/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/09/03/weekly.html">&lt;p&gt;发现了一个贼厉害的 Rust 项目&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/weld-project/weld&quot;&gt;https://github.com/weld-project/weld&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;中文介绍：&lt;a href=&quot;http://storage.it168.com/a2018/0814/5007/000005007279.shtml&quot;&gt;http://storage.it168.com/a2018/0814/5007/000005007279.shtml&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;斯坦福 DAWN 实验室的研究项目，CIDR 2017 VLDB 2018 两篇论文&lt;/p&gt;
-
-&lt;p&gt;/cc @codeworm96 &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/tikv/head-first-tikv&quot;&gt;https://github.com/tikv/head-first-tikv&lt;/a&gt; (别人在写数据库我在研究组里的测试为什么不能编译还跑了2个月 ....&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;What You Need to Know Before Considering a PhD from fast.ai。劝退了.jpg&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.fast.ai/2018/08/27/grad-school/&quot;&gt;http://www.fast.ai/2018/08/27/grad-school/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://go.googlesource.com/proposal/+/master/design/go2draft.md&quot;&gt;https://go.googlesource.com/proposal/+/master/design/go2draft.md&lt;/a&gt; official go2 design proposal (组织已经决定要有 generic 了 .....&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://web.cecs.pdx.edu/%7Ewalpole/class/cs510/winter2018/home.html&quot;&gt;CS410/CS510 - Advanced Topics in Concurrency&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;又是一个学校排名低但课很好的例子……虽然有点老没有nvm/gpu相关的东西，不过有transactional memory、还把RCU前前后后讲透了已经超过大多数程序员的水平了（&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/ttroy50/cmake-examples&quot;&gt;https://github.com/ttroy50/cmake-examples&lt;/a&gt; useful cmake examples&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Crunchbase search: Recent Post-C funding rounds with company location @ US. 可以用这个东西筛选出最近的独角兽公司，然后看看工作机会（&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.crunchbase.com/search/funding_rounds/3cd2acb1ea68e2f1ce1456403474f434498d22a0&quot;&gt;https://www.crunchbase.com/search/funding_rounds/3cd2acb1ea68e2f1ce1456403474f434498d22a0&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt; &lt;a href=&quot;https://mattermark.com/app/data?country=USA&amp;or%5B0%5D=stage%09%3D%09C%7Cstage%09%3D%09Late&amp;operator%5B0%5D=last_funding_date%09%3E%0901%2F01%2F2016&amp;sortBy=cached_growth_score&amp;sortDirection=desc&amp;score_mobile_downloads=1&amp;score_twitter_mentions=1&quot;&gt;另一个不需要购买crunchbase pro的list&lt;/a&gt; 感觉这个比较准，几个熟知的都在前面（&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/1930108/unencrypted-ssl-protocol&quot;&gt;https://stackoverflow.com/questions/1930108/unencrypted-ssl-protocol&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;第一次看到有不加密的 SSL。看了下高票回答 TLS_RSA_WITH_NULL_SHA 仅可以保证数据不被篡改。&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;最近在折腾 OpenWrt 上的 IPv6 打算去学校用。然而 IPv6 的一堆术语根本不知道是什么…… &lt;a href=&quot;https://forum.openwrt.org/t/clarifying-ipv6-luci-terminology-ndp-proxy-ula-prefix-server-mode-relay-mode-hybrid-mode/18743&quot;&gt;https://forum.openwrt.org/t/clarifying-ipv6-luci-terminology-ndp-proxy-ula-prefix-server-mode-relay-mode-hybrid-mode/18743&lt;/a&gt; 这篇文章稍微解释了一下 LuCI 里面看到的一些术语。感觉似乎明白了一点。&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Oracle 的 IPv6 Overview &lt;a href=&quot;https://docs.oracle.com/cd/E23823_01/html/816-4554/ipv6-overview-1.html&quot;&gt;https://docs.oracle.com/cd/E23823_01/html/816-4554/ipv6-overview-1.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://motherfuckingwebsite.com&quot;&gt;http://motherfuckingwebsite.com&lt;/a&gt; IT JUST WORKS!&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">发现了一个贼厉害的 Rust 项目
-
-https://github.com/weld-project/weld
-
-中文介绍：http://storage.it168.com/a2018/0814/5007/000005007279.shtml
-
-斯坦福 DAWN 实验室的研究项目，CIDR 2017 VLDB 2018 两篇论文
-
-/cc @codeworm96</summary></entry></feed>
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/intel-go/bytebuf Replacement for bytes.Buffer that you can use in a performace-sensitive parts or your Go programs  changed [64]byte to *[64]byte so always allocate on stack instead of heap (my understanding might be incorrect ... pls point out )</summary></entry></feed>
