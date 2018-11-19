@@ -1,5 +1,114 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-11-12T10:41:10+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/11/12/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-11-12T00:00:00+08:00</published><updated>2018-11-12T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/11/12/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/11/12/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/thulab/tsfile&quot;&gt;https://github.com/thulab/tsfile&lt;/a&gt; t 大的 time series format .... 先 mark 有时间去看下 &lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-11-19T10:22:24+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/11/19/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-11-19T00:00:00+08:00</published><updated>2018-11-19T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/11/19/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/11/19/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/Cody2333/koa-swagger-decorator&quot;&gt;https://github.com/Cody2333/koa-swagger-decorator&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Koa 框架下的轮子，用来做参数的输入校验和 Swagger 文档的自动生成&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/google/googletest&quot;&gt;https://github.com/google/googletest&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;最近开始肝 RoboMaster，开始写 C++ 了，于是开始感受了一下 C++ 的单元测试框架。&lt;/p&gt;
+
+&lt;p&gt;总的来说，如果要在 CLion / CMake 里写 Unit Test，Google Test 大概是我唯一配置得来的了……&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;再附上 CLion 的配置和一个可用的 CMakeLists
+&lt;a href=&quot;https://www.jetbrains.com/help/clion/creating-google-test-run-debug-configuration-for-test.html&quot;&gt;https://www.jetbrains.com/help/clion/creating-google-test-run-debug-configuration-for-test.html&lt;/a&gt;
+&lt;a href=&quot;https://github.com/SkyZH/CAHRR/blob/master/test/CMakeLists.txt&quot;&gt;https://github.com/SkyZH/CAHRR/blob/master/test/CMakeLists.txt&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;C Portability Lessons from Weird Machines&lt;/p&gt;
+
+&lt;p&gt;为啥C有那么多的undefined和implementation-defined behavior？这篇文章就包括了很多奇奇怪怪的机器，有的char是9个bits，有的访问&lt;code&gt;0x0 ~ 0xff&lt;/code&gt;以外的地址会特别慢，有的机子从&lt;code&gt;char*&lt;/code&gt;到&lt;code&gt;int*&lt;/code&gt;的转换不仅仅是算数的无符号扩展，有的机子最小寻址单位是nibble（4 bits），有的机子是mixed endian （&lt;code&gt;Unix&lt;/code&gt; -&amp;gt; &lt;code&gt;nUxi&lt;/code&gt;）。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://begriffs.com/posts/2018-11-15-c-portability.html?hn=1&quot;&gt;https://begriffs.com/posts/2018-11-15-c-portability.html?hn=1&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Azure/golua&quot;&gt;https://github.com/Azure/golua&lt;/a&gt; lua 的 go 实现 .w.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/kubeedge/kubeedge&quot;&gt;https://github.com/kubeedge/kubeedge&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Kubernetes Native Edge Computing Management Framework &lt;a href=&quot;http://kubeedge.io&quot;&gt;http://kubeedge.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;hashicorp c1m &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.hashicorp.com/c1m&quot;&gt;https://www.hashicorp.com/c1m&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.infoq.com/articles/scaling-containers-hashicorp-nomad&quot;&gt;https://www.infoq.com/articles/scaling-containers-hashicorp-nomad&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/hashicorp/c1m&quot;&gt;https://github.com/hashicorp/c1m&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Schedulers generally fall into one of three categories: monolithic, offer based, or shared state. Monolithic schedulers have a single, centralized location for scheduling logic, often bound to a single machine. Offer-based schedulers (such as Mesos), also have a single location for scheduling decisions, but can parallelize by offering resources to multiple frameworks that each have their own tasks. Shared state schedulers have multiple locations processing scheduling decisions. Unified state is achieved through use of concurrency, allowing scheduling to be done in parallel&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.nomadproject.io/docs/internals/scheduling.html&quot;&gt;https://www.nomadproject.io/docs/internals/scheduling.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;所以 k8s 的 scheduler 是? @gaocegege 记得策策好像说过更喜欢 nomad 的做法&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/tbodt/ish&quot;&gt;https://github.com/tbodt/ish&lt;/a&gt; Linux shell for iOS&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;So a warning: Long-term exposure to this code may cause loss of sanity, nightmares about GAS macros and linker errors, or any number of other debilitating side effects. This code is known to the State of California to cause cancer, birth defects, and reproductive harm.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/MicrosoftDocs/azure-docs&quot;&gt;https://github.com/MicrosoftDocs/azure-docs&lt;/a&gt; 附带的插件和入门文档很详细  &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;插件 &lt;a href=&quot;https://github.com/Microsoft/vscode-docs-authoring&quot;&gt;https://github.com/Microsoft/vscode-docs-authoring&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;连文档里该用什么语气都讲了 ... &lt;a href=&quot;https://docs.microsoft.com/en-us/contribute/&quot;&gt;https://docs.microsoft.com/en-us/contribute/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://t.co/H9JvPwKfgO&quot;&gt;https://t.co/H9JvPwKfgO&lt;/a&gt;  USENIX LISA 2018 (devops 之类的东西 .... 当然现在大家都 cloud native 了 ...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/fengjueming/unblock-NetEaseMusic&quot;&gt;https://github.com/fengjueming/unblock-NetEaseMusic&lt;/a&gt; 海外用户免翻墙听网易云音乐&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition&quot;&gt;https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition&lt;/a&gt; 让人想起 CMU-SV 的 Zhang Jia 老师的课，比如 Service Oriented Computing. 非常 Java. 非常 Enterprise.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;AMD optimized compiler&lt;/p&gt;
+
+&lt;p&gt;AMD也仿照icc搞了个自己的编译器……不过有钱还是没钱还是能看的出来的，基本就是在clang上面加了几个pass，启用了更aggressive的编译选项。所以编译出来的代码相对icc来说还是too young&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://developer.amd.com/amd-aocc/&quot;&gt;https://developer.amd.com/amd-aocc/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://golang.org/lib/godoc/analysis/help.html&quot;&gt;https://golang.org/lib/godoc/analysis/help.html&lt;/a&gt; godoc 居然是自带静态分析的, 跳转 etc.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;REPT: Reverse Debugging of Failures in Deployed Software&lt;/p&gt;
+
+&lt;p&gt;OSDI 18&amp;#39; best paper。不知道有没有机会去G家kernel搞这个……&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;~~自己笔记本是AMD……失败~~&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.usenix.org/system/files/osdi18-cui.pdf&quot;&gt;https://www.usenix.org/system/files/osdi18-cui.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/Cody2333/koa-swagger-decorator
+
+Koa 框架下的轮子，用来做参数的输入校验和 Swagger 文档的自动生成</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/11/12/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-11-12T00:00:00+08:00</published><updated>2018-11-12T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/11/12/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/11/12/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/thulab/tsfile&quot;&gt;https://github.com/thulab/tsfile&lt;/a&gt; t 大的 time series format .... 先 mark 有时间去看下 &lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;TsFile is a columnar file format designed for time-series data, which supports efficient compression and query. It is easy to integrate TsFile with your IOT big data processing frameworks.&lt;/p&gt;
@@ -523,56 +632,4 @@ fabric: 一個聯盟鏈的解決方案</summary></entry><entry><title type="html
 
 &lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/caicloud/ciao
 
-自卖自夸，一个 Jupyter Kernel，支持在 Jupyter Notebook 中发起分布式模型训练。</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/09/10/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-09-10T00:00:00+08:00</published><updated>2018-09-10T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/09/10/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/09/10/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/intel-go/bytebuf&quot;&gt;https://github.com/intel-go/bytebuf&lt;/a&gt; Replacement for bytes.Buffer that you can use in a performace-sensitive parts or your Go programs  changed &lt;code&gt;[64]byte&lt;/code&gt; to &lt;code&gt;*[64]byte&lt;/code&gt; so always allocate on stack instead of heap (my understanding might be incorrect ... pls point out )&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/mbinary/USTC-CS-Courses-Resource&quot;&gt;https://github.com/mbinary/USTC-CS-Courses-Resource&lt;/a&gt; 中国科学技术大学计算机学院课程资源  cc @gaocegege &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/alibaba/nacos&quot;&gt;https://github.com/alibaba/nacos&lt;/a&gt; an easy-to-use dynamic service discovery, configuration and service management platform for building cloud native applications  cc @gaocegege 听说过咩? .... 感觉就是一个带  dns 功能的 registry&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/openmessaging/specification&quot;&gt;https://github.com/openmessaging/specification&lt;/a&gt; &lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;OpenMessaging is vendor-neutral and language-independent, provides industry guidelines for areas of finance, e-commerce, IoT and big-data, and aimed to develop messaging and streaming applications across heterogeneous systems and platforms.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;根据 landscape 的图看, trace, metrics, log 都 cover 了 .... 类似的 &amp;#39;open&amp;#39; 东西好多, opentracing, opencensus 感觉都是根据实现来调整 spec 最后变成独角戏 .....&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/wilsonpage/fastdom&quot;&gt;https://github.com/wilsonpage/fastdom&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Eliminates layout thrashing by batching DOM read/write operations&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://cbor.io/&quot;&gt;http://cbor.io/&lt;/a&gt; RFC 7049 Concise Binary Object Representation  Like JSON but in binary, 123456 is no longer encoded as &amp;#39;123456&amp;#39; and bytes are no longer base64 encoded&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.fast.ai/2018/07/12/auto-ml-1/&quot;&gt;http://www.fast.ai/2018/07/12/auto-ml-1/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;介绍 AutoML 的系列文章&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.9game.ca/&quot;&gt;http://www.9game.ca/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;各种古董电脑/游戏 on 浏览器&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://devtoolsecrets.com/&quot;&gt;http://devtoolsecrets.com/&lt;/a&gt; features of browser developer tools (虽然已经不写前端了.... &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;在学校 IPv6 给的是 /128，先试了 IPv6 NAT，然后觉得不妥，想到可以直接把 IPv6 的 Traffic bridge 到 WAN。
-然后发现，真有「Brouter」这么一说。&lt;a href=&quot;https://wiki.openwrt.org/ipv6_brouter&quot;&gt;https://wiki.openwrt.org/ipv6_brouter&lt;/a&gt;
-然而性能太低，遂弃用。&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/intel-go/bytebuf Replacement for bytes.Buffer that you can use in a performace-sensitive parts or your Go programs  changed [64]byte to *[64]byte so always allocate on stack instead of heap (my understanding might be incorrect ... pls point out )</summary></entry></feed>
+自卖自夸，一个 Jupyter Kernel，支持在 Jupyter Notebook 中发起分布式模型训练。</summary></entry></feed>
