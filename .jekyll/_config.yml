@@ -24,7 +24,7 @@ github_username:  devcomm-shanghai
 # Build settings
 markdown: redcarpet
 theme: minima
-gems:
+plugins:
   - jekyll-feed
   - jekyll-mentions
   - redcarpet
@@ -32,6 +32,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - vendor
 plugins_dir:
   - jekyll-mentions
   - jemoji
