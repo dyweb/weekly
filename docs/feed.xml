@@ -1,5 +1,79 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-11-19T10:22:24+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/11/19/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-11-19T00:00:00+08:00</published><updated>2018-11-19T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/11/19/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/11/19/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/Cody2333/koa-swagger-decorator&quot;&gt;https://github.com/Cody2333/koa-swagger-decorator&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-11-27T10:27:50+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/11/26/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-11-26T00:00:00+08:00</published><updated>2018-11-26T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/11/26/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/11/26/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/AliyunContainerService/log-pilot&quot;&gt;https://github.com/AliyunContainerService/log-pilot&lt;/a&gt; 阿里云的人写的 docker 日志收集, 应该是调 docker api 来读 ...  docker 本身的日志存储好像实现的比较一般 ...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/rstudio-education/rstats-ed&quot;&gt;https://github.com/rstudio-education/rstats-ed&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;List of courses teaching R&lt;/p&gt;
+
+&lt;p&gt;R 语言真的还蛮好用的&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;The paper trail&lt;/p&gt;
+
+&lt;p&gt;Distributed systems and data processing的论文notes，摸鱼了好久后最近好像又更新了几篇……&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.the-paper-trail.org/&quot;&gt;https://www.the-paper-trail.org/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/bombela/backward-cpp&quot;&gt;https://github.com/bombela/backward-cpp&lt;/a&gt; A beautiful stack trace pretty printer for C++&lt;/p&gt;
+
+&lt;p&gt;(又要开始入门 cpp 了&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/westerndigitalcorporation/blb&quot;&gt;https://github.com/westerndigitalcorporation/blb&lt;/a&gt; Blb is a distributed object storage system designed for use on bare metal in cluster computing environments.&lt;/p&gt;
+
+&lt;p&gt;(abandoned, the company was acquired by wd and the code is open sourced as educational source&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gotocph.com/2018/sessions/599&quot;&gt;https://gotocph.com/2018/sessions/599&lt;/a&gt; good ideas thatwe forgot, keynote by Erlang inventor JoeArmstrong &lt;a href=&quot;https://files.gotocon.com/uploads/slides/conference_10/599/original/forget40.pdf&quot;&gt;slide&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There is also a PL track &lt;a href=&quot;https://gotocph.com/2018/tracks/114&quot;&gt;https://gotocph.com/2018/tracks/114&lt;/a&gt; which .. well I don&amp;#39;t think is very interesting&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/whusnoopy/renrenBackup&quot;&gt;https://github.com/whusnoopy/renrenBackup&lt;/a&gt; A backup tool for renren.com &lt;/p&gt;
+
+&lt;p&gt;人人被收购了，早日 backup 保平安&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.inf.ethz.ch/personal/wirth/CompilerConstruction/&quot;&gt;https://www.inf.ethz.ch/personal/wirth/CompilerConstruction/&lt;/a&gt; by Nikalaus Wirth author of Pascal &lt;/p&gt;
+
+&lt;p&gt;Found when looking at A Plea for Lean Software and searching for the author &lt;a href=&quot;https://github.com/at15/papers-i-read/issues/120&quot;&gt;https://github.com/at15/papers-i-read/issues/120&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/google/or-tools&quot;&gt;https://github.com/google/or-tools&lt;/a&gt; Google Optimization Tools (a.k.a., OR-Tools) is an open-source, fast and portable software suite for solving combinatorial optimization problems&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/ballerina-platform/ballerina-lang&quot;&gt;https://github.com/ballerina-platform/ballerina-lang&lt;/a&gt; Ballerina is a compiled, type safe, concurrent programming language designed to make it simple to write microservices that integrate APIs.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://softwareengineeringdaily.com/2018/07/12/ballerina-language-with-tyler-jewell/&quot;&gt;https://softwareengineeringdaily.com/2018/07/12/ballerina-language-with-tyler-jewell/&lt;/a&gt; &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/fntlnz/kubectl-trace&quot;&gt;https://github.com/fntlnz/kubectl-trace&lt;/a&gt; run &lt;a href=&quot;https://github.com/iovisor/bpftrace&quot;&gt;https://github.com/iovisor/bpftrace&lt;/a&gt; on your kubernetes cluster using  kubectl&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;abidiff compares the Application Binary Interfaces (ABI) of two shared libraries in ELF format based on dwarf debug information.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://sourceware.org/libabigail/manual/abidiff.html&quot;&gt;https://sourceware.org/libabigail/manual/abidiff.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://dave.cheney.net/2018/09/16/internets-of-interest-2-john-ousterhout-discusses-a-philosophy-of-software-design&quot;&gt;https://dave.cheney.net/2018/09/16/internets-of-interest-2-john-ousterhout-discusses-a-philosophy-of-software-design&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There are also some other interesting topics in Dave&amp;#39;s internets of interests series, found it when looking at &lt;a href=&quot;https://dave.cheney.net/2018/01/08/gos-hidden-pragmas&quot;&gt;https://dave.cheney.net/2018/01/08/gos-hidden-pragmas&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/AliyunContainerService/log-pilot 阿里云的人写的 docker 日志收集, 应该是调 docker api 来读 ...  docker 本身的日志存储好像实现的比较一般 ...</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/11/19/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-11-19T00:00:00+08:00</published><updated>2018-11-19T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/11/19/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/11/19/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/Cody2333/koa-swagger-decorator&quot;&gt;https://github.com/Cody2333/koa-swagger-decorator&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Koa 框架下的轮子，用来做参数的输入校验和 Swagger 文档的自动生成&lt;/p&gt;
 
@@ -577,59 +651,4 @@ Introducing Cloudflare Registrar: Domain Registration You Can Love&lt;/p&gt;
 
 賣瓜王婆：fabric的python sdk，支持fabric 1.0.x，年底前會支持最新的fabric和fabric-ca　（也歡迎大家貢獻）
 
-fabric: 一個聯盟鏈的解決方案</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/09/17/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-09-17T00:00:00+08:00</published><updated>2018-09-17T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/09/17/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/09/17/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/caicloud/ciao&quot;&gt;https://github.com/caicloud/ciao&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;自卖自夸，一个 Jupyter Kernel，支持在 Jupyter Notebook 中发起分布式模型训练。&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/kocircuit/kocircuit&quot;&gt;https://github.com/kocircuit/kocircuit&lt;/a&gt;  A generic type-safe language for concurrent, stateful, deadlock-free systems and protocol manipulations Can compile to IR and use go as interpreter &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/Microsoft/nni&quot;&gt;https://github.com/Microsoft/nni&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;An open source AutoML toolkit for neural architecture search and hyper-parameter tuning.&lt;/p&gt;
-
-&lt;p&gt;微软最新开源项目，自动机器学习工具&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/go-critic/go-critic&quot;&gt;https://github.com/go-critic/go-critic&lt;/a&gt; The most opinionated Go source code linter for code audit.  &lt;a href=&quot;https://go-critic.github.io/overview&quot;&gt;https://go-critic.github.io/overview&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/facebookincubator/LogDevice&quot;&gt;https://github.com/facebookincubator/LogDevice&lt;/a&gt; Distributed storage for sequential data &lt;a href=&quot;https://logdevice.io&quot;&gt;https://logdevice.io&lt;/a&gt; ...  Replicated state machines is one of the use case&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;最近在入门 Haskell，在交大图书馆借到了 Real World Haskell 这本英文书的影印版。感觉这本书在介绍语法的基础上，用实际的例子锻炼了 FP 的思维，比之前看的 Tutorial 书好多了（
-网上免费阅读。 &lt;a href=&quot;http://book.realworldhaskell.org/&quot;&gt;http://book.realworldhaskell.org/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://lcq2.github.io/x86_iphone/&quot;&gt;https://lcq2.github.io/x86_iphone/&lt;/a&gt; x86 进 iPhone 基带。&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://lcq2.github.io/x86_iphone/&quot;&gt;https://lcq2.github.io/x86_iphone/&lt;/a&gt; x86 进 iPhone 基带。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;为啥 x86 在基带不合适？这个作者这么震惊&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Life of a pixel from Chromium:  &lt;a href=&quot;http://bit.ly/lifeofapixel&quot;&gt;http://bit.ly/lifeofapixel&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;介绍了Chromium的渲染过程，Chromium团队的入门资料&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Scaling Uber&amp;#39;s Apache Hadoop Distributed File System for Growth &lt;a href=&quot;https://eng.uber.com/scaling-hdfs/&quot;&gt;https://eng.uber.com/scaling-hdfs/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Figure 6不错，下次system design可以抄一下（&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/caicloud/ciao
-
-自卖自夸，一个 Jupyter Kernel，支持在 Jupyter Notebook 中发起分布式模型训练。</summary></entry></feed>
+fabric: 一個聯盟鏈的解決方案</summary></entry></feed>
