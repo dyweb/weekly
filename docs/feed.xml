@@ -1,5 +1,161 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-11-27T10:27:50+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/11/26/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-11-26T00:00:00+08:00</published><updated>2018-11-26T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/11/26/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/11/26/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/AliyunContainerService/log-pilot&quot;&gt;https://github.com/AliyunContainerService/log-pilot&lt;/a&gt; 阿里云的人写的 docker 日志收集, 应该是调 docker api 来读 ...  docker 本身的日志存储好像实现的比较一般 ...&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-12-04T11:16:34+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/12/03/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-12-03T00:00:00+08:00</published><updated>2018-12-03T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/12/03/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/12/03/weekly.html">&lt;p&gt;yet another npm story&lt;code&gt;https://github.com/dominictarr/event-stream/issues/116&lt;/code&gt; from @htfy96 twitter and I am just a carrier for @arrowrowe (didn&amp;#39;t use the link format to avoid gh show issue reference on the other end)&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;gorilla/sessions provides cookie and filesystem sessions and infrastructure for custom session backends.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/gorilla/sessions&quot;&gt;https://github.com/gorilla/sessions&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://aws.amazon.com/blogs/opensource/firecracker-open-source-secure-fast-microvm-serverless/&quot;&gt;https://aws.amazon.com/blogs/opensource/firecracker-open-source-secure-fast-microvm-serverless/&lt;/a&gt; 
+&lt;a href=&quot;https://github.com/firecracker-microvm/firecracker&quot;&gt;https://github.com/firecracker-microvm/firecracker&lt;/a&gt; (written in rust) also has adapter for containerd &lt;a href=&quot;https://github.com/firecracker-microvm/firecracker-containerd&quot;&gt;https://github.com/firecracker-microvm/firecracker-containerd&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;seems just a daemon to wrap KVM w/ REST API?&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Mundane is a Rust cryptography library backed by BoringSSL that is difficult to misuse, ergonomic, and performant (in that order).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/google/mundane&quot;&gt;https://github.com/google/mundane&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;@codeworm96 即将要贡献代码的项目&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/firecracker-microvm/firecracker&quot;&gt;https://github.com/firecracker-microvm/firecracker&lt;/a&gt;  Secure and fast microVMs for serverless computing.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/303920344&quot;&gt;如何评价aws开源的firecracker，它对接下来的虚拟机、容器发展方向带来什么变化吗？&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/facebookexperimental/MIRAI&quot;&gt;https://github.com/facebookexperimental/MIRAI&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Mirai is an abstract interpreter for the Rust compiler&amp;#39;s mid-level intermediate representation (MIR). It is intended to become a widely used static analysis tool for Rust. The initial focus will be on taint analyis.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Cool.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/google/wire&quot;&gt;https://github.com/google/wire&lt;/a&gt; Compile-time Dependency Injection for Go used by &lt;a href=&quot;https://github.com/google/go-cloud&quot;&gt;https://github.com/google/go-cloud&lt;/a&gt;  saw it in meetup &lt;a href=&quot;https://github.com/enocom/presentations/tree/master/wire&quot;&gt;https://github.com/enocom/presentations/tree/master/wire&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/dotnet/coreclr/blob/b3475eb87a5f28fb88cf23ebe30f174eff75bb46/Documentation/design-docs/GuardedDevirtualization.md?utm_source=wechat_session&amp;utm_medium=social&amp;utm_oi=27912371699712&quot;&gt;https://github.com/dotnet/coreclr/blob/b3475eb87a5f28fb88cf23ebe30f174eff75bb46/Documentation/design-docs/GuardedDevirtualization.md?utm_source=wechat_session&amp;amp;utm_medium=social&amp;amp;utm_oi=27912371699712&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;瞻仰大佬是怎么做编译器优化的&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/objectbox/objectbox-go&quot;&gt;https://github.com/objectbox/objectbox-go&lt;/a&gt; ObjectBox is an easy to use, object-oriented lightweight database and a full alternative to SQLite.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Eat My Data: How Everybody Gets File IO Wrong (2008)&lt;/p&gt;
+
+&lt;p&gt;发现写的raft老是丢数据……读了这个才发现以前对“落盘”的理解都不对（&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.slideshare.net/nan1nan1/eat-my-data&quot;&gt;https://www.slideshare.net/nan1nan1/eat-my-data&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://crawshaw.io/blog/utf7&quot;&gt;https://crawshaw.io/blog/utf7&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;imap 协议默认用的是一种 modified utf7&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://increment.com/documentation/&quot;&gt;https://increment.com/documentation/&lt;/a&gt; stripe 的人讲怎么写文档 (公司内部 &amp;amp; 开源) 有一系列文章&lt;/p&gt;
+
+&lt;p&gt;其中一篇 &lt;a href=&quot;https://increment.com/documentation/notes-on-the-synthesis-of-labyrinths/&quot;&gt;notes-on-the-synthesis-of-labyrinths&lt;/a&gt; 里面提的很好的一点是不应该只讲最好的解决方法，而是应该给出完整的 context。实际的开发流程往往是一个图的 dfs (打开 google 然后一路点进去，遇到错路再退回来) 而很多文档和文章只是给出一个线性的流程，这样大部分读者很难对里面描述的东西感到信服，也不能把里面的经验用到自己的开发当中。(不过也因项目而易，有的项目光 get start 就能让人看很久了 ...)&lt;/p&gt;
+
+&lt;p&gt;现在越来越觉得维护一个好的文档是十分重要的, 能想清一个问题并且把各种方法的利弊讲出来其实比写出恰好能够工作的代码更重要 (即使是只有自己开发和自己使用的坑(伤感 ...ry))。当然上班的时候更多还是就写一些明明知道以后会坑别人的代码, 毕竟我已经被坑的麻木了 .. &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;提供一个思路：Design doc应该由大组编写一个template，我见过的常见section有：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;project staus (eg. draft, reviewed, implementing, experimenting, finalized).&lt;/li&gt;
+&lt;li&gt;Contact info (eg. Eng, PM).&lt;/li&gt;
+&lt;li&gt;TL;DR&lt;/li&gt;
+&lt;li&gt;Background&lt;/li&gt;
+&lt;li&gt;Objection (including goal, non-goal).&lt;/li&gt;
+&lt;li&gt;Design Overview&lt;/li&gt;
+&lt;li&gt;Design Details&lt;/li&gt;
+&lt;li&gt;Other design options (and why we don&amp;#39;t do it).&lt;/li&gt;
+&lt;li&gt;Testing plan&lt;/li&gt;
+&lt;li&gt;Rollout plan&lt;/li&gt;
+&lt;li&gt;Q&amp;amp;A&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;感觉这样每个Eng都会cover这些design options，然后每一份design都会收录在组里文档目录里，方便后面的人review。&lt;/p&gt;
+
+&lt;p&gt;Add a link to keep the content in weekly: &lt;a href=&quot;https://google.com&quot;&gt;https://google.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/wowlusitong/awesome-education&quot;&gt;https://github.com/wowlusitong/awesome-education&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;学生福利-收集支持教育优惠的软件与服务 &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://live.bilibili.com/4630260&quot;&gt;https://live.bilibili.com/4630260&lt;/a&gt; tidb hackthon 有人做了 timeseries with TiKV (一天速成 rust 和失败 ...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p1190r0.html&quot;&gt;http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p1190r0.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;herb：6个operator太多了，我们搞一个 spaceship operator 抄一抄 java
+本文作者：可是这样 operator!= 就会变慢，比如两个不等长的 vector 本可以直接返回 true 现在就得找一下是大于还是小于&lt;/p&gt;
+
+&lt;p&gt;然后提了100种听起来都怪怪的解决方案。为啥不直接允许用户重写 operator== 然后比 spaceship 优先级高呢？&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Eat My Data: How Everybody Gets File IO Wrong (2008)&lt;/p&gt;
+
+&lt;p&gt;发现写的raft老是丢数据……读了这个才发现以前对“落盘”的理解都不对（&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.slideshare.net/nan1nan1/eat-my-data&quot;&gt;https://www.slideshare.net/nan1nan1/eat-my-data&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;tl;dr Use &lt;code&gt;fsync&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;from &lt;a href=&quot;https://github.com/zenany/weekly/commit/ce8caf00a487942881333cdd5a56b80e3e53e9f2&quot;&gt;https://github.com/zenany/weekly/commit/ce8caf00a487942881333cdd5a56b80e3e53e9f2&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/elsewhencode/project-guidelines&quot;&gt;https://github.com/elsewhencode/project-guidelines&lt;/a&gt; 主要是针对 js 项目的，没什么特别新的东西，但是能完全做到(还是得看队友 ....&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;from &lt;a href=&quot;https://github.com/zenany/weekly/commit/ce8caf00a487942881333cdd5a56b80e3e53e9f2&quot;&gt;https://github.com/zenany/weekly/commit/ce8caf00a487942881333cdd5a56b80e3e53e9f2&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://thecreativeindependent.com/guides/how-to-balance-full-time-work-with-creative-projects/&quot;&gt;https://thecreativeindependent.com/guides/how-to-balance-full-time-work-with-creative-projects/&lt;/a&gt; 虽然不是讲软件的但是还是讲的很好的, 比如拒绝周末跟别人出去玩(这点可以丧起来 @xplorld ) done is better than perfect etc... 当然看文章总是容易，做到里面说的就还是需要很大的毅力了 ....&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;from &lt;a href=&quot;https://news.ycombinator.com/item?id=18508284&quot;&gt;https://news.ycombinator.com/item?id=18508284&lt;/a&gt; a mac ascii art software, no longer under develop though, it&amp;#39;s now $9 &lt;a href=&quot;https://monodraw.helftone.com/&quot;&gt;https://monodraw.helftone.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;@xplorld fsync的语义也是奥妙重重……在Mac上fsync也没用（&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://wiki.postgresql.org/wiki/Fsync_Errors&quot;&gt;https://wiki.postgresql.org/wiki/Fsync_Errors&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/ithinco/i-am-chinese-the-dragonfly-must-go-on&quot;&gt;https://github.com/ithinco/i-am-chinese-the-dragonfly-must-go-on&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;我其实不是太懂，搜索引擎也不是只有百度啊&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">yet another npm storyhttps://github.com/dominictarr/event-stream/issues/116 from @htfy96 twitter and I am just a carrier for @arrowrowe (didn&amp;#39;t use the link format to avoid gh show issue reference on the other end)</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/11/26/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-11-26T00:00:00+08:00</published><updated>2018-11-26T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/11/26/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/11/26/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/AliyunContainerService/log-pilot&quot;&gt;https://github.com/AliyunContainerService/log-pilot&lt;/a&gt; 阿里云的人写的 docker 日志收集, 应该是调 docker api 来读 ...  docker 本身的日志存储好像实现的比较一般 ...&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -605,50 +761,4 @@ Introducing Cloudflare Registrar: Domain Registration You Can Love&lt;/p&gt;
 &lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">cppcon 18开幕了！
 
 所有的talk：https://cppcon2018.sched.com/
-某个dalao对他想去的talk的点评：https://annygakh.github.io/longblog/2018/09/22/prereadingCppcon2018talks.html</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/09/24/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-09-24T00:00:00+08:00</published><updated>2018-09-24T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/09/24/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/09/24/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/hyperledger/fabric-sdk-py/blob/master/docs/release_note.md&quot;&gt;https://github.com/hyperledger/fabric-sdk-py/blob/master/docs/release_note.md&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;賣瓜王婆：fabric的python sdk，支持fabric 1.0.x，年底前會支持最新的fabric和fabric-ca　（也歡迎大家貢獻）&lt;/p&gt;
-
-&lt;p&gt;fabric: 一個聯盟鏈的解決方案&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.coursera.org/learn/build-a-computer/&quot;&gt;https://www.coursera.org/learn/build-a-computer/&lt;/a&gt; 最近突然想写个 Assembler，于是查到了这个课，从硬件开始，一步步教如何搭一台电脑（当然是模拟的）。&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;PostgreSQL 11: something for everyone (&lt;strong&gt;PAYWALL&lt;/strong&gt;)&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://lwn.net/SubscriberLink/764515/a207303abb49fc37/&quot;&gt;https://lwn.net/SubscriberLink/764515/a207303abb49fc37/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;@SkyZH 那個原本是&lt;a href=&quot;https://www.nand2tetris.org/&quot;&gt;nand2tetris&lt;/a&gt; 然後有本書可以自行下載，然後網課對書上內容有補充。我也感覺是非常棒的一門課.&lt;/p&gt;
-
-&lt;p&gt;有上下兩個部分，一個是（模擬）硬件，一個是軟件&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Lifetime profile v1.0 posted    用CFG搞的lifetime checker，已经集成在msvc中，将要实现进clang。默认只针对pointers, iteartors等常见情况启用，用户自己类的所有权可以用[[gsl::owner]], [[gsl::pointer]]来标记。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://herbsutter.com/2018/09/20/lifetime-profile-v1-0-posted/&quot;&gt;https://herbsutter.com/2018/09/20/lifetime-profile-v1-0-posted/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/openrepl/openrepl&quot;&gt;https://github.com/openrepl/openrepl&lt;/a&gt; a online repl for multiple languages, run code using container on server side and stream output back to browser using websocket (the code is pretty clean), has in memory and local folder based k-v store and use etag for caching &lt;a href=&quot;https://github.com/openrepl/openrepl/blob/master/server/store/main.go&quot;&gt;https://github.com/openrepl/openrepl/blob/master/server/store/main.go&lt;/a&gt; 😄 &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/golang/perf&quot;&gt;https://github.com/golang/perf&lt;/a&gt; Go performance measurement, storage, and analysis tools  (though it seems it is not being used .... &lt;a href=&quot;https://perf.golang.org/&quot;&gt;https://perf.golang.org/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/rogpeppe/gohack&quot;&gt;https://github.com/rogpeppe/gohack&lt;/a&gt; a cli to allow you hack dependency when using go mod (vgo)&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/hyperledger/fabric-sdk-py/blob/master/docs/release_note.md
-
-賣瓜王婆：fabric的python sdk，支持fabric 1.0.x，年底前會支持最新的fabric和fabric-ca　（也歡迎大家貢獻）
-
-fabric: 一個聯盟鏈的解決方案</summary></entry></feed>
+某个dalao对他想去的talk的点评：https://annygakh.github.io/longblog/2018/09/22/prereadingCppcon2018talks.html</summary></entry></feed>
