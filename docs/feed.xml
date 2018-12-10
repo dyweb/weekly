@@ -1,5 +1,127 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-12-04T11:16:34+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/12/03/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-12-03T00:00:00+08:00</published><updated>2018-12-03T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/12/03/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/12/03/weekly.html">&lt;p&gt;yet another npm story&lt;code&gt;https://github.com/dominictarr/event-stream/issues/116&lt;/code&gt; from @htfy96 twitter and I am just a carrier for @arrowrowe (didn&amp;#39;t use the link format to avoid gh show issue reference on the other end)&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-12-10T11:45:46+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/12/10/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-12-10T00:00:00+08:00</published><updated>2018-12-10T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/12/10/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/12/10/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/deebloo/things-you-can-do-in-a-web-worker&quot;&gt;https://github.com/deebloo/things-you-can-do-in-a-web-worker&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Web Workers give web developers the ability to run code in multiple threads. 这个是 web worker 可以做的一些事情&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/artzub/GitHubVisualizer&quot;&gt;https://github.com/artzub/GitHubVisualizer&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;GitHub Contributions Visualizer&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/5100735/49417712-e226bc80-f7b9-11e8-8569-b522759f820e.png&quot; alt=&quot;screenshot from 2018-12-04 11-40-29&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;最近写完了 Nand2Tetris 的 VM Code Translator，发现编译器一类的软件似乎没有写单元测试的必要。但是我们可以直接用它编译几个程序来测试功能。&lt;/p&gt;
+
+&lt;p&gt;于是发现了 GCC 的 Test Suites。 &lt;a href=&quot;https://gcc.gnu.org/onlinedocs/gccint/C-Tests.html#C-Tests&quot;&gt;https://gcc.gnu.org/onlinedocs/gccint/C-Tests.html#C-Tests&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/gcc-mirror/gcc/tree/master/gcc/testsuite/g%2B%2B.dg/cpp&quot;&gt;https://github.com/gcc-mirror/gcc/tree/master/gcc/testsuite/g%2B%2B.dg/cpp&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://randomascii.wordpress.com/2018/12/03/a-not-called-function-can-cause-a-5x-slowdown/&quot;&gt;https://randomascii.wordpress.com/2018/12/03/a-not-called-function-can-cause-a-5x-slowdown/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;windows llvm 特别慢，发现是因为开了1k+ process, destroy 的时候特别慢，发现是 windows 关 GDI process 的时候特别慢，发现只要你调用了某个看起来无害的 windows parse argv 的函数就会 load GDI. 手工 parse argv （并 delay load）以后速度 5min -&amp;gt; 1min&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.hanselman.com/blog/AnnouncingWPFWinFormsAndWinUIAreGoingOpenSource.aspx&quot;&gt;https://www.hanselman.com/blog/AnnouncingWPFWinFormsAndWinUIAreGoingOpenSource.aspx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;WPF WinForms WinUI 都开源了，啥时候 windows 也开源呢？&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/panjf2000/ants&quot;&gt;https://github.com/panjf2000/ants&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;🐜⚡️A high-performance goroutine pool for go&lt;/p&gt;
+
+&lt;p&gt;code base 非常小的 goroutine pool 实现&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://mysql.taobao.org/monthly/&quot;&gt;http://mysql.taobao.org/monthly/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;阿里云RDS-数据库内核组的月报，每一期都挺硬核的&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/aphyr/meangirls&quot;&gt;https://github.com/aphyr/meangirls&lt;/a&gt; CRDT 跟着 @htfy96 star (作者是 jepsen 的作者 ... 项目起名字还是很有个性的 ....&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.cs.nott.ac.uk/%7Epszgmh/pearl.pdf&quot;&gt;http://www.cs.nott.ac.uk/~pszgmh/pearl.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Functional Pearls
+Monadic Parsing in Haskell&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;在看 Real World Haskell 的时候看到 Monad 和 fmap 看的云里雾里。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html&quot;&gt;http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Functors, Applicatives, And Monads In Pictures&lt;/p&gt;
+
+&lt;p&gt;看完这篇就差不多理解了（&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/etcd-io/gofail&quot;&gt;https://github.com/etcd-io/gofail&lt;/a&gt; 在 tidb 群里看到的 一开始以为是基于 go/ast 之类的 ... 然后发现是字符串替换 ... &lt;a href=&quot;https://github.com/etcd-io/gofail/blob/master/code/rewrite.go&quot;&gt;https://github.com/etcd-io/gofail/blob/master/code/rewrite.go&lt;/a&gt; (应该性能更高.jpg&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/sausheong/gonn&quot;&gt;https://github.com/sausheong/gonn&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Building a simple neural network in Go &lt;/p&gt;
+
+&lt;p&gt;竟然还有 gonum.org/v1/gonum/mat 这种库&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/ahmetb/kubectx&quot;&gt;https://github.com/ahmetb/kubectx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;切换 Kubernetes 集群的命令行工具，当你有多个集群的时候就会发现非常有用&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/chromedp/chromedp&quot;&gt;https://github.com/chromedp/chromedp&lt;/a&gt; A faster, simpler way to drive browsers supporting the Chrome DevTools Protocol.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/me115/design_patterns&quot;&gt;https://github.com/me115/design_patterns&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;设计模式介绍，每一个都有列出重要程度，方便从最常用的开始学习&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/shiftkey/desktop&quot;&gt;https://github.com/shiftkey/desktop&lt;/a&gt; github desktop for linux 亲测可用&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/crossplaneio/crossplane&quot;&gt;https://github.com/crossplaneio/crossplane&lt;/a&gt; The open source multicloud control plane&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/rust-clique/human-panic&quot;&gt;https://github.com/rust-clique/human-panic&lt;/a&gt; Panic messages for humans. &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://hacks.mozilla.org/2018/12/rust-2018-is-here/&quot;&gt;https://hacks.mozilla.org/2018/12/rust-2018-is-here/&lt;/a&gt; 对 Rust Edition 概念非常好的介绍，终于看懂 Edition 是啥了...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://jepsen.io/consistency&quot;&gt;https://jepsen.io/consistency&lt;/a&gt; 一致性模型间的关系&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/sahib/brig&quot;&gt;https://github.com/sahib/brig&lt;/a&gt;  File synchronization on top of ipfs with git like interface and FUSE filesystem
+主要是看到有 fuse &lt;a href=&quot;https://github.com/sahib/brig/tree/master/fuse&quot;&gt;https://github.com/sahib/brig/tree/master/fuse&lt;/a&gt; &lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/deebloo/things-you-can-do-in-a-web-worker
+
+Web Workers give web developers the ability to run code in multiple threads. 这个是 web worker 可以做的一些事情</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/12/03/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-12-03T00:00:00+08:00</published><updated>2018-12-03T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/12/03/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/12/03/weekly.html">&lt;p&gt;yet another npm story&lt;code&gt;https://github.com/dominictarr/event-stream/issues/116&lt;/code&gt; from @htfy96 twitter and I am just a carrier for @arrowrowe (didn&amp;#39;t use the link format to avoid gh show issue reference on the other end)&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -656,109 +778,4 @@ Awesome AutoML 论文集</summary></entry><entry><title type="html">Weekly</titl
 
 &lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">最近在折腾 IPv6 的各种配置。在学校里怕影响到同学上网折腾了一个月没折腾出来，今天在家里自以为能折腾出来但是还是没有成功上网。
 
-然后我发现，这世界上竟然有「网络模拟器」 http://www.brianlinkletter.com/open-source-network-simulators/</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/10/01/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-10-01T00:00:00+08:00</published><updated>2018-10-01T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/10/01/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/10/01/weekly.html">&lt;p&gt;cppcon 18开幕了！&lt;/p&gt;
-
-&lt;p&gt;所有的talk：&lt;a href=&quot;https://cppcon2018.sched.com/&quot;&gt;https://cppcon2018.sched.com/&lt;/a&gt;
-某个dalao对他想去的talk的点评：&lt;a href=&quot;https://annygakh.github.io/longblog/2018/09/22/prereadingCppcon2018talks.html&quot;&gt;https://annygakh.github.io/longblog/2018/09/22/prereadingCppcon2018talks.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/AkihiroSuda/buildbench&quot;&gt;https://github.com/AkihiroSuda/buildbench&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;关于构建容器镜像的工具的 benchmark，主要有 Docker build, buildkit, kaniko 等等。&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Computer Networks: A Systems Approach, 5th ed开源了： &lt;a href=&quot;https://book.systemsapproach.org/&quot;&gt;https://book.systemsapproach.org/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;以及去年公开的 Distributed Systems 3rd edition ：&lt;a href=&quot;https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/&quot;&gt;https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;（今年学校的network课打算把这两个东西混讲……似乎很合理&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://xsb.seiee.sjtu.edu.cn/xsb/info/13906.htm&quot;&gt;http://xsb.seiee.sjtu.edu.cn/xsb/info/13906.htm&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;电院 2017 年就业报告（&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/rianhunter/wasmjit&quot;&gt;https://github.com/rianhunter/wasmjit&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Kernel Mode WebAssembly Runtime for Linux&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/alibaba/arthas&quot;&gt;https://github.com/alibaba/arthas&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas &lt;a href=&quot;https://alibaba.github.io/arthas/&quot;&gt;https://alibaba.github.io/arthas/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这个最近好像很火，不知道为啥&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/dotnet/machinelearning&quot;&gt;https://github.com/dotnet/machinelearning&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;ML.NET is an open source and cross-platform machine learning framework for .NET. &lt;a href=&quot;https://dot.net/ml&quot;&gt;https://dot.net/ml&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://lwkd.info/&quot;&gt;http://lwkd.info/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;维护的非常好的 Kubernetes 社区周报&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/ibuildthecloud/k3s&quot;&gt;https://github.com/ibuildthecloud/k3s&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;被裁剪了一些边缘 feature 后的 k8s&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://blog.cloudflare.com/cloudflare-registrar/&quot;&gt;https://blog.cloudflare.com/cloudflare-registrar/&lt;/a&gt;
-Introducing Cloudflare Registrar: Domain Registration You Can Love&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/a/17628243&quot;&gt;https://stackoverflow.com/a/17628243&lt;/a&gt; 在 Global GitIgnore 里删掉 .DS_Store!&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;CppCon 2017: Matt Kulukundis “Designing a Fast, Efficient, Cache-friendly Hash Table, Step by Step”。  性能榨汁简易入门（&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=ncHmEUmJZf4&amp;t=3s&quot;&gt;https://www.youtube.com/watch?v=ncHmEUmJZf4&amp;amp;t=3s&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;以及刚开源的&lt;code&gt;absl::hash_table&lt;/code&gt;: &lt;a href=&quot;https://abseil.io/blog/20180927-swisstables&quot;&gt;https://abseil.io/blog/20180927-swisstables&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/mbasso/awesome-wasm&quot;&gt;https://github.com/mbasso/awesome-wasm&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Curated list of awesome things regarding WebAssembly (wasm) ecosystem.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/ValveSoftware/Proton&quot;&gt;https://github.com/ValveSoftware/Proton&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Compatibility tool for Steam Play based on Wine and additional components&lt;/p&gt;
-
-&lt;p&gt;Linux 上玩 Steam Windows 游戏不再是梦？&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/wzpan/BeamerStyleSlides&quot;&gt;https://github.com/wzpan/BeamerStyleSlides&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;rainbowBeamer风格的幻灯片模板集。包含了PowerPoint和Keynote两套格式。 &lt;a href=&quot;http://www.hahack.com/BeamerStyleSlides/&quot;&gt;http://www.hahack.com/BeamerStyleSlides/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/iikira/BaiduPCS-Go&quot;&gt;https://github.com/iikira/BaiduPCS-Go&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;第三方百度网盘 cli. 据说速度很快。&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">cppcon 18开幕了！
-
-所有的talk：https://cppcon2018.sched.com/
-某个dalao对他想去的talk的点评：https://annygakh.github.io/longblog/2018/09/22/prereadingCppcon2018talks.html</summary></entry></feed>
+然后我发现，这世界上竟然有「网络模拟器」 http://www.brianlinkletter.com/open-source-network-simulators/</summary></entry></feed>
