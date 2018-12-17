@@ -1,5 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-12-10T11:45:46+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/12/10/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-12-10T00:00:00+08:00</published><updated>2018-12-10T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/12/10/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/12/10/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/deebloo/things-you-can-do-in-a-web-worker&quot;&gt;https://github.com/deebloo/things-you-can-do-in-a-web-worker&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-12-17T09:37:25+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/12/17/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-12-17T00:00:00+08:00</published><updated>2018-12-17T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/12/17/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/12/17/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/bazil/fuse&quot;&gt;https://github.com/bazil/fuse&lt;/a&gt; fuse implemented in pure go used by peerkeep &lt;a href=&quot;https://github.com/perkeep/perkeep/blob/master/cmd/pk-mount/pkmount.go&quot;&gt;https://github.com/perkeep/perkeep/blob/master/cmd/pk-mount/pkmount.go&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://blockdiag.com/en/&quot;&gt;http://blockdiag.com/en/&lt;/a&gt; generate sequence, network diagrams from text file &lt;a href=&quot;https://github.com/blockdiag/seqdiag&quot;&gt;https://github.com/blockdiag/seqdiag&lt;/a&gt;  I think dot also support it, but I never used dot before ... didn&amp;#39;t use this either, saw it in the fuse project above&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/bazil/fuse/blob/master/doc/mount-linux.seq&quot;&gt;https://github.com/bazil/fuse/blob/master/doc/mount-linux.seq&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/5621298/49716687-52de3680-fc09-11e8-935e-60bf8f33a05b.png&quot; alt=&quot;mount-linux seq&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;from &lt;a href=&quot;https://github.com/zenany/weekly/commit/b9afaaa87876ef8d6e3c544fd890f792a4b18d81&quot;&gt;https://github.com/zenany/weekly/commit/b9afaaa87876ef8d6e3c544fd890f792a4b18d81&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://robertheaton.com/2018/12/06/a-blogging-style-guide/&quot;&gt;https://robertheaton.com/2018/12/06/a-blogging-style-guide/&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;如果有写 blog 的想法 那就写 (鸽)&lt;/li&gt;
+&lt;li&gt;如果想法很多, 分两个 blog 写并保证每个是完整的&lt;/li&gt;
+&lt;li&gt;不要讲笑话, 先把关键的东西讲明白 (说我呢.jpg)&lt;/li&gt;
+&lt;li&gt;写 blog 前好好沉思 (打开 steam?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lctt.github.io/LFS-BOOK/lfs-sysv/LFS-BOOK.html&quot;&gt;https://lctt.github.io/LFS-BOOK/lfs-sysv/LFS-BOOK.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Linux From Scratch 的简体中文版，8.3 版本，最新版&lt;/p&gt;
+
+&lt;p&gt;原版在 &lt;a href=&quot;http://www.linuxfromscratch.org/lfs/view/stable/&quot;&gt;http://www.linuxfromscratch.org/lfs/view/stable/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/grafana/loki&quot;&gt;https://github.com/grafana/loki&lt;/a&gt; Like Prometheus, but for logs.  &lt;/p&gt;
+
+&lt;p&gt;感觉就是 log 根据 label 做简单的 index (没有根据 log 内容的全文检索) 然后分 chunk 存 dynamo/s3 etc. 跟 &lt;a href=&quot;https://github.com/cortexproject/cortex&quot;&gt;https://github.com/cortexproject/cortex&lt;/a&gt; 很像 (好像就是同一波人写的 ... 无限水平扩展就是分片然后存在无限扩展的 aws 里 ...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://landscape.cncf.io/format=landscape&quot;&gt;https://landscape.cncf.io/format=landscape&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;CNCF 旗下的 container landscape 地图&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/wangrunji0408/RustOS&quot;&gt;https://github.com/wangrunji0408/RustOS&lt;/a&gt; Rust version of THU uCore OS, supporting x86_64, RISCV32IMA(S/M), AArch64(Raspi3) (在 sjtug 里看到的 @htfy96 &lt;/p&gt;
+
+&lt;p&gt;然后还顺带发现了 ... &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://chyyuu.gitbooks.io/simple_os_book/content/&quot;&gt;https://chyyuu.gitbooks.io/simple_os_book/content/&lt;/a&gt; 操作系统的基本原理与简单实现&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Hackerspeak - learn how to speak like a hacker&lt;/p&gt;
+
+&lt;p&gt;(tech buzzphrase生成器&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://dmyoung1994.github.io/HackerSpeak/&quot;&gt;http://dmyoung1994.github.io/HackerSpeak/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/docker/compose-on-kubernetes&quot;&gt;https://github.com/docker/compose-on-kubernetes&lt;/a&gt; Deploy applications described in Compose onto Kubernetes clusters &lt;a href=&quot;https://blog.docker.com/2018/12/simplifying-kubernetes-with-docker-compose-and-friends/&quot;&gt;https://blog.docker.com/2018/12/simplifying-kubernetes-with-docker-compose-and-friends/&lt;/a&gt; 木有 @gaocegege 的 twitter 我还不知道 ... 论水 twitter 的重要性&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://speakerdeck.com/filosottile/calling-rust-from-go-without-cgo-at-gothamgo-2017&quot;&gt;https://speakerdeck.com/filosottile/calling-rust-from-go-without-cgo-at-gothamgo-2017&lt;/a&gt; @gaocegege ... from &lt;a href=&quot;https://blog.filippo.io/hi/&quot;&gt;https://blog.filippo.io/hi/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=afSiVelXDTQ&quot;&gt;GopherCon 2018: Filippo Valsorda- Asynchronous Networking Patterns&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://go.googlesource.com/gollvm/&quot;&gt;https://go.googlesource.com/gollvm/&lt;/a&gt; go 居然有个 llvm 的 backend&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;@at15 有一个类似的 docker-compose to k8s translator &lt;a href=&quot;https://github.com/kubernetes/kompose&quot;&gt;https://github.com/kubernetes/kompose&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/warmchang/KubeCon-North-America-2018&quot;&gt;https://github.com/warmchang/KubeCon-North-America-2018&lt;/a&gt; &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/thecodingmachine/gotenberg&quot;&gt;https://github.com/thecodingmachine/gotenberg&lt;/a&gt; A Docker-powered stateless API for converting HTML, Markdown and Office documents to PDF. &lt;/p&gt;
+
+&lt;p&gt;even have a php client ... &lt;a href=&quot;https://github.com/thecodingmachine/gotenberg-php-client&quot;&gt;https://github.com/thecodingmachine/gotenberg-php-client&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/bazil/fuse fuse implemented in pure go used by peerkeep https://github.com/perkeep/perkeep/blob/master/cmd/pk-mount/pkmount.go</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/12/10/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-12-10T00:00:00+08:00</published><updated>2018-12-10T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/12/10/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/12/10/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/deebloo/things-you-can-do-in-a-web-worker&quot;&gt;https://github.com/deebloo/things-you-can-do-in-a-web-worker&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Web Workers give web developers the ability to run code in multiple threads. 这个是 web worker 可以做的一些事情&lt;/p&gt;
 
@@ -718,64 +807,4 @@ Phaser is a fun, free and fast 2D game framework for making HTML5 games for desk
 
 &lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/hibayesian/awesome-automl-papers
 
-Awesome AutoML 论文集</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/10/08/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-10-08T00:00:00+08:00</published><updated>2018-10-08T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/10/08/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/10/08/weekly.html">&lt;p&gt;最近在折腾 IPv6 的各种配置。在学校里怕影响到同学上网折腾了一个月没折腾出来，今天在家里自以为能折腾出来但是还是没有成功上网。&lt;/p&gt;
-
-&lt;p&gt;然后我发现，这世界上竟然有「网络模拟器」 &lt;a href=&quot;http://www.brianlinkletter.com/open-source-network-simulators/&quot;&gt;http://www.brianlinkletter.com/open-source-network-simulators/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/vinta/pangu.js&quot;&gt;https://github.com/vinta/pangu.js&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;為什麼你們就是不能加個空格呢？&lt;/p&gt;
-
-&lt;p&gt;如果你跟我一樣，每次看到網頁上的中文字和英文、數字、符號擠在一塊，就會坐立難安，忍不住想在它們之間加個空格。這個外掛（支援 Chrome 和 Firefox）正是你在網路世界走跳所需要的東西，它會自動替你在網頁中所有的中文字和半形的英文、數字、符號之間插入空白。&lt;/p&gt;
-
-&lt;p&gt;漢學家稱這個空白字元為「盤古之白」，因為它劈開了全形字和半形字之間的混沌。另有研究顯示，打字的時候不喜歡在中文和英文之間加空格的人，感情路都走得很辛苦，有七成的比例會在 34 歲的時候跟自己不愛的人結婚，而其餘三成的人最後只能把遺產留給自己的貓。畢竟愛情跟書寫都需要適時地留白。&lt;/p&gt;
-
-&lt;p&gt;與大家共勉之。&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://blog.cloudflare.com/exposing-go-on-the-internet/&quot;&gt;https://blog.cloudflare.com/exposing-go-on-the-internet/&lt;/a&gt; go http server  端的 timeout 设置 ... 最近生产环境 file descriptor 爆炸 ...  client 端没有正确使用 http.Transport 保持了很多 tcp 连接 (应该使用一个而不是每次创建新的), server 端没有设置就一直 hold .... 另外还学会了熟练使用 &lt;a href=&quot;https://linux.die.net/man/8/lsof&quot;&gt;lsof&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/MunGell/awesome-for-beginners&quot;&gt;https://github.com/MunGell/awesome-for-beginners&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;给小朋友准备的刷 github contributor 指南
-（要不要去 pr 一个 Kubeflow @gaocegege &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/Azure/azure-service-bus-go&quot;&gt;https://github.com/Azure/azure-service-bus-go&lt;/a&gt; aka 不错 /w\&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://about.sourcegraph.com/go&quot;&gt;https://about.sourcegraph.com/go&lt;/a&gt; go conference live blogs&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/ocaml/merlin&quot;&gt;https://github.com/ocaml/merlin&lt;/a&gt;
-@htfy96 completion for OCaml in Vim and Emacs&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://instagram-engineering.com/dismissing-python-garbage-collection-at-instagram-4dca40b29172&quot;&gt;https://instagram-engineering.com/dismissing-python-garbage-collection-at-instagram-4dca40b29172&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;为了使得 forked multiprocessing python process 不 CoW,&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;关掉了 gc (这样 refcount 不会变)&lt;/li&gt;
-&lt;li&gt;在 atexit 的时候直接自杀，这样子不需要 do expensive python cleanup&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;结局是各个py process 之间 shared pages ++, 总的 mem cost -= 10%&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=bSYFwd50EcU&amp;index=3&amp;list=PLSE8ODhjZXjbjOyrcqgE6_lCV6xvzffSN&quot;&gt;https://www.youtube.com/watch?v=bSYFwd50EcU&amp;amp;index=3&amp;amp;list=PLSE8ODhjZXjbjOyrcqgE6_lCV6xvzffSN&lt;/a&gt;
-成功的 Haskell 安利，配合 &lt;a href=&quot;https://github.com/SQream/hssqlppp&quot;&gt;https://github.com/SQream/hssqlppp&lt;/a&gt; 食用。&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">最近在折腾 IPv6 的各种配置。在学校里怕影响到同学上网折腾了一个月没折腾出来，今天在家里自以为能折腾出来但是还是没有成功上网。
-
-然后我发现，这世界上竟然有「网络模拟器」 http://www.brianlinkletter.com/open-source-network-simulators/</summary></entry></feed>
+Awesome AutoML 论文集</summary></entry></feed>
