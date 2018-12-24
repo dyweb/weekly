@@ -1,5 +1,55 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-12-17T09:37:25+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/12/17/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-12-17T00:00:00+08:00</published><updated>2018-12-17T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/12/17/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/12/17/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/bazil/fuse&quot;&gt;https://github.com/bazil/fuse&lt;/a&gt; fuse implemented in pure go used by peerkeep &lt;a href=&quot;https://github.com/perkeep/perkeep/blob/master/cmd/pk-mount/pkmount.go&quot;&gt;https://github.com/perkeep/perkeep/blob/master/cmd/pk-mount/pkmount.go&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-12-24T14:18:02+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/12/24/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-12-24T00:00:00+08:00</published><updated>2018-12-24T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/12/24/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/12/24/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/google/graphd&quot;&gt;https://github.com/google/graphd&lt;/a&gt; The Metaweb graph repository server, backend for Freebase &lt;a href=&quot;https://developers.google.com/freebase/&quot;&gt;https://developers.google.com/freebase/&lt;/a&gt; &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/golang/tools/tree/master/internal/lsp&quot;&gt;https://github.com/golang/tools/tree/master/internal/lsp&lt;/a&gt; go 官方已经在做 language server 了 /w\ &lt;a href=&quot;https://mattn.kaoriya.net/software/lang/go/20181217000056.htm&quot;&gt;https://mattn.kaoriya.net/software/lang/go/20181217000056.htm&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/bradfitz/exp-httpclient&quot;&gt;https://github.com/bradfitz/exp-httpclient&lt;/a&gt; Rethinking Go&amp;#39;s HTTP client 有一些我在 go.ice 里的 httpclient 里可以解决 增加 type 对 encode/decode 更好的支持 cc @gaocegege (之前在公司已经实现了一个 ....&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;k8s 是的，不过我觉得更值得参考的是 &lt;a href=&quot;https://caicloud.github.io/nirvana/zh-hans/guides/client.html&quot;&gt;https://caicloud.github.io/nirvana/zh-hans/guides/client.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;k8s 的实现过于复杂。不知道目前针对 openapi 的研究如何了，能通过它间接支持 client gen 么，可以的话估计还能做到多语言支持&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;@gaocegege 好像主要逻辑是在 &lt;a href=&quot;https://github.com/caicloud/nirvana/tree/master/utils&quot;&gt;https://github.com/caicloud/nirvana/tree/master/utils&lt;/a&gt; 下, 扫代码然后生成 client, 还有一种更简单的方法, 直接要求生成器调用 spec 的代码然后直接用 reflect 连 &lt;code&gt;go/ast&lt;/code&gt; 都不需要了 ... 我先写点 prototype 试试, openapi 好像什么都支持 &lt;a href=&quot;https://github.com/OpenAPITools/openapi-generator&quot;&gt;https://github.com/OpenAPITools/openapi-generator&lt;/a&gt; 但不知道自定义程度如何 ... &lt;/p&gt;
+
+&lt;p&gt;另外我看到 nirvana 也支持生成 swagger 所以也可以生成 swagger 然后让 openapi/swagger 生成其他语言的 .... 我很讨厌把 spec 写在 yaml 里 ... 很容易就 out of sync 了 ... &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/go-internals-cn/go-internals&quot;&gt;https://github.com/go-internals-cn/go-internals&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;go-internals 本书是关于 Go 程序设计语言内部实现原理的阐释，当前正在进行中。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blog.golang.org/modules2019&quot;&gt;https://blog.golang.org/modules2019&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Interested in Go modules? Learn what the Go team has planned for modules in 2019&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/kubernetes-sigs/kubebuilder&quot;&gt;https://github.com/kubernetes-sigs/kubebuilder&lt;/a&gt; and &lt;a href=&quot;https://github.com/operator-framework&quot;&gt;https://github.com/operator-framework&lt;/a&gt; difference? And controller runtime? @gaocegege &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/gardener/gardener&quot;&gt;https://github.com/gardener/gardener&lt;/a&gt; from SAP used to create kubernetes cluter &lt;a href=&quot;https://kubernetes.io/blog/2018/05/17/gardener/&quot;&gt;https://kubernetes.io/blog/2018/05/17/gardener/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/kyma-project/kyma&quot;&gt;https://github.com/kyma-project/kyma&lt;/a&gt; also from SAP, wrapper on top of knative which is wrapper on top of istio&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/strapdata/elassandra&quot;&gt;https://github.com/strapdata/elassandra&lt;/a&gt; Elassandra = Elasticsearch + Apache Cassandra ... saw it when looking at a k8s cassandra operator &lt;a href=&quot;https://github.com/instaclustr/cassandra-operator&quot;&gt;https://github.com/instaclustr/cassandra-operator&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/google/graphd The Metaweb graph repository server, backend for Freebase https://developers.google.com/freebase/</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/12/17/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-12-17T00:00:00+08:00</published><updated>2018-12-17T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/12/17/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/12/17/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/bazil/fuse&quot;&gt;https://github.com/bazil/fuse&lt;/a&gt; fuse implemented in pure go used by peerkeep &lt;a href=&quot;https://github.com/perkeep/perkeep/blob/master/cmd/pk-mount/pkmount.go&quot;&gt;https://github.com/perkeep/perkeep/blob/master/cmd/pk-mount/pkmount.go&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -748,63 +798,4 @@ Phaser is a fun, free and fast 2D game framework for making HTML5 games for desk
 
 &lt;p&gt;&lt;a href=&quot;https://githubengineering.com/mysql-high-availability-at-github/&quot;&gt;https://githubengineering.com/mysql-high-availability-at-github/&lt;/a&gt;&lt;/p&gt;
 
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">http://incredible.pm/ The Incredible Proof Machine was created to convey the fun and joy of doing proofs, especially in a computer aided way, without first having to learn the syntax of a “real” thereom prover.</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/10/15/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-10-15T00:00:00+08:00</published><updated>2018-10-15T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/10/15/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/10/15/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/hibayesian/awesome-automl-papers&quot;&gt;https://github.com/hibayesian/awesome-automl-papers&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Awesome AutoML 论文集&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/gajus/dindent/pull/17&quot;&gt;https://github.com/gajus/dindent/pull/17&lt;/a&gt; 3 年前写junzheng 外包的时候用的库的 PR 终于被 merge 了 (之前不支持中文 ...) @arrowrowe @swaylq @ComMouse   .... 我现在 php 都已经写不利索了 ...&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/mit-pdos/biscuit&quot;&gt;https://github.com/mit-pdos/biscuit&lt;/a&gt; 听说在 OSDI 上被怼的很惨? ... 用 go 写的  os ...&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/intel-go/nff-go&quot;&gt;https://github.com/intel-go/nff-go&lt;/a&gt; go 支持 dpdk ... 最后被室友教育你先写一个用 epoll 能用的 tsdb 吧 ....&lt;/p&gt;
-
-&lt;p&gt;以及 @gaocegege 你是被盗号了么 .... 发了 2 次强无敌 ...&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/simongog/sdsl-lite&quot;&gt;https://github.com/simongog/sdsl-lite&lt;/a&gt; Succinct Data Structure Library 2.0 &lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Succinct data structures can represent an object (such as a bitvector or a tree) in space close to the information-theoretic lower bound of the object while supporting operations of the original object efficiently&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;看上去感觉很强 .w. C++ 现在还只会 hello world 的我 ....&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/xtaci/kcptun&quot;&gt;https://github.com/xtaci/kcptun&lt;/a&gt; A Stable &amp;amp; Secure Tunnel Based On KCP with N:M Multiplexing 
-(里面还用到了  Reed–Solomon) &lt;a href=&quot;https://github.com/xtaci/kcp-go&quot;&gt;https://github.com/xtaci/kcp-go&lt;/a&gt; A Production-Grade Reliable-UDP Library for golang&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;最近在折腾机器人，发现 PID 这个东西实现起来还是可以很深入的……&lt;/p&gt;
-
-&lt;p&gt;先看了 Matlab 的入门 &lt;a href=&quot;https://www.youtube.com/watch?v=wkfEZmsQqiA&amp;list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y&quot;&gt;https://www.youtube.com/watch?v=wkfEZmsQqiA&amp;amp;list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;然后读了以前玩 FRC 时候的框架 wpilib 的实现 &lt;a href=&quot;https://github.com/wpilibsuite/allwpilib/blob/master/wpilibc/src/main/native/cpp/PIDBase.cpp&quot;&gt;https://github.com/wpilibsuite/allwpilib/blob/master/wpilibc/src/main/native/cpp/PIDBase.cpp&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/mit-pdos/biscuit&quot;&gt;https://github.com/mit-pdos/biscuit&lt;/a&gt; 听说在 OSDI 上被怼的很惨? ... 用 go 写的 os ...&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;带垃圾回收的 os 会不会 literally stop the world&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;终于知道 go 的 bdd 测试框架为什么叫 ginkgo &lt;a href=&quot;https://github.com/onsi/ginkgo&quot;&gt;https://github.com/onsi/ginkgo&lt;/a&gt; 了 .... 因为还有个 bdd 框架叫 cucumber &lt;a href=&quot;https://github.com/onsi/ginkgo&quot;&gt;https://github.com/onsi/ginkgo&lt;/a&gt; 待我写个框架 ... 叫 ~~spinach ~~ 擦已经有了 ... &lt;a href=&quot;https://github.com/codegram/spinach&quot;&gt;https://github.com/codegram/spinach&lt;/a&gt;  ....&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/DATA-DOG/go-sqlmock&quot;&gt;https://github.com/DATA-DOG/go-sqlmock&lt;/a&gt; a sql/database mock &lt;a href=&quot;https://github.com/DATA-DOG/go-sqlmock&quot;&gt;https://github.com/DATA-DOG/go-sqlmock&lt;/a&gt; . (this is not from data-dog, the application monitoring company)&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/hibayesian/awesome-automl-papers
-
-Awesome AutoML 论文集</summary></entry></feed>
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">http://incredible.pm/ The Incredible Proof Machine was created to convey the fun and joy of doing proofs, especially in a computer aided way, without first having to learn the syntax of a “real” thereom prover.</summary></entry></feed>
