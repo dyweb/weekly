@@ -1,5 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2018-12-24T14:18:02+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/12/24/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-12-24T00:00:00+08:00</published><updated>2018-12-24T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/12/24/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/12/24/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/google/graphd&quot;&gt;https://github.com/google/graphd&lt;/a&gt; The Metaweb graph repository server, backend for Freebase &lt;a href=&quot;https://developers.google.com/freebase/&quot;&gt;https://developers.google.com/freebase/&lt;/a&gt; &lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-01-02T11:29:09+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/01/01/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-01-01T00:00:00+08:00</published><updated>2019-01-01T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/01/01/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/01/01/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/thlorenz/doctoc&quot;&gt;https://github.com/thlorenz/doctoc&lt;/a&gt; generate toc inside a git repo, saw from @gaocegege cyclone ...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Rebilly/ReDoc/&quot;&gt;https://github.com/Rebilly/ReDoc/&lt;/a&gt; OpenAPI/Swagger-generated API Reference Documentation, used by nirvana &lt;a href=&quot;https://github.com/caicloud/nirvana/blob/master/cmd/nirvana/api/api.go#L264-L272&quot;&gt;https://github.com/caicloud/nirvana/blob/master/cmd/nirvana/api/api.go#L264-L272&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ops.tips/blog/udp-client-and-server-in-go/&quot;&gt;https://ops.tips/blog/udp-client-and-server-in-go/&lt;/a&gt; very detail and also gives some reference book  (computer network a top down approach XD)&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/concourse/concourse&quot;&gt;https://github.com/concourse/concourse&lt;/a&gt; &lt;a href=&quot;https://ops.tips/blog/how-to-run-concourse-ci-locally/&quot;&gt;https://ops.tips/blog/how-to-run-concourse-ci-locally/&lt;/a&gt; I think I saw it before but I didn&amp;#39;t star ... @gaocegege did you know that?&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ops.tips/blog/compiling-your-own-forked-docker-release/&quot;&gt;https://ops.tips/blog/compiling-your-own-forked-docker-release/&lt;/a&gt; 老哥的 blog 都很有意思 .w. (简单到我能看懂)&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jesseduffield/lazygit&quot;&gt;https://github.com/jesseduffield/lazygit&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Are YOU tired of typing every git command directly into the terminal, but you&amp;#39;re too stubborn to use Sourcetree because you&amp;#39;ll never forgive Atlassian for making Jira? This is the app for you!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/dyweb/gommon/releases/tag/v0.0.9&quot;&gt;https://github.com/dyweb/gommon/releases/tag/v0.0.9&lt;/a&gt; gommon 0.0.9 released, support error inspection in go2 proposal, allows you to walk the error chain and expand error list is also supported&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/liamg/aminal&quot;&gt;https://github.com/liamg/aminal&lt;/a&gt;  Golang terminal emulator from scratch&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/thlorenz/doctoc generate toc inside a git repo, saw from @gaocegege cyclone ...</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/12/24/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-12-24T00:00:00+08:00</published><updated>2018-12-24T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/12/24/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/12/24/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/google/graphd&quot;&gt;https://github.com/google/graphd&lt;/a&gt; The Metaweb graph repository server, backend for Freebase &lt;a href=&quot;https://developers.google.com/freebase/&quot;&gt;https://developers.google.com/freebase/&lt;/a&gt; &lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -757,45 +791,4 @@ Phaser is a fun, free and fast 2D game framework for making HTML5 games for desk
 
 &lt;p&gt;&lt;a href=&quot;https://www.cs.cmu.edu/%7E15131/f17/&quot;&gt;https://www.cs.cmu.edu/~15131/f17/&lt;/a&gt; 15-131 – Great Practical Ideas in CS from @arrowrowe (帮 at 下莎莎 ...&lt;/p&gt;
 
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">中国海归人才吸引力报告 from LinkedIn</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/10/22/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-10-22T00:00:00+08:00</published><updated>2018-10-22T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/10/22/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/10/22/weekly.html">&lt;p&gt;&lt;a href=&quot;http://incredible.pm/&quot;&gt;http://incredible.pm/&lt;/a&gt; The Incredible Proof Machine was created to convey the fun and joy of doing proofs, especially in a computer aided way, without first having to learn the syntax of a “real” thereom prover.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;GitHub Actions &lt;a href=&quot;https://github.com/features/actions&quot;&gt;https://github.com/features/actions&lt;/a&gt;
-感觉像 GitHub 版的 Shortcut，应该能干不少事情，现在是 beta 版&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Customized Jupyter notebook&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/dunovank/jupyter-themes&quot;&gt;https://github.com/dunovank/jupyter-themes&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.fluentcpp.com/getthemap/&quot;&gt;http://www.fluentcpp.com/getthemap/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The C++ STL Algorithm map&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/7023694/47262958-abffd880-d4aa-11e8-8004-9972468ac730.png&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;Thought of making a fantasy map generator a MOS program, but found out that there are a bunch of &lt;a href=&quot;https://github.com/Azgaar/Fantasy-Map-Generator&quot;&gt;existing works&lt;/a&gt;.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/src-d/go-mysql-server&quot;&gt;https://github.com/src-d/go-mysql-server&lt;/a&gt; An extensible MySQL server implementation in Go. you can write your own data source, i.e. csv, git &lt;a href=&quot;https://github.com/src-d/gitbase&quot;&gt;https://github.com/src-d/gitbase&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;MySQL High Availability at GitHub&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;At 10:52 pm Sunday UTC, multiple services on GitHub.com were affected by a network partition and subsequent database failure resulting in inconsistent information being presented on our website.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;作业：阅读这篇文章 找出为什么github的SQL HA方案会被network partition影响&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://githubengineering.com/mysql-high-availability-at-github/&quot;&gt;https://githubengineering.com/mysql-high-availability-at-github/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">http://incredible.pm/ The Incredible Proof Machine was created to convey the fun and joy of doing proofs, especially in a computer aided way, without first having to learn the syntax of a “real” thereom prover.</summary></entry></feed>
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">中国海归人才吸引力报告 from LinkedIn</summary></entry></feed>
