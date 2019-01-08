@@ -1,5 +1,83 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-01-02T11:29:09+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/01/01/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-01-01T00:00:00+08:00</published><updated>2019-01-01T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/01/01/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/01/01/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/thlorenz/doctoc&quot;&gt;https://github.com/thlorenz/doctoc&lt;/a&gt; generate toc inside a git repo, saw from @gaocegege cyclone ...&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-01-08T13:38:14+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/01/07/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-01-07T00:00:00+08:00</published><updated>2019-01-07T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/01/07/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/01/07/weekly.html">&lt;p&gt;&lt;a href=&quot;https://philipwalton.github.io/solved-by-flexbox/&quot;&gt;https://philipwalton.github.io/solved-by-flexbox/&lt;/a&gt; 认真又读了一般 ... 感觉我的 css 从来就都没学明白过 ...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://cloud-native-mac-setup.netlify.com/&quot;&gt;https://cloud-native-mac-setup.netlify.com/&lt;/a&gt; built using vuepress by @at15  (netlify 真好用.jpg &lt;a href=&quot;https://github.com/at15/cloud-native-mac-setup&quot;&gt;https://github.com/at15/cloud-native-mac-setup&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/cosname/cosx.org/issues/819&quot;&gt;https://github.com/cosname/cosx.org/issues/819&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;统计之都也开始做月报了，还可以发招聘广告（&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/golang/website&quot;&gt;https://github.com/golang/website&lt;/a&gt; future home of the golang.org website&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Algorithms by Jeff Erickson&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://jeffe.cs.illinois.edu/teaching/algorithms/&quot;&gt;http://jeffe.cs.illinois.edu/teaching/algorithms/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;题都挺有意思的（♣♥题相当难（&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://matplotlib.org/gallery/showcase/xkcd.html#sphx-glr-gallery-showcase-xkcd-py&quot;&gt;https://matplotlib.org/gallery/showcase/xkcd.html#sphx-glr-gallery-showcase-xkcd-py&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;xkcd 风格的 matplotlib 画图&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/HackerPoet/NonEuclidean&quot;&gt;https://github.com/HackerPoet/NonEuclidean&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;非欧空间渲染引擎（&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=kEB11PQ9Eo8&amp;feature=youtu.be&quot;&gt;https://www.youtube.com/watch?v=kEB11PQ9Eo8&amp;amp;feature=youtu.be&lt;/a&gt; 作者解释说这种渲染引擎可以用在 VR 中：如果我们可以将解谜游戏的很多很多房间放进非欧空间，那么玩 VR 游戏的人可以只在有限的范围里走（&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/dvyukov/go-fuzz&quot;&gt;https://github.com/dvyukov/go-fuzz&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Randomized testing for Go&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.bilibili.com/video/av39933064&quot;&gt;https://www.bilibili.com/video/av39933064&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;【技术分享】时序数据库简介（上海大学开源社区/无字幕/18-19 冬 6）&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lni/dragonboat&quot;&gt;https://github.com/lni/dragonboat&lt;/a&gt; Dragonboat is a feature complete and high performance multi-group Raft library in Go (use rocksdb for storage)&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://babeljs.io/docs/en/learn&quot;&gt;https://babeljs.io/docs/en/learn&lt;/a&gt; 学下 es2015 ... 居然支持了 object deconstruction&lt;/p&gt;
+
+&lt;p&gt;已经 playground 自带 transpiler 的 &lt;a href=&quot;https://babeljs.io/repl#?babili=false&amp;browsers=&amp;build=&amp;builtIns=false&amp;spec=false&amp;loose=false&amp;code_lz=GYVwdgxgLglg9mABAcwBQG8wEMC2BTALkQA8BfASkXQChFEIEBnOAGzwDoW41jyBuaqWppMuQogCsFakA&amp;debug=false&amp;forceAllTransforms=false&amp;shippedProposals=false&amp;circleciRepo=&amp;evaluate=false&amp;fileSize=false&amp;timeTravel=true&amp;sourceType=module&amp;lineWrap=true&amp;presets=es2015%2Creact%2Cstage-2&amp;prettier=false&amp;targets=&amp;version=6.26.0&amp;envVersion=&quot;&gt;time travel&lt;/a&gt; 很赞 &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ban.ai/multics/&quot;&gt;https://ban.ai/multics/&lt;/a&gt; found from &lt;a href=&quot;https://zhuanlan.zhihu.com/c_185117725&quot;&gt;https://zhuanlan.zhihu.com/c_185117725&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Bask in the glory of classic Multics ALM, APL, BASIC, BCPL, C, COBOL, EXEC_COM, Fortran, MacLISP, MIX, Pascal, PL/I, and RDC programming languages and the Emacs, TECO, QEDX, TED, and EDM text editors. Play games.  Exchange messages, email, and participate in Multics Forum meetings.  Experience real timesharing — as a public utility&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/openshift/cluster-image-registry-operator&quot;&gt;https://github.com/openshift/cluster-image-registry-operator&lt;/a&gt; operator for managing container registry&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://myoctocat.com/&quot;&gt;https://myoctocat.com/&lt;/a&gt; @gaocegege &lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://philipwalton.github.io/solved-by-flexbox/ 认真又读了一般 ... 感觉我的 css 从来就都没学明白过 ...</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/01/01/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-01-01T00:00:00+08:00</published><updated>2019-01-01T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/01/01/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/01/01/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/thlorenz/doctoc&quot;&gt;https://github.com/thlorenz/doctoc&lt;/a&gt; generate toc inside a git repo, saw from @gaocegege cyclone ...&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -750,45 +828,4 @@ TsFile is a columnar file format designed for time-series data, which supports e
 
 2018 中国开源年度报告：数据篇
 
-就看一乐好了，统计还不是很严谨</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/10/29/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-10-29T00:00:00+08:00</published><updated>2018-10-29T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/10/29/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/10/29/weekly.html">&lt;p&gt;&lt;a href=&quot;https://business.linkedin.com/zh-cn/talent-solutions/c/18/jun/overseas-talent-report?utm_source=SU#&quot;&gt;中国海归人才吸引力报告&lt;/a&gt; from LinkedIn&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/photonstorm/phaser&quot;&gt;https://github.com/photonstorm/phaser&lt;/a&gt; 
-Phaser is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering. &lt;a href=&quot;http://phaser.io&quot;&gt;http://phaser.io&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/zplug/zplug&quot;&gt;https://github.com/zplug/zplug&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;A next-generation plugin manager for zsh &lt;a href=&quot;https://zplug.sh&quot;&gt;https://zplug.sh&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/b4b4r07/screenshots/master/zplug/demo.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/pipelinedb/pipelinedb&quot;&gt;https://github.com/pipelinedb/pipelinedb&lt;/a&gt; High-performance time-series aggregation for PostgreSQL &lt;a href=&quot;https://www.pipelinedb.com&quot;&gt;https://www.pipelinedb.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;不知道跟同样基于 pg 的 timescaledb 有什么区别 .....&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/google/docsy&quot;&gt;https://github.com/google/docsy&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Docsy is a Hugo theme for technical documentation sets, providing simple navigation, site structure, and more.&lt;/p&gt;
-
-&lt;p&gt;Demo: &lt;a href=&quot;https://testydocsy.netlify.com/&quot;&gt;https://testydocsy.netlify.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/google/godepq&quot;&gt;https://github.com/google/godepq&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;A utility for inspecting go import trees&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/google/godepq/master/example.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.cs.cmu.edu/%7E15131/f17/&quot;&gt;https://www.cs.cmu.edu/~15131/f17/&lt;/a&gt; 15-131 – Great Practical Ideas in CS from @arrowrowe (帮 at 下莎莎 ...&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">中国海归人才吸引力报告 from LinkedIn</summary></entry></feed>
+就看一乐好了，统计还不是很严谨</summary></entry></feed>
