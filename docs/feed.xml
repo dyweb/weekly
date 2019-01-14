@@ -1,5 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-01-08T13:38:14+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/01/07/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-01-07T00:00:00+08:00</published><updated>2019-01-07T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/01/07/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/01/07/weekly.html">&lt;p&gt;&lt;a href=&quot;https://philipwalton.github.io/solved-by-flexbox/&quot;&gt;https://philipwalton.github.io/solved-by-flexbox/&lt;/a&gt; 认真又读了一般 ... 感觉我的 css 从来就都没学明白过 ...&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-01-14T13:42:12+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/01/14/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-01-14T00:00:00+08:00</published><updated>2019-01-14T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/01/14/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/01/14/weekly.html">&lt;p&gt;&lt;a href=&quot;https://explained.ai/decision-tree-viz/index.html&quot;&gt;https://explained.ai/decision-tree-viz/index.html&lt;/a&gt; also mentioned &lt;a href=&quot;https://www.edwardtufte.com/tufte/&quot;&gt;https://www.edwardtufte.com/tufte/&lt;/a&gt; which has a book THE VISUAL DISPLAY OF QUANTITATIVE INFORMATION&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://dependabot.com/rust/&quot;&gt;https://dependabot.com/rust/&lt;/a&gt; Dependabot creates pull requests to keep your Rust dependencies up-to-date. (感觉很有意思，说不定 weekly-gen 可以试试&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;类似 Node 的 greenkeeper?&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;在 2019年1月8日，20:41，Zhang Yuning &lt;a href=&quot;mailto:notifications@github.com&quot;&gt;notifications@github.com&lt;/a&gt; 写道：&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://dependabot.com/rust/&quot;&gt;https://dependabot.com/rust/&lt;/a&gt; &lt;a href=&quot;https://dependabot.com/rust/&quot;&gt;https://dependabot.com/rust/&lt;/a&gt; Dependabot creates pull requests to keep your Rust dependencies up-to-date. (感觉很有意思，说不定 weekly-gen 可以试试&lt;/p&gt;
+
+&lt;p&gt;—
+You are receiving this because you are subscribed to this thread.
+Reply to this email directly, view it on GitHub &lt;a href=&quot;https://github.com/dyweb/weekly/issues/94#issuecomment-452569990&quot;&gt;https://github.com/dyweb/weekly/issues/94#issuecomment-452569990&lt;/a&gt;, or mute the thread &lt;a href=&quot;https://github.com/notifications/unsubscribe-auth/AGssTuerbLflK0UH-8wB80sfbNqa-eeIks5vBXMJgaJpZM4Z0zY7&quot;&gt;https://github.com/notifications/unsubscribe-auth/AGssTuerbLflK0UH-8wB80sfbNqa-eeIks5vBXMJgaJpZM4Z0zY7&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;自动签本地 https 证书！ &lt;a href=&quot;https://github.com/FiloSottile/mkcert&quot;&gt;https://github.com/FiloSottile/mkcert&lt;/a&gt;
+（想起了被 OpenSSL 支配的恐惧&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://izbicki.me/blog/hlearn-cross-validates-400x-faster-than-weka&quot;&gt;https://izbicki.me/blog/hlearn-cross-validates-400x-faster-than-weka&lt;/a&gt; 一句话概括就是：有人用Haskell写了个比Weka快400倍的朴素贝叶斯cross validation，然后发到了ICML13上：&lt;a href=&quot;https://izbicki.me/public/papers/icml2013-algebraic-classifiers.pdf&quot;&gt;https://izbicki.me/public/papers/icml2013-algebraic-classifiers.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href=&quot;https://www.zhihu.com/question/23779178/answer/49218369&quot;&gt;https://www.zhihu.com/question/23779178/answer/49218369&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://sreeninet.wordpress.com/2016/05/29/macvlan-and-ipvlan/&quot;&gt;https://sreeninet.wordpress.com/2016/05/29/macvlan-and-ipvlan/&lt;/a&gt; 现在 k8s 主流的容器网络是? @gaocegege &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/tonsky/FiraCode&quot;&gt;https://github.com/tonsky/FiraCode&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Haskell 程序员表示代码可阅读性翻倍（&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/4198311/51073190-2e61f800-16a8-11e9-993a-6251ef706480.png&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;分不清 &lt;code&gt;==&lt;/code&gt; 和 &lt;code&gt;===&lt;/code&gt; 会不会是一个锅？&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;在 2019年1月12日，04:23，Alex Chi &lt;a href=&quot;mailto:notifications@github.com&quot;&gt;notifications@github.com&lt;/a&gt; 写道：&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/tonsky/FiraCode&quot;&gt;https://github.com/tonsky/FiraCode&lt;/a&gt; &lt;a href=&quot;https://github.com/tonsky/FiraCode&quot;&gt;https://github.com/tonsky/FiraCode&lt;/a&gt;
+Haskell 程序员表示代码可阅读性翻倍（&lt;/p&gt;
+
+&lt;p&gt;—
+You are receiving this because you commented.
+Reply to this email directly, view it on GitHub &lt;a href=&quot;https://github.com/dyweb/weekly/issues/94#issuecomment-453743356&quot;&gt;https://github.com/dyweb/weekly/issues/94#issuecomment-453743356&lt;/a&gt;, or mute the thread &lt;a href=&quot;https://github.com/notifications/unsubscribe-auth/AGssTtZq4-JCaN3rQ8VFVYhXEfIFVdfMks5vCdOygaJpZM4Z0zY7&quot;&gt;https://github.com/notifications/unsubscribe-auth/AGssTtZq4-JCaN3rQ8VFVYhXEfIFVdfMks5vCdOygaJpZM4Z0zY7&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;哦原来 &lt;code&gt;===&lt;/code&gt; 是三个等号，没毛病&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;在 2019年1月12日，04:23，Alex Chi &lt;a href=&quot;mailto:notifications@github.com&quot;&gt;notifications@github.com&lt;/a&gt; 写道：&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/tonsky/FiraCode&quot;&gt;https://github.com/tonsky/FiraCode&lt;/a&gt; &lt;a href=&quot;https://github.com/tonsky/FiraCode&quot;&gt;https://github.com/tonsky/FiraCode&lt;/a&gt;
+Haskell 程序员表示代码可阅读性翻倍（&lt;/p&gt;
+
+&lt;p&gt;—
+You are receiving this because you commented.
+Reply to this email directly, view it on GitHub &lt;a href=&quot;https://github.com/dyweb/weekly/issues/94#issuecomment-453743356&quot;&gt;https://github.com/dyweb/weekly/issues/94#issuecomment-453743356&lt;/a&gt;, or mute the thread &lt;a href=&quot;https://github.com/notifications/unsubscribe-auth/AGssTtZq4-JCaN3rQ8VFVYhXEfIFVdfMks5vCdOygaJpZM4Z0zY7&quot;&gt;https://github.com/notifications/unsubscribe-auth/AGssTtZq4-JCaN3rQ8VFVYhXEfIFVdfMks5vCdOygaJpZM4Z0zY7&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/be5invis/Sarasa-Gothic&quot;&gt;https://github.com/be5invis/Sarasa-Gothic&lt;/a&gt;
+@SkyZH I use this one...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;from &lt;a href=&quot;https://github.com/zenany/weekly/commit/440dc4c024c2501ec65e45b3dddf90c7f852e011&quot;&gt;https://github.com/zenany/weekly/commit/440dc4c024c2501ec65e45b3dddf90c7f852e011&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://engineering.linkedin.com/blog/2019/01/introducing-thirdeye--linkedins-business-wide-monitoring-platfor&quot;&gt;https://engineering.linkedin.com/blog/2019/01/introducing-thirdeye--linkedins-business-wide-monitoring-platfor&lt;/a&gt; forgot they have a open source column store &lt;a href=&quot;https://github.com/apache/incubator-pinot&quot;&gt;https://github.com/apache/incubator-pinot&lt;/a&gt; (the arch looks like Druid ...)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.yuque.com/mo-college/weekly/ny35wg&quot;&gt;https://www.yuque.com/mo-college/weekly/ny35wg&lt;/a&gt; 一个 visualization 的年度合集?&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://explained.ai/decision-tree-viz/index.html also mentioned https://www.edwardtufte.com/tufte/ which has a book THE VISUAL DISPLAY OF QUANTITATIVE INFORMATION</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/01/07/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-01-07T00:00:00+08:00</published><updated>2019-01-07T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/01/07/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/01/07/weekly.html">&lt;p&gt;&lt;a href=&quot;https://philipwalton.github.io/solved-by-flexbox/&quot;&gt;https://philipwalton.github.io/solved-by-flexbox/&lt;/a&gt; 认真又读了一般 ... 感觉我的 css 从来就都没学明白过 ...&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -774,58 +860,4 @@ Koa 框架下的轮子，用来做参数的输入校验和 Swagger 文档的自�
 &lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/thulab/tsfile t 大的 time series format .... 先 mark 有时间去看下 
 
 
-TsFile is a columnar file format designed for time-series data, which supports efficient compression and query. It is easy to integrate TsFile with your IOT big data processing frameworks.</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/11/05/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-11-05T00:00:00+08:00</published><updated>2018-11-05T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/11/05/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/11/05/weekly.html">&lt;p&gt;&lt;a href=&quot;https://linux.cn/article-10138-1.html&quot;&gt;https://linux.cn/article-10138-1.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;2018 中国开源年度报告：数据篇&lt;/p&gt;
-
-&lt;p&gt;就看一乐好了，统计还不是很严谨&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/lctt/grank/&quot;&gt;https://github.com/lctt/grank/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Github 项目活跃度分析工具&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://cwe.mitre.org/index.html&quot;&gt;https://cwe.mitre.org/index.html&lt;/a&gt; common weakness enumeration, found it when googling for TOCTOU race (time of check, time of use risk), which I saw in &lt;a href=&quot;https://github.com/google/go-write/blob/master/tempfile.go#L155&quot;&gt;https://github.com/google/go-write/blob/master/tempfile.go#L155&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/liuchengxu/git-commit-emoji-cn&quot;&gt;https://github.com/liuchengxu/git-commit-emoji-cn&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;：grin: git commit message emoji 使用指南&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/simple-icons/simple-icons&quot;&gt;https://github.com/simple-icons/simple-icons&lt;/a&gt; Free SVG icons for popular brands. See them all on one page at &lt;a href=&quot;https://simpleicons.org/&quot;&gt;https://simpleicons.org/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;found it when looking at &lt;a href=&quot;https://thesquareplanet.com/blog/instructors-guide-to-raft/&quot;&gt;https://thesquareplanet.com/blog/instructors-guide-to-raft/&lt;/a&gt; (是的我又捡起了 2 年前没有写完的 6.824 ..... &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/Microsoft/ProcDump-for-Linux&quot;&gt;https://github.com/Microsoft/ProcDump-for-Linux&lt;/a&gt;  create core dump based on trigger&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;ProcDump is a Linux reimagining of the classic ProcDump tool from the Sysinternals suite of tools for Windows. ProcDump provides a convenient way for Linux developers to create core dumps of their application based on performance triggers&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/rodrigo-brito/gocity&quot;&gt;https://github.com/rodrigo-brito/gocity&lt;/a&gt;  visualizing Go source code in 3D &lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/5621298/47973117-5c4b1080-e057-11e8-98c1-61447dc6585a.png&quot; alt=&quot;gocity-gommon&quot;&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/ashleymcnamara/gophers&quot;&gt;https://github.com/ashleymcnamara/gophers&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Gopher Artwork by Ashley McNamara&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/ashleymcnamara/gophers/master/collage4.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://linux.cn/article-10138-1.html
-
-2018 中国开源年度报告：数据篇
-
-就看一乐好了，统计还不是很严谨</summary></entry></feed>
+TsFile is a columnar file format designed for time-series data, which supports efficient compression and query. It is easy to integrate TsFile with your IOT big data processing frameworks.</summary></entry></feed>
