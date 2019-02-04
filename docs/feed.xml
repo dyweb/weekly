@@ -1,5 +1,138 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-01-14T13:42:12+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/01/14/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-01-14T00:00:00+08:00</published><updated>2019-01-14T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/01/14/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/01/14/weekly.html">&lt;p&gt;&lt;a href=&quot;https://explained.ai/decision-tree-viz/index.html&quot;&gt;https://explained.ai/decision-tree-viz/index.html&lt;/a&gt; also mentioned &lt;a href=&quot;https://www.edwardtufte.com/tufte/&quot;&gt;https://www.edwardtufte.com/tufte/&lt;/a&gt; which has a book THE VISUAL DISPLAY OF QUANTITATIVE INFORMATION&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-02-04T10:00:58+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/02/04/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-02-04T00:00:00+08:00</published><updated>2019-02-04T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/02/04/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/02/04/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/wzshiming/gen&quot;&gt;https://github.com/wzshiming/gen&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Generate interface source code for micro services&lt;/p&gt;
+
+&lt;p&gt;Just write normal functions, and Gen generates efficient routing source code and documentation for it Because the source code is generated, none of this affects runtime performance
+The differences caused by each change in the tool are shown directly in the generated source code
+generating clients is also supported&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://learngitbranching.js.org/&quot;&gt;https://learngitbranching.js.org/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;休闲养生小游戏，感受到了 &lt;code&gt;git merge&lt;/code&gt; 的 dirty（&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/4198311/51113844-7a46a580-183e-11e9-8c64-bc8f1773c0d3.png&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/kubernetes-sigs/kubespray&quot;&gt;https://github.com/kubernetes-sigs/kubespray&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;deploy k8s cluster in virtualbox/aws/azure/more&lt;/p&gt;
+
+&lt;p&gt;我总觉得 k8s 部署这么复杂，不是用外部写好的脚本就能解决的，可能有一些架构上的锅需要改&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/d5/tengo&quot;&gt;https://github.com/d5/tengo&lt;/a&gt; A fast script language for Go &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Tengo is fast as it&amp;#39;s compiled to bytecode and executed on stack-based VM that&amp;#39;s written in native Go&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/nektos/act&quot;&gt;https://github.com/nektos/act&lt;/a&gt; run github action locally (feels like make and can even generate a flow diagram in cli ...)&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blog.acolyer.org/2019/01/16/sagedb-a-learned-database-system/&quot;&gt;https://blog.acolyer.org/2019/01/16/sagedb-a-learned-database-system/&lt;/a&gt; the morning paper from CIDR 2019&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;CIDR 2019 &lt;a href=&quot;http://cidrdb.org/cidr2019/papers/p119-hellerstein-cidr19.pdf&quot;&gt;http://cidrdb.org/cidr2019/papers/p119-hellerstein-cidr19.pdf&lt;/a&gt; Serverless Computing: One Step Forward, Two Steps Back&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/basecs/compressing-radix-trees-without-too-many-tears-a2e658adb9a0&quot;&gt;https://medium.com/basecs/compressing-radix-trees-without-too-many-tears-a2e658adb9a0&lt;/a&gt; (compress 之后怎么存没怎么提 ...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://notes.shichao.io/lkd/ch4/&quot;&gt;https://notes.shichao.io/lkd/ch4/&lt;/a&gt; 别人的笔记 cc @gaocegege &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.beyondjava.net/escape-analysis-java&quot;&gt;https://www.beyondjava.net/escape-analysis-java&lt;/a&gt; 比较浅显的 ... 我以前只知道 go 有 escape analyais 里面提到了 scalar replacement 针对一个 class 里只有一个 int 的优化 ... 另外除了 heap -&amp;gt; stack, escape analysis 还能用来移除用不到的 lock (i.e. StringBuffer 的 length 的 synchronized) &lt;/p&gt;
+
+&lt;p&gt;我为什么开始看 java 了.jpg&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://aosabook.org/en/500L/clustering-by-consensus.html&quot;&gt;http://aosabook.org/en/500L/clustering-by-consensus.html&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://aosabook.org/en/index.html&quot;&gt;http://aosabook.org/en/index.html&lt;/a&gt; must have posted it before ... but worth posting it again ...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/aws/lumberyard&quot;&gt;https://github.com/aws/lumberyard&lt;/a&gt; aws 还有开源的 3a 引擎 ...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Setting up a new computer &lt;a href=&quot;https://github.com/nnja/new-computer&quot;&gt;https://github.com/nnja/new-computer&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://whydoesaptnotusehttps.com/&quot;&gt;https://whydoesaptnotusehttps.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Why does APT not use HTTPS?&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/oracle/mysql-operator&quot;&gt;https://github.com/oracle/mysql-operator&lt;/a&gt; oracle 居然有 mysql operator&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://arxiv.org/abs/1709.07821&quot;&gt;https://arxiv.org/abs/1709.07821&lt;/a&gt; Roaring Bitmaps: Implementation of an Optimized Software Library 
+通过 simd 加速 union, intersect (对 filter 类的 query 有用? 我记得 influxdb 有在 index 里用到过) 感觉 text search 的都有用到&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/RoaringBitmap/RoaringBitmap&quot;&gt;https://github.com/RoaringBitmap/RoaringBitmap&lt;/a&gt; &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blog.cloudera.com/blog/2013/02/inside-cloudera-impala-runtime-code-generation/&quot;&gt;https://blog.cloudera.com/blog/2013/02/inside-cloudera-impala-runtime-code-generation/&lt;/a&gt; apache impala code gen&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Life of a triangle &lt;a href=&quot;https://developer.nvidia.com/content/life-triangle-nvidias-logical-pipeline&quot;&gt;https://developer.nvidia.com/content/life-triangle-nvidias-logical-pipeline&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;cache-aware Trie&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Tessil/hat-trie&quot;&gt;https://github.com/Tessil/hat-trie&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/uber/aresdb&quot;&gt;https://github.com/uber/aresdb&lt;/a&gt; uber GPU db for realtime analytical &lt;a href=&quot;https://eng.uber.com/aresdb/&quot;&gt;https://eng.uber.com/aresdb/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/iina/iina&quot;&gt;https://github.com/iina/iina&lt;/a&gt; video player in mac&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/pbghogehoge/ssg&quot;&gt;https://github.com/pbghogehoge/ssg&lt;/a&gt; 秋霜玉
+(good old game...
+(文物开源系列(&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;开了谷歌翻译之后它居然会在滚动的过程中把代码注释里的日文逐渐替换成英语 ... 我以为都是整个页面翻译 &lt;a href=&quot;https://github.com/pbghogehoge/ssg/blob/master/MAIN/MAIN.CPP&quot;&gt;https://github.com/pbghogehoge/ssg/blob/master/MAIN/MAIN.CPP&lt;/a&gt; ... /w\ 火星了&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://refactoring.com/catalog/&quot;&gt;https://refactoring.com/catalog/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;重构技巧字典（不是很全）&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/wzshiming/gen
+
+Generate interface source code for micro services
+
+Just write normal functions, and Gen generates efficient routing source code and documentation for it Because the source code is generated, none of this affects runtime performance
+The differences caused by each change in the tool are shown directly in the generated source code
+generating clients is also supported</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/01/14/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-01-14T00:00:00+08:00</published><updated>2019-01-14T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/01/14/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/01/14/weekly.html">&lt;p&gt;&lt;a href=&quot;https://explained.ai/decision-tree-viz/index.html&quot;&gt;https://explained.ai/decision-tree-viz/index.html&lt;/a&gt; also mentioned &lt;a href=&quot;https://www.edwardtufte.com/tufte/&quot;&gt;https://www.edwardtufte.com/tufte/&lt;/a&gt; which has a book THE VISUAL DISPLAY OF QUANTITATIVE INFORMATION&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -797,67 +930,4 @@ Web Workers give web developers the ability to run code in multiple threads. 这
 
 &lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/Cody2333/koa-swagger-decorator
 
-Koa 框架下的轮子，用来做参数的输入校验和 Swagger 文档的自动生成</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/11/12/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-11-12T00:00:00+08:00</published><updated>2018-11-12T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/11/12/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/11/12/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/thulab/tsfile&quot;&gt;https://github.com/thulab/tsfile&lt;/a&gt; t 大的 time series format .... 先 mark 有时间去看下 &lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;TsFile is a columnar file format designed for time-series data, which supports efficient compression and query. It is easy to integrate TsFile with your IOT big data processing frameworks.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/ktr0731/evans&quot;&gt;https://github.com/ktr0731/evans&lt;/a&gt; universal grpc client with REPL&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Ref &lt;a href=&quot;https://github.com/gaocegege/papers-notebook/issues/105&quot;&gt;https://github.com/gaocegege/papers-notebook/issues/105&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;LegoOS: A Disseminated, Distributed OS for Hardware Resource Disaggregation&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.usenix.org/system/files/osdi18-shan.pdf&quot;&gt;https://www.usenix.org/system/files/osdi18-shan.pdf&lt;/a&gt;
-&lt;a href=&quot;https://www.usenix.org/sites/default/files/conference/protected-files/osdi18_slides_shan.pdf&quot;&gt;https://www.usenix.org/sites/default/files/conference/protected-files/osdi18_slides_shan.pdf&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;OSDI&amp;#39;18 Best Paper&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;赶在尾巴搬运一下别人的 weekly &lt;a href=&quot;https://github.com/zenany/weekly/commit/56c332c8a235f755dcdad8f61066b87df6a1db1f&quot;&gt;https://github.com/zenany/weekly/commit/56c332c8a235f755dcdad8f61066b87df6a1db1f&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://medium.com/@mattburgess/beyond-console-log-2400fdf4a9d8&quot;&gt;https://medium.com/@mattburgess/beyond-console-log-2400fdf4a9d8&lt;/a&gt; console.log 的多种用法&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;console.table &lt;/li&gt;
-&lt;li&gt;console.count(name)&lt;/li&gt;
-&lt;li&gt;console.time() and console.timeEnd() 
-
-&lt;ul&gt;
-&lt;li&gt;[ ] is there any boundary for it? i.e. must call both within same function&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;console.group ... group your console logs ....&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/5621298/48322128-d55be200-e5da-11e8-8928-3104fd3d82e2.png&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;(配图微笑中透露着忧伤)&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;还是搬运 &lt;a href=&quot;https://github.com/zenany/weekly/commit/56c332c8a235f755dcdad8f61066b87df6a1db1f&quot;&gt;https://github.com/zenany/weekly/commit/56c332c8a235f755dcdad8f61066b87df6a1db1f&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/GoogleChromeLabs/jsbi&quot;&gt;https://github.com/GoogleChromeLabs/jsbi&lt;/a&gt;  @arrowrowe 还记得你在阿里的实习么&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;搬运 &lt;a href=&quot;https://github.com/zenany/weekly/commit/56c332c8a235f755dcdad8f61066b87df6a1db1f&quot;&gt;https://github.com/zenany/weekly/commit/56c332c8a235f755dcdad8f61066b87df6a1db1f&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Programming Paradigms for Dummies: What Every Programmer Should Know&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.info.ucl.ac.be/%7Epvr/VanRoyChapter.pdf&quot;&gt;https://www.info.ucl.ac.be/~pvr/VanRoyChapter.pdf&lt;/a&gt; &lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;This chapter gives an introduction to all the main programming paradigms, their underlying concepts, and the relationships between them. We give a broad view to help programmers choose the right concepts they need to solve the problems at hand. We give a taxonomy of almost 30 useful programming paradigms and how they are related. Most of them differ only in one or a few concepts, but this can make a world of difference in programming.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/thulab/tsfile t 大的 time series format .... 先 mark 有时间去看下 
-
-
-TsFile is a columnar file format designed for time-series data, which supports efficient compression and query. It is easy to integrate TsFile with your IOT big data processing frameworks.</summary></entry></feed>
+Koa 框架下的轮子，用来做参数的输入校验和 Swagger 文档的自动生成</summary></entry></feed>
