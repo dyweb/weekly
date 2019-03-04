@@ -1,5 +1,136 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-02-11T16:50:14+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/02/11/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-02-11T00:00:00+08:00</published><updated>2019-02-11T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/02/11/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/02/11/weekly.html">&lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/median-of-two-sorted-arrays/&quot;&gt;https://leetcode.com/problems/median-of-two-sorted-arrays/&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-03-04T12:57:58+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/03/04/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-03-04T00:00:00+08:00</published><updated>2019-03-04T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/03/04/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/03/04/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/petermattis/pebble&quot;&gt;https://github.com/petermattis/pebble&lt;/a&gt; RocksDB/LevelDB inspired key-value database in Go (used?  by CockroachDB)&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.timsommer.be/famous-laws-of-software-development/&quot;&gt;https://www.timsommer.be/famous-laws-of-software-development/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Famous Laws Of Software Development&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/zziz/pwc&quot;&gt;https://github.com/zziz/pwc&lt;/a&gt; Papers with code. Sorted by stars. Updated weekly.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://sysdig.com/blog/the-art-of-writing-ebpf-programs-a-primer/&quot;&gt;https://sysdig.com/blog/the-art-of-writing-ebpf-programs-a-primer/&lt;/a&gt; also netflix&amp;#39;s ebpf blog &lt;a href=&quot;https://medium.com/netflix-techblog/extending-vector-with-ebpf-to-inspect-host-and-container-performance-5da3af4c584b&quot;&gt;https://medium.com/netflix-techblog/extending-vector-with-ebpf-to-inspect-host-and-container-performance-5da3af4c584b&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lemire/simdjson&quot;&gt;https://github.com/lemire/simdjson&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;用 SIMD 解析 JSON，同样思路可以用在别的协议上（MOS 可能性微存？），吊打传统库&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://arxiv.org/pdf/1902.04738.pdf&quot;&gt;https://arxiv.org/pdf/1902.04738.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;新的 malloc, 据说可以降低 mem fragmentation, 用 firefox 和 redis 测了是如此，不知道有没有代码&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://golang.org/doc/go1.12&quot;&gt;https://golang.org/doc/go1.12&lt;/a&gt; go1.12 released&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;from &lt;a href=&quot;https://github.com/zenany/weekly/commit/aa63055e9b8858717dab76e03c8e19ed0da8df64&quot;&gt;https://github.com/zenany/weekly/commit/aa63055e9b8858717dab76e03c8e19ed0da8df64&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@gabriel_20625/technical-lessons-from-building-a-compiler-startup-for-3-years-4473405161cd&quot;&gt;https://medium.com/@gabriel_20625/technical-lessons-from-building-a-compiler-startup-for-3-years-4473405161cd&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/petermattis/pebble RocksDB/LevelDB inspired key-value database in Go (used?  by CockroachDB)</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/02/25/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-02-25T00:00:00+08:00</published><updated>2019-02-25T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/02/25/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/02/25/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/keras-team/keras&quot;&gt;https://github.com/keras-team/keras&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;前几天重新开始看 &lt;a href=&quot;https://developers.google.com/machine-learning/crash-course/&quot;&gt;https://developers.google.com/machine-learning/crash-course/&lt;/a&gt; 看 Tensorflow 的代码看到自闭…… 突然发现还有 Keras 这种简单的框架？看来我和时代脱节太久了……&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/pengan1987/computer-museum-dnbwg&quot;&gt;https://github.com/pengan1987/computer-museum-dnbwg&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;DNBWG.com 网站是配合知乎专栏 古董电脑室 建设的在线电脑模拟器网站，希望能够以一种更直观的方式展示历史上著名的电脑平台的特性。针对中文读者还加入了许多中国市场上独有的硬件和软件平台，包括UCDOS、文曲星电子词典、小霸王学习机、中华学习机等。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/RimoChan/Librian&quot;&gt;https://github.com/RimoChan/Librian&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Galgame 引擎，简单 DSL，中文文档&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/kubernetes-sigs/kind&quot;&gt;https://github.com/kubernetes-sigs/kind&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;kind is a tool for running local Kubernetes clusters using Docker container “nodes”.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Steam Link on Raspberry Pi&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://support.steampowered.com/kb_article.php?ref=6153-IFGH-6589&quot;&gt;https://support.steampowered.com/kb_article.php?ref=6153-IFGH-6589&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;实测会让我的 Macbook 黑屏……&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;看 Algorithm 的时候了解到 Hash function 可能会导致 DoS，然后发现了可以防御这种 DoS 的 Hash function&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.m.wikipedia.org/wiki/MurmurHash&quot;&gt;https://en.m.wikipedia.org/wiki/MurmurHash&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@robertgrosse/generating-64-bit-hash-collisions-to-dos-python-5b21404a5306&quot;&gt;https://medium.com/@robertgrosse/generating-64-bit-hash-collisions-to-dos-python-5b21404a5306&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Generating 64 bit hash collisions to DOS Python&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://eng.uber.com/manifold/&quot;&gt;https://eng.uber.com/manifold/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Uber 的 ML Model 可视化系统，相比于目前的，多了一些模型比较等等可视化功能。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.wired.com/story/finding-lena-the-patron-saint-of-jpegs/&quot;&gt;https://www.wired.com/story/finding-lena-the-patron-saint-of-jpegs/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Lena 的故事&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/faiface/beep&quot;&gt;https://github.com/faiface/beep&lt;/a&gt; &lt;a href=&quot;https://faiface.github.io/post/how-i-built-audio-lib-composite-pattern/&quot;&gt;https://faiface.github.io/post/how-i-built-audio-lib-composite-pattern/&lt;/a&gt; an audio processing library in go&lt;/p&gt;
+
+&lt;p&gt;沉寂的 weekly ....&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;可能都出去玩了。。。@cece 不如放点旅行照片上weekly吧&lt;/p&gt;
+
+&lt;p&gt;On February 23, 2019 at 5:57:13 PM, Pinglei Guo (&lt;a href=&quot;mailto:notifications@github.com&quot;&gt;notifications@github.com&lt;/a&gt;)
+wrote:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/faiface/beep&quot;&gt;https://github.com/faiface/beep&lt;/a&gt;
+&lt;a href=&quot;https://faiface.github.io/post/how-i-built-audio-lib-composite-pattern/&quot;&gt;https://faiface.github.io/post/how-i-built-audio-lib-composite-pattern/&lt;/a&gt;
+an audio processing library in go&lt;/p&gt;
+
+&lt;p&gt;沉寂的 weekly ....&lt;/p&gt;
+
+&lt;p&gt;—
+You are receiving this because you are subscribed to this thread.
+Reply to this email directly, view it on GitHub
+&lt;a href=&quot;https://github.com/dyweb/weekly/issues/97#issuecomment-466725760&quot;&gt;https://github.com/dyweb/weekly/issues/97#issuecomment-466725760&lt;/a&gt;, or mute
+the thread
+&lt;a href=&quot;https://github.com/notifications/unsubscribe-auth/AD1Xn37IvqlVmIyvjQF9EqyZq409b_eCks5vQfF5gaJpZM4azvLt&quot;&gt;https://github.com/notifications/unsubscribe-auth/AD1Xn37IvqlVmIyvjQF9EqyZq409b_eCks5vQfF5gaJpZM4azvLt&lt;/a&gt;
+.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://bit.ly/lifeofapixel&quot;&gt;https://bit.ly/lifeofapixel&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Life of a Pixel&lt;/p&gt;
+
+&lt;p&gt;Slides on the rendering pipeline in Chrome.&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/keras-team/keras
+
+前几天重新开始看 https://developers.google.com/machine-learning/crash-course/ 看 Tensorflow 的代码看到自闭…… 突然发现还有 Keras 这种简单的框架？看来我和时代脱节太久了……</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/02/11/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-02-11T00:00:00+08:00</published><updated>2019-02-11T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/02/11/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/02/11/weekly.html">&lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/median-of-two-sorted-arrays/&quot;&gt;https://leetcode.com/problems/median-of-two-sorted-arrays/&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Leetcode python 现在有 type annotation 了&lt;/p&gt;
 
@@ -617,234 +748,4 @@ Monadic Parsing in Haskell&lt;/p&gt;
 
 &lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/deebloo/things-you-can-do-in-a-web-worker
 
-Web Workers give web developers the ability to run code in multiple threads. 这个是 web worker 可以做的一些事情</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/12/03/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-12-03T00:00:00+08:00</published><updated>2018-12-03T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/12/03/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/12/03/weekly.html">&lt;p&gt;yet another npm story&lt;code&gt;https://github.com/dominictarr/event-stream/issues/116&lt;/code&gt; from @htfy96 twitter and I am just a carrier for @arrowrowe (didn&amp;#39;t use the link format to avoid gh show issue reference on the other end)&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;gorilla/sessions provides cookie and filesystem sessions and infrastructure for custom session backends.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/gorilla/sessions&quot;&gt;https://github.com/gorilla/sessions&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://aws.amazon.com/blogs/opensource/firecracker-open-source-secure-fast-microvm-serverless/&quot;&gt;https://aws.amazon.com/blogs/opensource/firecracker-open-source-secure-fast-microvm-serverless/&lt;/a&gt; 
-&lt;a href=&quot;https://github.com/firecracker-microvm/firecracker&quot;&gt;https://github.com/firecracker-microvm/firecracker&lt;/a&gt; (written in rust) also has adapter for containerd &lt;a href=&quot;https://github.com/firecracker-microvm/firecracker-containerd&quot;&gt;https://github.com/firecracker-microvm/firecracker-containerd&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;seems just a daemon to wrap KVM w/ REST API?&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Mundane is a Rust cryptography library backed by BoringSSL that is difficult to misuse, ergonomic, and performant (in that order).&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/google/mundane&quot;&gt;https://github.com/google/mundane&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;@codeworm96 即将要贡献代码的项目&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/firecracker-microvm/firecracker&quot;&gt;https://github.com/firecracker-microvm/firecracker&lt;/a&gt;  Secure and fast microVMs for serverless computing.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/303920344&quot;&gt;如何评价aws开源的firecracker，它对接下来的虚拟机、容器发展方向带来什么变化吗？&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/facebookexperimental/MIRAI&quot;&gt;https://github.com/facebookexperimental/MIRAI&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Mirai is an abstract interpreter for the Rust compiler&amp;#39;s mid-level intermediate representation (MIR). It is intended to become a widely used static analysis tool for Rust. The initial focus will be on taint analyis.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Cool.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/google/wire&quot;&gt;https://github.com/google/wire&lt;/a&gt; Compile-time Dependency Injection for Go used by &lt;a href=&quot;https://github.com/google/go-cloud&quot;&gt;https://github.com/google/go-cloud&lt;/a&gt;  saw it in meetup &lt;a href=&quot;https://github.com/enocom/presentations/tree/master/wire&quot;&gt;https://github.com/enocom/presentations/tree/master/wire&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/dotnet/coreclr/blob/b3475eb87a5f28fb88cf23ebe30f174eff75bb46/Documentation/design-docs/GuardedDevirtualization.md?utm_source=wechat_session&amp;utm_medium=social&amp;utm_oi=27912371699712&quot;&gt;https://github.com/dotnet/coreclr/blob/b3475eb87a5f28fb88cf23ebe30f174eff75bb46/Documentation/design-docs/GuardedDevirtualization.md?utm_source=wechat_session&amp;amp;utm_medium=social&amp;amp;utm_oi=27912371699712&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;瞻仰大佬是怎么做编译器优化的&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/objectbox/objectbox-go&quot;&gt;https://github.com/objectbox/objectbox-go&lt;/a&gt; ObjectBox is an easy to use, object-oriented lightweight database and a full alternative to SQLite.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Eat My Data: How Everybody Gets File IO Wrong (2008)&lt;/p&gt;
-
-&lt;p&gt;发现写的raft老是丢数据……读了这个才发现以前对“落盘”的理解都不对（&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.slideshare.net/nan1nan1/eat-my-data&quot;&gt;https://www.slideshare.net/nan1nan1/eat-my-data&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://crawshaw.io/blog/utf7&quot;&gt;https://crawshaw.io/blog/utf7&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;imap 协议默认用的是一种 modified utf7&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://increment.com/documentation/&quot;&gt;https://increment.com/documentation/&lt;/a&gt; stripe 的人讲怎么写文档 (公司内部 &amp;amp; 开源) 有一系列文章&lt;/p&gt;
-
-&lt;p&gt;其中一篇 &lt;a href=&quot;https://increment.com/documentation/notes-on-the-synthesis-of-labyrinths/&quot;&gt;notes-on-the-synthesis-of-labyrinths&lt;/a&gt; 里面提的很好的一点是不应该只讲最好的解决方法，而是应该给出完整的 context。实际的开发流程往往是一个图的 dfs (打开 google 然后一路点进去，遇到错路再退回来) 而很多文档和文章只是给出一个线性的流程，这样大部分读者很难对里面描述的东西感到信服，也不能把里面的经验用到自己的开发当中。(不过也因项目而易，有的项目光 get start 就能让人看很久了 ...)&lt;/p&gt;
-
-&lt;p&gt;现在越来越觉得维护一个好的文档是十分重要的, 能想清一个问题并且把各种方法的利弊讲出来其实比写出恰好能够工作的代码更重要 (即使是只有自己开发和自己使用的坑(伤感 ...ry))。当然上班的时候更多还是就写一些明明知道以后会坑别人的代码, 毕竟我已经被坑的麻木了 .. &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;提供一个思路：Design doc应该由大组编写一个template，我见过的常见section有：&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;project staus (eg. draft, reviewed, implementing, experimenting, finalized).&lt;/li&gt;
-&lt;li&gt;Contact info (eg. Eng, PM).&lt;/li&gt;
-&lt;li&gt;TL;DR&lt;/li&gt;
-&lt;li&gt;Background&lt;/li&gt;
-&lt;li&gt;Objection (including goal, non-goal).&lt;/li&gt;
-&lt;li&gt;Design Overview&lt;/li&gt;
-&lt;li&gt;Design Details&lt;/li&gt;
-&lt;li&gt;Other design options (and why we don&amp;#39;t do it).&lt;/li&gt;
-&lt;li&gt;Testing plan&lt;/li&gt;
-&lt;li&gt;Rollout plan&lt;/li&gt;
-&lt;li&gt;Q&amp;amp;A&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;感觉这样每个Eng都会cover这些design options，然后每一份design都会收录在组里文档目录里，方便后面的人review。&lt;/p&gt;
-
-&lt;p&gt;Add a link to keep the content in weekly: &lt;a href=&quot;https://google.com&quot;&gt;https://google.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/wowlusitong/awesome-education&quot;&gt;https://github.com/wowlusitong/awesome-education&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;学生福利-收集支持教育优惠的软件与服务 &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://live.bilibili.com/4630260&quot;&gt;https://live.bilibili.com/4630260&lt;/a&gt; tidb hackthon 有人做了 timeseries with TiKV (一天速成 rust 和失败 ...&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p1190r0.html&quot;&gt;http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p1190r0.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;herb：6个operator太多了，我们搞一个 spaceship operator 抄一抄 java
-本文作者：可是这样 operator!= 就会变慢，比如两个不等长的 vector 本可以直接返回 true 现在就得找一下是大于还是小于&lt;/p&gt;
-
-&lt;p&gt;然后提了100种听起来都怪怪的解决方案。为啥不直接允许用户重写 operator== 然后比 spaceship 优先级高呢？&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Eat My Data: How Everybody Gets File IO Wrong (2008)&lt;/p&gt;
-
-&lt;p&gt;发现写的raft老是丢数据……读了这个才发现以前对“落盘”的理解都不对（&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.slideshare.net/nan1nan1/eat-my-data&quot;&gt;https://www.slideshare.net/nan1nan1/eat-my-data&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;tl;dr Use &lt;code&gt;fsync&lt;/code&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;from &lt;a href=&quot;https://github.com/zenany/weekly/commit/ce8caf00a487942881333cdd5a56b80e3e53e9f2&quot;&gt;https://github.com/zenany/weekly/commit/ce8caf00a487942881333cdd5a56b80e3e53e9f2&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/elsewhencode/project-guidelines&quot;&gt;https://github.com/elsewhencode/project-guidelines&lt;/a&gt; 主要是针对 js 项目的，没什么特别新的东西，但是能完全做到(还是得看队友 ....&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;from &lt;a href=&quot;https://github.com/zenany/weekly/commit/ce8caf00a487942881333cdd5a56b80e3e53e9f2&quot;&gt;https://github.com/zenany/weekly/commit/ce8caf00a487942881333cdd5a56b80e3e53e9f2&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://thecreativeindependent.com/guides/how-to-balance-full-time-work-with-creative-projects/&quot;&gt;https://thecreativeindependent.com/guides/how-to-balance-full-time-work-with-creative-projects/&lt;/a&gt; 虽然不是讲软件的但是还是讲的很好的, 比如拒绝周末跟别人出去玩(这点可以丧起来 @xplorld ) done is better than perfect etc... 当然看文章总是容易，做到里面说的就还是需要很大的毅力了 ....&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;from &lt;a href=&quot;https://news.ycombinator.com/item?id=18508284&quot;&gt;https://news.ycombinator.com/item?id=18508284&lt;/a&gt; a mac ascii art software, no longer under develop though, it&amp;#39;s now $9 &lt;a href=&quot;https://monodraw.helftone.com/&quot;&gt;https://monodraw.helftone.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;@xplorld fsync的语义也是奥妙重重……在Mac上fsync也没用（&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://wiki.postgresql.org/wiki/Fsync_Errors&quot;&gt;https://wiki.postgresql.org/wiki/Fsync_Errors&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/ithinco/i-am-chinese-the-dragonfly-must-go-on&quot;&gt;https://github.com/ithinco/i-am-chinese-the-dragonfly-must-go-on&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;我其实不是太懂，搜索引擎也不是只有百度啊&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">yet another npm storyhttps://github.com/dominictarr/event-stream/issues/116 from @htfy96 twitter and I am just a carrier for @arrowrowe (didn&amp;#39;t use the link format to avoid gh show issue reference on the other end)</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/11/26/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-11-26T00:00:00+08:00</published><updated>2018-11-26T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/11/26/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/11/26/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/AliyunContainerService/log-pilot&quot;&gt;https://github.com/AliyunContainerService/log-pilot&lt;/a&gt; 阿里云的人写的 docker 日志收集, 应该是调 docker api 来读 ...  docker 本身的日志存储好像实现的比较一般 ...&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/rstudio-education/rstats-ed&quot;&gt;https://github.com/rstudio-education/rstats-ed&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;List of courses teaching R&lt;/p&gt;
-
-&lt;p&gt;R 语言真的还蛮好用的&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;The paper trail&lt;/p&gt;
-
-&lt;p&gt;Distributed systems and data processing的论文notes，摸鱼了好久后最近好像又更新了几篇……&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.the-paper-trail.org/&quot;&gt;https://www.the-paper-trail.org/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/bombela/backward-cpp&quot;&gt;https://github.com/bombela/backward-cpp&lt;/a&gt; A beautiful stack trace pretty printer for C++&lt;/p&gt;
-
-&lt;p&gt;(又要开始入门 cpp 了&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/westerndigitalcorporation/blb&quot;&gt;https://github.com/westerndigitalcorporation/blb&lt;/a&gt; Blb is a distributed object storage system designed for use on bare metal in cluster computing environments.&lt;/p&gt;
-
-&lt;p&gt;(abandoned, the company was acquired by wd and the code is open sourced as educational source&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://gotocph.com/2018/sessions/599&quot;&gt;https://gotocph.com/2018/sessions/599&lt;/a&gt; good ideas thatwe forgot, keynote by Erlang inventor JoeArmstrong &lt;a href=&quot;https://files.gotocon.com/uploads/slides/conference_10/599/original/forget40.pdf&quot;&gt;slide&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;There is also a PL track &lt;a href=&quot;https://gotocph.com/2018/tracks/114&quot;&gt;https://gotocph.com/2018/tracks/114&lt;/a&gt; which .. well I don&amp;#39;t think is very interesting&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/whusnoopy/renrenBackup&quot;&gt;https://github.com/whusnoopy/renrenBackup&lt;/a&gt; A backup tool for renren.com &lt;/p&gt;
-
-&lt;p&gt;人人被收购了，早日 backup 保平安&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.inf.ethz.ch/personal/wirth/CompilerConstruction/&quot;&gt;https://www.inf.ethz.ch/personal/wirth/CompilerConstruction/&lt;/a&gt; by Nikalaus Wirth author of Pascal &lt;/p&gt;
-
-&lt;p&gt;Found when looking at A Plea for Lean Software and searching for the author &lt;a href=&quot;https://github.com/at15/papers-i-read/issues/120&quot;&gt;https://github.com/at15/papers-i-read/issues/120&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/google/or-tools&quot;&gt;https://github.com/google/or-tools&lt;/a&gt; Google Optimization Tools (a.k.a., OR-Tools) is an open-source, fast and portable software suite for solving combinatorial optimization problems&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/ballerina-platform/ballerina-lang&quot;&gt;https://github.com/ballerina-platform/ballerina-lang&lt;/a&gt; Ballerina is a compiled, type safe, concurrent programming language designed to make it simple to write microservices that integrate APIs.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://softwareengineeringdaily.com/2018/07/12/ballerina-language-with-tyler-jewell/&quot;&gt;https://softwareengineeringdaily.com/2018/07/12/ballerina-language-with-tyler-jewell/&lt;/a&gt; &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/fntlnz/kubectl-trace&quot;&gt;https://github.com/fntlnz/kubectl-trace&lt;/a&gt; run &lt;a href=&quot;https://github.com/iovisor/bpftrace&quot;&gt;https://github.com/iovisor/bpftrace&lt;/a&gt; on your kubernetes cluster using  kubectl&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;abidiff compares the Application Binary Interfaces (ABI) of two shared libraries in ELF format based on dwarf debug information.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://sourceware.org/libabigail/manual/abidiff.html&quot;&gt;https://sourceware.org/libabigail/manual/abidiff.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://dave.cheney.net/2018/09/16/internets-of-interest-2-john-ousterhout-discusses-a-philosophy-of-software-design&quot;&gt;https://dave.cheney.net/2018/09/16/internets-of-interest-2-john-ousterhout-discusses-a-philosophy-of-software-design&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;There are also some other interesting topics in Dave&amp;#39;s internets of interests series, found it when looking at &lt;a href=&quot;https://dave.cheney.net/2018/01/08/gos-hidden-pragmas&quot;&gt;https://dave.cheney.net/2018/01/08/gos-hidden-pragmas&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/AliyunContainerService/log-pilot 阿里云的人写的 docker 日志收集, 应该是调 docker api 来读 ...  docker 本身的日志存储好像实现的比较一般 ...</summary></entry></feed>
+Web Workers give web developers the ability to run code in multiple threads. 这个是 web worker 可以做的一些事情</summary></entry></feed>
