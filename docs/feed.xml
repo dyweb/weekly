@@ -1,5 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-03-04T12:57:58+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/03/04/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-03-04T00:00:00+08:00</published><updated>2019-03-04T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/03/04/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/03/04/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/petermattis/pebble&quot;&gt;https://github.com/petermattis/pebble&lt;/a&gt; RocksDB/LevelDB inspired key-value database in Go (used?  by CockroachDB)&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-03-15T18:30:06+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/03/11/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-03-11T00:00:00+08:00</published><updated>2019-03-11T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/03/11/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/03/11/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/alipay/sofa-jraft&quot;&gt;https://github.com/alipay/sofa-jraft&lt;/a&gt; saw it on twitter&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/VKCOM/noverify&quot;&gt;https://github.com/VKCOM/noverify&lt;/a&gt; a fst php static analyser in go using a php parser &lt;a href=&quot;https://github.com/z7zmey/php-parser&quot;&gt;https://github.com/z7zmey/php-parser&lt;/a&gt; &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/uber/kraken&quot;&gt;https://github.com/uber/kraken&lt;/a&gt; P2P docker registry capable of distributing TBs of data in seconds (also mentioned its difference w/ dragon fly)&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;ftp://ftp.cs.washington.edu/tr/2015/03/UW-CSE-15-03-02.pdf&quot;&gt;ftp://ftp.cs.washington.edu/tr/2015/03/UW-CSE-15-03-02.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt; rust borrow checker 的形式化定义，还没看&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://landoflisp.com&quot;&gt;http://landoflisp.com&lt;/a&gt; Land of Lisp, 最后的漫画好看（&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/poteto/hiring-without-whiteboards&quot;&gt;https://github.com/poteto/hiring-without-whiteboards&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/NationalSecurityAgency/lemongraph&quot;&gt;https://github.com/NationalSecurityAgency/lemongraph&lt;/a&gt; graph db based on LMDB&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/alipay/sofa-jraft saw it on twitter</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/03/04/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-03-04T00:00:00+08:00</published><updated>2019-03-04T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/03/04/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/03/04/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/petermattis/pebble&quot;&gt;https://github.com/petermattis/pebble&lt;/a&gt; RocksDB/LevelDB inspired key-value database in Go (used?  by CockroachDB)&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -626,126 +654,4 @@ Reply to this email directly, view it on GitHub &lt;a href=&quot;https://github.
 
 &lt;p&gt;even have a php client ... &lt;a href=&quot;https://github.com/thecodingmachine/gotenberg-php-client&quot;&gt;https://github.com/thecodingmachine/gotenberg-php-client&lt;/a&gt;&lt;/p&gt;
 
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/bazil/fuse fuse implemented in pure go used by peerkeep https://github.com/perkeep/perkeep/blob/master/cmd/pk-mount/pkmount.go</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/12/10/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-12-10T00:00:00+08:00</published><updated>2018-12-10T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/12/10/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/12/10/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/deebloo/things-you-can-do-in-a-web-worker&quot;&gt;https://github.com/deebloo/things-you-can-do-in-a-web-worker&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Web Workers give web developers the ability to run code in multiple threads. 这个是 web worker 可以做的一些事情&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/artzub/GitHubVisualizer&quot;&gt;https://github.com/artzub/GitHubVisualizer&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;GitHub Contributions Visualizer&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/5100735/49417712-e226bc80-f7b9-11e8-8569-b522759f820e.png&quot; alt=&quot;screenshot from 2018-12-04 11-40-29&quot;&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;最近写完了 Nand2Tetris 的 VM Code Translator，发现编译器一类的软件似乎没有写单元测试的必要。但是我们可以直接用它编译几个程序来测试功能。&lt;/p&gt;
-
-&lt;p&gt;于是发现了 GCC 的 Test Suites。 &lt;a href=&quot;https://gcc.gnu.org/onlinedocs/gccint/C-Tests.html#C-Tests&quot;&gt;https://gcc.gnu.org/onlinedocs/gccint/C-Tests.html#C-Tests&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/gcc-mirror/gcc/tree/master/gcc/testsuite/g%2B%2B.dg/cpp&quot;&gt;https://github.com/gcc-mirror/gcc/tree/master/gcc/testsuite/g%2B%2B.dg/cpp&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://randomascii.wordpress.com/2018/12/03/a-not-called-function-can-cause-a-5x-slowdown/&quot;&gt;https://randomascii.wordpress.com/2018/12/03/a-not-called-function-can-cause-a-5x-slowdown/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;windows llvm 特别慢，发现是因为开了1k+ process, destroy 的时候特别慢，发现是 windows 关 GDI process 的时候特别慢，发现只要你调用了某个看起来无害的 windows parse argv 的函数就会 load GDI. 手工 parse argv （并 delay load）以后速度 5min -&amp;gt; 1min&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.hanselman.com/blog/AnnouncingWPFWinFormsAndWinUIAreGoingOpenSource.aspx&quot;&gt;https://www.hanselman.com/blog/AnnouncingWPFWinFormsAndWinUIAreGoingOpenSource.aspx&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;WPF WinForms WinUI 都开源了，啥时候 windows 也开源呢？&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/panjf2000/ants&quot;&gt;https://github.com/panjf2000/ants&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;🐜⚡️A high-performance goroutine pool for go&lt;/p&gt;
-
-&lt;p&gt;code base 非常小的 goroutine pool 实现&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://mysql.taobao.org/monthly/&quot;&gt;http://mysql.taobao.org/monthly/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;阿里云RDS-数据库内核组的月报，每一期都挺硬核的&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/aphyr/meangirls&quot;&gt;https://github.com/aphyr/meangirls&lt;/a&gt; CRDT 跟着 @htfy96 star (作者是 jepsen 的作者 ... 项目起名字还是很有个性的 ....&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.cs.nott.ac.uk/%7Epszgmh/pearl.pdf&quot;&gt;http://www.cs.nott.ac.uk/~pszgmh/pearl.pdf&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Functional Pearls
-Monadic Parsing in Haskell&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;在看 Real World Haskell 的时候看到 Monad 和 fmap 看的云里雾里。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html&quot;&gt;http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Functors, Applicatives, And Monads In Pictures&lt;/p&gt;
-
-&lt;p&gt;看完这篇就差不多理解了（&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/etcd-io/gofail&quot;&gt;https://github.com/etcd-io/gofail&lt;/a&gt; 在 tidb 群里看到的 一开始以为是基于 go/ast 之类的 ... 然后发现是字符串替换 ... &lt;a href=&quot;https://github.com/etcd-io/gofail/blob/master/code/rewrite.go&quot;&gt;https://github.com/etcd-io/gofail/blob/master/code/rewrite.go&lt;/a&gt; (应该性能更高.jpg&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/sausheong/gonn&quot;&gt;https://github.com/sausheong/gonn&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Building a simple neural network in Go &lt;/p&gt;
-
-&lt;p&gt;竟然还有 gonum.org/v1/gonum/mat 这种库&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/ahmetb/kubectx&quot;&gt;https://github.com/ahmetb/kubectx&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;切换 Kubernetes 集群的命令行工具，当你有多个集群的时候就会发现非常有用&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/chromedp/chromedp&quot;&gt;https://github.com/chromedp/chromedp&lt;/a&gt; A faster, simpler way to drive browsers supporting the Chrome DevTools Protocol.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/me115/design_patterns&quot;&gt;https://github.com/me115/design_patterns&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;设计模式介绍，每一个都有列出重要程度，方便从最常用的开始学习&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/shiftkey/desktop&quot;&gt;https://github.com/shiftkey/desktop&lt;/a&gt; github desktop for linux 亲测可用&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/crossplaneio/crossplane&quot;&gt;https://github.com/crossplaneio/crossplane&lt;/a&gt; The open source multicloud control plane&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/rust-clique/human-panic&quot;&gt;https://github.com/rust-clique/human-panic&lt;/a&gt; Panic messages for humans. &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://hacks.mozilla.org/2018/12/rust-2018-is-here/&quot;&gt;https://hacks.mozilla.org/2018/12/rust-2018-is-here/&lt;/a&gt; 对 Rust Edition 概念非常好的介绍，终于看懂 Edition 是啥了...&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://jepsen.io/consistency&quot;&gt;https://jepsen.io/consistency&lt;/a&gt; 一致性模型间的关系&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/sahib/brig&quot;&gt;https://github.com/sahib/brig&lt;/a&gt;  File synchronization on top of ipfs with git like interface and FUSE filesystem
-主要是看到有 fuse &lt;a href=&quot;https://github.com/sahib/brig/tree/master/fuse&quot;&gt;https://github.com/sahib/brig/tree/master/fuse&lt;/a&gt; &lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/deebloo/things-you-can-do-in-a-web-worker
-
-Web Workers give web developers the ability to run code in multiple threads. 这个是 web worker 可以做的一些事情</summary></entry></feed>
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/bazil/fuse fuse implemented in pure go used by peerkeep https://github.com/perkeep/perkeep/blob/master/cmd/pk-mount/pkmount.go</summary></entry></feed>
