@@ -1,5 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-03-15T18:30:06+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/03/11/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-03-11T00:00:00+08:00</published><updated>2019-03-11T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/03/11/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/03/11/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/alipay/sofa-jraft&quot;&gt;https://github.com/alipay/sofa-jraft&lt;/a&gt; saw it on twitter&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-03-18T09:59:06+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/03/18/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-03-18T00:00:00+08:00</published><updated>2019-03-18T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/03/18/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/03/18/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/openacid/slim&quot;&gt;https://github.com/openacid/slim&lt;/a&gt; a space efficient trie? &lt;a href=&quot;https://openacid.github.io/tech/algorithm/slimtrie-design/#&quot;&gt;https://openacid.github.io/tech/algorithm/slimtrie-design/#&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/vieux/gocover.io&quot;&gt;https://github.com/vieux/gocover.io&lt;/a&gt; spawn a container to get go package coverage&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/weaveworks/footloose&quot;&gt;https://github.com/weaveworks/footloose&lt;/a&gt; like vagrant with vm, footloose run systemd and sshd in container&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/pwaller/go2ll-talk&quot;&gt;https://github.com/pwaller/go2ll-talk&lt;/a&gt; Live coding a basic Go compiler with LLVM in 20 minutes&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;F5收购Nginx&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.infoq.cn/article/ENsP15mpad-97o34xIUB?utm_source=rss&amp;utm_medium=article&quot;&gt;https://www.infoq.cn/article/ENsP15mpad-97o34xIUB?utm_source=rss&amp;amp;utm_medium=article&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Netflix/vector&quot;&gt;https://github.com/Netflix/vector&lt;/a&gt; a on host UI using &lt;a href=&quot;https://github.com/performancecopilot/pcp&quot;&gt;https://github.com/performancecopilot/pcp&lt;/a&gt; for collecting host metrics&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jlfwong/speedscope&quot;&gt;https://github.com/jlfwong/speedscope&lt;/a&gt; a fast performance visualization &lt;a href=&quot;http://jamie-wong.com/post/speedscope/&quot;&gt;http://jamie-wong.com/post/speedscope/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.dwmkerr.com/effective-shell-part-1-navigating-the-command-line/&quot;&gt;https://www.dwmkerr.com/effective-shell-part-1-navigating-the-command-line/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/openacid/slim a space efficient trie? https://openacid.github.io/tech/algorithm/slimtrie-design/#</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/03/11/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-03-11T00:00:00+08:00</published><updated>2019-03-11T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/03/11/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/03/11/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/alipay/sofa-jraft&quot;&gt;https://github.com/alipay/sofa-jraft&lt;/a&gt; saw it on twitter&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -565,93 +597,4 @@ Reply to this email directly, view it on GitHub &lt;a href=&quot;https://github.
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/strapdata/elassandra&quot;&gt;https://github.com/strapdata/elassandra&lt;/a&gt; Elassandra = Elasticsearch + Apache Cassandra ... saw it when looking at a k8s cassandra operator &lt;a href=&quot;https://github.com/instaclustr/cassandra-operator&quot;&gt;https://github.com/instaclustr/cassandra-operator&lt;/a&gt;&lt;/p&gt;
 
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/google/graphd The Metaweb graph repository server, backend for Freebase https://developers.google.com/freebase/</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/12/17/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-12-17T00:00:00+08:00</published><updated>2018-12-17T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/12/17/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/12/17/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/bazil/fuse&quot;&gt;https://github.com/bazil/fuse&lt;/a&gt; fuse implemented in pure go used by peerkeep &lt;a href=&quot;https://github.com/perkeep/perkeep/blob/master/cmd/pk-mount/pkmount.go&quot;&gt;https://github.com/perkeep/perkeep/blob/master/cmd/pk-mount/pkmount.go&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://blockdiag.com/en/&quot;&gt;http://blockdiag.com/en/&lt;/a&gt; generate sequence, network diagrams from text file &lt;a href=&quot;https://github.com/blockdiag/seqdiag&quot;&gt;https://github.com/blockdiag/seqdiag&lt;/a&gt;  I think dot also support it, but I never used dot before ... didn&amp;#39;t use this either, saw it in the fuse project above&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/bazil/fuse/blob/master/doc/mount-linux.seq&quot;&gt;https://github.com/bazil/fuse/blob/master/doc/mount-linux.seq&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/5621298/49716687-52de3680-fc09-11e8-935e-60bf8f33a05b.png&quot; alt=&quot;mount-linux seq&quot;&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;from &lt;a href=&quot;https://github.com/zenany/weekly/commit/b9afaaa87876ef8d6e3c544fd890f792a4b18d81&quot;&gt;https://github.com/zenany/weekly/commit/b9afaaa87876ef8d6e3c544fd890f792a4b18d81&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://robertheaton.com/2018/12/06/a-blogging-style-guide/&quot;&gt;https://robertheaton.com/2018/12/06/a-blogging-style-guide/&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;如果有写 blog 的想法 那就写 (鸽)&lt;/li&gt;
-&lt;li&gt;如果想法很多, 分两个 blog 写并保证每个是完整的&lt;/li&gt;
-&lt;li&gt;不要讲笑话, 先把关键的东西讲明白 (说我呢.jpg)&lt;/li&gt;
-&lt;li&gt;写 blog 前好好沉思 (打开 steam?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://lctt.github.io/LFS-BOOK/lfs-sysv/LFS-BOOK.html&quot;&gt;https://lctt.github.io/LFS-BOOK/lfs-sysv/LFS-BOOK.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Linux From Scratch 的简体中文版，8.3 版本，最新版&lt;/p&gt;
-
-&lt;p&gt;原版在 &lt;a href=&quot;http://www.linuxfromscratch.org/lfs/view/stable/&quot;&gt;http://www.linuxfromscratch.org/lfs/view/stable/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/grafana/loki&quot;&gt;https://github.com/grafana/loki&lt;/a&gt; Like Prometheus, but for logs.  &lt;/p&gt;
-
-&lt;p&gt;感觉就是 log 根据 label 做简单的 index (没有根据 log 内容的全文检索) 然后分 chunk 存 dynamo/s3 etc. 跟 &lt;a href=&quot;https://github.com/cortexproject/cortex&quot;&gt;https://github.com/cortexproject/cortex&lt;/a&gt; 很像 (好像就是同一波人写的 ... 无限水平扩展就是分片然后存在无限扩展的 aws 里 ...&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://landscape.cncf.io/format=landscape&quot;&gt;https://landscape.cncf.io/format=landscape&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;CNCF 旗下的 container landscape 地图&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/wangrunji0408/RustOS&quot;&gt;https://github.com/wangrunji0408/RustOS&lt;/a&gt; Rust version of THU uCore OS, supporting x86_64, RISCV32IMA(S/M), AArch64(Raspi3) (在 sjtug 里看到的 @htfy96 &lt;/p&gt;
-
-&lt;p&gt;然后还顺带发现了 ... &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://chyyuu.gitbooks.io/simple_os_book/content/&quot;&gt;https://chyyuu.gitbooks.io/simple_os_book/content/&lt;/a&gt; 操作系统的基本原理与简单实现&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Hackerspeak - learn how to speak like a hacker&lt;/p&gt;
-
-&lt;p&gt;(tech buzzphrase生成器&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://dmyoung1994.github.io/HackerSpeak/&quot;&gt;http://dmyoung1994.github.io/HackerSpeak/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/docker/compose-on-kubernetes&quot;&gt;https://github.com/docker/compose-on-kubernetes&lt;/a&gt; Deploy applications described in Compose onto Kubernetes clusters &lt;a href=&quot;https://blog.docker.com/2018/12/simplifying-kubernetes-with-docker-compose-and-friends/&quot;&gt;https://blog.docker.com/2018/12/simplifying-kubernetes-with-docker-compose-and-friends/&lt;/a&gt; 木有 @gaocegege 的 twitter 我还不知道 ... 论水 twitter 的重要性&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://speakerdeck.com/filosottile/calling-rust-from-go-without-cgo-at-gothamgo-2017&quot;&gt;https://speakerdeck.com/filosottile/calling-rust-from-go-without-cgo-at-gothamgo-2017&lt;/a&gt; @gaocegege ... from &lt;a href=&quot;https://blog.filippo.io/hi/&quot;&gt;https://blog.filippo.io/hi/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=afSiVelXDTQ&quot;&gt;GopherCon 2018: Filippo Valsorda- Asynchronous Networking Patterns&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://go.googlesource.com/gollvm/&quot;&gt;https://go.googlesource.com/gollvm/&lt;/a&gt; go 居然有个 llvm 的 backend&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;@at15 有一个类似的 docker-compose to k8s translator &lt;a href=&quot;https://github.com/kubernetes/kompose&quot;&gt;https://github.com/kubernetes/kompose&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/warmchang/KubeCon-North-America-2018&quot;&gt;https://github.com/warmchang/KubeCon-North-America-2018&lt;/a&gt; &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/thecodingmachine/gotenberg&quot;&gt;https://github.com/thecodingmachine/gotenberg&lt;/a&gt; A Docker-powered stateless API for converting HTML, Markdown and Office documents to PDF. &lt;/p&gt;
-
-&lt;p&gt;even have a php client ... &lt;a href=&quot;https://github.com/thecodingmachine/gotenberg-php-client&quot;&gt;https://github.com/thecodingmachine/gotenberg-php-client&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/bazil/fuse fuse implemented in pure go used by peerkeep https://github.com/perkeep/perkeep/blob/master/cmd/pk-mount/pkmount.go</summary></entry></feed>
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/google/graphd The Metaweb graph repository server, backend for Freebase https://developers.google.com/freebase/</summary></entry></feed>
