@@ -1,5 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-03-18T09:59:06+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/03/18/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-03-18T00:00:00+08:00</published><updated>2019-03-18T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/03/18/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/03/18/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/openacid/slim&quot;&gt;https://github.com/openacid/slim&lt;/a&gt; a space efficient trie? &lt;a href=&quot;https://openacid.github.io/tech/algorithm/slimtrie-design/#&quot;&gt;https://openacid.github.io/tech/algorithm/slimtrie-design/#&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-03-25T09:28:10+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/03/25/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-03-25T00:00:00+08:00</published><updated>2019-03-25T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/03/25/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/03/25/weekly.html">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=FJW8nGV4jxY&quot;&gt;https://www.youtube.com/watch?v=FJW8nGV4jxY&lt;/a&gt; Linux Performance Tools, Brendan Gregg, part 1 of 2&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/59544387&quot;&gt;https://zhuanlan.zhihu.com/p/59544387&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Kubernetes 中如何保证优雅地停止 Pod&lt;/p&gt;
+
+&lt;p&gt;@aylei &amp;#39;s new post about how to stop a pod in Kubernetes gracefully.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.codelingo.io/&quot;&gt;https://www.codelingo.io/&lt;/a&gt; code style check, i.e. &lt;a href=&quot;https://github.com/codelingo/codelingo/tree/master/tenets/codelingo/go&quot;&gt;https://github.com/codelingo/codelingo/tree/master/tenets/codelingo/go&lt;/a&gt; They seems to have their own query language for define static check CLQL. I think they have many private gh repos and it&amp;#39;s seems impossible to compile &lt;a href=&quot;https://github.com/codelingo/codelingo&quot;&gt;https://github.com/codelingo/codelingo&lt;/a&gt; directly based on imports that lead to 404 &lt;/p&gt;
+
+&lt;p&gt;The way they allow multiple languages reminds me of &lt;a href=&quot;https://github.com/bblfsh&quot;&gt;https://github.com/bblfsh&lt;/a&gt; from source{d}&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/kavu/go_reuseport&quot;&gt;https://github.com/kavu/go_reuseport&lt;/a&gt; &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;run several instances of this tiny server without Address already in use errors&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/pivotal/monitoring-indicator-protocol&quot;&gt;https://github.com/pivotal/monitoring-indicator-protocol&lt;/a&gt; a yaml for monitoring?&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/google/ko&quot;&gt;https://github.com/google/ko&lt;/a&gt; Build and deploy Go applications on Kubernetes&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1_e-UDcWUb-keyVhWKJPhICRELkQPM0Qyj-SgyBAq0aM/edit&quot;&gt;https://docs.google.com/document/d/1_e-UDcWUb-keyVhWKJPhICRELkQPM0Qyj-SgyBAq0aM/edit&lt;/a&gt;  TiDB  线上课程 plan&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://www.youtube.com/watch?v=FJW8nGV4jxY Linux Performance Tools, Brendan Gregg, part 1 of 2</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/03/18/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-03-18T00:00:00+08:00</published><updated>2019-03-18T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/03/18/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/03/18/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/openacid/slim&quot;&gt;https://github.com/openacid/slim&lt;/a&gt; a space efficient trie? &lt;a href=&quot;https://openacid.github.io/tech/algorithm/slimtrie-design/#&quot;&gt;https://openacid.github.io/tech/algorithm/slimtrie-design/#&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -547,54 +583,4 @@ Reply to this email directly, view it on GitHub &lt;a href=&quot;https://github.
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/liamg/aminal&quot;&gt;https://github.com/liamg/aminal&lt;/a&gt;  Golang terminal emulator from scratch&lt;/p&gt;
 
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/thlorenz/doctoc generate toc inside a git repo, saw from @gaocegege cyclone ...</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2018/12/24/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2018-12-24T00:00:00+08:00</published><updated>2018-12-24T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2018/12/24/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2018/12/24/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/google/graphd&quot;&gt;https://github.com/google/graphd&lt;/a&gt; The Metaweb graph repository server, backend for Freebase &lt;a href=&quot;https://developers.google.com/freebase/&quot;&gt;https://developers.google.com/freebase/&lt;/a&gt; &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/golang/tools/tree/master/internal/lsp&quot;&gt;https://github.com/golang/tools/tree/master/internal/lsp&lt;/a&gt; go 官方已经在做 language server 了 /w\ &lt;a href=&quot;https://mattn.kaoriya.net/software/lang/go/20181217000056.htm&quot;&gt;https://mattn.kaoriya.net/software/lang/go/20181217000056.htm&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/bradfitz/exp-httpclient&quot;&gt;https://github.com/bradfitz/exp-httpclient&lt;/a&gt; Rethinking Go&amp;#39;s HTTP client 有一些我在 go.ice 里的 httpclient 里可以解决 增加 type 对 encode/decode 更好的支持 cc @gaocegege (之前在公司已经实现了一个 ....&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;k8s 是的，不过我觉得更值得参考的是 &lt;a href=&quot;https://caicloud.github.io/nirvana/zh-hans/guides/client.html&quot;&gt;https://caicloud.github.io/nirvana/zh-hans/guides/client.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;k8s 的实现过于复杂。不知道目前针对 openapi 的研究如何了，能通过它间接支持 client gen 么，可以的话估计还能做到多语言支持&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;@gaocegege 好像主要逻辑是在 &lt;a href=&quot;https://github.com/caicloud/nirvana/tree/master/utils&quot;&gt;https://github.com/caicloud/nirvana/tree/master/utils&lt;/a&gt; 下, 扫代码然后生成 client, 还有一种更简单的方法, 直接要求生成器调用 spec 的代码然后直接用 reflect 连 &lt;code&gt;go/ast&lt;/code&gt; 都不需要了 ... 我先写点 prototype 试试, openapi 好像什么都支持 &lt;a href=&quot;https://github.com/OpenAPITools/openapi-generator&quot;&gt;https://github.com/OpenAPITools/openapi-generator&lt;/a&gt; 但不知道自定义程度如何 ... &lt;/p&gt;
-
-&lt;p&gt;另外我看到 nirvana 也支持生成 swagger 所以也可以生成 swagger 然后让 openapi/swagger 生成其他语言的 .... 我很讨厌把 spec 写在 yaml 里 ... 很容易就 out of sync 了 ... &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/go-internals-cn/go-internals&quot;&gt;https://github.com/go-internals-cn/go-internals&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;go-internals 本书是关于 Go 程序设计语言内部实现原理的阐释，当前正在进行中。&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://blog.golang.org/modules2019&quot;&gt;https://blog.golang.org/modules2019&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Interested in Go modules? Learn what the Go team has planned for modules in 2019&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/kubernetes-sigs/kubebuilder&quot;&gt;https://github.com/kubernetes-sigs/kubebuilder&lt;/a&gt; and &lt;a href=&quot;https://github.com/operator-framework&quot;&gt;https://github.com/operator-framework&lt;/a&gt; difference? And controller runtime? @gaocegege &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/gardener/gardener&quot;&gt;https://github.com/gardener/gardener&lt;/a&gt; from SAP used to create kubernetes cluter &lt;a href=&quot;https://kubernetes.io/blog/2018/05/17/gardener/&quot;&gt;https://kubernetes.io/blog/2018/05/17/gardener/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/kyma-project/kyma&quot;&gt;https://github.com/kyma-project/kyma&lt;/a&gt; also from SAP, wrapper on top of knative which is wrapper on top of istio&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/strapdata/elassandra&quot;&gt;https://github.com/strapdata/elassandra&lt;/a&gt; Elassandra = Elasticsearch + Apache Cassandra ... saw it when looking at a k8s cassandra operator &lt;a href=&quot;https://github.com/instaclustr/cassandra-operator&quot;&gt;https://github.com/instaclustr/cassandra-operator&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/google/graphd The Metaweb graph repository server, backend for Freebase https://developers.google.com/freebase/</summary></entry></feed>
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/thlorenz/doctoc generate toc inside a git repo, saw from @gaocegege cyclone ...</summary></entry></feed>
