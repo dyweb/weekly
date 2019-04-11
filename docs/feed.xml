@@ -1,5 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-04-02T09:10:31+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/04/01/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-04-01T00:00:00+08:00</published><updated>2019-04-01T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/04/01/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/04/01/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/joyent/rfd/blob/master/rfd/0106/README.adoc&quot;&gt;https://github.com/joyent/rfd/blob/master/rfd/0106/README.adoc&lt;/a&gt; RFD 106 Engineering Guide - Go Best Practice&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-04-11T13:38:32+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/04/08/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-04-08T00:00:00+08:00</published><updated>2019-04-08T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/04/08/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/04/08/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/fastly/lucet&quot;&gt;https://github.com/fastly/lucet&lt;/a&gt; Lucet, the Sandboxing WebAssembly Compiler.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://csappbook.blogspot.com/2017/05/a-gallery-of-memory-mountains.html&quot;&gt;https://csappbook.blogspot.com/2017/05/a-gallery-of-memory-mountains.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/cosmtrek/air&quot;&gt;https://github.com/cosmtrek/air&lt;/a&gt; commit 一口狗粮 &lt;a href=&quot;https://github.com/cosmtrek/air/commit/deea39802724a47e8dff13213712eb43ad74ec43&quot;&gt;https://github.com/cosmtrek/air/commit/deea39802724a47e8dff13213712eb43ad74ec43&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.braveclojure.com/clojure-for-the-brave-and-true/&quot;&gt;https://www.braveclojure.com/clojure-for-the-brave-and-true/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hashicorp/terraform/blob/master/communicator/ssh/communicator.go&quot;&gt;https://github.com/hashicorp/terraform/blob/master/communicator/ssh/communicator.go&lt;/a&gt; scp in go, from terraform file provisioner&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/fastly/lucet Lucet, the Sandboxing WebAssembly Compiler.</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/04/01/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-04-01T00:00:00+08:00</published><updated>2019-04-01T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/04/01/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/04/01/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/joyent/rfd/blob/master/rfd/0106/README.adoc&quot;&gt;https://github.com/joyent/rfd/blob/master/rfd/0106/README.adoc&lt;/a&gt; RFD 106 Engineering Guide - Go Best Practice&lt;/p&gt;
 
 &lt;p&gt;though it is marked as abandoned ... &lt;a href=&quot;https://github.com/joyent/rfd/commit/afc03b67824d591e3ce7d10c54281a6e76886545&quot;&gt;https://github.com/joyent/rfd/commit/afc03b67824d591e3ce7d10c54281a6e76886545&lt;/a&gt;&lt;/p&gt;
 
@@ -564,82 +582,4 @@ Reply to this email directly, view it on GitHub &lt;a href=&quot;https://github.
 
 &lt;p&gt;&lt;a href=&quot;https://www.yuque.com/mo-college/weekly/ny35wg&quot;&gt;https://www.yuque.com/mo-college/weekly/ny35wg&lt;/a&gt; 一个 visualization 的年度合集?&lt;/p&gt;
 
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://explained.ai/decision-tree-viz/index.html also mentioned https://www.edwardtufte.com/tufte/ which has a book THE VISUAL DISPLAY OF QUANTITATIVE INFORMATION</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/01/07/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-01-07T00:00:00+08:00</published><updated>2019-01-07T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/01/07/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/01/07/weekly.html">&lt;p&gt;&lt;a href=&quot;https://philipwalton.github.io/solved-by-flexbox/&quot;&gt;https://philipwalton.github.io/solved-by-flexbox/&lt;/a&gt; 认真又读了一般 ... 感觉我的 css 从来就都没学明白过 ...&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://cloud-native-mac-setup.netlify.com/&quot;&gt;https://cloud-native-mac-setup.netlify.com/&lt;/a&gt; built using vuepress by @at15  (netlify 真好用.jpg &lt;a href=&quot;https://github.com/at15/cloud-native-mac-setup&quot;&gt;https://github.com/at15/cloud-native-mac-setup&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/cosname/cosx.org/issues/819&quot;&gt;https://github.com/cosname/cosx.org/issues/819&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;统计之都也开始做月报了，还可以发招聘广告（&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/golang/website&quot;&gt;https://github.com/golang/website&lt;/a&gt; future home of the golang.org website&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Algorithms by Jeff Erickson&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://jeffe.cs.illinois.edu/teaching/algorithms/&quot;&gt;http://jeffe.cs.illinois.edu/teaching/algorithms/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;题都挺有意思的（♣♥题相当难（&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://matplotlib.org/gallery/showcase/xkcd.html#sphx-glr-gallery-showcase-xkcd-py&quot;&gt;https://matplotlib.org/gallery/showcase/xkcd.html#sphx-glr-gallery-showcase-xkcd-py&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;xkcd 风格的 matplotlib 画图&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/HackerPoet/NonEuclidean&quot;&gt;https://github.com/HackerPoet/NonEuclidean&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;非欧空间渲染引擎（&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=kEB11PQ9Eo8&amp;feature=youtu.be&quot;&gt;https://www.youtube.com/watch?v=kEB11PQ9Eo8&amp;amp;feature=youtu.be&lt;/a&gt; 作者解释说这种渲染引擎可以用在 VR 中：如果我们可以将解谜游戏的很多很多房间放进非欧空间，那么玩 VR 游戏的人可以只在有限的范围里走（&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/dvyukov/go-fuzz&quot;&gt;https://github.com/dvyukov/go-fuzz&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Randomized testing for Go&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.bilibili.com/video/av39933064&quot;&gt;https://www.bilibili.com/video/av39933064&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;【技术分享】时序数据库简介（上海大学开源社区/无字幕/18-19 冬 6）&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/lni/dragonboat&quot;&gt;https://github.com/lni/dragonboat&lt;/a&gt; Dragonboat is a feature complete and high performance multi-group Raft library in Go (use rocksdb for storage)&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://babeljs.io/docs/en/learn&quot;&gt;https://babeljs.io/docs/en/learn&lt;/a&gt; 学下 es2015 ... 居然支持了 object deconstruction&lt;/p&gt;
-
-&lt;p&gt;已经 playground 自带 transpiler 的 &lt;a href=&quot;https://babeljs.io/repl#?babili=false&amp;browsers=&amp;build=&amp;builtIns=false&amp;spec=false&amp;loose=false&amp;code_lz=GYVwdgxgLglg9mABAcwBQG8wEMC2BTALkQA8BfASkXQChFEIEBnOAGzwDoW41jyBuaqWppMuQogCsFakA&amp;debug=false&amp;forceAllTransforms=false&amp;shippedProposals=false&amp;circleciRepo=&amp;evaluate=false&amp;fileSize=false&amp;timeTravel=true&amp;sourceType=module&amp;lineWrap=true&amp;presets=es2015%2Creact%2Cstage-2&amp;prettier=false&amp;targets=&amp;version=6.26.0&amp;envVersion=&quot;&gt;time travel&lt;/a&gt; 很赞 &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://ban.ai/multics/&quot;&gt;https://ban.ai/multics/&lt;/a&gt; found from &lt;a href=&quot;https://zhuanlan.zhihu.com/c_185117725&quot;&gt;https://zhuanlan.zhihu.com/c_185117725&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Bask in the glory of classic Multics ALM, APL, BASIC, BCPL, C, COBOL, EXEC_COM, Fortran, MacLISP, MIX, Pascal, PL/I, and RDC programming languages and the Emacs, TECO, QEDX, TED, and EDM text editors. Play games.  Exchange messages, email, and participate in Multics Forum meetings.  Experience real timesharing — as a public utility&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/openshift/cluster-image-registry-operator&quot;&gt;https://github.com/openshift/cluster-image-registry-operator&lt;/a&gt; operator for managing container registry&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://myoctocat.com/&quot;&gt;https://myoctocat.com/&lt;/a&gt; @gaocegege &lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://philipwalton.github.io/solved-by-flexbox/ 认真又读了一般 ... 感觉我的 css 从来就都没学明白过 ...</summary></entry></feed>
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://explained.ai/decision-tree-viz/index.html also mentioned https://www.edwardtufte.com/tufte/ which has a book THE VISUAL DISPLAY OF QUANTITATIVE INFORMATION</summary></entry></feed>
