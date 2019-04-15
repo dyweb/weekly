@@ -1,5 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-04-11T13:38:32+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/04/08/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-04-08T00:00:00+08:00</published><updated>2019-04-08T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/04/08/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/04/08/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/fastly/lucet&quot;&gt;https://github.com/fastly/lucet&lt;/a&gt; Lucet, the Sandboxing WebAssembly Compiler.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-04-15T11:05:21+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/04/15/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-04-15T00:00:00+08:00</published><updated>2019-04-15T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/04/15/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/04/15/weekly.html">&lt;p&gt;&lt;a href=&quot;https://kubernetes.io/blog/2019/04/04/kubernetes-1.14-local-persistent-volumes-ga/&quot;&gt;https://kubernetes.io/blog/2019/04/04/kubernetes-1.14-local-persistent-volumes-ga/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/k14s/ytt/blob/master/docs/ytt-vs-x.md&quot;&gt;https://github.com/k14s/ytt/blob/master/docs/ytt-vs-x.md&lt;/a&gt; cc @gaocegege &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;skip go&amp;#39;s escape analysis, I think I will try this in gommon&amp;#39;s logging library ...&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/golang/go/blob/go1.12.1/src/strings/builder.go#L20-L30&quot;&gt;https://github.com/golang/go/blob/go1.12.1/src/strings/builder.go#L20-L30&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://hackage.haskell.org/package/llrbtree-0.1.1/docs/Data-Set-LLRBTree.html&quot;&gt;http://hackage.haskell.org/package/llrbtree-0.1.1/docs/Data-Set-LLRBTree.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Very elegant implementation&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://arxiv.org/pdf/1904.03257.pdf&quot;&gt;https://arxiv.org/pdf/1904.03257.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;SysML 白皮书&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/codex-team/editor.js&quot;&gt;https://github.com/codex-team/editor.js&lt;/a&gt; A block-styled editor with clean JSON output  (does it support people copy and paste from word/website .w.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/golang/build/blob/master/cmd/gopherbot/gopherbot.go&quot;&gt;https://github.com/golang/build/blob/master/cmd/gopherbot/gopherbot.go&lt;/a&gt; cc @gaocegege &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/dyweb/gommon/releases/tag/v0.0.10&quot;&gt;https://github.com/dyweb/gommon/releases/tag/v0.0.10&lt;/a&gt; gommon released 0.0.10 ... next release will be working on clean up the complex log package ... 难用到自己都不想用 ....&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/opentracing/merging-opentracing-and-opencensus-f0fe9c7ca6f0&quot;&gt;https://medium.com/opentracing/merging-opentracing-and-opencensus-f0fe9c7ca6f0&lt;/a&gt; the two distributed tracing standard, opentracing and opencensus will merge into one ...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://codewithoutrules.com/&quot;&gt;https://codewithoutrules.com/&lt;/a&gt; Become a productive programmer, and get work/life balance (saw from twitter&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Hammerspoon/hammerspoon&quot;&gt;https://github.com/Hammerspoon/hammerspoon&lt;/a&gt; OS X automation using lua&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/src-d/proteus&quot;&gt;https://github.com/src-d/proteus&lt;/a&gt; generate proto file from go file&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://kubernetes.io/blog/2019/04/04/kubernetes-1.14-local-persistent-volumes-ga/</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/04/08/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-04-08T00:00:00+08:00</published><updated>2019-04-08T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/04/08/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/04/08/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/fastly/lucet&quot;&gt;https://github.com/fastly/lucet&lt;/a&gt; Lucet, the Sandboxing WebAssembly Compiler.&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -496,90 +548,4 @@ Generate interface source code for micro services
 
 Just write normal functions, and Gen generates efficient routing source code and documentation for it Because the source code is generated, none of this affects runtime performance
 The differences caused by each change in the tool are shown directly in the generated source code
-generating clients is also supported</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/01/14/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-01-14T00:00:00+08:00</published><updated>2019-01-14T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/01/14/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/01/14/weekly.html">&lt;p&gt;&lt;a href=&quot;https://explained.ai/decision-tree-viz/index.html&quot;&gt;https://explained.ai/decision-tree-viz/index.html&lt;/a&gt; also mentioned &lt;a href=&quot;https://www.edwardtufte.com/tufte/&quot;&gt;https://www.edwardtufte.com/tufte/&lt;/a&gt; which has a book THE VISUAL DISPLAY OF QUANTITATIVE INFORMATION&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://dependabot.com/rust/&quot;&gt;https://dependabot.com/rust/&lt;/a&gt; Dependabot creates pull requests to keep your Rust dependencies up-to-date. (感觉很有意思，说不定 weekly-gen 可以试试&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;类似 Node 的 greenkeeper?&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;在 2019年1月8日，20:41，Zhang Yuning &lt;a href=&quot;mailto:notifications@github.com&quot;&gt;notifications@github.com&lt;/a&gt; 写道：&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://dependabot.com/rust/&quot;&gt;https://dependabot.com/rust/&lt;/a&gt; &lt;a href=&quot;https://dependabot.com/rust/&quot;&gt;https://dependabot.com/rust/&lt;/a&gt; Dependabot creates pull requests to keep your Rust dependencies up-to-date. (感觉很有意思，说不定 weekly-gen 可以试试&lt;/p&gt;
-
-&lt;p&gt;—
-You are receiving this because you are subscribed to this thread.
-Reply to this email directly, view it on GitHub &lt;a href=&quot;https://github.com/dyweb/weekly/issues/94#issuecomment-452569990&quot;&gt;https://github.com/dyweb/weekly/issues/94#issuecomment-452569990&lt;/a&gt;, or mute the thread &lt;a href=&quot;https://github.com/notifications/unsubscribe-auth/AGssTuerbLflK0UH-8wB80sfbNqa-eeIks5vBXMJgaJpZM4Z0zY7&quot;&gt;https://github.com/notifications/unsubscribe-auth/AGssTuerbLflK0UH-8wB80sfbNqa-eeIks5vBXMJgaJpZM4Z0zY7&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;自动签本地 https 证书！ &lt;a href=&quot;https://github.com/FiloSottile/mkcert&quot;&gt;https://github.com/FiloSottile/mkcert&lt;/a&gt;
-（想起了被 OpenSSL 支配的恐惧&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://izbicki.me/blog/hlearn-cross-validates-400x-faster-than-weka&quot;&gt;https://izbicki.me/blog/hlearn-cross-validates-400x-faster-than-weka&lt;/a&gt; 一句话概括就是：有人用Haskell写了个比Weka快400倍的朴素贝叶斯cross validation，然后发到了ICML13上：&lt;a href=&quot;https://izbicki.me/public/papers/icml2013-algebraic-classifiers.pdf&quot;&gt;https://izbicki.me/public/papers/icml2013-algebraic-classifiers.pdf&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;来源：&lt;a href=&quot;https://www.zhihu.com/question/23779178/answer/49218369&quot;&gt;https://www.zhihu.com/question/23779178/answer/49218369&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://sreeninet.wordpress.com/2016/05/29/macvlan-and-ipvlan/&quot;&gt;https://sreeninet.wordpress.com/2016/05/29/macvlan-and-ipvlan/&lt;/a&gt; 现在 k8s 主流的容器网络是? @gaocegege &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/tonsky/FiraCode&quot;&gt;https://github.com/tonsky/FiraCode&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Haskell 程序员表示代码可阅读性翻倍（&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/4198311/51073190-2e61f800-16a8-11e9-993a-6251ef706480.png&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;分不清 &lt;code&gt;==&lt;/code&gt; 和 &lt;code&gt;===&lt;/code&gt; 会不会是一个锅？&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;在 2019年1月12日，04:23，Alex Chi &lt;a href=&quot;mailto:notifications@github.com&quot;&gt;notifications@github.com&lt;/a&gt; 写道：&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/tonsky/FiraCode&quot;&gt;https://github.com/tonsky/FiraCode&lt;/a&gt; &lt;a href=&quot;https://github.com/tonsky/FiraCode&quot;&gt;https://github.com/tonsky/FiraCode&lt;/a&gt;
-Haskell 程序员表示代码可阅读性翻倍（&lt;/p&gt;
-
-&lt;p&gt;—
-You are receiving this because you commented.
-Reply to this email directly, view it on GitHub &lt;a href=&quot;https://github.com/dyweb/weekly/issues/94#issuecomment-453743356&quot;&gt;https://github.com/dyweb/weekly/issues/94#issuecomment-453743356&lt;/a&gt;, or mute the thread &lt;a href=&quot;https://github.com/notifications/unsubscribe-auth/AGssTtZq4-JCaN3rQ8VFVYhXEfIFVdfMks5vCdOygaJpZM4Z0zY7&quot;&gt;https://github.com/notifications/unsubscribe-auth/AGssTtZq4-JCaN3rQ8VFVYhXEfIFVdfMks5vCdOygaJpZM4Z0zY7&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;哦原来 &lt;code&gt;===&lt;/code&gt; 是三个等号，没毛病&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;在 2019年1月12日，04:23，Alex Chi &lt;a href=&quot;mailto:notifications@github.com&quot;&gt;notifications@github.com&lt;/a&gt; 写道：&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/tonsky/FiraCode&quot;&gt;https://github.com/tonsky/FiraCode&lt;/a&gt; &lt;a href=&quot;https://github.com/tonsky/FiraCode&quot;&gt;https://github.com/tonsky/FiraCode&lt;/a&gt;
-Haskell 程序员表示代码可阅读性翻倍（&lt;/p&gt;
-
-&lt;p&gt;—
-You are receiving this because you commented.
-Reply to this email directly, view it on GitHub &lt;a href=&quot;https://github.com/dyweb/weekly/issues/94#issuecomment-453743356&quot;&gt;https://github.com/dyweb/weekly/issues/94#issuecomment-453743356&lt;/a&gt;, or mute the thread &lt;a href=&quot;https://github.com/notifications/unsubscribe-auth/AGssTtZq4-JCaN3rQ8VFVYhXEfIFVdfMks5vCdOygaJpZM4Z0zY7&quot;&gt;https://github.com/notifications/unsubscribe-auth/AGssTtZq4-JCaN3rQ8VFVYhXEfIFVdfMks5vCdOygaJpZM4Z0zY7&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/be5invis/Sarasa-Gothic&quot;&gt;https://github.com/be5invis/Sarasa-Gothic&lt;/a&gt;
-@SkyZH I use this one...&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;from &lt;a href=&quot;https://github.com/zenany/weekly/commit/440dc4c024c2501ec65e45b3dddf90c7f852e011&quot;&gt;https://github.com/zenany/weekly/commit/440dc4c024c2501ec65e45b3dddf90c7f852e011&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://engineering.linkedin.com/blog/2019/01/introducing-thirdeye--linkedins-business-wide-monitoring-platfor&quot;&gt;https://engineering.linkedin.com/blog/2019/01/introducing-thirdeye--linkedins-business-wide-monitoring-platfor&lt;/a&gt; forgot they have a open source column store &lt;a href=&quot;https://github.com/apache/incubator-pinot&quot;&gt;https://github.com/apache/incubator-pinot&lt;/a&gt; (the arch looks like Druid ...)&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.yuque.com/mo-college/weekly/ny35wg&quot;&gt;https://www.yuque.com/mo-college/weekly/ny35wg&lt;/a&gt; 一个 visualization 的年度合集?&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://explained.ai/decision-tree-viz/index.html also mentioned https://www.edwardtufte.com/tufte/ which has a book THE VISUAL DISPLAY OF QUANTITATIVE INFORMATION</summary></entry></feed>
+generating clients is also supported</summary></entry></feed>
