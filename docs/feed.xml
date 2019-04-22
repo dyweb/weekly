@@ -1,5 +1,62 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-04-15T11:05:21+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/04/15/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-04-15T00:00:00+08:00</published><updated>2019-04-15T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/04/15/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/04/15/weekly.html">&lt;p&gt;&lt;a href=&quot;https://kubernetes.io/blog/2019/04/04/kubernetes-1.14-local-persistent-volumes-ga/&quot;&gt;https://kubernetes.io/blog/2019/04/04/kubernetes-1.14-local-persistent-volumes-ga/&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-04-22T09:17:30+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/04/22/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-04-22T00:00:00+08:00</published><updated>2019-04-22T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/04/22/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/04/22/weekly.html">&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/21017354/answer/652602653&quot;&gt;https://www.zhihu.com/question/21017354/answer/652602653&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;YouTube 从 Python/MySQL 逃离到 C++/Spanner 的故事&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/21017354/answer/652602653&quot;&gt;https://www.zhihu.com/question/21017354/answer/652602653&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;YouTube 从 Python/MySQL 逃离到 C++/Spanner 的故事&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;所以，我觉得 Python 作为 compose NN 的 frontend 完全是一个错误，看一个 ML 项目，绝大多数的代码不是在 compose NN 而是在处理数据，R 语言赛高&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lingxu-wxw/SE_Notes&quot;&gt;https://github.com/lingxu-wxw/SE_Notes&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;我院学弟的笔记，我觉得挺好的&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/kubernetes-sigs/krew&quot;&gt;https://github.com/kubernetes-sigs/krew&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Package manager for &amp;quot;kubectl plugins&amp;quot; &lt;a href=&quot;https://krew.dev&quot;&gt;https://krew.dev&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/tidwall/evio&quot;&gt;https://github.com/tidwall/evio&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Fast event-loop networking for Go &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Joe Armstrong, creator of erlang has passed away &lt;a href=&quot;https://twitter.com/FrancescoC/status/1119596234166218754&quot;&gt;https://twitter.com/FrancescoC/status/1119596234166218754&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/mohanson/gameboy&quot;&gt;https://github.com/mohanson/gameboy&lt;/a&gt; full featured game boy emulator in rust&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/sql-machine-learning/sqlflow&quot;&gt;https://github.com/sql-machine-learning/sqlflow&lt;/a&gt; cc @gaocegege &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/geohot/minikeyvalue&quot;&gt;https://github.com/geohot/minikeyvalue&lt;/a&gt; the code style is not very good though ...&lt;/p&gt;
+
+&lt;p&gt;Also from geohot&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/geohot/fromthetransistor&quot;&gt;https://github.com/geohot/fromthetransistor&lt;/a&gt; cc @xplorld 闲的木事的 ry&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/geohot/qira&quot;&gt;https://github.com/geohot/qira&lt;/a&gt; QEMU Interactive Runtime Analyser&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://www.zhihu.com/question/21017354/answer/652602653
+
+YouTube 从 Python/MySQL 逃离到 C++/Spanner 的故事</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/04/15/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-04-15T00:00:00+08:00</published><updated>2019-04-15T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/04/15/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/04/15/weekly.html">&lt;p&gt;&lt;a href=&quot;https://kubernetes.io/blog/2019/04/04/kubernetes-1.14-local-persistent-volumes-ga/&quot;&gt;https://kubernetes.io/blog/2019/04/04/kubernetes-1.14-local-persistent-volumes-ga/&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -415,137 +472,4 @@ the thread
 
 &lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://leetcode.com/problems/median-of-two-sorted-arrays/
 
-Leetcode python 现在有 type annotation 了</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/02/04/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-02-04T00:00:00+08:00</published><updated>2019-02-04T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/02/04/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/02/04/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/wzshiming/gen&quot;&gt;https://github.com/wzshiming/gen&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Generate interface source code for micro services&lt;/p&gt;
-
-&lt;p&gt;Just write normal functions, and Gen generates efficient routing source code and documentation for it Because the source code is generated, none of this affects runtime performance
-The differences caused by each change in the tool are shown directly in the generated source code
-generating clients is also supported&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://learngitbranching.js.org/&quot;&gt;https://learngitbranching.js.org/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;休闲养生小游戏，感受到了 &lt;code&gt;git merge&lt;/code&gt; 的 dirty（&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/4198311/51113844-7a46a580-183e-11e9-8c64-bc8f1773c0d3.png&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/kubernetes-sigs/kubespray&quot;&gt;https://github.com/kubernetes-sigs/kubespray&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;deploy k8s cluster in virtualbox/aws/azure/more&lt;/p&gt;
-
-&lt;p&gt;我总觉得 k8s 部署这么复杂，不是用外部写好的脚本就能解决的，可能有一些架构上的锅需要改&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/d5/tengo&quot;&gt;https://github.com/d5/tengo&lt;/a&gt; A fast script language for Go &lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Tengo is fast as it&amp;#39;s compiled to bytecode and executed on stack-based VM that&amp;#39;s written in native Go&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/nektos/act&quot;&gt;https://github.com/nektos/act&lt;/a&gt; run github action locally (feels like make and can even generate a flow diagram in cli ...)&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://blog.acolyer.org/2019/01/16/sagedb-a-learned-database-system/&quot;&gt;https://blog.acolyer.org/2019/01/16/sagedb-a-learned-database-system/&lt;/a&gt; the morning paper from CIDR 2019&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;CIDR 2019 &lt;a href=&quot;http://cidrdb.org/cidr2019/papers/p119-hellerstein-cidr19.pdf&quot;&gt;http://cidrdb.org/cidr2019/papers/p119-hellerstein-cidr19.pdf&lt;/a&gt; Serverless Computing: One Step Forward, Two Steps Back&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://medium.com/basecs/compressing-radix-trees-without-too-many-tears-a2e658adb9a0&quot;&gt;https://medium.com/basecs/compressing-radix-trees-without-too-many-tears-a2e658adb9a0&lt;/a&gt; (compress 之后怎么存没怎么提 ...&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://notes.shichao.io/lkd/ch4/&quot;&gt;https://notes.shichao.io/lkd/ch4/&lt;/a&gt; 别人的笔记 cc @gaocegege &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.beyondjava.net/escape-analysis-java&quot;&gt;https://www.beyondjava.net/escape-analysis-java&lt;/a&gt; 比较浅显的 ... 我以前只知道 go 有 escape analyais 里面提到了 scalar replacement 针对一个 class 里只有一个 int 的优化 ... 另外除了 heap -&amp;gt; stack, escape analysis 还能用来移除用不到的 lock (i.e. StringBuffer 的 length 的 synchronized) &lt;/p&gt;
-
-&lt;p&gt;我为什么开始看 java 了.jpg&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://aosabook.org/en/500L/clustering-by-consensus.html&quot;&gt;http://aosabook.org/en/500L/clustering-by-consensus.html&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://aosabook.org/en/index.html&quot;&gt;http://aosabook.org/en/index.html&lt;/a&gt; must have posted it before ... but worth posting it again ...&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/aws/lumberyard&quot;&gt;https://github.com/aws/lumberyard&lt;/a&gt; aws 还有开源的 3a 引擎 ...&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Setting up a new computer &lt;a href=&quot;https://github.com/nnja/new-computer&quot;&gt;https://github.com/nnja/new-computer&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://whydoesaptnotusehttps.com/&quot;&gt;https://whydoesaptnotusehttps.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Why does APT not use HTTPS?&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/oracle/mysql-operator&quot;&gt;https://github.com/oracle/mysql-operator&lt;/a&gt; oracle 居然有 mysql operator&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://arxiv.org/abs/1709.07821&quot;&gt;https://arxiv.org/abs/1709.07821&lt;/a&gt; Roaring Bitmaps: Implementation of an Optimized Software Library 
-通过 simd 加速 union, intersect (对 filter 类的 query 有用? 我记得 influxdb 有在 index 里用到过) 感觉 text search 的都有用到&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/RoaringBitmap/RoaringBitmap&quot;&gt;https://github.com/RoaringBitmap/RoaringBitmap&lt;/a&gt; &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://blog.cloudera.com/blog/2013/02/inside-cloudera-impala-runtime-code-generation/&quot;&gt;https://blog.cloudera.com/blog/2013/02/inside-cloudera-impala-runtime-code-generation/&lt;/a&gt; apache impala code gen&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Life of a triangle &lt;a href=&quot;https://developer.nvidia.com/content/life-triangle-nvidias-logical-pipeline&quot;&gt;https://developer.nvidia.com/content/life-triangle-nvidias-logical-pipeline&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;cache-aware Trie&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/Tessil/hat-trie&quot;&gt;https://github.com/Tessil/hat-trie&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/uber/aresdb&quot;&gt;https://github.com/uber/aresdb&lt;/a&gt; uber GPU db for realtime analytical &lt;a href=&quot;https://eng.uber.com/aresdb/&quot;&gt;https://eng.uber.com/aresdb/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/iina/iina&quot;&gt;https://github.com/iina/iina&lt;/a&gt; video player in mac&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/pbghogehoge/ssg&quot;&gt;https://github.com/pbghogehoge/ssg&lt;/a&gt; 秋霜玉
-(good old game...
-(文物开源系列(&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;开了谷歌翻译之后它居然会在滚动的过程中把代码注释里的日文逐渐替换成英语 ... 我以为都是整个页面翻译 &lt;a href=&quot;https://github.com/pbghogehoge/ssg/blob/master/MAIN/MAIN.CPP&quot;&gt;https://github.com/pbghogehoge/ssg/blob/master/MAIN/MAIN.CPP&lt;/a&gt; ... /w\ 火星了&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://refactoring.com/catalog/&quot;&gt;https://refactoring.com/catalog/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;重构技巧字典（不是很全）&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/wzshiming/gen
-
-Generate interface source code for micro services
-
-Just write normal functions, and Gen generates efficient routing source code and documentation for it Because the source code is generated, none of this affects runtime performance
-The differences caused by each change in the tool are shown directly in the generated source code
-generating clients is also supported</summary></entry></feed>
+Leetcode python 现在有 type annotation 了</summary></entry></feed>
