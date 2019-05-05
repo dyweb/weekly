@@ -1,5 +1,133 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-04-22T09:17:30+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/04/22/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-04-22T00:00:00+08:00</published><updated>2019-04-22T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/04/22/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/04/22/weekly.html">&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/21017354/answer/652602653&quot;&gt;https://www.zhihu.com/question/21017354/answer/652602653&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-05-05T09:26:12+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/05/05/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-05-05T00:00:00+08:00</published><updated>2019-05-05T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/05/05/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/05/05/weekly.html">&lt;p&gt;&lt;a href=&quot;https://docs.mongodb.com/manual/core/map-reduce/&quot;&gt;https://docs.mongodb.com/manual/core/map-reduce/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Mongodb 的 mongod 可以跑 mapreduce 了&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/kevinlawler/kona&quot;&gt;https://github.com/kevinlawler/kona&lt;/a&gt; open source implementation of the k language (not the latest q in kdb+)&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/vlang/v&quot;&gt;https://github.com/vlang/v&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Simple, fast, safe, compiled language for creating maintainable software. Supports translation from C/C++.&lt;/p&gt;
+
+&lt;p&gt;很好奇翻译是怎么实现的（估计最多翻译用了标准库的代码吧&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/rhysd/vim.wasm&quot;&gt;https://github.com/rhysd/vim.wasm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Vim editor ported to WebAssembly &lt;a href=&quot;http://rhysd.github.io/vim.wasm&quot;&gt;http://rhysd.github.io/vim.wasm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这个也太酷了吧&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/alibaba/collabobot&quot;&gt;https://github.com/alibaba/collabobot&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;我喜欢这个工具&lt;/p&gt;
+
+&lt;p&gt;A collaborate robot for GitHub open source repositories. Auto weekly report, auto issue label, auto issue translation, etc.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/alibaba/collabobot&quot;&gt;https://github.com/alibaba/collabobot&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;我喜欢这个工具&lt;/p&gt;
+
+&lt;p&gt;A collaborate robot for GitHub open source repositories. Auto weekly report, auto issue label, auto issue translation, etc.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;cool!&lt;/p&gt;
+
+&lt;p&gt;大家也可以看看我这个 Go 实现：&lt;a href=&quot;https://github.com/yangwenmai/weekly_digest&quot;&gt;https://github.com/yangwenmai/weekly_digest&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;还有原生的版本：&lt;a href=&quot;https://github.com/probot/weekly-digest&quot;&gt;https://github.com/probot/weekly-digest&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/bet365/jingo&quot;&gt;https://github.com/bet365/jingo&lt;/a&gt; yet another very quick json encoder ...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Go type alias (I think it is used for x/net/context and context), saw it again in k8s related codebase, makes import simpler (when there are too many sub packages ...) &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/kubernetes-sigs/controller-runtime/blob/master/alias.go&quot;&gt;https://github.com/kubernetes-sigs/controller-runtime/blob/master/alias.go&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://go.googlesource.com/proposal/+/master/design/18130-type-alias.md&quot;&gt;https://go.googlesource.com/proposal/+/master/design/18130-type-alias.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://talks.golang.org/2016/refactor.article&quot;&gt;https://talks.golang.org/2016/refactor.article&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;btw: 楼上 @yangwenmai 是不是经常在 tidb 的群里冒泡啊，头像看的很眼熟 (一直潜水的路过 ....&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;CMU course for Deep Learning in NLP&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://phontron.com/class/nn4nlp2019/schedule.html&quot;&gt;http://phontron.com/class/nn4nlp2019/schedule.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Go type alias (I think it is used for x/net/context and context), saw it again in k8s related codebase, makes import simpler (when there are too many sub packages ...)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/kubernetes-sigs/controller-runtime/blob/master/alias.go&quot;&gt;https://github.com/kubernetes-sigs/controller-runtime/blob/master/alias.go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://go.googlesource.com/proposal/+/master/design/18130-type-alias.md&quot;&gt;https://go.googlesource.com/proposal/+/master/design/18130-type-alias.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://talks.golang.org/2016/refactor.article&quot;&gt;https://talks.golang.org/2016/refactor.article&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;btw: 楼上 @yangwenmai 是不是经常在 tidb 的群里冒泡啊，头像看的很眼熟 (一直潜水的路过 ....&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;经常冒泡也谈不上，偶尔发发言吧。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://rust-embedded.github.io/book/intro/no-std.html&quot;&gt;https://rust-embedded.github.io/book/intro/no-std.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;From &lt;a href=&quot;https://github.com/zenany/weekly/commit/d5ffd4e3c0e30b1d1df03e23bbc684fe546eef6c&quot;&gt;https://github.com/zenany/weekly/commit/d5ffd4e3c0e30b1d1df03e23bbc684fe546eef6c&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/tnoV-RpYn2kzudbYwLoL3g&quot;&gt;https://mp.weixin.qq.com/s/tnoV-RpYn2kzudbYwLoL3g&lt;/a&gt;  &amp;#39;有一个UI设计师，用了两个多月时间做了一部 Element 动画宣传片，他到底经历了什么..&amp;#39;   &lt;/p&gt;
+
+&lt;p&gt;(什么时候做个东岳宣传片 .... 我填完现在的坑去试试&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/dyweb/gommon/releases/tag/v0.0.11&quot;&gt;https://github.com/dyweb/gommon/releases/tag/v0.0.11&lt;/a&gt; released gommon 0.0.11 simplified logger registry, deprecated packages are moved to &lt;a href=&quot;https://github.com/dyweb/gommon-legacy&quot;&gt;https://github.com/dyweb/gommon-legacy&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;From &lt;a href=&quot;https://github.com/zenany/weekly/commit/d5ffd4e3c0e30b1d1df03e23bbc684fe546eef6c&quot;&gt;zenany/weekly@d5ffd4e&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/tnoV-RpYn2kzudbYwLoL3g&quot;&gt;https://mp.weixin.qq.com/s/tnoV-RpYn2kzudbYwLoL3g&lt;/a&gt; &amp;#39;有一个UI设计师，用了两个多月时间做了一部 Element 动画宣传片，他到底经历了什么..&amp;#39;&lt;/p&gt;
+
+&lt;p&gt;(什么时候做个东岳宣传片 .... 我填完现在的坑去试试&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我觉得婶婶可以的&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://heycam.github.io/webidl/&quot;&gt;https://heycam.github.io/webidl/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;W3C 出的一个 Interface Defining Language, 将来有可能 WASM 会基于此直接操作 DOM (WASM 工作组慢死)&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/dyweb/gommon/releases/tag/v0.0.12&quot;&gt;https://github.com/dyweb/gommon/releases/tag/v0.0.12&lt;/a&gt; gommon 0,0.12 released, add httpclient from go.ice, a high level wrapper around net/http and model after &lt;a href=&quot;https://github.com/bradfitz/exp-httpclient&quot;&gt;https://github.com/bradfitz/exp-httpclient&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://docs.mongodb.com/manual/core/map-reduce/
+
+Mongodb 的 mongod 可以跑 mapreduce 了</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/04/22/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-04-22T00:00:00+08:00</published><updated>2019-04-22T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/04/22/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/04/22/weekly.html">&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/21017354/answer/652602653&quot;&gt;https://www.zhihu.com/question/21017354/answer/652602653&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;YouTube 从 Python/MySQL 逃离到 C++/Spanner 的故事&lt;/p&gt;
 
@@ -446,30 +574,4 @@ the thread
 
 &lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/keras-team/keras
 
-前几天重新开始看 https://developers.google.com/machine-learning/crash-course/ 看 Tensorflow 的代码看到自闭…… 突然发现还有 Keras 这种简单的框架？看来我和时代脱节太久了……</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/02/11/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-02-11T00:00:00+08:00</published><updated>2019-02-11T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/02/11/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/02/11/weekly.html">&lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/median-of-two-sorted-arrays/&quot;&gt;https://leetcode.com/problems/median-of-two-sorted-arrays/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Leetcode python 现在有 type annotation 了&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://cglab.ca/%7Eabeinges/blah/too-many-lists/book/&quot;&gt;http://cglab.ca/~abeinges/blah/too-many-lists/book/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Learning Rust With Entirely Too Many Linked Lists&lt;/p&gt;
-
-&lt;p&gt;要流泪了。&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/hanami/hanami&quot;&gt;https://github.com/hanami/hanami&lt;/a&gt; yet another ruby framework&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://pi-hole.net/&quot;&gt;https://pi-hole.net/&lt;/a&gt; 之前一直想用 docker 的 OpenWRT 容器搭一个单边路由作网关代理整个网络…… 现在发现有这个解决方案（&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://medium.com/@bparli/adventures-in-rust-and-load-balancers-73a0bc61a192&quot;&gt;https://medium.com/@bparli/adventures-in-rust-and-load-balancers-73a0bc61a192&lt;/a&gt; l4 balancer in rust &lt;a href=&quot;https://github.com/bparli/convey&quot;&gt;https://github.com/bparli/convey&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://leetcode.com/problems/median-of-two-sorted-arrays/
-
-Leetcode python 现在有 type annotation 了</summary></entry></feed>
+前几天重新开始看 https://developers.google.com/machine-learning/crash-course/ 看 Tensorflow 的代码看到自闭…… 突然发现还有 Keras 这种简单的框架？看来我和时代脱节太久了……</summary></entry></feed>
