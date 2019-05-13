@@ -1,5 +1,76 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-05-05T09:26:12+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/05/05/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-05-05T00:00:00+08:00</published><updated>2019-05-05T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/05/05/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/05/05/weekly.html">&lt;p&gt;&lt;a href=&quot;https://docs.mongodb.com/manual/core/map-reduce/&quot;&gt;https://docs.mongodb.com/manual/core/map-reduce/&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-05-13T09:24:32+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/05/13/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-05-13T00:00:00+08:00</published><updated>2019-05-13T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/05/13/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/05/13/weekly.html">&lt;p&gt;from &lt;a href=&quot;https://github.com/zenany/weekly/commit/273ec1a8efbfc1d72e1c861aa03aa604dea883b0&quot;&gt;https://github.com/zenany/weekly/commit/273ec1a8efbfc1d72e1c861aa03aa604dea883b0&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/soul-lang/SOUL&quot;&gt;https://github.com/soul-lang/SOUL&lt;/a&gt;  (SOUnd Language) is an attempt to modernise and optimise the way high-performance, low-latency audio code is written and executed&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://golden.com/&quot;&gt;https://golden.com/&lt;/a&gt; Explore the world&amp;#39;s first self-constructing knowledge database built by artificial and human intelligence. cc @raspberryice&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://penberg.org/parakernel-hotos19.pdf&quot;&gt;https://penberg.org/parakernel-hotos19.pdf&lt;/a&gt; I/O Is Faster Than the CPU – Let’s Partition Resources and Eliminate (Most) OS Abstractions &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Ranlot/single-parameter-fit/blob/master/1904.12320.pdf&quot;&gt;https://github.com/Ranlot/single-parameter-fit/blob/master/1904.12320.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;用一个单实参数的可导的初等函数可以拟合出任意图像、声音、 scatter plot, 所以在看模型 generalibility  的时候不能只看参数数量、维度。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://from-a-to-remzi.blogspot.com/2014/01/the-case-for-free-online-books-fobs.html&quot;&gt;https://from-a-to-remzi.blogspot.com/2014/01/the-case-for-free-online-books-fobs.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;OSTEP 的故事&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/HFO4/gameboy.live&quot;&gt;https://github.com/HFO4/gameboy.live&lt;/a&gt; A basic gameboy emulator with terminal &amp;quot;Cloud Gaming&amp;quot; support  (written in go)&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;From &lt;a href=&quot;https://github.com/zenany/weekly/commit/2b908b47ae5bf98a5179383dfdaafa2b13fe3f28&quot;&gt;https://github.com/zenany/weekly/commit/2b908b47ae5bf98a5179383dfdaafa2b13fe3f28&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://blogs.dropbox.com/tech/2019/05/how-we-optimized-magic-pocket-for-cold-storage/&quot;&gt;https://blogs.dropbox.com/tech/2019/05/how-we-optimized-magic-pocket-for-cold-storage/&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://blogs.dropbox.com/tech/2018/06/extending-magic-pocket-innovation-with-the-first-petabyte-scale-smr-drive-deployment/&quot;&gt;https://blogs.dropbox.com/tech/2018/06/extending-magic-pocket-innovation-with-the-first-petabyte-scale-smr-drive-deployment/&lt;/a&gt; 丢盒子的 fs 是自己跳过 os 的 fs 直接操作 block device 的&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Moving from Go to Rust also allowed us to handle more disks, and larger disks, without increased CPU and Memory costs by being able to directly control memory allocation and garbage collection&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;@gaocegege 是时候变 rust boy 了 /w\&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://edgedb.com/blog/we-can-do-better-than-sql/&quot;&gt;https://edgedb.com/blog/we-can-do-better-than-sql/&lt;/a&gt; 介个 db 居然是 py 写的基于 pg ... &lt;a href=&quot;https://github.com/edgedb/edgedb&quot;&gt;https://github.com/edgedb/edgedb&lt;/a&gt;  @codeworm96 
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://magic.io/blog/asyncpg-1m-rows-from-postgres-to-python/&quot;&gt;https://magic.io/blog/asyncpg-1m-rows-from-postgres-to-python/&lt;/a&gt; 他们说 py 的 pg driver 比 go 的快 ...&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/kkuchta/css-only-chat&quot;&gt;https://github.com/kkuchta/css-only-chat&lt;/a&gt; 记得 @arrowrowe 提到了 (忘了 po 了 看别人的 weekly 又看到了&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blogs.dropbox.com/tech/2019/04/embracing-papercuts/&quot;&gt;https://blogs.dropbox.com/tech/2019/04/embracing-papercuts/&lt;/a&gt; cc 狗粮 lead @gaocegege &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;You take a risk when you give others autonomy. The safe option is just to micromanage the shit out of your team — you’ll get mediocre output from mediocre people, while your good people go work somewhere else.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Other posts from him &lt;a href=&quot;https://medium.com/@jamesacowling&quot;&gt;https://medium.com/@jamesacowling&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">from https://github.com/zenany/weekly/commit/273ec1a8efbfc1d72e1c861aa03aa604dea883b0
+
+
+https://github.com/soul-lang/SOUL  (SOUnd Language) is an attempt to modernise and optimise the way high-performance, low-latency audio code is written and executed
+https://golden.com/ Explore the world&amp;#39;s first self-constructing knowledge database built by artificial and human intelligence. cc @raspberryice</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/05/05/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-05-05T00:00:00+08:00</published><updated>2019-05-05T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/05/05/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/05/05/weekly.html">&lt;p&gt;&lt;a href=&quot;https://docs.mongodb.com/manual/core/map-reduce/&quot;&gt;https://docs.mongodb.com/manual/core/map-reduce/&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Mongodb 的 mongod 可以跑 mapreduce 了&lt;/p&gt;
 
@@ -481,97 +552,4 @@ though it is marked as abandoned ... https://github.com/joyent/rfd/commit/afc03b
 
 &lt;p&gt;&lt;a href=&quot;https://medium.com/@gabriel_20625/technical-lessons-from-building-a-compiler-startup-for-3-years-4473405161cd&quot;&gt;https://medium.com/@gabriel_20625/technical-lessons-from-building-a-compiler-startup-for-3-years-4473405161cd&lt;/a&gt;&lt;/p&gt;
 
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/petermattis/pebble RocksDB/LevelDB inspired key-value database in Go (used?  by CockroachDB)</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/02/25/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-02-25T00:00:00+08:00</published><updated>2019-02-25T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/02/25/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/02/25/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/keras-team/keras&quot;&gt;https://github.com/keras-team/keras&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;前几天重新开始看 &lt;a href=&quot;https://developers.google.com/machine-learning/crash-course/&quot;&gt;https://developers.google.com/machine-learning/crash-course/&lt;/a&gt; 看 Tensorflow 的代码看到自闭…… 突然发现还有 Keras 这种简单的框架？看来我和时代脱节太久了……&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/pengan1987/computer-museum-dnbwg&quot;&gt;https://github.com/pengan1987/computer-museum-dnbwg&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;DNBWG.com 网站是配合知乎专栏 古董电脑室 建设的在线电脑模拟器网站，希望能够以一种更直观的方式展示历史上著名的电脑平台的特性。针对中文读者还加入了许多中国市场上独有的硬件和软件平台，包括UCDOS、文曲星电子词典、小霸王学习机、中华学习机等。&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/RimoChan/Librian&quot;&gt;https://github.com/RimoChan/Librian&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Galgame 引擎，简单 DSL，中文文档&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/kubernetes-sigs/kind&quot;&gt;https://github.com/kubernetes-sigs/kind&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;kind is a tool for running local Kubernetes clusters using Docker container “nodes”.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Steam Link on Raspberry Pi&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://support.steampowered.com/kb_article.php?ref=6153-IFGH-6589&quot;&gt;https://support.steampowered.com/kb_article.php?ref=6153-IFGH-6589&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;实测会让我的 Macbook 黑屏……&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;看 Algorithm 的时候了解到 Hash function 可能会导致 DoS，然后发现了可以防御这种 DoS 的 Hash function&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://en.m.wikipedia.org/wiki/MurmurHash&quot;&gt;https://en.m.wikipedia.org/wiki/MurmurHash&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://medium.com/@robertgrosse/generating-64-bit-hash-collisions-to-dos-python-5b21404a5306&quot;&gt;https://medium.com/@robertgrosse/generating-64-bit-hash-collisions-to-dos-python-5b21404a5306&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Generating 64 bit hash collisions to DOS Python&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://eng.uber.com/manifold/&quot;&gt;https://eng.uber.com/manifold/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Uber 的 ML Model 可视化系统，相比于目前的，多了一些模型比较等等可视化功能。&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.wired.com/story/finding-lena-the-patron-saint-of-jpegs/&quot;&gt;https://www.wired.com/story/finding-lena-the-patron-saint-of-jpegs/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Lena 的故事&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/faiface/beep&quot;&gt;https://github.com/faiface/beep&lt;/a&gt; &lt;a href=&quot;https://faiface.github.io/post/how-i-built-audio-lib-composite-pattern/&quot;&gt;https://faiface.github.io/post/how-i-built-audio-lib-composite-pattern/&lt;/a&gt; an audio processing library in go&lt;/p&gt;
-
-&lt;p&gt;沉寂的 weekly ....&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;可能都出去玩了。。。@cece 不如放点旅行照片上weekly吧&lt;/p&gt;
-
-&lt;p&gt;On February 23, 2019 at 5:57:13 PM, Pinglei Guo (&lt;a href=&quot;mailto:notifications@github.com&quot;&gt;notifications@github.com&lt;/a&gt;)
-wrote:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/faiface/beep&quot;&gt;https://github.com/faiface/beep&lt;/a&gt;
-&lt;a href=&quot;https://faiface.github.io/post/how-i-built-audio-lib-composite-pattern/&quot;&gt;https://faiface.github.io/post/how-i-built-audio-lib-composite-pattern/&lt;/a&gt;
-an audio processing library in go&lt;/p&gt;
-
-&lt;p&gt;沉寂的 weekly ....&lt;/p&gt;
-
-&lt;p&gt;—
-You are receiving this because you are subscribed to this thread.
-Reply to this email directly, view it on GitHub
-&lt;a href=&quot;https://github.com/dyweb/weekly/issues/97#issuecomment-466725760&quot;&gt;https://github.com/dyweb/weekly/issues/97#issuecomment-466725760&lt;/a&gt;, or mute
-the thread
-&lt;a href=&quot;https://github.com/notifications/unsubscribe-auth/AD1Xn37IvqlVmIyvjQF9EqyZq409b_eCks5vQfF5gaJpZM4azvLt&quot;&gt;https://github.com/notifications/unsubscribe-auth/AD1Xn37IvqlVmIyvjQF9EqyZq409b_eCks5vQfF5gaJpZM4azvLt&lt;/a&gt;
-.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://bit.ly/lifeofapixel&quot;&gt;https://bit.ly/lifeofapixel&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Life of a Pixel&lt;/p&gt;
-
-&lt;p&gt;Slides on the rendering pipeline in Chrome.&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/keras-team/keras
-
-前几天重新开始看 https://developers.google.com/machine-learning/crash-course/ 看 Tensorflow 的代码看到自闭…… 突然发现还有 Keras 这种简单的框架？看来我和时代脱节太久了……</summary></entry></feed>
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/petermattis/pebble RocksDB/LevelDB inspired key-value database in Go (used?  by CockroachDB)</summary></entry></feed>
