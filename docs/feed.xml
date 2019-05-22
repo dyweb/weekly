@@ -1,5 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-05-13T09:24:32+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/05/13/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-05-13T00:00:00+08:00</published><updated>2019-05-13T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/05/13/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/05/13/weekly.html">&lt;p&gt;from &lt;a href=&quot;https://github.com/zenany/weekly/commit/273ec1a8efbfc1d72e1c861aa03aa604dea883b0&quot;&gt;https://github.com/zenany/weekly/commit/273ec1a8efbfc1d72e1c861aa03aa604dea883b0&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-05-22T10:56:00+08:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/05/20/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-05-20T00:00:00+08:00</published><updated>2019-05-20T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/05/20/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/05/20/weekly.html">&lt;p&gt;A Virtual Cluster Based Kubernetes Multi-tenancy Solution &lt;a href=&quot;https://docs.google.com/document/d/1EELeVaduYZ65j4AXg9bp3Kyn38GKDU5fAJ5LFcxt2ZU/edit&quot;&gt;https://docs.google.com/document/d/1EELeVaduYZ65j4AXg9bp3Kyn38GKDU5fAJ5LFcxt2ZU/edit&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;推上看到的 阿里的人提的 (比想像的要简短很多啊 ...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/kubernetes/dns/issues/176&quot;&gt;https://github.com/kubernetes/dns/issues/176&lt;/a&gt; k8s 用 ipvlan 的时候基于 iptable 的 service 不会有用 (btw: ipvs 的会有用么? ... )&lt;/p&gt;
+
+&lt;p&gt;以及开 issue 的老哥用户名好评&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://yuanchuan.dev/2019/05/15/window-lattice-and-css.html&quot;&gt;https://yuanchuan.dev/2019/05/15/window-lattice-and-css.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;css 画的窗棂&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.ardanlabs.com/blog/2018/12/garbage-collection-in-go-part1-semantics.html&quot;&gt;https://www.ardanlabs.com/blog/2018/12/garbage-collection-in-go-part1-semantics.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://cs61.seas.harvard.edu/site/2018/&quot;&gt;http://cs61.seas.harvard.edu/site/2018/&lt;/a&gt;  hello kitty ...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://read.seas.harvard.edu/cs161-18/&quot;&gt;http://read.seas.harvard.edu/cs161-18/&lt;/a&gt; &lt;a href=&quot;https://github.com/cs161/chickadee/&quot;&gt;https://github.com/cs161/chickadee/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://supereagle.github.io/2018/06/17/multiple-dep-versions/&quot;&gt;https://supereagle.github.io/2018/06/17/multiple-dep-versions/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Golang 项目多版本依赖的引入&lt;/p&gt;
+
+&lt;p&gt;我司同事的博客&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">A Virtual Cluster Based Kubernetes Multi-tenancy Solution https://docs.google.com/document/d/1EELeVaduYZ65j4AXg9bp3Kyn38GKDU5fAJ5LFcxt2ZU/edit
+
+推上看到的 阿里的人提的 (比想像的要简短很多啊 ...</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/05/13/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-05-13T00:00:00+08:00</published><updated>2019-05-13T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/05/13/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/05/13/weekly.html">&lt;p&gt;from &lt;a href=&quot;https://github.com/zenany/weekly/commit/273ec1a8efbfc1d72e1c861aa03aa604dea883b0&quot;&gt;https://github.com/zenany/weekly/commit/273ec1a8efbfc1d72e1c861aa03aa604dea883b0&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/soul-lang/SOUL&quot;&gt;https://github.com/soul-lang/SOUL&lt;/a&gt;  (SOUnd Language) is an attempt to modernise and optimise the way high-performance, low-latency audio code is written and executed&lt;/li&gt;
@@ -514,42 +552,4 @@ though it is marked as abandoned ... https://github.com/joyent/rfd/commit/afc03b
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/NationalSecurityAgency/lemongraph&quot;&gt;https://github.com/NationalSecurityAgency/lemongraph&lt;/a&gt; graph db based on LMDB&lt;/p&gt;
 
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/alipay/sofa-jraft saw it on twitter</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/03/04/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-03-04T00:00:00+08:00</published><updated>2019-03-04T00:00:00+08:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/03/04/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/03/04/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/petermattis/pebble&quot;&gt;https://github.com/petermattis/pebble&lt;/a&gt; RocksDB/LevelDB inspired key-value database in Go (used?  by CockroachDB)&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.timsommer.be/famous-laws-of-software-development/&quot;&gt;https://www.timsommer.be/famous-laws-of-software-development/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Famous Laws Of Software Development&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/zziz/pwc&quot;&gt;https://github.com/zziz/pwc&lt;/a&gt; Papers with code. Sorted by stars. Updated weekly.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://sysdig.com/blog/the-art-of-writing-ebpf-programs-a-primer/&quot;&gt;https://sysdig.com/blog/the-art-of-writing-ebpf-programs-a-primer/&lt;/a&gt; also netflix&amp;#39;s ebpf blog &lt;a href=&quot;https://medium.com/netflix-techblog/extending-vector-with-ebpf-to-inspect-host-and-container-performance-5da3af4c584b&quot;&gt;https://medium.com/netflix-techblog/extending-vector-with-ebpf-to-inspect-host-and-container-performance-5da3af4c584b&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/lemire/simdjson&quot;&gt;https://github.com/lemire/simdjson&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;用 SIMD 解析 JSON，同样思路可以用在别的协议上（MOS 可能性微存？），吊打传统库&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://arxiv.org/pdf/1902.04738.pdf&quot;&gt;https://arxiv.org/pdf/1902.04738.pdf&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;新的 malloc, 据说可以降低 mem fragmentation, 用 firefox 和 redis 测了是如此，不知道有没有代码&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://golang.org/doc/go1.12&quot;&gt;https://golang.org/doc/go1.12&lt;/a&gt; go1.12 released&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;from &lt;a href=&quot;https://github.com/zenany/weekly/commit/aa63055e9b8858717dab76e03c8e19ed0da8df64&quot;&gt;https://github.com/zenany/weekly/commit/aa63055e9b8858717dab76e03c8e19ed0da8df64&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://medium.com/@gabriel_20625/technical-lessons-from-building-a-compiler-startup-for-3-years-4473405161cd&quot;&gt;https://medium.com/@gabriel_20625/technical-lessons-from-building-a-compiler-startup-for-3-years-4473405161cd&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/petermattis/pebble RocksDB/LevelDB inspired key-value database in Go (used?  by CockroachDB)</summary></entry></feed>
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/alipay/sofa-jraft saw it on twitter</summary></entry></feed>
