@@ -43,23 +43,6 @@ Copied from [Simple bookmarklet to send current webpage to weekly](https://gist.
 
 :tada: Special Thanks to [@htfy96][]!
 
-## 构建周报静态页面
+## 周报维护方法
 
-周报使用 [Jekyll](https://github.com/jekyll) 的 [minima](https://github.com/jekyll/minima) 主题来构建静态的网站，可以通过如下命令在本地进行构建：
-
-```bash
-$ ./scripts/build.sh
-```
-
-## 周报生成器的使用
-
-周报生成器目前支持使用 Rust 的 nightly build 版本进行构建（原因可见 [dy-weekly-generator#5](https://github.com/dyweb/dy-weekly-generator/issues/5)），使用方式如下：
-
-```bash
-$ weekly-gen --repo dyweb/weekly --issue $CURRENT_ISSUE_NUM > ./$YEAR/$YEAR-$MONTH-$DAY-weekly.md
-```
-
-:tada: Special Thanks to [@codeworm96][]!
-
-[@htfy96]: https://github.com/htfy96
-[@codeworm96]: https://github.com/codeworm96
+如果你是周报的维护者，请参考[周报维护方法文档](maintenance.md)了解如何维护周报系统。
