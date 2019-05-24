@@ -66,7 +66,7 @@ bot 是运行在服务器上的，但因为 bot 在实现的时候，想支持�
 首先安装 ruby 相关依赖，然后：
 
 ```bash
-$ ./scrips/install-dep.sh
+$ ./scripts/install-dep.sh
 ```
 
 [dyweb/weekly]: https://github.com/dyweb/weekly
