@@ -41,7 +41,7 @@ apiRequest('repos/dyweb/weekly/issues')
 
 Copied from [Simple bookmarklet to send current webpage to weekly](https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588)
 
-:tada: Special Thanks to [@htfy96][]!
+:tada: Special Thanks to [@htfy96](https://github.com/htfy96)!
 
 ## 周报维护方法
 
