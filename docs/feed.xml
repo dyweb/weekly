@@ -1,5 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-05-27T01:32:31+00:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/05/27/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-05-27T00:00:00+00:00</published><updated>2019-05-27T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/05/27/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/05/27/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/FantasticMao/ycy-intellij-plugin&quot;&gt;https://github.com/FantasticMao/ycy-intellij-plugin&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-06-03T02:58:40+00:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/06/03/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-06-03T00:00:00+00:00</published><updated>2019-06-03T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/06/03/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/06/03/weekly.html">&lt;p&gt;&lt;a href=&quot;https://learnxinyminutes.com/&quot;&gt;https://learnxinyminutes.com/&lt;/a&gt; 看了上面的 Lambda Calculus&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/kanaka/mal&quot;&gt;https://github.com/kanaka/mal&lt;/a&gt; 最近 SICP 读不下去了……于是打算照着这个实现一个 interpreter&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;介绍 Wavefunction Collapse Algorithm 的文章里比较简单易懂的一篇，还有配套的代码&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://robertheaton.com/2018/12/17/wavefunction-collapse-algorithm/&quot;&gt;https://robertheaton.com/2018/12/17/wavefunction-collapse-algorithm/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/zhihu/rucene&quot;&gt;https://github.com/zhihu/rucene&lt;/a&gt; rust port of lucene cc @codeworm96 &lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://learnxinyminutes.com/ 看了上面的 Lambda Calculus</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/05/27/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-05-27T00:00:00+00:00</published><updated>2019-05-27T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/05/27/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/05/27/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/FantasticMao/ycy-intellij-plugin&quot;&gt;https://github.com/FantasticMao/ycy-intellij-plugin&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;超越鼓励师 for IntelliJ IDEA&lt;/p&gt;
 
@@ -536,36 +552,4 @@ though it is marked as abandoned ... https://github.com/joyent/rfd/commit/afc03b
 
 &lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1_e-UDcWUb-keyVhWKJPhICRELkQPM0Qyj-SgyBAq0aM/edit&quot;&gt;https://docs.google.com/document/d/1_e-UDcWUb-keyVhWKJPhICRELkQPM0Qyj-SgyBAq0aM/edit&lt;/a&gt;  TiDB  线上课程 plan&lt;/p&gt;
 
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://www.youtube.com/watch?v=FJW8nGV4jxY Linux Performance Tools, Brendan Gregg, part 1 of 2</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/03/18/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-03-18T00:00:00+00:00</published><updated>2019-03-18T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/03/18/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/03/18/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/openacid/slim&quot;&gt;https://github.com/openacid/slim&lt;/a&gt; a space efficient trie? &lt;a href=&quot;https://openacid.github.io/tech/algorithm/slimtrie-design/#&quot;&gt;https://openacid.github.io/tech/algorithm/slimtrie-design/#&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/vieux/gocover.io&quot;&gt;https://github.com/vieux/gocover.io&lt;/a&gt; spawn a container to get go package coverage&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/weaveworks/footloose&quot;&gt;https://github.com/weaveworks/footloose&lt;/a&gt; like vagrant with vm, footloose run systemd and sshd in container&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/pwaller/go2ll-talk&quot;&gt;https://github.com/pwaller/go2ll-talk&lt;/a&gt; Live coding a basic Go compiler with LLVM in 20 minutes&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;F5收购Nginx&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.infoq.cn/article/ENsP15mpad-97o34xIUB?utm_source=rss&amp;utm_medium=article&quot;&gt;https://www.infoq.cn/article/ENsP15mpad-97o34xIUB?utm_source=rss&amp;amp;utm_medium=article&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/Netflix/vector&quot;&gt;https://github.com/Netflix/vector&lt;/a&gt; a on host UI using &lt;a href=&quot;https://github.com/performancecopilot/pcp&quot;&gt;https://github.com/performancecopilot/pcp&lt;/a&gt; for collecting host metrics&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/jlfwong/speedscope&quot;&gt;https://github.com/jlfwong/speedscope&lt;/a&gt; a fast performance visualization &lt;a href=&quot;http://jamie-wong.com/post/speedscope/&quot;&gt;http://jamie-wong.com/post/speedscope/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.dwmkerr.com/effective-shell-part-1-navigating-the-command-line/&quot;&gt;https://www.dwmkerr.com/effective-shell-part-1-navigating-the-command-line/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/openacid/slim a space efficient trie? https://openacid.github.io/tech/algorithm/slimtrie-design/#</summary></entry></feed>
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://www.youtube.com/watch?v=FJW8nGV4jxY Linux Performance Tools, Brendan Gregg, part 1 of 2</summary></entry></feed>
