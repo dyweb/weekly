@@ -1,5 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-06-03T02:58:40+00:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/06/03/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-06-03T00:00:00+00:00</published><updated>2019-06-03T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/06/03/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/06/03/weekly.html">&lt;p&gt;&lt;a href=&quot;https://learnxinyminutes.com/&quot;&gt;https://learnxinyminutes.com/&lt;/a&gt; 看了上面的 Lambda Calculus&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-06-10T05:50:00+00:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/06/10/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-06-10T00:00:00+00:00</published><updated>2019-06-10T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/06/10/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/06/10/weekly.html">&lt;p&gt;分享一张图&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.l.jifangcheng.com/0dd371e367ea92e26d89873dd69d4cdab2950ee0.JPG&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;(&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/seatgeek/fuzzywuzzy&quot;&gt;https://github.com/seatgeek/fuzzywuzzy&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/ Fuzzy String Matching in Python&lt;/p&gt;
+
+&lt;p&gt;很实用的一个 library&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/iawia002/annie&quot;&gt;https://github.com/iawia002/annie&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;👾 Fast, simple and clean video downloader&lt;/p&gt;
+
+&lt;p&gt;公司同事实现的 Video Downloader&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/amusi/CVPR2019-Code&quot;&gt;https://github.com/amusi/CVPR2019-Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;CVPR 2019 论文代码收集&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/paulfitz/mlsql&quot;&gt;https://github.com/paulfitz/mlsql&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ML: 自然语言 query -&amp;gt; sql&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://grin-compiler.github.io/&quot;&gt;https://grin-compiler.github.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;函数式语言-to-llvm-compiler&lt;/p&gt;
+
+&lt;p&gt;万物起源 llvm)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/7023694/59011378-6568af80-87e9-11e9-9809-76815c11637b.png&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;From &lt;a href=&quot;https://github.com/zenany/weekly/commit/441e96e5d1d6a62868396c26fb2633510a412f6a&quot;&gt;https://github.com/zenany/weekly/commit/441e96e5d1d6a62868396c26fb2633510a412f6a&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/prisma/prisma&quot;&gt;https://github.com/prisma/prisma&lt;/a&gt; a typed ORM for ts, Go etc.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.midi.org/articles-old/details-about-midi-2-0-midi-ci-profiles-and-property-exchange&quot;&gt;https://www.midi.org/articles-old/details-about-midi-2-0-midi-ci-profiles-and-property-exchange&lt;/a&gt; MIDI 2.0&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;MetricsDB: TimeSeries Database for storing metrics at Twitter &lt;a href=&quot;https://blog.twitter.com/engineering/en_us/topics/infrastructure/2019/metricsdb.html&quot;&gt;https://blog.twitter.com/engineering/en_us/topics/infrastructure/2019/metricsdb.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/awslabs/gluon-ts&quot;&gt;https://github.com/awslabs/gluon-ts&lt;/a&gt; GluonTS - Probabilistic Time Series Modeling in Python &lt;a href=&quot;https://gluon-ts.mxnet.io/&quot;&gt;https://gluon-ts.mxnet.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">分享一张图
+
+
+
+(</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/06/03/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-06-03T00:00:00+00:00</published><updated>2019-06-03T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/06/03/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/06/03/weekly.html">&lt;p&gt;&lt;a href=&quot;https://learnxinyminutes.com/&quot;&gt;https://learnxinyminutes.com/&lt;/a&gt; 看了上面的 Lambda Calculus&lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -516,40 +581,4 @@ YouTube 从 Python/MySQL 逃离到 C++/Spanner 的故事</summary></entry><entry
 
 &lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/joyent/rfd/blob/master/rfd/0106/README.adoc RFD 106 Engineering Guide - Go Best Practice
 
-though it is marked as abandoned ... https://github.com/joyent/rfd/commit/afc03b67824d591e3ce7d10c54281a6e76886545</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/03/25/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-03-25T00:00:00+00:00</published><updated>2019-03-25T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/03/25/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/03/25/weekly.html">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=FJW8nGV4jxY&quot;&gt;https://www.youtube.com/watch?v=FJW8nGV4jxY&lt;/a&gt; Linux Performance Tools, Brendan Gregg, part 1 of 2&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/59544387&quot;&gt;https://zhuanlan.zhihu.com/p/59544387&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Kubernetes 中如何保证优雅地停止 Pod&lt;/p&gt;
-
-&lt;p&gt;@aylei &amp;#39;s new post about how to stop a pod in Kubernetes gracefully.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.codelingo.io/&quot;&gt;https://www.codelingo.io/&lt;/a&gt; code style check, i.e. &lt;a href=&quot;https://github.com/codelingo/codelingo/tree/master/tenets/codelingo/go&quot;&gt;https://github.com/codelingo/codelingo/tree/master/tenets/codelingo/go&lt;/a&gt; They seems to have their own query language for define static check CLQL. I think they have many private gh repos and it&amp;#39;s seems impossible to compile &lt;a href=&quot;https://github.com/codelingo/codelingo&quot;&gt;https://github.com/codelingo/codelingo&lt;/a&gt; directly based on imports that lead to 404 &lt;/p&gt;
-
-&lt;p&gt;The way they allow multiple languages reminds me of &lt;a href=&quot;https://github.com/bblfsh&quot;&gt;https://github.com/bblfsh&lt;/a&gt; from source{d}&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/kavu/go_reuseport&quot;&gt;https://github.com/kavu/go_reuseport&lt;/a&gt; &lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;run several instances of this tiny server without Address already in use errors&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/pivotal/monitoring-indicator-protocol&quot;&gt;https://github.com/pivotal/monitoring-indicator-protocol&lt;/a&gt; a yaml for monitoring?&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/google/ko&quot;&gt;https://github.com/google/ko&lt;/a&gt; Build and deploy Go applications on Kubernetes&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1_e-UDcWUb-keyVhWKJPhICRELkQPM0Qyj-SgyBAq0aM/edit&quot;&gt;https://docs.google.com/document/d/1_e-UDcWUb-keyVhWKJPhICRELkQPM0Qyj-SgyBAq0aM/edit&lt;/a&gt;  TiDB  线上课程 plan&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://www.youtube.com/watch?v=FJW8nGV4jxY Linux Performance Tools, Brendan Gregg, part 1 of 2</summary></entry></feed>
+though it is marked as abandoned ... https://github.com/joyent/rfd/commit/afc03b67824d591e3ce7d10c54281a6e76886545</summary></entry></feed>
