@@ -1,5 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-06-17T06:06:32+00:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/06/17/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-06-17T00:00:00+00:00</published><updated>2019-06-17T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/06/17/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/06/17/weekly.html">&lt;p&gt;Oracle 的 error message list (5559 页)&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-06-25T06:13:20+00:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/06/24/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-06-24T00:00:00+00:00</published><updated>2019-06-24T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/06/24/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/06/24/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/oracle/graal&quot;&gt;https://github.com/oracle/graal&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;GraalVM: Run Programs Faster Anywhere &lt;a href=&quot;https://www.graalvm.org&quot;&gt;https://www.graalvm.org&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;看起来很酷，能够把 Rust 跑在 JVM 上了？&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://waymo.com/open/&quot;&gt;https://waymo.com/open/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;waymo 公开的一个数据集（还没开放下载）&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://popl.mpi-sws.org/2014/dcp2014/wisnesky.pdf&quot;&gt;http://popl.mpi-sws.org/2014/dcp2014/wisnesky.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A Functorial Query Language, seeing DB as categories and relation arithmetics (select...) as functors&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/machine-learning-apps/IssuesLanguageModel&quot;&gt;https://github.com/machine-learning-apps/IssuesLanguageModel&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A Language model trained on a large corpus of GitHub Issues &lt;/p&gt;
+
+&lt;p&gt;自动给 GitHub Issue 和 PR 打 label 的 bot。GitHub 员工实现的，什么都好，就是没数据&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;typescript&amp;#39;s type system is turing complete&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Microsoft/TypeScript/issues/14833&quot;&gt;https://github.com/Microsoft/TypeScript/issues/14833&lt;/a&gt;
+&lt;a href=&quot;https://gist.github.com/hediet/63f4844acf5ac330804801084f87a6d4&quot;&gt;https://gist.github.com/hediet/63f4844acf5ac330804801084f87a6d4&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/oracle/graal
+
+GraalVM: Run Programs Faster Anywhere https://www.graalvm.org
+
+看起来很酷，能够把 Rust 跑在 JVM 上了？</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/06/17/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-06-17T00:00:00+00:00</published><updated>2019-06-17T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/06/17/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/06/17/weekly.html">&lt;p&gt;Oracle 的 error message list (5559 页)&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://docs.oracle.com/en/database/oracle/oracle-database/18/errmg/error-messages.pdf&quot;&gt;https://docs.oracle.com/en/database/oracle/oracle-database/18/errmg/error-messages.pdf&lt;/a&gt;&lt;/p&gt;
 
@@ -533,22 +570,4 @@ YouTube 从 Python/MySQL 逃离到 C++/Spanner 的故事</summary></entry><entry
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/src-d/proteus&quot;&gt;https://github.com/src-d/proteus&lt;/a&gt; generate proto file from go file&lt;/p&gt;
 
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://kubernetes.io/blog/2019/04/04/kubernetes-1.14-local-persistent-volumes-ga/</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/04/08/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-04-08T00:00:00+00:00</published><updated>2019-04-08T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/04/08/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/04/08/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/fastly/lucet&quot;&gt;https://github.com/fastly/lucet&lt;/a&gt; Lucet, the Sandboxing WebAssembly Compiler.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://csappbook.blogspot.com/2017/05/a-gallery-of-memory-mountains.html&quot;&gt;https://csappbook.blogspot.com/2017/05/a-gallery-of-memory-mountains.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/cosmtrek/air&quot;&gt;https://github.com/cosmtrek/air&lt;/a&gt; commit 一口狗粮 &lt;a href=&quot;https://github.com/cosmtrek/air/commit/deea39802724a47e8dff13213712eb43ad74ec43&quot;&gt;https://github.com/cosmtrek/air/commit/deea39802724a47e8dff13213712eb43ad74ec43&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.braveclojure.com/clojure-for-the-brave-and-true/&quot;&gt;https://www.braveclojure.com/clojure-for-the-brave-and-true/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/hashicorp/terraform/blob/master/communicator/ssh/communicator.go&quot;&gt;https://github.com/hashicorp/terraform/blob/master/communicator/ssh/communicator.go&lt;/a&gt; scp in go, from terraform file provisioner&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/fastly/lucet Lucet, the Sandboxing WebAssembly Compiler.</summary></entry></feed>
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://kubernetes.io/blog/2019/04/04/kubernetes-1.14-local-persistent-volumes-ga/</summary></entry></feed>
