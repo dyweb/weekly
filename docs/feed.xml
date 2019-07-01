@@ -1,5 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-06-25T06:13:20+00:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/06/24/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-06-24T00:00:00+00:00</published><updated>2019-06-24T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/06/24/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/06/24/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/oracle/graal&quot;&gt;https://github.com/oracle/graal&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-07-01T03:50:35+00:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/07/01/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-07-01T00:00:00+00:00</published><updated>2019-07-01T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/07/01/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/07/01/weekly.html">&lt;p&gt;Fast key-value stores: An idea whose time has come and gone &lt;a href=&quot;https://ai.google/research/pubs/pub48030&quot;&gt;https://ai.google/research/pubs/pub48030&lt;/a&gt; 貌似主要是 sharding 相关的(一开始还以为是新硬件相关的 ...) ... 一作以前还有过 SOSP ... &lt;a href=&quot;https://ai.google/research/people/AtulAdya&quot;&gt;https://ai.google/research/people/AtulAdya&lt;/a&gt; &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;The ins and outs of networking in Google Container Engine and Kubernetes &lt;a href=&quot;https://www.youtube.com/watch?v=y2bhV81MfKQ&quot;&gt;https://www.youtube.com/watch?v=y2bhV81MfKQ&lt;/a&gt; &lt;a href=&quot;https://speakerdeck.com/thockin/the-ins-and-outs-of-networking-in-google-container-engine&quot;&gt;https://speakerdeck.com/thockin/the-ins-and-outs-of-networking-in-google-container-engine&lt;/a&gt; &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Automate application workloads management on Kubernetes &lt;a href=&quot;https://openkruise.io&quot;&gt;https://openkruise.io&lt;/a&gt;
+&lt;a href=&quot;https://github.com/openkruise/kruise&quot;&gt;https://github.com/openkruise/kruise&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;三个 CRD 组成的一个 controller manager&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;./docs/concepts/astatefulset/README.md&quot;&gt;Advanced StatefulSet&lt;/a&gt;: An enhanced version of default &lt;a href=&quot;https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/&quot;&gt;StatefulSet&lt;/a&gt; with extra functionalities such as &lt;code&gt;inplace-update&lt;/code&gt;, sharding by namespace.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;./docs/concepts/broadcastJob/README.md&quot;&gt;BroadcastJob&lt;/a&gt;: A job that runs pods to completion across all the nodes in the cluster.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;./docs/concepts/sidecarSet/README.md&quot;&gt;SidecarSet&lt;/a&gt;: A controller that injects sidecar container into the pod spec based on selectors.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.openstack.org/assets/presentation-media/kata-containers-and-gvisor-a-quantitave-comparison.pdf&quot;&gt;https://www.openstack.org/assets/presentation-media/kata-containers-and-gvisor-a-quantitave-comparison.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/5100735/60159056-eaf9e100-9824-11e9-8e39-c1b6ebcd42e4.png&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/tensorflow/what-exactly-is-this-tfx-thing-1ac9e56531c&quot;&gt;https://medium.com/tensorflow/what-exactly-is-this-tfx-thing-1ac9e56531c&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;TFX 科普性文章&lt;/p&gt;
+
+&lt;p&gt;TensorFlow 社区推出的机器学习流水线项目，有一篇 KDD&amp;#39;17 的论文介绍过，这篇是开源版本的功能性介绍&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;From &lt;a href=&quot;https://github.com/zenany/weekly/commit/edf68f4d6bac89867d06c40256682bf485d4b089&quot;&gt;https://github.com/zenany/weekly/commit/edf68f4d6bac89867d06c40256682bf485d4b089&lt;/a&gt; and &lt;a href=&quot;https://github.com/zenany/weekly/commit/66436d79cc46ce4deabc4553d2a67e8f90d475a1&quot;&gt;https://github.com/zenany/weekly/commit/66436d79cc46ce4deabc4553d2a67e8f90d475a1&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.juliobiason.net/thoughts/things-i-learnt-the-hard-way/&quot;&gt;https://blog.juliobiason.net/thoughts/things-i-learnt-the-hard-way/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;Without requirements or design, programming is the art of adding bugs to an empty text file.&amp;quot; -- Louis Srygley&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.mongodb.com/blog/post/mongodb-charts-is-now-generally-available&quot;&gt;https://www.mongodb.com/blog/post/mongodb-charts-is-now-generally-available&lt;/a&gt; cc @arrowrowe 咩还记得校园卡使用数据比赛么 ...&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.blog.google/technology/area-120/create-3d-games-friends-no-experience-required/&quot;&gt;https://www.blog.google/technology/area-120/create-3d-games-friends-no-experience-required/&lt;/a&gt; 我记得我还开过 don&amp;#39;t starve together 的 mod 的坑 ...  &lt;a href=&quot;https://github.com/at15/mods/issues/1&quot;&gt;https://github.com/at15/mods/issues/1&lt;/a&gt; (哇 3 年过去了 ... 我除了体重什么都没长进 ...)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://mindprod.com/jgloss/unmain.html&quot;&gt;http://mindprod.com/jgloss/unmain.html&lt;/a&gt; unmaintainable code : Java Glossary&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/rsocket&quot;&gt;https://github.com/rsocket&lt;/a&gt; Application protocol providing Reactive Streams semantics&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/luna/luna&quot;&gt;https://github.com/luna/luna&lt;/a&gt; (想起我从没开始认真写的 reilka ... &lt;a href=&quot;https://github.com/reikalang&quot;&gt;https://github.com/reikalang&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">Fast key-value stores: An idea whose time has come and gone https://ai.google/research/pubs/pub48030 貌似主要是 sharding 相关的(一开始还以为是新硬件相关的 ...) ... 一作以前还有过 SOSP ... https://ai.google/research/people/AtulAdya</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/06/24/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-06-24T00:00:00+00:00</published><updated>2019-06-24T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/06/24/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/06/24/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/oracle/graal&quot;&gt;https://github.com/oracle/graal&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;GraalVM: Run Programs Faster Anywhere &lt;a href=&quot;https://www.graalvm.org&quot;&gt;https://www.graalvm.org&lt;/a&gt;&lt;/p&gt;
 
@@ -518,56 +571,4 @@ Mongodb 的 mongod 可以跑 mapreduce 了</summary></entry><entry><title type="
 
 &lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://www.zhihu.com/question/21017354/answer/652602653
 
-YouTube 从 Python/MySQL 逃离到 C++/Spanner 的故事</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/04/15/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-04-15T00:00:00+00:00</published><updated>2019-04-15T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/04/15/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/04/15/weekly.html">&lt;p&gt;&lt;a href=&quot;https://kubernetes.io/blog/2019/04/04/kubernetes-1.14-local-persistent-volumes-ga/&quot;&gt;https://kubernetes.io/blog/2019/04/04/kubernetes-1.14-local-persistent-volumes-ga/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/k14s/ytt/blob/master/docs/ytt-vs-x.md&quot;&gt;https://github.com/k14s/ytt/blob/master/docs/ytt-vs-x.md&lt;/a&gt; cc @gaocegege &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;skip go&amp;#39;s escape analysis, I think I will try this in gommon&amp;#39;s logging library ...&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/golang/go/blob/go1.12.1/src/strings/builder.go#L20-L30&quot;&gt;https://github.com/golang/go/blob/go1.12.1/src/strings/builder.go#L20-L30&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://hackage.haskell.org/package/llrbtree-0.1.1/docs/Data-Set-LLRBTree.html&quot;&gt;http://hackage.haskell.org/package/llrbtree-0.1.1/docs/Data-Set-LLRBTree.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Very elegant implementation&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://arxiv.org/pdf/1904.03257.pdf&quot;&gt;https://arxiv.org/pdf/1904.03257.pdf&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;SysML 白皮书&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/codex-team/editor.js&quot;&gt;https://github.com/codex-team/editor.js&lt;/a&gt; A block-styled editor with clean JSON output  (does it support people copy and paste from word/website .w.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/golang/build/blob/master/cmd/gopherbot/gopherbot.go&quot;&gt;https://github.com/golang/build/blob/master/cmd/gopherbot/gopherbot.go&lt;/a&gt; cc @gaocegege &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/dyweb/gommon/releases/tag/v0.0.10&quot;&gt;https://github.com/dyweb/gommon/releases/tag/v0.0.10&lt;/a&gt; gommon released 0.0.10 ... next release will be working on clean up the complex log package ... 难用到自己都不想用 ....&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://medium.com/opentracing/merging-opentracing-and-opencensus-f0fe9c7ca6f0&quot;&gt;https://medium.com/opentracing/merging-opentracing-and-opencensus-f0fe9c7ca6f0&lt;/a&gt; the two distributed tracing standard, opentracing and opencensus will merge into one ...&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://codewithoutrules.com/&quot;&gt;https://codewithoutrules.com/&lt;/a&gt; Become a productive programmer, and get work/life balance (saw from twitter&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/Hammerspoon/hammerspoon&quot;&gt;https://github.com/Hammerspoon/hammerspoon&lt;/a&gt; OS X automation using lua&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/src-d/proteus&quot;&gt;https://github.com/src-d/proteus&lt;/a&gt; generate proto file from go file&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://kubernetes.io/blog/2019/04/04/kubernetes-1.14-local-persistent-volumes-ga/</summary></entry></feed>
+YouTube 从 Python/MySQL 逃离到 C++/Spanner 的故事</summary></entry></feed>
