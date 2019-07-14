@@ -1,5 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-07-07T18:36:19+00:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/07/01/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-07-01T00:00:00+00:00</published><updated>2019-07-01T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/07/01/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/07/01/weekly.html">&lt;p&gt;Fast key-value stores: An idea whose time has come and gone &lt;a href=&quot;https://ai.google/research/pubs/pub48030&quot;&gt;https://ai.google/research/pubs/pub48030&lt;/a&gt; 貌似主要是 sharding 相关的(一开始还以为是新硬件相关的 ...) ... 一作以前还有过 SOSP ... &lt;a href=&quot;https://ai.google/research/people/AtulAdya&quot;&gt;https://ai.google/research/people/AtulAdya&lt;/a&gt; &lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-07-14T18:11:59+00:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/07/08/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-07-08T00:00:00+00:00</published><updated>2019-07-08T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/07/08/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/07/08/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/vlang/v&quot;&gt;https://github.com/vlang/v&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;V 语言，疑似跟 Go 有一腿（&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;可以发非技术内容么。。
+&lt;a href=&quot;https://techcrunch.com/2017/04/12/booster-brings-fuel-to-your-office-parking-lot/&quot;&gt;https://techcrunch.com/2017/04/12/booster-brings-fuel-to-your-office-parking-lot/&lt;/a&gt;
+某个群里的老哥的朋友做的创业：带着油车给停车场里面你的车加油，这样你就不用跑加油站了&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/google/robotstxt&quot;&gt;https://github.com/google/robotstxt&lt;/a&gt; 狗家开源了 robots.txt 的解析库 ... (可以写个 go 的 port 蹭热度&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/paperwm/PaperWM&quot;&gt;https://github.com/paperwm/PaperWM&lt;/a&gt; Tiled scrollable window management for Gnome Shell cc @utf8please &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/dropbox/goebpf&quot;&gt;https://github.com/dropbox/goebpf&lt;/a&gt; Library to work with eBPF programs from Go&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/phw/peek&quot;&gt;https://github.com/phw/peek&lt;/a&gt; 
+Simple animated GIF screen recorder with an easy to use interface&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/vlang/v
+
+V 语言，疑似跟 Go 有一腿（</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/07/01/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-07-01T00:00:00+00:00</published><updated>2019-07-01T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/07/01/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/07/01/weekly.html">&lt;p&gt;Fast key-value stores: An idea whose time has come and gone &lt;a href=&quot;https://ai.google/research/pubs/pub48030&quot;&gt;https://ai.google/research/pubs/pub48030&lt;/a&gt; 貌似主要是 sharding 相关的(一开始还以为是新硬件相关的 ...) ... 一作以前还有过 SOSP ... &lt;a href=&quot;https://ai.google/research/people/AtulAdya&quot;&gt;https://ai.google/research/people/AtulAdya&lt;/a&gt; &lt;/p&gt;
 
 &lt;hr&gt;
 
@@ -514,61 +543,4 @@ https://golden.com/ Explore the world&amp;#39;s first self-constructing knowledg
 
 &lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://docs.mongodb.com/manual/core/map-reduce/
 
-Mongodb 的 mongod 可以跑 mapreduce 了</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/04/22/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-04-22T00:00:00+00:00</published><updated>2019-04-22T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/04/22/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/04/22/weekly.html">&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/21017354/answer/652602653&quot;&gt;https://www.zhihu.com/question/21017354/answer/652602653&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;YouTube 从 Python/MySQL 逃离到 C++/Spanner 的故事&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/21017354/answer/652602653&quot;&gt;https://www.zhihu.com/question/21017354/answer/652602653&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;YouTube 从 Python/MySQL 逃离到 C++/Spanner 的故事&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;所以，我觉得 Python 作为 compose NN 的 frontend 完全是一个错误，看一个 ML 项目，绝大多数的代码不是在 compose NN 而是在处理数据，R 语言赛高&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/lingxu-wxw/SE_Notes&quot;&gt;https://github.com/lingxu-wxw/SE_Notes&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;我院学弟的笔记，我觉得挺好的&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/kubernetes-sigs/krew&quot;&gt;https://github.com/kubernetes-sigs/krew&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Package manager for &amp;quot;kubectl plugins&amp;quot; &lt;a href=&quot;https://krew.dev&quot;&gt;https://krew.dev&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/tidwall/evio&quot;&gt;https://github.com/tidwall/evio&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Fast event-loop networking for Go &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Joe Armstrong, creator of erlang has passed away &lt;a href=&quot;https://twitter.com/FrancescoC/status/1119596234166218754&quot;&gt;https://twitter.com/FrancescoC/status/1119596234166218754&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/mohanson/gameboy&quot;&gt;https://github.com/mohanson/gameboy&lt;/a&gt; full featured game boy emulator in rust&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/sql-machine-learning/sqlflow&quot;&gt;https://github.com/sql-machine-learning/sqlflow&lt;/a&gt; cc @gaocegege &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/geohot/minikeyvalue&quot;&gt;https://github.com/geohot/minikeyvalue&lt;/a&gt; the code style is not very good though ...&lt;/p&gt;
-
-&lt;p&gt;Also from geohot&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/geohot/fromthetransistor&quot;&gt;https://github.com/geohot/fromthetransistor&lt;/a&gt; cc @xplorld 闲的木事的 ry&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/geohot/qira&quot;&gt;https://github.com/geohot/qira&lt;/a&gt; QEMU Interactive Runtime Analyser&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://www.zhihu.com/question/21017354/answer/652602653
-
-YouTube 从 Python/MySQL 逃离到 C++/Spanner 的故事</summary></entry></feed>
+Mongodb 的 mongod 可以跑 mapreduce 了</summary></entry></feed>
