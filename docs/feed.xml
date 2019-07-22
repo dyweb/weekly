@@ -1,5 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-07-14T18:11:59+00:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/07/08/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-07-08T00:00:00+00:00</published><updated>2019-07-08T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/07/08/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/07/08/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/vlang/v&quot;&gt;https://github.com/vlang/v&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-07-22T01:33:49+00:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/07/22/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-07-22T00:00:00+00:00</published><updated>2019-07-22T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/07/22/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/07/22/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/nim-lang/Nim&quot;&gt;https://github.com/nim-lang/Nim&lt;/a&gt; Nim is a compiled, garbage-collected systems programming language with a design that focuses on efficiency, expressiveness, and elegance (in that order of priority)&lt;/p&gt;
+
+&lt;p&gt;Saw it when looking at subreddit &lt;a href=&quot;https://www.reddit.com/r/unixporn/comments/cd1rrk/i3_drift/&quot;&gt;https://www.reddit.com/r/unixporn/comments/cd1rrk/i3_drift/&lt;/a&gt; (btw: the name of the subreddit is ... well)&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/xephonhq/awesome-time-series-database/issues/66&quot;&gt;https://github.com/xephonhq/awesome-time-series-database/issues/66&lt;/a&gt; forgot to post it on weekly ...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/containers-ai/alameda&quot;&gt;https://github.com/containers-ai/alameda&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Alameda is a prediction engine that foresees future resource usage of your Kubernetes cluster from the cloud layer down to the pod level. We use machine learning technology to provide intelligence that enables dynamic scaling and scheduling of your containers - effectively making us the “brain” of Kubernetes resource orchestration. By providing full foresight of resource availability, demand, health, impact and SLA, we enable cloud strategies that involve changing provisioned resources in real time.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jamiehannaford/what-happens-when-k8s&quot;&gt;https://github.com/jamiehannaford/what-happens-when-k8s&lt;/a&gt; 以前 star 过 .... 今天 tl 又看到了&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/chrislgarry/Apollo-11&quot;&gt;https://github.com/chrislgarry/Apollo-11&lt;/a&gt; 登月 50 年 /w\&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://infoscience.epfl.ch/record/268173/files/atc19-r2p2.pdf&quot;&gt;https://infoscience.epfl.ch/record/268173/files/atc19-r2p2.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;R2P2: Making RPCs first-class datacenter citizens&lt;/p&gt;
+
+&lt;p&gt;有趣的论文&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.usenix.org/system/files/atc19-pang.pdf&quot;&gt;https://www.usenix.org/system/files/atc19-pang.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Zanzibar: Google’s Consistent, Global Authorization System&lt;/p&gt;
+
+&lt;p&gt;@at15 &lt;/p&gt;
+
+&lt;p&gt;xm gg&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Reference of software engineer levels in tech companies&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.levels.fyi/SE/Amazon/Google/Facebook&quot;&gt;https://www.levels.fyi/SE/Amazon/Google/Facebook&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/nim-lang/Nim Nim is a compiled, garbage-collected systems programming language with a design that focuses on efficiency, expressiveness, and elegance (in that order of priority)
+
+Saw it when looking at subreddit https://www.reddit.com/r/unixporn/comments/cd1rrk/i3_drift/ (btw: the name of the subreddit is ... well)</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/07/15/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-07-15T00:00:00+00:00</published><updated>2019-07-15T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/07/15/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/07/15/weekly.html">&lt;p&gt;From &lt;a href=&quot;https://github.com/zenany/weekly/commit/5d40824722b90310d6897b92b89ada6764f5cee1&quot;&gt;https://github.com/zenany/weekly/commit/5d40824722b90310d6897b92b89ada6764f5cee1&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/cwida/duckdb&quot;&gt;https://github.com/cwida/duckdb&lt;/a&gt; like sqlite but for OLAP&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://jeffwilcox.blog/2019/06/scaling-25k/&quot;&gt;https://jeffwilcox.blog/2019/06/scaling-25k/&lt;/a&gt; how microsoft scale their github oss contribution from 2k -&amp;gt; 25k&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/fhoffa/analyzing_github/&quot;&gt;https://github.com/fhoffa/analyzing_github/&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/liubin/ydict&quot;&gt;https://github.com/liubin/ydict&lt;/a&gt; 命令行下的有道词典工具，海淀家长无奈制作。。。家长可以拿来听写，学生可以拿来背单词。。。 &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hyperf-cloud/hyperf&quot;&gt;https://github.com/hyperf-cloud/hyperf&lt;/a&gt;
+A coroutine framework that focuses on hyperspeed and flexibility (in PHP).&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/rigtorp/awesome-modern-cpp&quot;&gt;https://github.com/rigtorp/awesome-modern-cpp&lt;/a&gt; &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/kubernetes/kube-state-metrics&quot;&gt;https://github.com/kubernetes/kube-state-metrics&lt;/a&gt; generate metrics based on watching apiserver objects&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/rescrv/HyperDex&quot;&gt;https://github.com/rescrv/HyperDex&lt;/a&gt; an abandoned research project ...  a scalable, searchable key-value store (one of the author is now working at dropbox ...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/christophM/interpretable-ml-book&quot;&gt;https://github.com/christophM/interpretable-ml-book&lt;/a&gt; Book about interpretable machine learning&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;@gaocegege 因为只 mark 不看啊 ...&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/kubernetes/utils&quot;&gt;https://github.com/kubernetes/utils&lt;/a&gt; includes clock, nsenter &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://leetcode.com/problemset/concurrency/&quot;&gt;https://leetcode.com/problemset/concurrency/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;leetcode 出了一个新的 section, 我发现我都不会，mutex 忘光了&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">From https://github.com/zenany/weekly/commit/5d40824722b90310d6897b92b89ada6764f5cee1
+
+
+https://github.com/cwida/duckdb like sqlite but for OLAP
+https://jeffwilcox.blog/2019/06/scaling-25k/ how microsoft scale their github oss contribution from 2k -&amp;gt; 25k
+https://github.com/fhoffa/analyzing_github/</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/07/08/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-07-08T00:00:00+00:00</published><updated>2019-07-08T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/07/08/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/07/08/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/vlang/v&quot;&gt;https://github.com/vlang/v&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;V 语言，疑似跟 Go 有一腿（&lt;/p&gt;
 
@@ -344,203 +444,4 @@ https://docs.oracle.com/en/database/oracle/oracle-database/18/errmg/error-messag
 
 &lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">A Virtual Cluster Based Kubernetes Multi-tenancy Solution https://docs.google.com/document/d/1EELeVaduYZ65j4AXg9bp3Kyn38GKDU5fAJ5LFcxt2ZU/edit
 
-推上看到的 阿里的人提的 (比想像的要简短很多啊 ...</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/05/13/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-05-13T00:00:00+00:00</published><updated>2019-05-13T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/05/13/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/05/13/weekly.html">&lt;p&gt;from &lt;a href=&quot;https://github.com/zenany/weekly/commit/273ec1a8efbfc1d72e1c861aa03aa604dea883b0&quot;&gt;https://github.com/zenany/weekly/commit/273ec1a8efbfc1d72e1c861aa03aa604dea883b0&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/soul-lang/SOUL&quot;&gt;https://github.com/soul-lang/SOUL&lt;/a&gt;  (SOUnd Language) is an attempt to modernise and optimise the way high-performance, low-latency audio code is written and executed&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://golden.com/&quot;&gt;https://golden.com/&lt;/a&gt; Explore the world&amp;#39;s first self-constructing knowledge database built by artificial and human intelligence. cc @raspberryice&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://penberg.org/parakernel-hotos19.pdf&quot;&gt;https://penberg.org/parakernel-hotos19.pdf&lt;/a&gt; I/O Is Faster Than the CPU – Let’s Partition Resources and Eliminate (Most) OS Abstractions &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/Ranlot/single-parameter-fit/blob/master/1904.12320.pdf&quot;&gt;https://github.com/Ranlot/single-parameter-fit/blob/master/1904.12320.pdf&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;用一个单实参数的可导的初等函数可以拟合出任意图像、声音、 scatter plot, 所以在看模型 generalibility  的时候不能只看参数数量、维度。&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://from-a-to-remzi.blogspot.com/2014/01/the-case-for-free-online-books-fobs.html&quot;&gt;https://from-a-to-remzi.blogspot.com/2014/01/the-case-for-free-online-books-fobs.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;OSTEP 的故事&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/HFO4/gameboy.live&quot;&gt;https://github.com/HFO4/gameboy.live&lt;/a&gt; A basic gameboy emulator with terminal &amp;quot;Cloud Gaming&amp;quot; support  (written in go)&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;From &lt;a href=&quot;https://github.com/zenany/weekly/commit/2b908b47ae5bf98a5179383dfdaafa2b13fe3f28&quot;&gt;https://github.com/zenany/weekly/commit/2b908b47ae5bf98a5179383dfdaafa2b13fe3f28&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://blogs.dropbox.com/tech/2019/05/how-we-optimized-magic-pocket-for-cold-storage/&quot;&gt;https://blogs.dropbox.com/tech/2019/05/how-we-optimized-magic-pocket-for-cold-storage/&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://blogs.dropbox.com/tech/2018/06/extending-magic-pocket-innovation-with-the-first-petabyte-scale-smr-drive-deployment/&quot;&gt;https://blogs.dropbox.com/tech/2018/06/extending-magic-pocket-innovation-with-the-first-petabyte-scale-smr-drive-deployment/&lt;/a&gt; 丢盒子的 fs 是自己跳过 os 的 fs 直接操作 block device 的&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Moving from Go to Rust also allowed us to handle more disks, and larger disks, without increased CPU and Memory costs by being able to directly control memory allocation and garbage collection&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;@gaocegege 是时候变 rust boy 了 /w\&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://edgedb.com/blog/we-can-do-better-than-sql/&quot;&gt;https://edgedb.com/blog/we-can-do-better-than-sql/&lt;/a&gt; 介个 db 居然是 py 写的基于 pg ... &lt;a href=&quot;https://github.com/edgedb/edgedb&quot;&gt;https://github.com/edgedb/edgedb&lt;/a&gt;  @codeworm96 
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://magic.io/blog/asyncpg-1m-rows-from-postgres-to-python/&quot;&gt;https://magic.io/blog/asyncpg-1m-rows-from-postgres-to-python/&lt;/a&gt; 他们说 py 的 pg driver 比 go 的快 ...&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/kkuchta/css-only-chat&quot;&gt;https://github.com/kkuchta/css-only-chat&lt;/a&gt; 记得 @arrowrowe 提到了 (忘了 po 了 看别人的 weekly 又看到了&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://blogs.dropbox.com/tech/2019/04/embracing-papercuts/&quot;&gt;https://blogs.dropbox.com/tech/2019/04/embracing-papercuts/&lt;/a&gt; cc 狗粮 lead @gaocegege &lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;You take a risk when you give others autonomy. The safe option is just to micromanage the shit out of your team — you’ll get mediocre output from mediocre people, while your good people go work somewhere else.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Other posts from him &lt;a href=&quot;https://medium.com/@jamesacowling&quot;&gt;https://medium.com/@jamesacowling&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">from https://github.com/zenany/weekly/commit/273ec1a8efbfc1d72e1c861aa03aa604dea883b0
-
-
-https://github.com/soul-lang/SOUL  (SOUnd Language) is an attempt to modernise and optimise the way high-performance, low-latency audio code is written and executed
-https://golden.com/ Explore the world&amp;#39;s first self-constructing knowledge database built by artificial and human intelligence. cc @raspberryice</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/05/05/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-05-05T00:00:00+00:00</published><updated>2019-05-05T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/05/05/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/05/05/weekly.html">&lt;p&gt;&lt;a href=&quot;https://docs.mongodb.com/manual/core/map-reduce/&quot;&gt;https://docs.mongodb.com/manual/core/map-reduce/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Mongodb 的 mongod 可以跑 mapreduce 了&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/kevinlawler/kona&quot;&gt;https://github.com/kevinlawler/kona&lt;/a&gt; open source implementation of the k language (not the latest q in kdb+)&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/vlang/v&quot;&gt;https://github.com/vlang/v&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Simple, fast, safe, compiled language for creating maintainable software. Supports translation from C/C++.&lt;/p&gt;
-
-&lt;p&gt;很好奇翻译是怎么实现的（估计最多翻译用了标准库的代码吧&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/rhysd/vim.wasm&quot;&gt;https://github.com/rhysd/vim.wasm&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Vim editor ported to WebAssembly &lt;a href=&quot;http://rhysd.github.io/vim.wasm&quot;&gt;http://rhysd.github.io/vim.wasm&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这个也太酷了吧&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/alibaba/collabobot&quot;&gt;https://github.com/alibaba/collabobot&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;我喜欢这个工具&lt;/p&gt;
-
-&lt;p&gt;A collaborate robot for GitHub open source repositories. Auto weekly report, auto issue label, auto issue translation, etc.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/alibaba/collabobot&quot;&gt;https://github.com/alibaba/collabobot&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;我喜欢这个工具&lt;/p&gt;
-
-&lt;p&gt;A collaborate robot for GitHub open source repositories. Auto weekly report, auto issue label, auto issue translation, etc.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;cool!&lt;/p&gt;
-
-&lt;p&gt;大家也可以看看我这个 Go 实现：&lt;a href=&quot;https://github.com/yangwenmai/weekly_digest&quot;&gt;https://github.com/yangwenmai/weekly_digest&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;还有原生的版本：&lt;a href=&quot;https://github.com/probot/weekly-digest&quot;&gt;https://github.com/probot/weekly-digest&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/bet365/jingo&quot;&gt;https://github.com/bet365/jingo&lt;/a&gt; yet another very quick json encoder ...&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Go type alias (I think it is used for x/net/context and context), saw it again in k8s related codebase, makes import simpler (when there are too many sub packages ...) &lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/kubernetes-sigs/controller-runtime/blob/master/alias.go&quot;&gt;https://github.com/kubernetes-sigs/controller-runtime/blob/master/alias.go&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://go.googlesource.com/proposal/+/master/design/18130-type-alias.md&quot;&gt;https://go.googlesource.com/proposal/+/master/design/18130-type-alias.md&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://talks.golang.org/2016/refactor.article&quot;&gt;https://talks.golang.org/2016/refactor.article&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;btw: 楼上 @yangwenmai 是不是经常在 tidb 的群里冒泡啊，头像看的很眼熟 (一直潜水的路过 ....&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;CMU course for Deep Learning in NLP&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://phontron.com/class/nn4nlp2019/schedule.html&quot;&gt;http://phontron.com/class/nn4nlp2019/schedule.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Submitted via &lt;a href=&quot;https://gist.github.com/htfy96/301ae2b1c477a4a644e943bbc27c9588&quot;&gt;bookmarklet&lt;/a&gt;&lt;/em&gt; :sparkles:&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Go type alias (I think it is used for x/net/context and context), saw it again in k8s related codebase, makes import simpler (when there are too many sub packages ...)&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/kubernetes-sigs/controller-runtime/blob/master/alias.go&quot;&gt;https://github.com/kubernetes-sigs/controller-runtime/blob/master/alias.go&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://go.googlesource.com/proposal/+/master/design/18130-type-alias.md&quot;&gt;https://go.googlesource.com/proposal/+/master/design/18130-type-alias.md&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://talks.golang.org/2016/refactor.article&quot;&gt;https://talks.golang.org/2016/refactor.article&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;btw: 楼上 @yangwenmai 是不是经常在 tidb 的群里冒泡啊，头像看的很眼熟 (一直潜水的路过 ....&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;经常冒泡也谈不上，偶尔发发言吧。&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://rust-embedded.github.io/book/intro/no-std.html&quot;&gt;https://rust-embedded.github.io/book/intro/no-std.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;From &lt;a href=&quot;https://github.com/zenany/weekly/commit/d5ffd4e3c0e30b1d1df03e23bbc684fe546eef6c&quot;&gt;https://github.com/zenany/weekly/commit/d5ffd4e3c0e30b1d1df03e23bbc684fe546eef6c&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/tnoV-RpYn2kzudbYwLoL3g&quot;&gt;https://mp.weixin.qq.com/s/tnoV-RpYn2kzudbYwLoL3g&lt;/a&gt;  &amp;#39;有一个UI设计师，用了两个多月时间做了一部 Element 动画宣传片，他到底经历了什么..&amp;#39;   &lt;/p&gt;
-
-&lt;p&gt;(什么时候做个东岳宣传片 .... 我填完现在的坑去试试&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/dyweb/gommon/releases/tag/v0.0.11&quot;&gt;https://github.com/dyweb/gommon/releases/tag/v0.0.11&lt;/a&gt; released gommon 0.0.11 simplified logger registry, deprecated packages are moved to &lt;a href=&quot;https://github.com/dyweb/gommon-legacy&quot;&gt;https://github.com/dyweb/gommon-legacy&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;From &lt;a href=&quot;https://github.com/zenany/weekly/commit/d5ffd4e3c0e30b1d1df03e23bbc684fe546eef6c&quot;&gt;zenany/weekly@d5ffd4e&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/tnoV-RpYn2kzudbYwLoL3g&quot;&gt;https://mp.weixin.qq.com/s/tnoV-RpYn2kzudbYwLoL3g&lt;/a&gt; &amp;#39;有一个UI设计师，用了两个多月时间做了一部 Element 动画宣传片，他到底经历了什么..&amp;#39;&lt;/p&gt;
-
-&lt;p&gt;(什么时候做个东岳宣传片 .... 我填完现在的坑去试试&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;我觉得婶婶可以的&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://heycam.github.io/webidl/&quot;&gt;https://heycam.github.io/webidl/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;W3C 出的一个 Interface Defining Language, 将来有可能 WASM 会基于此直接操作 DOM (WASM 工作组慢死)&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/dyweb/gommon/releases/tag/v0.0.12&quot;&gt;https://github.com/dyweb/gommon/releases/tag/v0.0.12&lt;/a&gt; gommon 0,0.12 released, add httpclient from go.ice, a high level wrapper around net/http and model after &lt;a href=&quot;https://github.com/bradfitz/exp-httpclient&quot;&gt;https://github.com/bradfitz/exp-httpclient&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://docs.mongodb.com/manual/core/map-reduce/
-
-Mongodb 的 mongod 可以跑 mapreduce 了</summary></entry></feed>
+推上看到的 阿里的人提的 (比想像的要简短很多啊 ...</summary></entry></feed>
