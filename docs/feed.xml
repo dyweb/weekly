@@ -1,5 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-07-28T17:41:47+00:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
-</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/07/22/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-07-22T00:00:00+00:00</published><updated>2019-07-22T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/07/22/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/07/22/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/nim-lang/Nim&quot;&gt;https://github.com/nim-lang/Nim&lt;/a&gt; Nim is a compiled, garbage-collected systems programming language with a design that focuses on efficiency, expressiveness, and elegance (in that order of priority)&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://weekly.dongyueweb.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://weekly.dongyueweb.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://weekly.dongyueweb.com/" rel="alternate" type="text/html" /><updated>2019-08-05T02:32:28+00:00</updated><id>https://weekly.dongyueweb.com//</id><title type="html">Dev Comm Shanghai 联合周报</title><subtitle>由上海交通大学东岳网络工作室，SJTU *NIX User Group和上海大学开源社区联合维护的周报
+</subtitle><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/08/05/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-08-05T00:00:00+00:00</published><updated>2019-08-05T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/08/05/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/08/05/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/baidu/bfe&quot;&gt;https://github.com/baidu/bfe&lt;/a&gt; BFE is an open-source layer 7 load balancer derived from proprietary Baidu FrontEnd. &lt;/p&gt;
+
+&lt;p&gt;但貌似这个代码有点迷啊 .... 为什么不 import 呢? e.g. &lt;a href=&quot;https://github.com/baidu/bfe/blob/master/bfe_http2/http2.go&quot;&gt;https://github.com/baidu/bfe/blob/master/bfe_http2/http2.go&lt;/a&gt;  和 &lt;a href=&quot;https://github.com/golang/net/blob/master/http2/http2.go&quot;&gt;https://github.com/golang/net/blob/master/http2/http2.go&lt;/a&gt; 几乎一模一样? &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;gophercon 2019 talks &lt;a href=&quot;https://github.com/gophercon/2019-talks&quot;&gt;https://github.com/gophercon/2019-talks&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/richardartoul/tsdb-layer&quot;&gt;https://github.com/richardartoul/tsdb-layer&lt;/a&gt; tsdb on top of foundation db&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Was looking at github desktop and then found deepin terminal, then found a language called Vala for GNOME&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://wiki.gnome.org/Projects/Vala&quot;&gt;https://wiki.gnome.org/Projects/Vala&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/GNOME/vala&quot;&gt;https://github.com/GNOME/vala&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/linuxdeepin/deepin-terminal&quot;&gt;https://github.com/linuxdeepin/deepin-terminal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://dev.to/goober99/vala-deserves-a-closer-look-m56&quot;&gt;https://dev.to/goober99/vala-deserves-a-closer-look-m56&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/baidu/bfe BFE is an open-source layer 7 load balancer derived from proprietary Baidu FrontEnd. 
+
+但貌似这个代码有点迷啊 .... 为什么不 import 呢? e.g. https://github.com/baidu/bfe/blob/master/bfe_http2/http2.go  和 https://github.com/golang/net/blob/master/http2/http2.go 几乎一模一样?</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/07/29/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-07-29T00:00:00+00:00</published><updated>2019-07-29T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/07/29/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/07/29/weekly.html">&lt;p&gt;&lt;a href=&quot;https://bingohuang.com/go-present/&quot;&gt;https://bingohuang.com/go-present/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;用 Go 写 Web PPT - Go Present&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://godoc.org/golang.org/x/tools/present&quot;&gt;https://godoc.org/golang.org/x/tools/present&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/containous/yaegi&quot;&gt;https://github.com/containous/yaegi&lt;/a&gt; Yaegi is Another Elegant Go Interpreter&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lorin/resilience-engineering&quot;&gt;https://github.com/lorin/resilience-engineering&lt;/a&gt; Resilience Engineering Notes&lt;/p&gt;
+
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://bingohuang.com/go-present/
+
+用 Go 写 Web PPT - Go Present
+
+https://godoc.org/golang.org/x/tools/present</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/07/22/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-07-22T00:00:00+00:00</published><updated>2019-07-22T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/07/22/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/07/22/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/nim-lang/Nim&quot;&gt;https://github.com/nim-lang/Nim&lt;/a&gt; Nim is a compiled, garbage-collected systems programming language with a design that focuses on efficiency, expressiveness, and elegance (in that order of priority)&lt;/p&gt;
 
 &lt;p&gt;Saw it when looking at subreddit &lt;a href=&quot;https://www.reddit.com/r/unixporn/comments/cd1rrk/i3_drift/&quot;&gt;https://www.reddit.com/r/unixporn/comments/cd1rrk/i3_drift/&lt;/a&gt; (btw: the name of the subreddit is ... well)&lt;/p&gt;
 
@@ -362,86 +405,4 @@ https://docs.oracle.com/en/database/oracle/oracle-database/18/errmg/error-messag
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/zhihu/rucene&quot;&gt;https://github.com/zhihu/rucene&lt;/a&gt; rust port of lucene cc @codeworm96 &lt;/p&gt;
 
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://learnxinyminutes.com/ 看了上面的 Lambda Calculus</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/05/27/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-05-27T00:00:00+00:00</published><updated>2019-05-27T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/05/27/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/05/27/weekly.html">&lt;p&gt;&lt;a href=&quot;https://github.com/FantasticMao/ycy-intellij-plugin&quot;&gt;https://github.com/FantasticMao/ycy-intellij-plugin&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;超越鼓励师 for IntelliJ IDEA&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/FantasticMao/ycy-intellij-plugin/master/doc/usage.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://manishearth.github.io/blog/2018/01/10/whats-tokio-and-async-io-all-about/&quot;&gt;https://manishearth.github.io/blog/2018/01/10/whats-tokio-and-async-io-all-about/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;What Are Tokio and Async IO All About?&lt;/p&gt;
-
-&lt;h1&gt;rust&lt;/h1&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;@gaocegege there is a vscode version as well &lt;a href=&quot;https://github.com/formulahendry/vscode-ycy&quot;&gt;https://github.com/formulahendry/vscode-ycy&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;@at15 The author of &lt;a href=&quot;https://github.com/formulahendry/vscode-ycy&quot;&gt;https://github.com/formulahendry/vscode-ycy&lt;/a&gt; is my 学长 in SJTU School of Software&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.influxdata.com/integration/kubernetes-monitoring/&quot;&gt;https://www.influxdata.com/integration/kubernetes-monitoring/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Kubernetes monitoring integration with InfluxDB. Prometheus does not support push-based operations well. But InfluxDB supports them well. It may be helpful for batchjobs&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;@gaocegege it does have push gateway &lt;a href=&quot;https://github.com/prometheus/pushgateway&quot;&gt;https://github.com/prometheus/pushgateway&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/dmcgowan/containerd-wasm&quot;&gt;https://github.com/dmcgowan/containerd-wasm&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Implementation of containerd shim using wasm&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/gnunn1/tilix&quot;&gt;https://github.com/gnunn1/tilix&lt;/a&gt; A tiling terminal emulator for Linux using GTK+ 3 recommended by @utf8please as a replacement for guake (it is written in D ...)&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://github.com/FantasticMao/ycy-intellij-plugin
-
-超越鼓励师 for IntelliJ IDEA</summary></entry><entry><title type="html">Weekly</title><link href="https://weekly.dongyueweb.com/weekly/2019/05/20/weekly.html" rel="alternate" type="text/html" title="Weekly" /><published>2019-05-20T00:00:00+00:00</published><updated>2019-05-20T00:00:00+00:00</updated><id>https://weekly.dongyueweb.com/weekly/2019/05/20/weekly</id><content type="html" xml:base="https://weekly.dongyueweb.com/weekly/2019/05/20/weekly.html">&lt;p&gt;A Virtual Cluster Based Kubernetes Multi-tenancy Solution &lt;a href=&quot;https://docs.google.com/document/d/1EELeVaduYZ65j4AXg9bp3Kyn38GKDU5fAJ5LFcxt2ZU/edit&quot;&gt;https://docs.google.com/document/d/1EELeVaduYZ65j4AXg9bp3Kyn38GKDU5fAJ5LFcxt2ZU/edit&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;推上看到的 阿里的人提的 (比想像的要简短很多啊 ...&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/kubernetes/dns/issues/176&quot;&gt;https://github.com/kubernetes/dns/issues/176&lt;/a&gt; k8s 用 ipvlan 的时候基于 iptable 的 service 不会有用 (btw: ipvs 的会有用么? ... )&lt;/p&gt;
-
-&lt;p&gt;以及开 issue 的老哥用户名好评&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://yuanchuan.dev/2019/05/15/window-lattice-and-css.html&quot;&gt;https://yuanchuan.dev/2019/05/15/window-lattice-and-css.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;css 画的窗棂&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.ardanlabs.com/blog/2018/12/garbage-collection-in-go-part1-semantics.html&quot;&gt;https://www.ardanlabs.com/blog/2018/12/garbage-collection-in-go-part1-semantics.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://cs61.seas.harvard.edu/site/2018/&quot;&gt;http://cs61.seas.harvard.edu/site/2018/&lt;/a&gt;  hello kitty ...&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://read.seas.harvard.edu/cs161-18/&quot;&gt;http://read.seas.harvard.edu/cs161-18/&lt;/a&gt; &lt;a href=&quot;https://github.com/cs161/chickadee/&quot;&gt;https://github.com/cs161/chickadee/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://supereagle.github.io/2018/06/17/multiple-dep-versions/&quot;&gt;https://supereagle.github.io/2018/06/17/multiple-dep-versions/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Golang 项目多版本依赖的引入&lt;/p&gt;
-
-&lt;p&gt;我司同事的博客&lt;/p&gt;
-
-&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">A Virtual Cluster Based Kubernetes Multi-tenancy Solution https://docs.google.com/document/d/1EELeVaduYZ65j4AXg9bp3Kyn38GKDU5fAJ5LFcxt2ZU/edit
-
-推上看到的 阿里的人提的 (比想像的要简短很多啊 ...</summary></entry></feed>
+&lt;hr&gt;</content><author><name>东岳</name></author><category term="Weekly" /><summary type="html">https://learnxinyminutes.com/ 看了上面的 Lambda Calculus</summary></entry></feed>
