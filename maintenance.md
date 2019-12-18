@@ -8,10 +8,10 @@
 
 周报的具体工作流程如下：
 
-1. （需要人工干预）在每周的周一，维护者关于带有 working 标签的周报 Issue。
+1. （需要人工干预）在每周的周一，维护者关闭带有 working 标签的周报 Issue。
 1. （自动化）GitHub bot dy-bot 通过 webhook 得到这一 Issue 的关闭事件，自动地把 working 标签删掉，并且创建出新的一期周报 Issue，然后给新的 Issue 打上 working 标签。
-1. （需要人工干预）维护者利用 [dyweb/dy-weekly-generator][]，生成周报的 Markdown 文件，并且放在 [dyweb/weekly][] 对应的目录下。
-1. （需要人工干预）维护者利用 [dyweb/weekly][] 中的脚本，生成新的静态页面，并推送到 GitHub 上
+1. （半自动化）bot 利用 [dyweb/dy-weekly-generator][]，生成周报的 Markdown 文件并开 PR，维护者手动 merge。
+1. （自动化）netlify 利用 [dyweb/weekly][] 中的脚本，生成新的静态页面。TODO(at15): 目前不会更新仓库里 docs 下的文件。
 
 ## 示例
 
@@ -59,7 +59,7 @@ bot 是运行在服务器上的，但因为 bot 在实现的时候，想支持�
 
 ### [dyweb/dy-weekly-generator][]
 
-在 [https://github.com/dyweb/dy-weekly-generator/releases/tag/v0.3.3](https://github.com/dyweb/dy-weekly-generator/releases/tag/v0.3.3) 下载对应版本的二进制，加入到系统路径变量中即可。
+在 [https://github.com/dyweb/dy-weekly-generator/releases/tag/v0.3.5](https://github.com/dyweb/dy-weekly-generator/releases/tag/v0.3.5) 下载对应版本的二进制，加入到系统路径变量中即可。
 
 ### [dyweb/weekly][]
 
@@ -67,7 +67,19 @@ bot 是运行在服务器上的，但因为 bot 在实现的时候，想支持�
 
 ```bash
 $ ./scripts/install-dep.sh
+$ ./scripts/build.sh
 ```
+
+### netlify
+
+[如图](https://github.com/dyweb/weekly/issues/175#issuecomment-566932134) i.e. `./script/install-deps.sh && ./script/build.sh`
+
+## 维护人员
+
+- bot 由 @gaocegege 维护
+- generator 由 @codeworm96 维护
+- netlify 由 @at15 维护
+- 域名由 ??? 维护
 
 [dyweb/weekly]: https://github.com/dyweb/weekly
 [dyweb/dy-bot]: https://github.com/dyweb/dy-bot
