@@ -1,0 +1,8 @@
+name: 'weekly'
+description: 'Create new weekly issue, run weekly generator'
+runs:
+    using: 'docker'
+    image: 'Dockerfile'
+    # TODO: allow passing arguments from workflow
+    args:
+      - foo
