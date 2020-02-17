@@ -5,7 +5,7 @@ on:
   schedule:
     - cron: '*/5 * * * *'
 
-job:
+jobs:
   create:
     runs-on: ubuntu-latest
     name: create new weekly issue
