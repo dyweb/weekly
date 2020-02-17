@@ -1,0 +1,16 @@
+# create a new issue every week
+# FIXME(at15): it is coded to every 5 minutes to have test if things are working
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+
+job:
+  create:
+    runs-on: ubuntu-latest
+    name: create new weekly issue
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: new issue
+        uses: ./ # Uses action in the root directory
