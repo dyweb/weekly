@@ -5,4 +5,4 @@ runs:
     image: 'Dockerfile'
     # TODO: allow passing arguments from workflow
     args:
-      - foo
+      - issue

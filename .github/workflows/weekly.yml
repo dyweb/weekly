@@ -1,9 +1,9 @@
 # create a new issue every week
-# FIXME(at15): it is coded to every 5 minutes to have test if things are working
 
 on:
   schedule:
-    - cron: '*/6 * * * *'
+    # FIXME(at15): run everyday and should changed to run every week after the generator logic is fixed
+    - cron: '0 0 * * *'
 
 jobs:
   create:
