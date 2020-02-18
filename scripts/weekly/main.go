@@ -55,3 +55,12 @@ func build() error {
 	}
 	return nil
 }
+
+// Based on https://github.com/dyweb/dy-bot/blob/master/pkg/util/weeklyutil/weekly.go
+// weekly title is Weekly-157
+// so @gaocegege just write strconv.Atoi(title[7:len(title)])
+// It does not work properly because we don't create weekly every week, which is the case for #183
+func fileNameFromIssue(title string) (string, error) {
+	// FIXME(#186): need to modify weekly generator
+	return "", errors.New("not implemented, see https://github.com/dyweb/weekly/issues/186")
+}
