@@ -24,4 +24,4 @@ COPY --from=builder /usr/bin/weekly-gen .
 COPY --from=builder /go/bin/weekly .
 
 ENTRYPOINT ["weekly"]
-CMD ["help"]
+CMD ["issue"]
