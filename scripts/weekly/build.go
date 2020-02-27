@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bytes"
 	"context"
 	"fmt"
 	"os/exec"
@@ -31,12 +32,15 @@ func BuildRecent(ctx context.Context, home string) error {
 	if err != nil {
 		return err
 	}
+
 	// Group issues by filename, this could happen if we are testing github workflow cron or manually open and closing issues.
 	issueByFile := make(map[string][]*github.Issue)
 	for _, issue := range issues {
 		fname := FileName(issue.GetCreatedAt())
 		issueByFile[fname] = append(issueByFile[fname], issue)
 	}
+
+	// Call dy-weekly-generator
 	for fname, issues := range issueByFile {
 		p := filepath.Join(home, fname)
 		if len(issues) == 1 {
@@ -45,7 +49,13 @@ func BuildRecent(ctx context.Context, home string) error {
 			}
 		}
 
-		// TODO: implement merging multiple issue, open a new issue in weekly generator
+		var ids []int
+		for _, issue := range issues {
+			ids = append(ids, issue.GetNumber())
+		}
+		if err := MergeIssues(ids, p); err != nil {
+			return err
+		}
 	}
 	return nil
 }
@@ -54,16 +64,53 @@ func BuildRecent(ctx context.Context, home string) error {
 // shell out to weekly-gen binary from https://github.com/dyweb/dy-weekly-generator
 // weekly-gen --repo dyweb/weekly --issue 183
 func BuildOne(issue int, dst string) error {
+	out, err := RunGenerator(issue)
+	if err != nil {
+		return err
+	}
+	return WriteWeeklyFile(out, dst)
+}
+
+const defaultFrontMatter = `---
+layout: post
+title: Weekly
+category: Weekly
+author: 东岳
+---`
+
+// MergeIssues write multiple issues into one weekly file.
+func MergeIssues(issueIds []int, dst string) error {
+	merged := []byte(defaultFrontMatter)
+	for _, id := range issueIds {
+		out, err := RunGenerator(id)
+		if err != nil {
+			return err
+		}
+		out = bytes.Trim(out, "\n")
+		out = StripHeader(out)
+		merged = append(merged, '\n')
+		merged = append(merged, out...)
+		merged = append(merged, '\n')
+	}
+	return WriteWeeklyFile(merged, dst)
+}
+
+// TODO(at15): strip header flag https://github.com/dyweb/dy-weekly-generator/issues/25
+func RunGenerator(issue int) ([]byte, error) {
 	cmd := exec.Command("weekly-gen", "--repo", "dyweb/weekly", "--issue", strconv.Itoa(issue))
 	out, err := cmd.CombinedOutput()
 	if err != nil {
-		return errors.Wrapf(err, "error running weekly-gen for %d %s", issue, string(out))
+		return nil, errors.Wrapf(err, "error running weekly-gen for %d %s", issue, string(out))
 	}
+	return out, nil
+}
+
+func WriteWeeklyFile(b []byte, dst string) error {
 	dir := filepath.Dir(dst)
 	if err := fsutil.MkdirIfNotExists(dir); err != nil {
 		return err
 	}
-	if err := fsutil.WriteFile(dst, out); err != nil {
+	if err := fsutil.WriteFile(dst, b); err != nil {
 		return errors.Wrapf(err, "error writing weekly-gen output to %s", dst)
 	}
 	return nil
@@ -85,4 +132,20 @@ func FileName(createTime time.Time) string {
 	}
 	date := cfg.With(createTime).BeginningOfWeek()
 	return fmt.Sprintf("%d/%d-%.2d-%.2d-weekly.md", date.Year(), date.Year(), int(date.Month()), date.Day())
+}
+
+var frontMatterDash = []byte("---")
+
+// StripHeader remove the front matter https://jekyllrb.com/docs/front-matter/ from generated weekly.
+// TODO: work around until https://github.com/dyweb/dy-weekly-generator/issues/25 is fixed
+func StripHeader(b []byte) []byte {
+	if !bytes.HasPrefix(b, frontMatterDash) {
+		return b
+	}
+	b = b[len(frontMatterDash):]
+	end := bytes.Index(b, frontMatterDash)
+	if end == -1 {
+		return b
+	}
+	return b[end+len(frontMatterDash):]
 }
