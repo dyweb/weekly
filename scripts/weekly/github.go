@@ -44,8 +44,23 @@ func (g *GitHub) RecentWeeklyIssues(ctx context.Context) ([]*github.Issue, error
 
 func (g *GitHub) Issue(ctx context.Context, id int) (*github.Issue, error) {
 	issue, _, err := g.client.Issues.Get(ctx, "dyweb", "weekly", id)
-	if err != nil {
-		return nil, err
+	return issue, err
+}
+
+func (g *GitHub) OpenIssue(ctx context.Context, req *github.IssueRequest) (*github.Issue, error) {
+	issue, _, err := g.client.Issues.Create(ctx, "dyweb", "weekly", req)
+	return issue, err
+}
+
+// CloseIssue close and remove ALL labels
+func (g *GitHub) CloseIssue(ctx context.Context, id int) error {
+	s := "closed"
+	// TODO(at15): should only remove the working label
+	var noLabel []string
+	req := &github.IssueRequest{
+		State:  &s,
+		Labels: &noLabel,
 	}
-	return issue, nil
+	_, _, err := g.client.Issues.Edit(ctx, "dyweb", "weekly", id, req)
+	return err
 }
