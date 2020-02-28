@@ -14,6 +14,9 @@ var log = logReg.Logger()
 
 func main() {
 	fmt.Printf("weekly args %v\n", os.Args)
+	var weeklyHome string
+	var dryRun bool
+
 	rootCmd := &cobra.Command{
 		Use:   "weekly",
 		Short: "dyweb weekly",
@@ -22,8 +25,9 @@ func main() {
 			os.Exit(1)
 		},
 	}
+	rootCmd.PersistentFlags().StringVar(&weeklyHome, "home", "", "Home of weekly directory, e.g. /home/gaocegege/workspace/src/github.com/dyweb/weekly")
+	rootCmd.PersistentFlags().BoolVar(&dryRun, "dry", false, "dry run")
 
-	var weeklyHome string
 	generateCmd := &cobra.Command{
 		Use:     "gen",
 		Aliases: []string{"generate"},
@@ -32,7 +36,11 @@ func main() {
 			return BuildRecent(context.Background(), weeklyHome)
 		},
 	}
-	generateCmd.Flags().StringVar(&weeklyHome, "home", "", "Home of weekly directory, e.g. /home/gaocegege/workspace/src/github.com/dyweb/weekly")
+
+	// TODO: add issue command and by default run command in this order
+	// - issue
+	// - gen
+	// - commit
 
 	rootCmd.AddCommand(generateCmd)
 	if err := rootCmd.Execute(); err != nil {

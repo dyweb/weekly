@@ -24,11 +24,7 @@ func BuildRecent(ctx context.Context, home string) error {
 		return errors.New("weekly home is empty")
 	}
 
-	gh, err := NewGitHub()
-	if err != nil {
-		return err
-	}
-	issues, err := gh.RecentWeeklyIssues(ctx)
+	issues, err := RecentWeeklyIssues(ctx)
 	if err != nil {
 		return err
 	}
