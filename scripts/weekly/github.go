@@ -75,11 +75,13 @@ func (g *GitHub) OpenIssue(ctx context.Context, req *github.IssueRequest) (*gith
 // CloseIssue close and remove ALL labels
 func (g *GitHub) CloseIssue(ctx context.Context, id int) error {
 	s := "closed"
-	// TODO(at15): should only remove the working label
-	var noLabel []string
 	req := &github.IssueRequest{
 		State:  &s,
-		Labels: &noLabel,
+		// NOTE: use nil instead of empty slice to avoid
+		// For 'properties/labels', nil is not an array. []
+		// Error: PATCH https://api.github.com/repos/dyweb/weekly/issues/183: 422 Invalid request
+		// https://github.com/github/hub/issues/1240
+		Labels: nil,
 	}
 	_, _, err := g.client.Issues.Edit(ctx, "dyweb", "weekly", id, req)
 	return err
