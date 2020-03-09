@@ -16,7 +16,8 @@ RUN cd scripts/weekly && go install .
 FROM ubuntu:18.04
 LABEL maintainer="contact@dongyue.io"
 # NOTE: libssl is required by weekly-gen
-RUN apt update && apt install -y libssl1.0.0
+# NOTE: certificate is needed for calling github API https://github.com/google/go-github/issues/1049
+RUN apt update && apt install -y ca-certificates libssl1.0.0 && update-ca-certificates 2>/dev/null || true
 
 WORKDIR /usr/bin
 
