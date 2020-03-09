@@ -3,7 +3,7 @@
 on:
   schedule:
     # FIXME(at15): run everyday and should changed to run every week after the generator logic is fixed
-    - cron: '* * * * *'
+    - cron: '0 0 * * *'
 
 jobs:
   issue:
