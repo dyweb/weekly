@@ -13,7 +13,7 @@ import (
 // issue.go reconcile weekly issues
 
 func RecentWeeklyIssues(ctx context.Context) ([]*github.Issue, error) {
-	gh, err := NewGitHub()
+	gh, err := NewGitHub(ctx)
 	if err != nil {
 		return nil, err
 	}
@@ -25,7 +25,7 @@ func RecentWeeklyIssues(ctx context.Context) ([]*github.Issue, error) {
 }
 
 func CloseOld(ctx context.Context, dryRun bool) error {
-	gh, err := NewGitHub()
+	gh, err := NewGitHub(ctx)
 	if err != nil {
 		return err
 	}
@@ -68,7 +68,7 @@ func CloseOld(ctx context.Context, dryRun bool) error {
 // OpenNew should be called after CloseOld
 func OpenNew(ctx context.Context, dryRun bool) error {
 	// TODO(at15): duplicated code
-	gh, err := NewGitHub()
+	gh, err := NewGitHub(ctx)
 	if err != nil {
 		return err
 	}

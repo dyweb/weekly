@@ -2,20 +2,40 @@ package main
 
 import (
 	"context"
+	"os"
 	"strings"
 	"time"
 
+	"github.com/dyweb/gommon/util/httputil"
+	"golang.org/x/oauth2"
+
 	"github.com/google/go-github/v29/github"
 )
+
+var cachedGh *GitHub
 
 // GitHub is a wrapper for go-github
 type GitHub struct {
 	client *github.Client
 }
 
-func NewGitHub() (*GitHub, error) {
-	client := github.NewClient(nil)
-	return &GitHub{client: client}, nil
+func NewGitHub(ctx context.Context) (*GitHub, error) {
+	if cachedGh != nil {
+		return cachedGh, nil
+	}
+	hc := httputil.NewUnPooledClient()
+	token := os.Getenv("GITHUB_TOKEN")
+	if token != "" {
+		ts := oauth2.StaticTokenSource(&oauth2.Token{
+			AccessToken: token,
+		})
+		// TODO(at15): should save existing http client in context so the transport can be reused
+		hc = oauth2.NewClient(ctx, ts)
+	}
+	client := github.NewClient(hc)
+	gh := &GitHub{client: client}
+	cachedGh = gh
+	return gh, nil
 }
 
 func IsWeeklyIssue(issue *github.Issue) bool {

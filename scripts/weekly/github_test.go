@@ -8,7 +8,7 @@ import (
 )
 
 func TestGitHub_RecentWeeklyIssues(t *testing.T) {
-	gh, err := NewGitHub()
+	gh, err := NewGitHub(context.Background())
 	require.Nil(t, err)
 	issues, err := gh.RecentWeeklyIssues(context.Background())
 	require.Nil(t, err)
