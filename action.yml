@@ -1,8 +1,11 @@
 name: 'weekly'
 description: 'Create new weekly issue, run weekly generator'
+inputs:
+  command:
+    description: 'sub command to run'
+    required: true
 runs:
     using: 'docker'
     image: 'Dockerfile'
-    # TODO: allow passing arguments from workflow
     args:
-      - issue
+      - ${{ inputs.command }}

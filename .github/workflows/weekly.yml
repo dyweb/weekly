@@ -6,11 +6,15 @@ on:
     - cron: '0 0 * * *'
 
 jobs:
-  create:
+  issue:
     runs-on: ubuntu-latest
-    name: create new weekly issue
+    name: create/close weekly issue
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: new issue
+      - name: reconcile issue
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         uses: ./ # Uses action in the root directory
+        with:
+          command: issue

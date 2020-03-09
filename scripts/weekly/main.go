@@ -37,11 +37,25 @@ func main() {
 		},
 	}
 
+	issueCmd := &cobra.Command{
+		Use: "issue",
+		RunE: func(cmd *cobra.Command, args []string) error {
+			if err := CloseOld(context.Background(), dryRun); err != nil {
+				return err
+			}
+			if err := OpenNew(context.Background(), dryRun); err != nil {
+				return err
+			}
+			return nil
+		},
+	}
+
 	// TODO: add issue command and by default run command in this order
 	// - issue
 	// - gen
 	// - commit
 
+	rootCmd.AddCommand(issueCmd)
 	rootCmd.AddCommand(generateCmd)
 	if err := rootCmd.Execute(); err != nil {
 		fmt.Fprintln(os.Stderr, err)
