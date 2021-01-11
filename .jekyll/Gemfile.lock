@@ -61,7 +61,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
-    redcarpet (3.4.0)
+    redcarpet (3.5.1)
     rouge (2.2.1)
     ruby_dep (1.5.0)
     safe_yaml (1.0.4)
@@ -84,7 +84,7 @@ DEPENDENCIES
   jekyll-mentions (~> 1.4)
   jemoji (~> 0.10.0)
   minima (~> 2.0)
-  redcarpet (~> 3.4)
+  redcarpet (~> 3.5)
 
 RUBY VERSION
    ruby 2.3.1p112
