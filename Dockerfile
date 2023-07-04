@@ -10,7 +10,8 @@ WORKDIR $PROJECT_ROOT
 RUN curl -sSL https://github.com/dyweb/dy-weekly-generator/releases/download/$WEEKLY_GEN_VERSION/dy-weekly-generator-$WEEKLY_GEN_VERSION-x86_64-unknown-linux-gnu.tar.gz \
        | tar -vxz -C /usr/bin
 COPY . $PROJECT_ROOT
-RUN cd scripts/weekly && go install .
+WORKDIR scripts/weekly 
+RUN  go install .
 
 # Runner
 FROM ubuntu:18.04
